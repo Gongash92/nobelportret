@@ -1,0 +1,1117 @@
+{
+  "general": {
+    "404": {
+      "title": "404 Página Não Encontrada",
+      "subtext_html": "A pagina que você está procurando não existe."
+    },
+    "accessibility": {
+      "refresh_page": "A escolha de uma seleção resulta em uma atualização completa da página.",
+      "selection_help": "Pressione a tecla de espaço e as teclas de seta para fazer uma seleção.",
+      "unit_price_separator": "por"
+    },
+    "meta": {
+      "tags": "Com a etiqueta \"{{ tags }}\"",
+      "page": "Página {{ page }}"
+    },
+    "pagination": {
+      "previous": "Anterior",
+      "next": "Próximo"
+    },
+    "password_page": {
+      "login_form_heading": "Entre na loja usando a senha:",
+      "login_form_password_label": "Senha",
+      "login_form_password_placeholder": "Sua senha",
+      "login_form_submit": "Entrar",
+      "signup_form_email_label": "E-mail",
+      "signup_form_success": "Enviaremos um e-mail antes de abrirmos!",
+      "admin_link_html": "Você é o dono da loja? <a href=\"/admin\" class=\"text-link\">Entre aqui</a>",
+      "password_link": "Entre usando a senha",
+      "powered_by_shopify_html": "Esta loja será fornecida por {{ shopify }}",
+      "close": "fechar (esc)"
+    },
+    "dates": {
+      "year": "Ano",
+      "month": "Mês",
+      "day": "Dia"
+    },
+    "months": {
+      "full": {
+        "january": "Janeiro",
+        "february": "fevereiro",
+        "march": "marchar",
+        "april": "abril",
+        "may": "Poderia",
+        "june": "junho",
+        "july": "Julho",
+        "august": "agosto",
+        "september": "setembro",
+        "october": "Outubro",
+        "november": "novembro",
+        "december": "dezembro"
+      },
+      "short": {
+        "january": "Jan",
+        "february": "Fev",
+        "march": "Mar",
+        "april": "Abr",
+        "may": "Poderia",
+        "june": "Junho",
+        "july": "Jul",
+        "august": "Agosto",
+        "september": "Set",
+        "october": "Out",
+        "november": "Nov",
+        "december": "Dez"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "segunda-feira",
+        "tuesday": "terça-feira",
+        "wednesday": "quarta-feira",
+        "thursday": "quinta-feira",
+        "friday": "Sexta-feira",
+        "saturday": "sábado",
+        "sunday": "Domingo"
+      },
+      "short": {
+        "monday": "Meu",
+        "tuesday": "Seu",
+        "wednesday": "Casar",
+        "thursday": "Colete",
+        "friday": "Sex",
+        "saturday": "Sentado",
+        "sunday": "sol"
+      }
+    },
+    "social": {
+      "share_on_facebook": "Compartilhado",
+      "share_on_twitter": "Tweet",
+      "share_on_pinterest": "Fixá-lo",
+      "share_on_email": "E-mail",
+      "share_on_whatsapp": "Whatsapp",
+      "share_on_linkedin": "LinkedIn",
+      "share_on_reddit": "Reddit",
+      "share_on_messenger": "Mensageiro",
+      "alt_text": {
+        "share_on_facebook": "Compartilhar no Facebook",
+        "share_on_twitter": "Tweet no Twitter",
+        "share_on_pinterest": "Pin no Pinterest",
+        "share_on_email": "Compartilhar por e-mail",
+        "share_on_whatsapp": "Compartilhe no Whatsapp",
+        "share_on_linkedin": "Compartilhe no LinkedIn",
+        "share_on_reddit": "Compartilhe no Reddit",
+        "share_on_messenger": "Compartilhe no Messenger"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Inscreva-se na nossa lista de correio",
+      "newsletter_placeholder": "Seu email",
+      "newsletter_confirmation": "Grato pela assinatura",
+      "submit": "Se inscrever"
+    },
+    "search": {
+      "no_results_html": "Sua pesquisa por \"{{ terms }}\" não produziu nenhum resultado.",
+      "results_for_html": "Sua pesquisa por \"{{ terms }}\" revelou o seguinte:",
+      "title": "Procurar",
+      "placeholder": "Procure em nossa loja",
+      "submit": "Procurar"
+    },
+    "drawers": {
+      "navigation": "Cardápio",
+      "close_menu": "Fechar menu",
+      "expand_submenu": "Expandir submenu",
+      "collapse_submenu": "Recolher o submenu"
+    },
+    "payment": {
+      "method": "Métodos de Pagamento"
+    },
+    "currency": {
+      "dropdown_label": "Moeda"
+    },
+    "language": {
+      "dropdown_label": "Língua"
+    },
+    "localization": {
+      "submit_label": "Atualizar preferências"
+    },
+    "trial_over": {
+      "heading": "Sua avaliação gratuita expirou",
+      "text": "Olá, {{ name }}. Parece que sua avaliação gratuita do plano empresarial de 14 dias já terminou. Isso significa que todos os seus Add-Ons agora estão desabilitados.\n\nMas você provavelmente não quer perder o aumento de conversão e receita obtido com seus complementos, certo?\n\nEscolha o plano que melhor se adapta aos seus objetivos e continue a desfrutar de taxas de conversão mais altas.",
+      "pick_a_plan": "Escolha um plano"
+    },
+    "addons_limit_reached": {
+      "heading": "Uau! Calma aí, Tiger!",
+      "text": "Parece que você precisa de mais complementos :)\n\nSeu plano atual [plan_name] ativa até [current_limit] Add-ons apenas. [upgradeed_plan] permite que você ative [upgradeed_limit] add-ons. Atualize seu plano para desbloquear TODOS os recursos premium.",
+      "upgrade_now": "Atualize agora",
+      "note": "* Nota: Se mais de [limite_atual] Complementos forem selecionados, apenas os primeiros Complementos [limite_atual] marcados serão ativados. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">Como desativo add-ons em excesso?</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "title": "Verificação de idade",
+      "description": "Por favor, verifique sua idade para continuar.",
+      "error_message": "Você é muito jovem para ver este site.",
+      "yes_label": "sim",
+      "no_label": "Não",
+      "button_label": "Entrar"
+    },
+    "agree_to_terms": {
+      "label": "Eu concordo com os termos e condições.",
+      "warning_text": "Você deve concordar com os termos e condições de vendas para finalizar a compra.",
+      "order_title": "Eu concordo com os termos e condições.",
+      "yes_label": "sim"
+    },
+    "back_in_stock": {
+      "name": "⚡ Voltar em estoque",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5265388-how-to-enable-the-back-in-stock-add-on-in-debutify-3 -0-shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "icon": {
+          "label": "Ícone",
+          "info": "[Ver todos os ícones disponíveis] (https://material.io/resources/icons)"
+        },
+        "enable_button_animation": {
+          "label": "Habilitar animação do botão"
+        }
+      }
+    },
+    "cart_countdown": {
+      "name": "⚡ Contagem regressiva do carrinho",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5054061-how-to-enable-the-cart-countdown-timer-in-debutify-3-0-shopify -tema)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "time_minutes": {
+          "label": "Minutos"
+        },
+        "icon": {
+          "label": "Ícone",
+          "info": "[Ver todos os ícones disponíveis] (https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Configurações de temporizador"
+        },
+        "icon_over": {
+          "label": "Ícone",
+          "info": "[Ver todos os ícones disponíveis] (https://material.io/resources/icons)"
+        }
+      }
+    },
+    "cart_favicon": {
+      "name": "⚡ Favoritos do carrinho",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "time_minutes": {
+          "label": "Minutos"
+        },
+        "favicon": {
+          "label": "Imagem de favicon"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "⚡ Desconto no carrinho",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5054067-how-to-use-cart-discount-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "label_icon": {
+          "label": "Ícone de etiqueta",
+          "info": "[Ver todos os ícones disponíveis] (https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "Ícone de botão",
+          "info": "[Ver todos os ícones disponíveis] (https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "⚡ Filtros de coleção",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0 -shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "filter_icon": {
+          "label": "Ícone de filtro",
+          "info": "[Ver todos os ícones disponíveis] (https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "⚡ Amostras de cores",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "color_options_list_page": {
+          "label": "Opções de variantes da página do produto",
+          "info": "Adicionar o nome das opções de variantes separados por vírgula"
+        },
+        "color_options_list_grid": {
+          "label": "Opções de variantes da grade de produtos",
+          "info": "Amostras de cores serão aplicadas a todas as opções de variantes com este nome"
+        },
+        "swatches_count_product_grid": {
+          "label": "Amostras na grade de produtos"
+        }
+      }
+    },
+    "cookie_box": {
+      "name": "⚡ Caixa de biscoitos",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5054095-how-to-use-a-cookie-box-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "use_drawer_colors": {
+          "label": "Use cores de gaveta"
+        },
+        "enable_for_eu_only": {
+          "label": "Ativar apenas para UE"
+        },
+        "button_style": {
+          "label": "Estilo de botão",
+          "options__1": {
+            "label": "Predefinição"
+          },
+          "options__2": {
+            "label": "Cheio"
+          },
+          "options__3": {
+            "label": "Contorno"
+          }
+        }
+      }
+    },
+    "custom_currencies": {
+      "name": "⚡ Moedas personalizadas",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5057090-how-to-use-custom-currencies-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "paragraph__3": {
+          "content": "Enquanto estiver ativado, o conversor de moedas múltiplas do Shopify Payment nativo será desativado. Observe que o Shopify não nos permite converter os preços na página de checkout."
+        },
+        "show_currency_message": {
+          "label": "Mostrar mensagem de moeda"
+        },
+        "show_original_price_on_hover": {
+          "label": "Mostrar preço original ao pairar"
+        },
+        "currency_format": {
+          "label": "Formato",
+          "options__1": {
+            "label": "Sem moeda ($ 10,00)"
+          },
+          "options__2": {
+            "label": "Com moeda ($ 10,00 USD)"
+          },
+          "options__3": {
+            "label": "Sem decimais ($ 10)"
+          },
+          "options__4": {
+            "label": "Sem decimais com moeda ($ 10 USD)"
+          },
+          "options__5": {
+            "label": "Sem sinal e com moeda (10 USD)"
+          },
+          "options__6": {
+            "label": "Sem sinal e com decimal (10,00)"
+          }
+        },
+        "supported_currencies": {
+          "label": "Moedas suportadas",
+          "info": "Use o ISO [código da moeda] do país (https://www.xe.com/iso4217.php). Separe seus códigos de moeda com um espaço."
+        }
+      }
+    },
+    "facebook_messenger": {
+      "name": "⚡ Facebook Messenger",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5057679-how-to-add-a-facebook-messenger-chat-widget-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "code": {
+          "label": "Código",
+          "info": "Como obter o código? Vá para sua página do Facebook> Configurações> Mensagens> Adicionar Messenger ao seu site> Copiar e colar o snippet de código"
+        },
+        "hide_on_mobile": {
+          "label": "Esconder no celular"
+        }
+      }
+    },
+    "delivery_date": {
+      "label": "Selecione a data de entrega preferida",
+      "placeholder": "Selecione a data e hora *",
+      "error_message": "Faça uma seleção para continuar"
+    },
+    "gift_wrap": {
+      "checkbox_label": "Adicionar uma caixa de presente / embrulho",
+      "text_field_label": "Mensagem de presente",
+      "text_field_placeholder": "Escreva aqui a sua mensagem de presente ..."
+    },
+    "inactive_tab_message": {
+      "name": "⚡ Mensagem da guia inativa",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5242828-how-to-enable-the-inactive-tab-message-add-on-in-debutify-3 -0-shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "delay": {
+          "label": "Atraso"
+        }
+      }
+    },
+    "infinite_scroll": {
+      "name": "⚡ Pergaminho infinito",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5161154-how-to-use-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "scroll_options": {
+          "label": "Opções de rolagem infinita",
+          "options__1": {
+            "label": "Clique infinito"
+          },
+          "options__2": {
+            "label": "Pergaminho sem fim"
+          }
+        },
+        "button_style": {
+          "label": "Estilo do botão de carregamento",
+          "options__1": {
+            "label": "Predefinição"
+          },
+          "options__2": {
+            "label": "Cheio"
+          },
+          "options__3": {
+            "label": "Contorno"
+          }
+        },
+        "loading_image": {
+          "label": "Carregando imagem para rolagem infinita",
+          "info": "Deixe em branco para exibir o ícone de carregamento padrão"
+        }
+      }
+    },
+    "inventory_quantity": {
+      "name": "⚡ Quantidade de estoque",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5054133-how-to-display-the-inventory-quantity-of-your-product-variant-in-3 -0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "icon": {
+          "label": "Ícone",
+          "info": "[Ver todos os ícones disponíveis] (https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Configurações de quantidade aleatória"
+        },
+        "show_random_quantities": {
+          "label": "Mostrar quantidades aleatórias",
+          "info": "Desmarque para mostrar o inventário real"
+        },
+        "min_random_quantity": {
+          "label": "Minha quantidade"
+        },
+        "max_random_quantity": {
+          "label": "Quantidade máxima"
+        },
+        "header__4": {
+          "content": "Configurações de limite de estoque",
+          "info": "Se a configuração de quantidades aleatórias estiver desabilitada"
+        },
+        "quantity_threshold": {
+          "label": "Quantidade limite",
+          "info": "Se a quantidade do produto for maior do que o limite definido, oculte a quantidade do estoque do produto ou mostre um texto geral"
+        }
+      }
+    },
+    "live_view": {
+      "prefix_text": "Há",
+      "visitors_text": "visitantes",
+      "suffix_text": "estão navegando em nossa loja"
+    },
+    "minimum_order": {
+      "amount_reached_text": "Valor mínimo do pedido atingido. Você pode prosseguir para o check-out.",
+      "amount_unreached_text": "Você ainda não atingiu o valor mínimo do pedido. Adicione {left_amount} para continuar."
+    },
+    "newsletter_popup": {
+      "floating_bar_text": "Obtenha 20% de desconto!",
+      "popup_title": "Assine a nossa newsletter!",
+      "popup_text": "Ganhe 10% de desconto na sua primeira compra assinando nosso boletim informativo.",
+      "popup_close_text": "Não, obrigado, não gosto de descontos.",
+      "popup_title_success": "Obrigada!",
+      "popup_text_success": "Copie o código de desconto abaixo e cole-o na finalização da compra para obter o seu desconto!",
+      "popup_reward_button": "Aplicar código de desconto"
+    },
+    "order_feedback": {
+      "select_title": "Como você ficou sabendo sobre nós?",
+      "default_options_text": "O valor desta opção está vazio",
+      "select_options": "Facebook, Twitter, Google, Instagram, Youtube",
+      "error_message": "Selecione uma opção abaixo",
+      "other_option_text": "De outros",
+      "other_option_placeholder": "Por exemplo. Meu amigo léo",
+      "other_error_message": "Por favor, preencha o campo de texto abaixo",
+      "title": "Como você ficou sabendo sobre nós?",
+      "other_title": "Como você ficou sabendo de nós por outros?"
+    },
+    "order_tracking": {
+      "input_placeholder": "Insira seu número de rastreamento ...",
+      "button_text": "Localize meu pedido"
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "Remover da comparação rápida",
+      "add_to_compare_text": "Adicionar à comparação rápida",
+      "title_modal": "Comparação Rápida",
+      "empty_table": "Atualmente não há itens na lista de comparação rápida",
+      "images_cell": "Imagens",
+      "title_cell": "Título",
+      "price_cell": "Preço",
+      "type_cell": "Modelo",
+      "vendor_cell": "Fornecedor",
+      "collections_cell": "Coleções",
+      "tags_cell": "Tag",
+      "short_description_cell": "Pequena descrição"
+    },
+    "recently_viewed": {
+      "name": "⚡ Visualizado recentemente",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5057690-how-to-display-recently-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "products_limit": {
+          "label": "Esconder no celular"
+        },
+        "header__3": {
+          "content": "Barra flutuante"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "Mostrar no desktop"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "Mostrar no celular"
+        },
+        "floating_bar_position": {
+          "label": "Posição",
+          "options__1": {
+            "label": "Deixou"
+          },
+          "options__2": {
+            "label": "Direito"
+          }
+        },
+        "header__4": {
+          "content": "Seção"
+        },
+        "section_products_per_row_desktop": {
+          "label": "Produtos por linha (desktop)"
+        },
+        "section_products_per_row_mobile": {
+          "label": "Produtos por linha (móvel)"
+        },
+        "header__5": {
+          "content": "Carrossel"
+        },
+        "carousel_enable": {
+          "label": "Habilitar carrossel"
+        },
+        "carousel_show_arrows": {
+          "label": "Mostrar Setas"
+        },
+        "carousel_show_dots": {
+          "label": "Mostrar pontos"
+        },
+        "carousel_auto_rotate": {
+          "label": "Carros girados"
+        },
+        "carousel_rotation_speed": {
+          "label": "Velocidade de rotação"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "Produtos para mostrar em linha"
+        }
+      }
+    },
+    "shop_protect": {
+      "name": "⚡ Proteção da loja",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5054230-how-to-use-shop-protect-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "disable_image_copy": {
+          "label": "Desativar cópia de imagens"
+        },
+        "disable_image_drag_and_drop": {
+          "label": "Desativar imagens arrastar e soltar"
+        },
+        "disable_product_text_copy": {
+          "label": "Desativar cópia do texto do produto"
+        },
+        "disable_article_text_copy": {
+          "label": "Desativar a cópia do texto do artigo"
+        },
+        "disable_best_selling": {
+          "label": "Desativar coleções mais vendidas",
+          "info": "Certifique-se de que suas coleções não sejam classificadas pelos mais vendidos. [Editar classificação de coleção] (/ admin / coleções)"
+        }
+      }
+    },
+    "smart_search": {
+      "name": "⚡ Pesquisa inteligente",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5054239-how-to-use-smart-search-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Configurações de resultado"
+        },
+        "show_price": {
+          "label": "Mostrar preço"
+        },
+        "show_vendor": {
+          "label": "Mostrar vendedor"
+        },
+        "result_limit": {
+          "label": "Limite de resultado"
+        }
+      }
+    },
+    "social_discount": {
+      "name": "⚡ Desconto social",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5057551-how-to-use-a-social-discount-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "icon": {
+          "label": "Ícone",
+          "info": "[Ver todos os ícones disponíveis] (https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Configurações de pop-up"
+        },
+        "popup_width": {
+          "label": "Tamanho",
+          "options__1": {
+            "label": "Pequena"
+          },
+          "options__2": {
+            "label": "Médio"
+          },
+          "options__3": {
+            "label": "Grande"
+          }
+        },
+        "header__4": {
+          "content": "Configurações de sucesso"
+        },
+        "header__5": {
+          "content": "Código de desconto",
+          "info": "[Criar um código de desconto] (/ admin / descontos / novo)"
+        },
+        "discount_name": {
+          "label": "Nome"
+        },
+        "discount_amount": {
+          "label": "Quantia"
+        },
+        "discount_type": {
+          "label": "Modelo",
+          "options__1": {
+            "label": "Percentagem"
+          },
+          "options__2": {
+            "label": "Quantia fixa"
+          }
+        }
+      }
+    },
+    "sold_items": {
+      "prefix_text": "Há",
+      "suffix_strong_text": "itens vendidos",
+      "suffix_text": "nas últimas 20 horas"
+    },
+    "trust_badge": {
+      "name": "⚡ Selo de confiança",
+      "settings": {
+        "header__1": {
+          "content": "Centro de ajuda"
+        },
+        "paragraph__1": {
+          "content": "[Siga nosso tutorial passo a passo] (https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Para habilitar / desabilitar este complemento, vá para Configurações do tema> Complementos do Debutify."
+        },
+        "header__2": {
+          "content": "Definições"
+        },
+        "show_on_product_page": {
+          "label": "Mostrar na página do produto"
+        },
+        "show_on_cart_page": {
+          "label": "Mostrar na página / gaveta do carrinho"
+        },
+        "enable_small_text": {
+          "label": "Texto pequeno"
+        },
+        "position_in_cart_drawer": {
+          "label": "Posicionar na gaveta do carrinho",
+          "options__1": {
+            "label": "Seção separada"
+          },
+          "options__2": {
+            "label": "No botão Checkout"
+          }
+        },
+        "badge_image": {
+          "label": "Imagem",
+          "info": "Deixe em branco para os ícones padrão"
+        },
+        "text_position": {
+          "label": "Posição do texto",
+          "options__1": {
+            "label": "Acima de"
+          },
+          "options__2": {
+            "label": "Debaixo"
+          }
+        },
+        "badge_width": {
+          "label": "Largura da imagem",
+          "options__1": {
+            "label": "Muito pequeno"
+          },
+          "options__2": {
+            "label": "Pequena"
+          },
+          "options__3": {
+            "label": "Médio"
+          },
+          "options__4": {
+            "label": "Grande"
+          },
+          "options__5": {
+            "label": "Extra grande"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "Adicionar a lista de desejos",
+      "remove_from_wishlist_text": "Remover da lista de desejos",
+      "empty_wishlist_text": "Sua lista de desejos está vazia no momento.",
+      "share_wishlist_text": "Compartilhar lista de desejos"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "Tag",
+      "read_more": "continue lendo",
+      "view_all": "Ver tudo",
+      "back_to_blog": "Voltar para {{ title }}"
+    },
+    "comments": {
+      "title": "Deixe um comentário",
+      "name": "Nome",
+      "email": "E-mail",
+      "message": "Mensagem",
+      "post": "Postar comentário",
+      "moderated": "Observe que os comentários devem ser aprovados antes de serem publicados",
+      "success_moderated": "Seu comentário foi postado com sucesso. Vamos publicá-lo em breve, pois nosso blog é moderado.",
+      "success": "Seu comentário foi postado com sucesso! Obrigada!",
+      "with_count": {
+        "one": "{{ count }} comentário",
+        "other": "{0 comentários"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Seu carrinho",
+      "remove": "Remover",
+      "note": "Instruções especiais para vendedor",
+      "subtotal": "Subtotal",
+      "taxes_and_shipping_at_checkout": "Impostos e frete calculados na finalização da compra",
+      "taxes_and_shipping_policy_at_checkout_html": "Impostos e <a href=\"{{ link }}\">frete</a> calculados na finalização da compra",
+      "taxes_included_but_shipping_at_checkout": "Imposto incluído e frete calculado na finalização da compra",
+      "taxes_included_and_shipping_policy_html": "Taxas incluídas. <a href=\"{{ link }}\">Frete</a> calculado na finalização da compra.",
+      "update": "Atualizar carrinho",
+      "checkout": "Verificação de saída",
+      "empty": "Seu carrinho está vazio no momento.",
+      "continue_browsing_html": "Continue navegando",
+      "close_cart": "Fechar carrinho",
+      "savings_html": "Você está salvando {{ savings }}",
+      "reduce_quantity": "Reduza a quantidade do item em um",
+      "increase_quantity": "Aumentar a quantidade do item em um",
+      "cookies_required": "Habilite os cookies para usar o carrinho de compras",
+      "custom_currency_html": "Todos os pedidos são processados em {{ shopCurrency }}. Embora o conteúdo do seu carrinho seja exibido atualmente em<span class='selected-currency'></span> , você finalizará a compra usando {{ shopCurrency }} na taxa de câmbio mais atual."
+    },
+    "label": {
+      "quantity": "Quantidade",
+      "total": "Total"
+    },
+    "cart_message": {
+      "text": "Item foi adicionado",
+      "button_label": "Ver carrinho"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Catálogo",
+      "all_of_collection": "Tudo",
+      "no_matches": "Desculpe, não há produtos nesta coleção."
+    },
+    "sorting": {
+      "title": "Ordenar por",
+      "title_tags": "Filtrar por",
+      "all_of_collection": "Todos {{ collection }}"
+    },
+    "grid": {
+      "button_label": "Compre agora"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Nome",
+      "email": "E-mail",
+      "phone": "Número de telefone",
+      "message": "Mensagem",
+      "send": "Mandar",
+      "post_success": "Obrigado por nos contatar. Entraremos em contato com você o mais breve possível."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Minha conta",
+      "details": "Detalhes da conta",
+      "view_addresses": "Ver endereços",
+      "return": "Retornar aos detalhes da conta"
+    },
+    "activate_account": {
+      "title": "Ativar conta",
+      "subtext": "Crie sua senha para ativar sua conta.",
+      "password": "Senha",
+      "password_confirm": "Confirme a Senha",
+      "submit": "Ativar conta",
+      "cancel": "Recusar convite"
+    },
+    "addresses": {
+      "title": "Seus endereços",
+      "default": "Padrão",
+      "add_new": "Adicione um novo endereço",
+      "edit_address": "Editar Endereço",
+      "first_name": "Primeiro nome",
+      "last_name": "Último nome",
+      "company": "Companhia",
+      "address1": "Endereço 1",
+      "address2": "Endereço 2",
+      "city": "Cidade",
+      "country": "País / Região",
+      "province": "Província",
+      "zip": "Código postal",
+      "phone": "Telefone",
+      "set_default": "Definir como endereço padrão",
+      "add": "Adicionar Endereço",
+      "update": "Endereço de atualização",
+      "cancel": "Cancelar",
+      "edit": "Editar",
+      "delete": "Excluir"
+    },
+    "login": {
+      "title": "Conecte-se",
+      "email": "E-mail",
+      "password": "Senha",
+      "forgot_password": "Esqueceu sua senha?",
+      "sign_in": "Entrar",
+      "cancel": "Retornar à loja",
+      "guest_title": "Continue como um convidado",
+      "guest_continue": "Continuar"
+    },
+    "orders": {
+      "title": "Histórico de pedidos",
+      "order_number": "Pedido",
+      "date": "Encontro",
+      "payment_status": "Status do pagamento",
+      "fulfillment_status": "status de preenchimento",
+      "total": "Total",
+      "none": "Você ainda não fez nenhum pedido."
+    },
+    "order": {
+      "title": "Pedido {{ name }}",
+      "date": "Colocado em {{ date }}",
+      "cancelled": "Pedido cancelado em {{ date }}",
+      "cancelled_reason": "Motivo: {{ reason }}",
+      "billing_address": "endereço de cobrança",
+      "payment_status": "Status do pagamento",
+      "shipping_address": "Endereço para envio",
+      "fulfillment_status": "status de preenchimento",
+      "discount": "Desconto",
+      "shipping": "Envio",
+      "tax": "Imposto",
+      "product": "produtos",
+      "sku": "SKU",
+      "price": "Preço",
+      "quantity": "Quantidade",
+      "total": "Total",
+      "fulfilled_at": "Preenchido {{ date }}",
+      "subtotal": "Subtotal",
+      "track_shipment": "Rastrear remessa"
+    },
+    "recover_password": {
+      "title": "Redefina sua senha",
+      "email": "E-mail",
+      "submit": "Enviar",
+      "cancel": "Cancelar",
+      "subtext": "Enviaremos um e-mail para redefinir sua senha.",
+      "success": "Enviamos a você um e-mail com um link para atualizar sua senha."
+    },
+    "reset_password": {
+      "title": "Redefinir a senha da conta",
+      "subtext": "Digite uma nova senha para {{ email }}",
+      "password": "Senha",
+      "password_confirm": "Confirme a Senha",
+      "submit": "Redefinir senha"
+    },
+    "register": {
+      "title": "Criar uma conta",
+      "first_name": "Primeiro nome",
+      "last_name": "Último nome",
+      "email": "E-mail",
+      "password": "Senha",
+      "submit": "Crio",
+      "cancel": "Retornar à loja"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "Use as setas para a esquerda / direita para navegar na apresentação de slides ou deslize para a esquerda / direita se estiver usando um dispositivo móvel",
+      "next_slide": "Próximo slide",
+      "previous_slide": "Slide anterior",
+      "play": "Reproduzir apresentação de slides",
+      "pause": "Pausar a apresentação de slides",
+      "load_slide": "Carregar slide {{ slide_number }}",
+      "active_slide": "Diapositivo {{ slide_number }}, atual"
+    },
+    "onboarding": {
+      "product_vendor": "Vendedor de produto",
+      "product_title": "Título do produto de exemplo",
+      "collection_title": "Título da coleção de exemplo",
+      "blog_title": "O título da sua postagem",
+      "blog_excerpt": "Sua loja ainda não publicou nenhuma postagem no blog. Um blog pode ser usado para falar sobre lançamentos de novos produtos, dicas ou outras notícias que você deseja compartilhar com seus clientes. Você pode verificar o blog de comércio eletrônico do Shopify para obter inspiração e conselhos para sua própria loja e blog.",
+      "no_content": "Esta seção não inclui nenhum conteúdo atualmente. Adicione conteúdo a esta seção usando a barra lateral."
+    },
+    "map": {
+      "address_error": "Erro ao procurar esse endereço",
+      "address_no_results": "Nenhum resultado para esse endereço",
+      "address_query_limit_html": "Você excedeu o limite de uso da API do Google. Considere fazer o upgrade para um <a href=\"https://developers.google.com/maps/premium/usage-limits\">Plano Premium</a> .",
+      "auth_error_html": "Ocorreu um problema ao autenticar sua conta do Google Maps."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Carrinho"
+    },
+    "customer": {
+      "account": "Conta",
+      "log_out": "Sair",
+      "log_in": "Conecte-se",
+      "create_account": "Criar uma conta"
+    },
+    "footer": {
+      "social_platform": "{{ name }} em {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "Salvar {{ saved_amount }}",
+      "collection_return": "Voltar para {{ collection }}",
+      "sale_price": "Preço de venda",
+      "regular_price": "Preço regular",
+      "include_taxes": "Taxas incluídas.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frete</a> calculado na finalização da compra.",
+      "unit_price": "Preço unitário"
+    },
+    "product": {
+      "sold_out": "Vendido",
+      "sold_out_html": "Vendido",
+      "unavailable": "Indisponível",
+      "quantity": "Quantidade",
+      "add_to_cart": "Adicionar ao carrinho",
+      "replace": "Substituir",
+      "full_details": "Detalhes completos",
+      "view_more": "Veja mais",
+      "view_in_space": "Veja no seu espaço",
+      "view_in_space_label": "Ver no seu espaço, carrega o item na janela de realidade aumentada",
+      "slide_label": "Diapositivo {{ slide_number }} de {{ slide_max }}.",
+      "gallery_thumbnail_alt": "Carregue a imagem no visualizador da Galeria, {{ imageAlt }}",
+      "video_thumbnail_alt": "Carregue e reproduza o vídeo no visualizador da Galeria, {{ imageAlt }}",
+      "model_thumbnail_alt": "Carregue o modelo 3D no visualizador da Galeria, {{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "Próximo (tecla de seta para a direita)",
+      "prev": "Anterior (tecla de seta para a esquerda)",
+      "close": "Fechar (Esc)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Este é o seu vale-presente de {{ value }} para {{ shop }}!",
+      "subtext": "Aqui está o seu vale-presente!",
+      "disabled": "Desativado",
+      "expired": "Expirou em {{ expiry }}",
+      "active": "Expira em {{ expiry }}",
+      "redeem": "Use este código na finalização da compra para resgatar seu cartão-presente",
+      "shop_link": "Começar a comprar",
+      "print": "Imprimir",
+      "add_to_apple_wallet": "Adicionar ao Apple Wallet"
+    }
+  },
+  "date_formats": {
+    "month_day_year": "% a% b% d"
+  }
+}

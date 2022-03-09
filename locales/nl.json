@@ -1,0 +1,1319 @@
+{
+  "general": {
+    "404": {
+      "title": "404 pagina niet gevonden",
+      "subtext_html": "De pagina die u zocht bestaat niet."
+    },
+    "accessibility": {
+      "refresh_page": "Het kiezen van een selectie resulteert in een volledige paginavernieuwing.",
+      "selection_help": "Druk op de spatiebalk en vervolgens op de pijltoetsen om een selectie te maken.",
+      "unit_price_separator": "voor"
+    },
+    "meta": {
+      "tags": "Gelabeld \"{{ tags }}\"",
+      "page": "Pagina {{ page }}"
+    },
+    "pagination": {
+      "previous": "Vorig",
+      "next": "Volgende"
+    },
+    "password_page": {
+      "login_form_heading": "Ga naar de winkel met wachtwoord:",
+      "login_form_password_label": "Wachtwoord",
+      "login_form_password_placeholder": "Uw wachtwoord",
+      "login_form_submit": "Binnenkomen",
+      "signup_form_email_label": "E-mail",
+      "signup_form_success": "We sturen je een e-mail vlak voordat we open gaan!",
+      "admin_link_html": "Ben jij de winkeleigenaar? <a href=\"/admin\" class=\"text-link\">Hier inloggen</a>",
+      "password_link": "Voer in met wachtwoord",
+      "powered_by_shopify_html": "Deze winkel wordt mogelijk gemaakt door {{ shopify }}",
+      "close": "sluiten (esc)"
+    },
+    "dates": {
+      "year": "Jaar",
+      "month": "Maand",
+      "day": "Dag"
+    },
+    "months": {
+      "full": {
+        "january": "januari",
+        "february": "februari",
+        "march": "maart",
+        "april": "april",
+        "may": "Kunnen",
+        "june": "juni-",
+        "july": "juli-",
+        "august": "augustus",
+        "september": "september",
+        "october": "oktober",
+        "november": "november",
+        "december": "december"
+      },
+      "short": {
+        "january": "Jan",
+        "february": "februari",
+        "march": "Zee",
+        "april": "april",
+        "may": "Kunnen",
+        "june": "juni",
+        "july": "juli",
+        "august": "augustus",
+        "september": "september",
+        "october": "okt",
+        "november": "november",
+        "december": "december"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "maandag",
+        "tuesday": "dinsdag",
+        "wednesday": "woensdag",
+        "thursday": "Donderdag",
+        "friday": "vrijdag",
+        "saturday": "zaterdag",
+        "sunday": "zondag"
+      },
+      "short": {
+        "monday": "Mijn",
+        "tuesday": "De jouwe",
+        "wednesday": "wo",
+        "thursday": "Verzamelen",
+        "friday": "vrij",
+        "saturday": "Za",
+        "sunday": "zon"
+      }
+    },
+    "social": {
+      "share_on_facebook": "Deel",
+      "share_on_twitter": "Tweeten",
+      "share_on_pinterest": "Zet het vast",
+      "share_on_email": "E-mail",
+      "share_on_whatsapp": "WhatsApp",
+      "share_on_linkedin": "LinkedIn",
+      "share_on_reddit": "Reddit",
+      "share_on_messenger": "Boodschapper",
+      "alt_text": {
+        "share_on_facebook": "Delen op Facebook",
+        "share_on_twitter": "Tweeten op Twitter",
+        "share_on_pinterest": "Pin op Pinterest",
+        "share_on_email": "Delen via email",
+        "share_on_whatsapp": "Delen op Whatsapp",
+        "share_on_linkedin": "Deel op LinkedIn",
+        "share_on_reddit": "Deel op Reddit",
+        "share_on_messenger": "Deel op Messenger"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Schrijf je in op onze mailinglijst",
+      "newsletter_placeholder": "Jouw email",
+      "newsletter_confirmation": "Bedankt voor het abonneren",
+      "submit": "Abonneren"
+    },
+    "search": {
+      "no_results_html": "Uw zoekopdracht naar \"{{ terms }}\" leverde geen resultaten op.",
+      "results_for_html": "Uw zoekopdracht naar \"{{ terms }}\" leverde het volgende op:",
+      "title": "Zoekopdracht",
+      "placeholder": "Zoek in onze winkel",
+      "submit": "Zoekopdracht"
+    },
+    "drawers": {
+      "navigation": "Menu",
+      "close_menu": "Menu sluiten",
+      "expand_submenu": "Submenu uitvouwen",
+      "collapse_submenu": "Submenu samenvouwen"
+    },
+    "payment": {
+      "method": "Betaalmethoden"
+    },
+    "currency": {
+      "dropdown_label": "Munteenheid"
+    },
+    "language": {
+      "dropdown_label": "Taal"
+    },
+    "localization": {
+      "submit_label": "Voorkeuren bijwerken"
+    },
+    "trial_over": {
+      "heading": "Je gratis proefperiode is voorbij",
+      "text": "Hallo, {{ name }}. Het lijkt erop dat uw gratis proefperiode van 14 dagen voor Enterprise Plan al is afgelopen. Dat betekent dat al uw add-ons nu zijn uitgeschakeld.\n\nMaar u wilt waarschijnlijk de conversie- en inkomstenstijging van uw add-ons niet verliezen, toch?\n\nKies een abonnement dat het beste bij uw doelen past en blijf genieten van hogere conversiepercentages.",
+      "pick_a_plan": "Kies een abonnement"
+    },
+    "addons_limit_reached": {
+      "heading": "Wauw! Rustig daar, tijger!",
+      "text": "Het lijkt erop dat je meer add-ons nodig hebt :)\n\nUw huidige abonnement [plan_name] wordt alleen geactiveerd tot [current_limit] Add-ons. [upgraded_plan] stelt u in staat om [upgraded_limit] add-ons te activeren. Upgrade uw abonnement om ALLE Premium-functies te ontgrendelen.",
+      "upgrade_now": "Waardeer nu op",
+      "note": "*Opmerking: Als er meer dan [current_limit] Add-ons zijn geselecteerd, worden alleen de eerste [current_limit] Add-ons die zijn aangevinkt geactiveerd. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">Hoe schakel ik overtollige add-ons uit?</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "name": "⚡ Leeftijdscontrole",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5057047-how-to-use-the-age-check-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "background_image": {
+          "label": "Interval tijd"
+        },
+        "verification_type": {
+          "label": "Animatietype",
+          "options__1": {
+            "label": "Geboortedatum"
+          },
+          "options__2": {
+            "label": "Ja nee"
+          }
+        },
+        "valid_age": {
+          "label": "Geldige leeftijd"
+        },
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_svg": {
+          "label": "SVG-logo",
+          "info": "[Hoe upload ik een SVG-bestand?](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Logobreedte"
+        }
+      }
+    },
+    "back_in_stock": {
+      "name": "⚡ Weer op voorraad",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5265388-how-to-enable-the-back-in-stock-add-on-in-debutify-3 -0-shopify-thema)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "icon": {
+          "label": "Icoon",
+          "info": "[Bekijk alle beschikbare pictogrammen](https://material.io/resources/icons)"
+        },
+        "enable_button_animation": {
+          "label": "Knopanimatie inschakelen"
+        }
+      }
+    },
+    "cart_countdown": {
+      "name": "⚡ Aftellen winkelwagen",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054061-how-to-enable-the-cart-countdown-timer-in-debutify-3-0-shopify -thema)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "time_minutes": {
+          "label": "Minuten"
+        },
+        "icon": {
+          "label": "Icoon",
+          "info": "[Bekijk alle beschikbare pictogrammen](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Timer over instellingen"
+        },
+        "icon_over": {
+          "label": "Icoon",
+          "info": "[Bekijk alle beschikbare pictogrammen](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "cart_favicon": {
+      "name": "⚡ Favicon winkelwagen",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "time_minutes": {
+          "label": "Minuten"
+        },
+        "favicon": {
+          "label": "Favicon-afbeelding"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "⚡ Winkelwagenkorting",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054067-hoe-te-gebruiken-kar-korting-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "label_icon": {
+          "label": "Labelpictogram",
+          "info": "[Bekijk alle beschikbare pictogrammen](https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "Knoppictogram",
+          "info": "[Bekijk alle beschikbare pictogrammen](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "⚡ Verzamelfilters",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5290641-hoe-de-collectie-filters-add-on-in-debutify-3-0-in te schakelen -shopify-thema)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "filter_icon": {
+          "label": "Filterpictogram",
+          "info": "[Bekijk alle beschikbare pictogrammen](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "⚡ Kleurstalen",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "color_options_list_page": {
+          "label": "Opties voor productpaginavarianten",
+          "info": "Naam van variantopties toevoegen met door komma's gescheiden"
+        },
+        "color_options_list_grid": {
+          "label": "Opties voor productrastervarianten",
+          "info": "Kleurstalen worden toegepast op alle variantopties met deze naam"
+        },
+        "swatches_count_product_grid": {
+          "label": "Stalen op productraster"
+        }
+      }
+    },
+    "cookie_box": {
+      "name": "⚡ Koekjesdoos",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054095-hoe-een-cookie-box-in-3-0-gebruiken)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "use_drawer_colors": {
+          "label": "Ladekleuren gebruiken"
+        },
+        "enable_for_eu_only": {
+          "label": "Alleen inschakelen voor EU"
+        },
+        "button_style": {
+          "label": "Knopstijl",
+          "options__1": {
+            "label": "Standaard"
+          },
+          "options__2": {
+            "label": "Vol"
+          },
+          "options__3": {
+            "label": "Overzicht"
+          }
+        }
+      }
+    },
+    "custom_currencies": {
+      "name": "⚡ Aangepaste valuta's",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5057090-how-to-use-custom-currencies-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "paragraph__3": {
+          "content": "Indien ingeschakeld, wordt de native Shopify Payment-converter voor meerdere valuta's uitgeschakeld. Houd er rekening mee dat Shopify ons niet toestaat de prijzen op de afrekenpagina om te rekenen."
+        },
+        "show_currency_message": {
+          "label": "Valutabericht weergeven"
+        },
+        "show_original_price_on_hover": {
+          "label": "Toon originele prijs op hover"
+        },
+        "currency_format": {
+          "label": "Formaat",
+          "options__1": {
+            "label": "Zonder valuta ($10,00)"
+          },
+          "options__2": {
+            "label": "Met valuta ($10,00 USD)"
+          },
+          "options__3": {
+            "label": "Zonder decimalen ($10)"
+          },
+          "options__4": {
+            "label": "Zonder decimalen met valuta ($ 10 USD)"
+          },
+          "options__5": {
+            "label": "Zonder teken & met valuta (10 USD)"
+          },
+          "options__6": {
+            "label": "Zonder teken & met decimaal (10.00)"
+          }
+        },
+        "supported_currencies": {
+          "label": "Ondersteunde valuta",
+          "info": "Gebruik de ISO [valutacode] van het land (https://www.xe.com/iso4217.php). Scheid uw valutacodes met een spatie."
+        }
+      }
+    },
+    "facebook_messenger": {
+      "name": "⚡ Facebook-messenger",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5057679-how-to-add-a-facebook-messenger-chat-widget-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "code": {
+          "label": "Code",
+          "info": "Hoe code te krijgen? Ga naar je Facebook-pagina > Instellingen > Berichten > Voeg Messenger toe aan je website > Kopieer en plak het codefragment"
+        },
+        "hide_on_mobile": {
+          "label": "Verbergen op mobiel"
+        }
+      }
+    },
+    "delivery_date": {
+      "label": "Selecteer gewenste bezorgdatum",
+      "placeholder": "Selecteer datum en tijd*",
+      "error_message": "Maak een keuze om door te gaan"
+    },
+    "gift_wrap": {
+      "name": "⚡ Cadeaupapier",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5596124-how-to-enable-the-gift-wrap-add-on-in-the-debutify-shopify -thema)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "product": {
+          "label": "Cadeaupapier product"
+        },
+        "show_price": {
+          "label": "Prijs geschenkdoos weergeven"
+        }
+      }
+    },
+    "inactive_tab_message": {
+      "name": "⚡ Bericht op inactief tabblad",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5242828-how-to-enable-the-inactive-tab-message-add-on-in-debutify-3 -0-shopify-thema)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "delay": {
+          "label": "Vertraging"
+        }
+      }
+    },
+    "infinite_scroll": {
+      "name": "⚡ Oneindig scrollen",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5161154-hoe-te-gebruiken-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "scroll_options": {
+          "label": "Oneindige scroll-opties",
+          "options__1": {
+            "label": "Eindeloze klik"
+          },
+          "options__2": {
+            "label": "Eindeloos scrollen"
+          }
+        },
+        "button_style": {
+          "label": "Stijl laden",
+          "options__1": {
+            "label": "Standaard"
+          },
+          "options__2": {
+            "label": "Vol"
+          },
+          "options__3": {
+            "label": "Overzicht"
+          }
+        },
+        "loading_image": {
+          "label": "Afbeelding laden voor eindeloos scrollen",
+          "info": "Laat leeg om het standaard laadpictogram weer te geven"
+        }
+      }
+    },
+    "inventory_quantity": {
+      "prefix_text": "Alleen",
+      "suffix_text": "nog op voorraad",
+      "in_stock_text": "Op voorraad"
+    },
+    "live_view": {
+      "name": "⚡Liveweergave",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054147-how-to-use-live-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "position": {
+          "label": "Positie",
+          "options__1": {
+            "label": "Onder productprijs"
+          },
+          "options__2": {
+            "label": "Onder de knop Toevoegen aan winkelwagen"
+          }
+        },
+        "icon": {
+          "label": "Icoon",
+          "info": "[Bekijk alle beschikbare pictogrammen](https://material.io/resources/icons)"
+        },
+        "min_quantity": {
+          "label": "Min (personen)"
+        },
+        "max_quantity": {
+          "label": "Maximaal (mensen)"
+        },
+        "max_interval_steps": {
+          "label": "Max. intervalstappen"
+        },
+        "interval_time": {
+          "label": "Interval tijd"
+        }
+      }
+    },
+    "menu_bar": {
+      "name": "⚡ Menubalk",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5231134-how-to-enable-a-menu-bar-add-on-in-debutify-3-0 -shopify-thema)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "menu": {
+          "label": "Menu"
+        },
+        "show_on_desktop": {
+          "label": "Maximaal (mensen)"
+        },
+        "show_on_mobile": {
+          "label": "Min (personen)"
+        }
+      }
+    },
+    "minimum_order": {
+      "amount_reached_text": "Minimum bestelbedrag bereikt. U kunt doorgaan met afrekenen.",
+      "amount_unreached_text": "Je hebt het minimale bestelbedrag nog steeds niet bereikt. Voeg {left_amount} toe om door te gaan."
+    },
+    "newsletter_popup": {
+      "floating_bar_text": "Krijg 20% korting!",
+      "popup_title": "Abonneer op onze nieuwsbrief!",
+      "popup_text": "Ontvang 10% korting op uw eerste aankoop door u te abonneren op onze nieuwsbrief.",
+      "popup_close_text": "Nee bedankt, ik hou niet van kortingen.",
+      "popup_title_success": "Dank u!",
+      "popup_text_success": "Kopieer onderstaande kortingscode en plak deze bij het afrekenen om je korting te krijgen!",
+      "popup_reward_button": "Kortingscode toepassen"
+    },
+    "order_feedback": {
+      "name": "⚡ Bestellingsfeedback",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5242840-how-to-enable-the-order-feedback-add-on-in-debutify-3-0 -shopify-thema)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "required_to_checkout": {
+          "label": "Vereist om af te rekenen"
+        }
+      }
+    },
+    "page_transition": {
+      "name": "⚡ Paginaovergang",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5057511-how-to-use-page-transition-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_svg": {
+          "label": "SVG-logo",
+          "info": "[Hoe upload ik een SVG-bestand?](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Logobreedte"
+        }
+      }
+    },
+    "product_image_crop": {
+      "name": "⚡ Productafbeelding bijsnijden",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5057531-how-to-use-product-image-crop-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "image_ratio": {
+          "label": "beeldverhouding"
+        },
+        "image_position": {
+          "label": "Afbeeldingspositie",
+          "options__1": {
+            "label": "Linksboven"
+          },
+          "options__2": {
+            "label": "Midden boven"
+          },
+          "options__3": {
+            "label": "Rechtsboven"
+          },
+          "options__4": {
+            "label": "Midden links"
+          },
+          "options__5": {
+            "label": "midden centrum"
+          },
+          "options__6": {
+            "label": "Midden rechts"
+          },
+          "options__7": {
+            "label": "Linksonder"
+          },
+          "options__8": {
+            "label": "Middenonder"
+          },
+          "options__9": {
+            "label": "Rechts onder"
+          }
+        }
+      }
+    },
+    "quick_view": {
+      "name": "⚡ Snelle weergave",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054198-how-to-use-quick-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "hide_on_mobile": {
+          "label": "Verbergen op mobiel"
+        },
+        "show_quantity_picker": {
+          "label": "Aantalkiezer weergeven"
+        },
+        "image_position": {
+          "label": "Pictogramplaatsing",
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Rechts"
+          }
+        }
+      }
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "Verwijderen uit Snel vergelijken",
+      "add_to_compare_text": "Toevoegen aan Snel vergelijken",
+      "title_modal": "Snel vergelijken",
+      "empty_table": "Momenteel zijn er geen items in de snelle vergelijkingslijst",
+      "images_cell": "Afbeeldingen",
+      "title_cell": "Titel",
+      "price_cell": "Prijs",
+      "type_cell": "Type",
+      "vendor_cell": "Leverancier",
+      "collections_cell": "Collecties",
+      "tags_cell": "Tags",
+      "short_description_cell": "korte beschrijving"
+    },
+    "recently_viewed": {
+      "name": "⚡ Recent bekeken",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5057690-how-to-display-recently-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "products_limit": {
+          "label": "Verbergen op mobiel"
+        },
+        "header__3": {
+          "content": "Drijvende staaf"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "Weergeven op desktop"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "Weergeven op mobiel"
+        },
+        "floating_bar_position": {
+          "label": "Positie",
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Rechts"
+          }
+        },
+        "header__4": {
+          "content": "Sectie"
+        },
+        "section_products_per_row_desktop": {
+          "label": "Producten per rij (desktop)"
+        },
+        "section_products_per_row_mobile": {
+          "label": "Producten per rij (mobiel)"
+        },
+        "header__5": {
+          "content": "Carrousel"
+        },
+        "carousel_enable": {
+          "label": "Carrousel inschakelen"
+        },
+        "carousel_show_arrows": {
+          "label": "Pijlen tonen"
+        },
+        "carousel_show_dots": {
+          "label": "Toon stippen"
+        },
+        "carousel_auto_rotate": {
+          "label": "Gedraaide auto's"
+        },
+        "carousel_rotation_speed": {
+          "label": "Rotatiesnelheid"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "Producten om op een rij te tonen"
+        }
+      }
+    },
+    "shop_protect": {
+      "name": "⚡ Winkel beschermen",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054230-hoe-te-gebruiken-shop-protect-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "disable_image_copy": {
+          "label": "Afbeeldingen kopiëren uitschakelen"
+        },
+        "disable_image_drag_and_drop": {
+          "label": "Afbeeldingen slepen en neerzetten uitschakelen"
+        },
+        "disable_product_text_copy": {
+          "label": "Kopie producttekst uitschakelen"
+        },
+        "disable_article_text_copy": {
+          "label": "Artikeltekst kopiëren uitschakelen"
+        },
+        "disable_best_selling": {
+          "label": "Bestverkopende collecties uitschakelen",
+          "info": "Zorg ervoor dat uw collecties niet zijn gesorteerd op best verkopende. [Bewerk collectiesortering](/admin/collections)"
+        }
+      }
+    },
+    "smart_search": {
+      "name": "⚡ Slim zoeken",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054239-how-to-use-smart-search-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Resultaat instellingen"
+        },
+        "show_price": {
+          "label": "Toon prijs"
+        },
+        "show_vendor": {
+          "label": "Toon leverancier"
+        },
+        "result_limit": {
+          "label": "resultaat limiet"
+        }
+      }
+    },
+    "social_discount": {
+      "button_label": "Deel en ontvang 15% korting!",
+      "popup_title": "Deel en ontvang 15% korting!",
+      "popup_text": "Deel dit product gewoon op een van de volgende sociale netwerken en je krijgt 15% korting!",
+      "popup_success_title": "Bedankt voor het delen!",
+      "popup_success_text": "Kopieer onderstaande kortingscode en plak deze bij het afrekenen om je korting te krijgen!",
+      "popup_button_label": "Kortingscode toepassen"
+    },
+    "sold_items": {
+      "name": "⚡ Verkochte artikelen",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5447397-how-to-enable-the-sold-items-add-on-in-debutify)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "position": {
+          "label": "Positie",
+          "options__1": {
+            "label": "Onder productprijs"
+          },
+          "options__2": {
+            "label": "Onder de knop Toevoegen aan winkelwagen"
+          }
+        },
+        "icon": {
+          "label": "Icoon",
+          "info": "[Bekijk alle beschikbare pictogrammen](https://material.io/resources/icons)"
+        },
+        "minimum_range": {
+          "label": "Minimaal bereik"
+        },
+        "maximum_range": {
+          "label": "Maximaal bereik"
+        },
+        "interval_time": {
+          "label": "Intervaltijd instellen (uur)"
+        }
+      }
+    },
+    "sticky_add_to_cart": {
+      "name": "⚡ Sticky add-to-car",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054241-how-to-display-a-sticky-add-to-cart-bar-in-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "show_star_rating": {
+          "label": "Maximaal bereik"
+        },
+        "enable_add_to_cart_animation": {
+          "label": "Maximaal bereik"
+        },
+        "enable_simplified_display": {
+          "label": "Maximaal bereik"
+        },
+        "position": {
+          "label": "Positie",
+          "options__1": {
+            "label": "Bovenkant"
+          },
+          "options__2": {
+            "label": "Onderkant"
+          }
+        }
+      }
+    },
+    "trust_badge": {
+      "name": "⚡ Vertrouwensbadge",
+      "settings": {
+        "header__1": {
+          "content": "Helpcentrum"
+        },
+        "paragraph__1": {
+          "content": "[Volg onze stapsgewijze zelfstudie](https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Om deze add-on in/uit te schakelen, ga je naar Thema-instellingen > Debutify-add-ons."
+        },
+        "header__2": {
+          "content": "Instellingen"
+        },
+        "show_on_product_page": {
+          "label": "Weergeven op productpagina"
+        },
+        "show_on_cart_page": {
+          "label": "Toon op winkelwagenpagina/lade"
+        },
+        "enable_small_text": {
+          "label": "kleine tekst"
+        },
+        "position_in_cart_drawer": {
+          "label": "Positie in winkelwagenlade",
+          "options__1": {
+            "label": "Aparte sectie"
+          },
+          "options__2": {
+            "label": "Onder de knop Afrekenen"
+          }
+        },
+        "badge_image": {
+          "label": "Afbeelding",
+          "info": "Laat leeg voor standaardpictogrammen"
+        },
+        "text_position": {
+          "label": "Tekstpositie",
+          "options__1": {
+            "label": "Bovenstaand"
+          },
+          "options__2": {
+            "label": "Onder"
+          }
+        },
+        "badge_width": {
+          "label": "Breedte afbeelding",
+          "options__1": {
+            "label": "Extra klein"
+          },
+          "options__2": {
+            "label": "Klein"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Groot"
+          },
+          "options__5": {
+            "label": "Extra groot"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "Toevoegen aan verlanglijst",
+      "remove_from_wishlist_text": "Verwijderen van verlanglijst",
+      "empty_wishlist_text": "Uw verlanglijst is momenteel leeg.",
+      "share_wishlist_text": "Verlanglijst delen"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "Tags",
+      "read_more": "Lees verder",
+      "view_all": "Bekijk alles",
+      "back_to_blog": "Terug naar {{ title }}"
+    },
+    "comments": {
+      "title": "laat een reactie achter",
+      "name": "Naam",
+      "email": "E-mail",
+      "message": "Bericht",
+      "post": "Plaats een reactie",
+      "moderated": "Let op, opmerkingen moeten worden goedgekeurd voordat ze worden gepubliceerd",
+      "success_moderated": "Uw reactie is succesvol geplaatst. We zullen het over een tijdje publiceren, omdat onze blog wordt gemodereerd.",
+      "success": "Je reactie is succesvol geplaatst! Dank u!",
+      "with_count": {
+        "one": "{{ count }} opmerking",
+        "other": "{0 reacties"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Jouw winkelwagen",
+      "remove": "Verwijderen",
+      "note": "Speciale instructies voor verkoper:",
+      "subtotal": "Subtotaal",
+      "taxes_and_shipping_at_checkout": "Belastingen en verzendkosten berekend bij het afrekenen",
+      "taxes_and_shipping_policy_at_checkout_html": "Belastingen en <a href=\"{{ link }}\">verzendkosten</a> berekend bij het afrekenen",
+      "taxes_included_but_shipping_at_checkout": "Inclusief belasting en verzendkosten berekend bij het afrekenen",
+      "taxes_included_and_shipping_policy_html": "Inclusief belasting. <a href=\"{{ link }}\">Verzending</a> berekend bij het afrekenen.",
+      "update": "Winkelwagen bijwerken",
+      "checkout": "Uitchecken",
+      "empty": "Uw winkelwagen is momenteel leeg.",
+      "continue_browsing_html": "Doorgaan met browsen",
+      "close_cart": "Winkelwagen sluiten",
+      "savings_html": "U bespaart {{ savings }}",
+      "reduce_quantity": "Aantal artikelen met één verminderen",
+      "increase_quantity": "Aantal artikelen met één verhogen",
+      "cookies_required": "Cookies inschakelen om het winkelwagentje te gebruiken",
+      "custom_currency_html": "Alle bestellingen worden verwerkt in {{ shopCurrency }}. Terwijl de inhoud van uw winkelwagen momenteel wordt weergegeven in<span class='selected-currency'></span> , rekent u af met {{ shopCurrency }} tegen de meest actuele wisselkoers."
+    },
+    "label": {
+      "quantity": "Hoeveelheid",
+      "total": "Totaal"
+    },
+    "cart_message": {
+      "text": "Artikel is toegevoegd",
+      "button_label": "Bekijk winkelwagen"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Catalogus",
+      "all_of_collection": "Allemaal",
+      "no_matches": "Sorry, er zijn geen producten in deze collectie."
+    },
+    "sorting": {
+      "title": "Sorteer op",
+      "title_tags": "Filteren op",
+      "all_of_collection": "Alle {{ collection }}"
+    },
+    "grid": {
+      "button_label": "Winkel nu"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "phone": "Telefoonnummer",
+      "message": "Bericht",
+      "send": "Versturen",
+      "post_success": "Bedankt dat je contact met ons hebt opgenomen. We komen zo snel mogelijk bij je terug."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Mijn rekening",
+      "details": "Accountgegevens",
+      "view_addresses": "Adressen bekijken",
+      "return": "Keer terug naar accountgegevens"
+    },
+    "activate_account": {
+      "title": "Activeer account",
+      "subtext": "Maak uw wachtwoord aan om uw account te activeren.",
+      "password": "Wachtwoord",
+      "password_confirm": "bevestig wachtwoord",
+      "submit": "Activeer account",
+      "cancel": "Uitnodiging weigeren"
+    },
+    "addresses": {
+      "title": "Uw adressen",
+      "default": "Standaard",
+      "add_new": "Voeg een nieuw adres toe",
+      "edit_address": "Verander adres",
+      "first_name": "Voornaam",
+      "last_name": "Achternaam",
+      "company": "Bedrijf",
+      "address1": "Adres 1",
+      "address2": "Adres 2",
+      "city": "Stad",
+      "country": "Land/Regio",
+      "province": "Provincie",
+      "zip": "Postcode",
+      "phone": "Telefoon",
+      "set_default": "Instellen als standaardadres",
+      "add": "Voeg adres toe",
+      "update": "Adres bijwerken",
+      "cancel": "Annuleren",
+      "edit": "Bewerk",
+      "delete": "Verwijderen"
+    },
+    "login": {
+      "title": "Log in",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "forgot_password": "uw wachtwoord vergeten?",
+      "sign_in": "Inloggen",
+      "cancel": "Keer terug naar winkel",
+      "guest_title": "Ga verder als gast",
+      "guest_continue": "Doorgaan"
+    },
+    "orders": {
+      "title": "Bestelgeschiedenis",
+      "order_number": "Volgorde",
+      "date": "Datum",
+      "payment_status": "Betalingsstatus",
+      "fulfillment_status": "Vervullingsstatus",
+      "total": "Totaal",
+      "none": "U heeft nog geen bestellingen geplaatst."
+    },
+    "order": {
+      "title": "Bestelling {{ name }}",
+      "date": "Geplaatst op {{ date }}",
+      "cancelled": "Bestelling geannuleerd op {{ date }}",
+      "cancelled_reason": "Reden: {{ reason }}",
+      "billing_address": "factuur adres",
+      "payment_status": "Betalingsstatus",
+      "shipping_address": "Verzendingsadres",
+      "fulfillment_status": "Vervullingsstatus",
+      "discount": "Korting",
+      "shipping": "Verzenden",
+      "tax": "Belasting",
+      "product": "Product",
+      "sku": "Artikelnummer",
+      "price": "Prijs",
+      "quantity": "Hoeveelheid",
+      "total": "Totaal",
+      "fulfilled_at": "Vervuld {{ date }}",
+      "subtotal": "Subtotaal",
+      "track_shipment": "Zending volgen"
+    },
+    "recover_password": {
+      "title": "Stel je wachtwoord opnieuw in",
+      "email": "E-mail",
+      "submit": "Indienen",
+      "cancel": "Annuleren",
+      "subtext": "We sturen je een e-mail om je wachtwoord opnieuw in te stellen.",
+      "success": "We hebben je een e-mail gestuurd met een link om je wachtwoord bij te werken."
+    },
+    "reset_password": {
+      "title": "Accountwachtwoord opnieuw instellen",
+      "subtext": "Voer een nieuw wachtwoord in voor {{ email }}",
+      "password": "Wachtwoord",
+      "password_confirm": "bevestig wachtwoord",
+      "submit": "Wachtwoord opnieuw instellen"
+    },
+    "register": {
+      "title": "Account aanmaken",
+      "first_name": "Voornaam",
+      "last_name": "Achternaam",
+      "email": "E-mail",
+      "password": "Wachtwoord",
+      "submit": "Creëren",
+      "cancel": "Keer terug naar winkel"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "Gebruik de pijlen naar links/rechts om door de diavoorstelling te navigeren of veeg naar links/rechts als u een mobiel apparaat gebruikt",
+      "next_slide": "Volgende dia",
+      "previous_slide": "Vorige dia",
+      "play": "Diavoorstelling afspelen",
+      "pause": "Diavoorstelling pauzeren",
+      "load_slide": "Dia laden {{ slide_number }}",
+      "active_slide": "Dia {{ slide_number }}, huidige"
+    },
+    "onboarding": {
+      "product_vendor": "Productverkoper",
+      "product_title": "Voorbeeld producttitel",
+      "collection_title": "Voorbeeld collectietitel",
+      "blog_title": "De titel van je bericht",
+      "blog_excerpt": "Je winkel heeft nog geen blogberichten gepubliceerd. Een blog kan worden gebruikt om te praten over nieuwe productlanceringen, tips of ander nieuws dat u met uw klanten wilt delen. Je kunt het e-commerceblog van Shopify bekijken voor inspiratie en advies voor je eigen winkel en blog.",
+      "no_content": "Dit gedeelte bevat momenteel geen inhoud. Voeg inhoud toe aan deze sectie met behulp van de zijbalk."
+    },
+    "map": {
+      "address_error": "Fout bij het opzoeken van dat adres",
+      "address_no_results": "Geen resultaten voor dat adres",
+      "address_query_limit_html": "U heeft de gebruikslimiet van de Google API overschreden. Overweeg om te upgraden naar een <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-abonnement</a> .",
+      "auth_error_html": "Er is een probleem opgetreden bij het verifiëren van uw Google Maps-account."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Winkelwagen"
+    },
+    "customer": {
+      "account": "Rekening",
+      "log_out": "Uitloggen",
+      "log_in": "Log in",
+      "create_account": "Account aanmaken"
+    },
+    "footer": {
+      "social_platform": "{{ name }} op {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "Opslaan {{ saved_amount }}",
+      "collection_return": "Terug naar {{ collection }}",
+      "sale_price": "Verkoopprijs",
+      "regular_price": "Normale prijs",
+      "include_taxes": "Inclusief belasting.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Verzending</a> berekend bij het afrekenen.",
+      "unit_price": "Eenheid prijs"
+    },
+    "product": {
+      "sold_out": "Uitverkocht",
+      "sold_out_html": "Uitverkocht",
+      "unavailable": "Niet beschikbaar",
+      "quantity": "Hoeveelheid",
+      "add_to_cart": "Voeg toe aan winkelmandje",
+      "replace": "Vervangen",
+      "full_details": "Alle details",
+      "view_more": "Bekijk meer",
+      "view_in_space": "Bekijk in uw ruimte",
+      "view_in_space_label": "Bekijk in uw ruimte, laadt item in augmented reality-venster",
+      "slide_label": "Dia {{ slide_number }} van {{ slide_max }}.",
+      "gallery_thumbnail_alt": "Afbeelding laden in Galerijviewer, {{ imageAlt }}",
+      "video_thumbnail_alt": "Laad en speel video af in Galerijviewer, {{ imageAlt }}",
+      "model_thumbnail_alt": "Laad 3D-model in Galerijviewer, {{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "Volgende (pijl naar rechts)",
+      "prev": "Vorige (pijl naar links)",
+      "close": "Sluiten (Esc)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Hier is uw {{ value }} cadeaubon voor {{ shop }}!",
+      "subtext": "Hier is je cadeaubon!",
+      "disabled": "Gehandicapt",
+      "expired": "Verlopen op {{ expiry }}",
+      "active": "Verloopt op {{ expiry }}",
+      "redeem": "Gebruik deze code bij het afrekenen om je cadeaubon in te wisselen",
+      "shop_link": "Begin met winkelen",
+      "print": "Afdrukken",
+      "add_to_apple_wallet": "Toevoegen aan Apple Wallet"
+    }
+  }
+}

@@ -1,0 +1,1366 @@
+{
+  "general": {
+    "404": {
+      "title": "404页面不存在",
+      "subtext_html": "您要找的页面不存在。"
+    },
+    "accessibility": {
+      "refresh_page": "选择一个选项会导致整页刷新。",
+      "selection_help": "按空格键，然后按箭头键进行选择。",
+      "unit_price_separator": "为了"
+    },
+    "meta": {
+      "tags": "标记为“{{ tags }}”",
+      "page": "第 {{ page }} 页"
+    },
+    "pagination": {
+      "previous": "以前的",
+      "next": "下一个"
+    },
+    "password_page": {
+      "login_form_heading": "使用密码进入商店：",
+      "login_form_password_label": "密码",
+      "login_form_password_placeholder": "你的密码",
+      "login_form_submit": "进入",
+      "signup_form_email_label": "电子邮件",
+      "signup_form_success": "我们会在开店前给您发送电子邮件！",
+      "admin_link_html": "你是店主吗？<a href=\"/admin\" class=\"text-link\">在此登录</a>",
+      "password_link": "使用密码输入",
+      "powered_by_shopify_html": "这家商店将由{{ shopify }}提供支持",
+      "close": "关闭 (ESC)"
+    },
+    "dates": {
+      "year": "年",
+      "month": "月",
+      "day": "日"
+    },
+    "months": {
+      "full": {
+        "january": "一月",
+        "february": "二月",
+        "march": "行进",
+        "april": "四月",
+        "may": "可能",
+        "june": "六月",
+        "july": "七月",
+        "august": "八月",
+        "september": "九月",
+        "october": "十月",
+        "november": "十一月",
+        "december": "十二月"
+      },
+      "short": {
+        "january": "简",
+        "february": "二月",
+        "march": "海",
+        "april": "四月",
+        "may": "可能",
+        "june": "Jun",
+        "july": "七月",
+        "august": "八月",
+        "september": "九月",
+        "october": "十月",
+        "november": "十一月",
+        "december": "十二月"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "周一",
+        "tuesday": "周二",
+        "wednesday": "周三",
+        "thursday": "周四",
+        "friday": "星期五",
+        "saturday": "周六",
+        "sunday": "星期日"
+      },
+      "short": {
+        "monday": "我的",
+        "tuesday": "你的",
+        "wednesday": "星期三",
+        "thursday": "搜集",
+        "friday": "周五",
+        "saturday": "星期六",
+        "sunday": "太阳"
+      }
+    },
+    "social": {
+      "share_on_facebook": "分享",
+      "share_on_twitter": "鸣叫",
+      "share_on_pinterest": "压住他",
+      "share_on_email": "电子邮件",
+      "share_on_whatsapp": "微信",
+      "share_on_linkedin": "领英",
+      "share_on_reddit": "红迪网",
+      "share_on_messenger": "信使",
+      "alt_text": {
+        "share_on_facebook": "在脸书上分享",
+        "share_on_twitter": "在推特上发推文",
+        "share_on_pinterest": "固定在 Pinterest 上",
+        "share_on_email": "通过电子邮件分享",
+        "share_on_whatsapp": "分享到 Whatsapp",
+        "share_on_linkedin": "在领英上分享",
+        "share_on_reddit": "在 Reddit 上分享",
+        "share_on_messenger": "在 Messenger 上分享"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "注册我们的邮件列表",
+      "newsletter_placeholder": "你的邮件",
+      "newsletter_confirmation": "感谢订阅",
+      "submit": "订阅"
+    },
+    "search": {
+      "no_results_html": "您对“{{ terms }}”的搜索没有产生任何结果。",
+      "results_for_html": "您对“{{ terms }}”的搜索结果如下：",
+      "title": "搜索",
+      "placeholder": "搜索我们的商店",
+      "submit": "搜索"
+    },
+    "drawers": {
+      "navigation": "菜单",
+      "close_menu": "关闭菜单",
+      "expand_submenu": "展开子菜单",
+      "collapse_submenu": "折叠子菜单"
+    },
+    "payment": {
+      "method": "支付方式"
+    },
+    "currency": {
+      "dropdown_label": "货币"
+    },
+    "language": {
+      "dropdown_label": "语"
+    },
+    "localization": {
+      "submit_label": "更新首选项"
+    },
+    "trial_over": {
+      "heading": "您的免费试用已过期",
+      "text": "嗨，{{ name }}。您的 14 天企业计划免费试用期似乎已经结束。这意味着您的所有附加组件现在都已禁用。\n\n但您可能不想失去从附加组件中获得的转化和收入增长，对吗？\n\n选择最适合您目标的计划并继续享受更高的转化率。",
+      "pick_a_plan": "选择一个计划"
+    },
+    "addons_limit_reached": {
+      "heading": "哇！轻松，老虎！",
+      "text": "似乎您需要更多附加组件 :)\n\n您当前的计划 [plan_name] 最多只能激活 [current_limit] 个附加组件。 [upgraded_plan] 允许您激活 [upgraded_limit] 附加组件。升级您的计划以解锁所有高级功能。",
+      "upgrade_now": "现在升级",
+      "note": "*注意：如果选择的附加组件超过 [current_limit]，则仅激活第一个 [current_limit] 附加组件。 <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">如何禁用多余的附加组件？</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "name": "⚡ 年龄检查",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5057047-how-to-use-the-age-check-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "background_image": {
+          "label": "间隔时间"
+        },
+        "verification_type": {
+          "label": "动画类型",
+          "options__1": {
+            "label": "生日"
+          },
+          "options__2": {
+            "label": "是/否"
+          }
+        },
+        "valid_age": {
+          "label": "有效年龄"
+        },
+        "logo_image": {
+          "label": "标识"
+        },
+        "logo_svg": {
+          "label": "SVG 标志",
+          "info": "[如何上传 SVG 文件？](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "标志宽度"
+        }
+      }
+    },
+    "back_in_stock": {
+      "name": "⚡ 有货",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5265388-how-to-enable-the-back-in-stock-add-on-in-debutify-3 -0-shopify-主题）"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "icon": {
+          "label": "图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        },
+        "enable_button_animation": {
+          "label": "启用按钮动画"
+        }
+      }
+    },
+    "cart_countdown": {
+      "name": "⚡ 购物车倒计时",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054061-how-to-enable-the-cart-countdown-timer-in-debutify-3-0-shopify -主题）"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "time_minutes": {
+          "label": "分钟"
+        },
+        "icon": {
+          "label": "图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "定时器超时设置"
+        },
+        "icon_over": {
+          "label": "图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "cart_favicon": {
+      "name": "⚡ 购物车图标",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "time_minutes": {
+          "label": "分钟"
+        },
+        "favicon": {
+          "label": "图标图像"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "⚡ 购物车折扣",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054067-how-to-use-cart-discount-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "label_icon": {
+          "label": "标签图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "按钮图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "⚡ 收藏过滤器",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0 -shopify-主题）"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "filter_icon": {
+          "label": "过滤器图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "⚡ 色板",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "color_options_list_page": {
+          "label": "产品页面变体选项",
+          "info": "添加以逗号分隔的变体选项名称"
+        },
+        "color_options_list_grid": {
+          "label": "产品网格变体选项",
+          "info": "色板将应用于具有此名称的所有变体选项"
+        },
+        "swatches_count_product_grid": {
+          "label": "产品网格上的色板"
+        }
+      }
+    },
+    "cookie_box": {
+      "name": "⚡ 饼干盒",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054095-how-to-use-a-cookie-box-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "use_drawer_colors": {
+          "label": "使用抽屉颜色"
+        },
+        "enable_for_eu_only": {
+          "label": "仅适用于欧盟"
+        },
+        "button_style": {
+          "label": "按钮样式",
+          "options__1": {
+            "label": "默认"
+          },
+          "options__2": {
+            "label": "满的"
+          },
+          "options__3": {
+            "label": "大纲"
+          }
+        }
+      }
+    },
+    "custom_currencies": {
+      "name": "⚡ 自定义货币",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5057090-how-to-use-custom-currencies-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "paragraph__3": {
+          "content": "启用后，本机 Shopify Payment 多币种转换器将被禁用。请注意，Shopify 不允许我们在结帐页面上转换价格。"
+        },
+        "show_currency_message": {
+          "label": "显示货币信息"
+        },
+        "show_original_price_on_hover": {
+          "label": "悬停时显示原价"
+        },
+        "currency_format": {
+          "label": "格式",
+          "options__1": {
+            "label": "不含货币 ($10.00)"
+          },
+          "options__2": {
+            "label": "使用货币（10.00 美元）"
+          },
+          "options__3": {
+            "label": "不带小数 ($10)"
+          },
+          "options__4": {
+            "label": "不带小数的货币（10 美元）"
+          },
+          "options__5": {
+            "label": "不带符号和带货币（10 美元）"
+          },
+          "options__6": {
+            "label": "无符号 & 带小数 (10.00)"
+          }
+        },
+        "supported_currencies": {
+          "label": "支持的货币",
+          "info": "使用国家/地区的 ISO [货币代码](https://www.xe.com/iso4217.php)。用空格分隔您的货币代码。"
+        }
+      }
+    },
+    "facebook_messenger": {
+      "name": "⚡脸书信使",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5057679-how-to-add-a-facebook-messenger-chat-widget-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "code": {
+          "label": "代码",
+          "info": "如何获取代码？转到您的 Facebook 页面 > 设置 > 消息 > 将 Messenger 添加到您的网站 > 复制并粘贴代码片段"
+        },
+        "hide_on_mobile": {
+          "label": "在手机上隐藏"
+        }
+      }
+    },
+    "delivery_date": {
+      "label": "选择首选交货日期",
+      "placeholder": "选择日期和时间*",
+      "error_message": "做出选择以继续"
+    },
+    "gift_wrap": {
+      "name": "⚡ 礼品包装",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5596124-how-to-enable-the-gift-wrap-add-on-in-the-debutify-shopify -主题）"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "product": {
+          "label": "礼品包装产品"
+        },
+        "show_price": {
+          "label": "展示礼盒价格"
+        }
+      }
+    },
+    "inactive_tab_message": {
+      "first_message": "🔥 不要忘记这个...",
+      "second_message": "🔥 回来！"
+    },
+    "infinite_scroll": {
+      "name": "⚡ 无限滚动",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5161154-how-to-use-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "scroll_options": {
+          "label": "无限滚动选项",
+          "options__1": {
+            "label": "无休止的点击"
+          },
+          "options__2": {
+            "label": "无尽卷轴"
+          }
+        },
+        "button_style": {
+          "label": "加载按钮样式",
+          "options__1": {
+            "label": "默认"
+          },
+          "options__2": {
+            "label": "满的"
+          },
+          "options__3": {
+            "label": "大纲"
+          }
+        },
+        "loading_image": {
+          "label": "加载图像以进行无限滚动",
+          "info": "留空以显示默认加载图标"
+        }
+      }
+    },
+    "inventory_quantity": {
+      "name": "⚡ 库存数量",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054133-how-to-display-the-inventory-quantity-of-your-product-variant-in-3 -0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "icon": {
+          "label": "图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "随机数量设置"
+        },
+        "show_random_quantities": {
+          "label": "显示随机数量",
+          "info": "取消选中以显示实际库存"
+        },
+        "min_random_quantity": {
+          "label": "我的数量"
+        },
+        "max_random_quantity": {
+          "label": "最大数量"
+        },
+        "header__4": {
+          "content": "库存阈值设置",
+          "info": "如果随机数量设置被禁用"
+        },
+        "quantity_threshold": {
+          "label": "阈值数量",
+          "info": "如果产品数量高于设置的阈值，则隐藏产品库存数量或显示一般文本"
+        }
+      }
+    },
+    "live_view": {
+      "name": "⚡ 实时取景",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054147-how-to-use-live-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "position": {
+          "label": "位置",
+          "options__1": {
+            "label": "根据产品价格"
+          },
+          "options__2": {
+            "label": "在添加到购物车按钮下"
+          }
+        },
+        "icon": {
+          "label": "图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        },
+        "min_quantity": {
+          "label": "闵（人）"
+        },
+        "max_quantity": {
+          "label": "最大（人）"
+        },
+        "max_interval_steps": {
+          "label": "最大间隔步数"
+        },
+        "interval_time": {
+          "label": "间隔时间"
+        }
+      }
+    },
+    "menu_bar": {
+      "name": "⚡ 菜单栏",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5231134-how-to-enable-a-menu-bar-add-on-in-debutify-3-0 -shopify-主题）"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "menu": {
+          "label": "菜单"
+        },
+        "show_on_desktop": {
+          "label": "最大（人）"
+        },
+        "show_on_mobile": {
+          "label": "闵（人）"
+        }
+      }
+    },
+    "minimum_order": {
+      "amount_reached_text": "已达到最低订购量。您可以继续结帐。",
+      "amount_unreached_text": "您还没有达到最低订购量。添加 {left_amount} 以继续。"
+    },
+    "newsletter_popup": {
+      "name": "⚡ 时事通讯弹出窗口",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054175-how-to-display-a-newsletter-popup-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "浮动栏设置"
+        },
+        "floating_bar_enable": {
+          "label": "启用"
+        },
+        "floating_bar_hide_on_mobile": {
+          "label": "在手机上隐藏"
+        },
+        "floating_bar_position": {
+          "label": "位置",
+          "options__1": {
+            "label": "剩下"
+          },
+          "options__2": {
+            "label": "对"
+          }
+        },
+        "floating_bar_icon": {
+          "label": "图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "弹出窗口设置"
+        },
+        "popup_overlay_image": {
+          "label": "叠加图像"
+        },
+        "popup_width": {
+          "label": "宽度",
+          "options__1": {
+            "label": "小的"
+          },
+          "options__2": {
+            "label": "中等的"
+          },
+          "options__3": {
+            "label": "大的"
+          }
+        },
+        "popup_set_image_as_background": {
+          "label": "将图像设置为背景"
+        },
+        "popup_image": {
+          "label": "图片"
+        },
+        "popup_image_position": {
+          "label": "图像位置",
+          "options__1": {
+            "label": "左上方"
+          },
+          "options__2": {
+            "label": "顶部中心"
+          },
+          "options__3": {
+            "label": "右上"
+          },
+          "options__4": {
+            "label": "左中"
+          },
+          "options__5": {
+            "label": "中间中心"
+          },
+          "options__6": {
+            "label": "中右"
+          },
+          "options__7": {
+            "label": "左下方"
+          },
+          "options__8": {
+            "label": "底部中心"
+          },
+          "options__9": {
+            "label": "右下角"
+          }
+        },
+        "paragraph__3": {
+          "content": "任何注册的客户都将在 Shopify 中为他们创建一个帐户。 [查看客户](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "popup_icon": {
+          "label": "发送图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        },
+        "header__4": {
+          "content": "触发设置"
+        },
+        "popup_enable_time_based_trigger": {
+          "label": "启用基于时间的触发"
+        },
+        "popup_time_based_trigger_timeout": {
+          "label": "时间",
+          "info": "弹出窗口将在 X 秒后显示"
+        },
+        "popup_enable_exit_intent_trigger": {
+          "label": "启用退出意图触发器"
+        },
+        "popup_enable_scroll_depth_trigger": {
+          "label": "启用滚动深度触发器"
+        },
+        "popup_scroll_depth_percentage": {
+          "label": "滚动深度",
+          "info": "当客户按 X 个百分比滚动页面时，将显示弹出窗口"
+        },
+        "header__5": {
+          "content": "成功设置"
+        },
+        "header__6": {
+          "content": "客户标签"
+        },
+        "customer_tag": {
+          "label": "标签",
+          "info": "标签将添加到该客户并可用于触发电子邮件自动化。"
+        },
+        "paragraph__4": {
+          "content": "任何注册的客户都将在 Shopify 中为他们创建一个帐户。 [查看客户](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "header__7": {
+          "content": "优惠码",
+          "info": "[创建折扣码](/admin/discounts/new)"
+        },
+        "discount_name": {
+          "label": "姓名"
+        },
+        "discount_amount": {
+          "label": "数量"
+        },
+        "discount_type": {
+          "label": "类型",
+          "options__1": {
+            "label": "百分比"
+          },
+          "options__2": {
+            "label": "固定值"
+          }
+        }
+      }
+    },
+    "order_feedback": {
+      "select_title": "你是怎么知道我们的？",
+      "default_options_text": "此选项值为空",
+      "select_options": "脸书、推特、谷歌、Instagram、Youtube",
+      "error_message": "请在下面选择一个选项",
+      "other_option_text": "其他",
+      "other_option_placeholder": "例如。我的朋友狮子座",
+      "other_error_message": "请填写下面的文本字段",
+      "title": "你是怎么知道我们的？",
+      "other_title": "你是怎么从其他人那里听说我们的？"
+    },
+    "order_tracking": {
+      "input_placeholder": "输入您的追踪号码...",
+      "button_text": "追踪我的订单"
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "从快速比较中删除",
+      "add_to_compare_text": "添加到快速比较",
+      "title_modal": "快速比较",
+      "empty_table": "当前快速比较列表中没有项目",
+      "images_cell": "图片",
+      "title_cell": "标题",
+      "price_cell": "价格",
+      "type_cell": "类型",
+      "vendor_cell": "小贩",
+      "collections_cell": "收藏",
+      "tags_cell": "标签",
+      "short_description_cell": "简短的介绍"
+    },
+    "recently_viewed": {
+      "name": "⚡ 最近浏览过",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5057690-how-to-display-recently-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "products_limit": {
+          "label": "在手机上隐藏"
+        },
+        "header__3": {
+          "content": "浮动条"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "在桌面上显示"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "在手机上显示"
+        },
+        "floating_bar_position": {
+          "label": "位置",
+          "options__1": {
+            "label": "剩下"
+          },
+          "options__2": {
+            "label": "对"
+          }
+        },
+        "header__4": {
+          "content": "部分"
+        },
+        "section_products_per_row_desktop": {
+          "label": "每行产品（桌面）"
+        },
+        "section_products_per_row_mobile": {
+          "label": "每行产品（移动）"
+        },
+        "header__5": {
+          "content": "旋转木马"
+        },
+        "carousel_enable": {
+          "label": "启用轮播"
+        },
+        "carousel_show_arrows": {
+          "label": "显示箭头"
+        },
+        "carousel_show_dots": {
+          "label": "显示点"
+        },
+        "carousel_auto_rotate": {
+          "label": "旋转车"
+        },
+        "carousel_rotation_speed": {
+          "label": "旋转速度"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "要显示在行中的产品"
+        }
+      }
+    },
+    "shop_protect": {
+      "name": "⚡ 店铺保护",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054230-how-to-use-shop-protect-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "disable_image_copy": {
+          "label": "禁用图像复制"
+        },
+        "disable_image_drag_and_drop": {
+          "label": "禁用图像拖放"
+        },
+        "disable_product_text_copy": {
+          "label": "禁用产品文本复制"
+        },
+        "disable_article_text_copy": {
+          "label": "禁用文章文本复制"
+        },
+        "disable_best_selling": {
+          "label": "禁用畅销收藏",
+          "info": "确保您的收藏没有按畅销排序。 [编辑收藏排序](/admin/collections)"
+        }
+      }
+    },
+    "smart_search": {
+      "name": "⚡ 智能搜索",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054239-how-to-use-smart-search-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "结果设置"
+        },
+        "show_price": {
+          "label": "显示价格"
+        },
+        "show_vendor": {
+          "label": "显示供应商"
+        },
+        "result_limit": {
+          "label": "结果限制"
+        }
+      }
+    },
+    "social_discount": {
+      "button_label": "分享并获得 15% 的折扣！",
+      "popup_title": "分享并获得 15% 的折扣！",
+      "popup_text": "只需在以下社交网络之一上分享此产品，即可享受 15% 的折扣！",
+      "popup_success_title": "感谢你的分享！",
+      "popup_success_text": "复制下面的折扣代码并在结账时粘贴它以获得您的折扣！",
+      "popup_button_label": "申请折扣码"
+    },
+    "sold_items": {
+      "name": "⚡ 已售商品",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5447397-how-to-enable-the-sold-items-add-on-in-debutify)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "position": {
+          "label": "位置",
+          "options__1": {
+            "label": "根据产品价格"
+          },
+          "options__2": {
+            "label": "在添加到购物车按钮下"
+          }
+        },
+        "icon": {
+          "label": "图标",
+          "info": "[查看所有可用图标](https://material.io/resources/icons)"
+        },
+        "minimum_range": {
+          "label": "最小范围"
+        },
+        "maximum_range": {
+          "label": "最大范围"
+        },
+        "interval_time": {
+          "label": "设置间隔时间（小时）"
+        }
+      }
+    },
+    "sticky_add_to_cart": {
+      "name": "⚡ 粘性添加到购物车",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054241-how-to-display-a-sticky-add-to-cart-bar-in-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "show_star_rating": {
+          "label": "最大范围"
+        },
+        "enable_add_to_cart_animation": {
+          "label": "最大范围"
+        },
+        "enable_simplified_display": {
+          "label": "最大范围"
+        },
+        "position": {
+          "label": "位置",
+          "options__1": {
+            "label": "最佳"
+          },
+          "options__2": {
+            "label": "底部"
+          }
+        }
+      }
+    },
+    "trust_badge": {
+      "name": "⚡ 信任徽章",
+      "settings": {
+        "header__1": {
+          "content": "帮助中心"
+        },
+        "paragraph__1": {
+          "content": "[按照我们的分步教程](https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "要启用/禁用此加载项，请转到主题设置 > Debutify 加载项。"
+        },
+        "header__2": {
+          "content": "设置"
+        },
+        "show_on_product_page": {
+          "label": "显示在产品页面"
+        },
+        "show_on_cart_page": {
+          "label": "在购物车页面/抽屉上显示"
+        },
+        "enable_small_text": {
+          "label": "小文字"
+        },
+        "position_in_cart_drawer": {
+          "label": "在购物车抽屉中的位置",
+          "options__1": {
+            "label": "单独的部分"
+          },
+          "options__2": {
+            "label": "在结帐按钮下"
+          }
+        },
+        "badge_image": {
+          "label": "图片",
+          "info": "默认图标留空"
+        },
+        "text_position": {
+          "label": "文字位置",
+          "options__1": {
+            "label": "以上"
+          },
+          "options__2": {
+            "label": "在下面"
+          }
+        },
+        "badge_width": {
+          "label": "图片宽度",
+          "options__1": {
+            "label": "特小号"
+          },
+          "options__2": {
+            "label": "小的"
+          },
+          "options__3": {
+            "label": "中等的"
+          },
+          "options__4": {
+            "label": "大的"
+          },
+          "options__5": {
+            "label": "特大号"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "添加到愿望清单",
+      "remove_from_wishlist_text": "从愿望清单中删除",
+      "empty_wishlist_text": "您的心愿单目前为空。",
+      "share_wishlist_text": "分享愿望清单"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "标签",
+      "read_more": "继续阅读",
+      "view_all": "查看全部",
+      "back_to_blog": "返回{{ title }}"
+    },
+    "comments": {
+      "title": "发表评论",
+      "name": "名称",
+      "email": "电子邮件",
+      "message": "信息",
+      "post": "发表评论",
+      "moderated": "请注意，评论必须在发表前获得批准",
+      "success_moderated": "您的评论已成功发布。我们将在一段时间内发布它，因为我们的博客正在审核中。",
+      "success": "您的评论已成功发布！谢谢！",
+      "with_count": {
+        "one": "{{ count }} 条评论",
+        "other": "{{ count }} 条评论"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "您的购物车",
+      "remove": "消除",
+      "note": "卖家特别说明",
+      "subtotal": "小计",
+      "taxes_and_shipping_at_checkout": "结账时计算税费和运费",
+      "taxes_and_shipping_policy_at_checkout_html": "结账时计算<a href=\"{{ link }}\">税费和运费</a>",
+      "taxes_included_but_shipping_at_checkout": "含税和运费在结账时计算",
+      "taxes_included_and_shipping_policy_html": "含税。结账时计算<a href=\"{{ link }}\">运费。</a>",
+      "update": "更新购物车",
+      "checkout": "查看",
+      "empty": "您的购物车目前是空的。",
+      "continue_browsing_html": "继续浏览",
+      "close_cart": "关闭购物车",
+      "savings_html": "您正在节省 {{ savings }}",
+      "reduce_quantity": "将物品数量减少一",
+      "increase_quantity": "将物品数量增加一",
+      "cookies_required": "启用 cookie 以使用购物车",
+      "custom_currency_html": "所有订单都在 {{ shopCurrency }} 中处理。虽然您购物车的内容当前显示在<span class='selected-currency'></span>，您将使用 {{ shopCurrency }} 以最新汇率结帐。"
+    },
+    "label": {
+      "quantity": "数量",
+      "total": "总计"
+    },
+    "cart_message": {
+      "text": "已添加项目",
+      "button_label": "查看购物车"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "目录",
+      "all_of_collection": "全部",
+      "no_matches": "抱歉，此系列中没有产品。"
+    },
+    "sorting": {
+      "title": "排序方式",
+      "title_tags": "过滤",
+      "all_of_collection": "所有{{ collection }}"
+    },
+    "grid": {
+      "button_label": "现在去购物"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "名称",
+      "email": "电子邮件",
+      "phone": "电话号码",
+      "message": "信息",
+      "send": "发送",
+      "post_success": "谢谢您联络我们。我们会尽快回复您。"
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "我的帐户",
+      "details": "帐户详细资料",
+      "view_addresses": "查看地址",
+      "return": "返回账户详情"
+    },
+    "activate_account": {
+      "title": "激活账户",
+      "subtext": "创建您的密码以激活您的帐户。",
+      "password": "密码",
+      "password_confirm": "确认密码",
+      "submit": "激活账户",
+      "cancel": "拒绝邀请"
+    },
+    "addresses": {
+      "title": "您的地址",
+      "default": "默认",
+      "add_new": "添加新地址",
+      "edit_address": "编辑地址",
+      "first_name": "名",
+      "last_name": "姓",
+      "company": "公司",
+      "address1": "地址1",
+      "address2": "地址2",
+      "city": "城市",
+      "country": "国家/地区",
+      "province": "省",
+      "zip": "邮政编码",
+      "phone": "电话",
+      "set_default": "设为默认地址",
+      "add": "添加地址",
+      "update": "更新地址",
+      "cancel": "取消",
+      "edit": "编辑",
+      "delete": "删除"
+    },
+    "login": {
+      "title": "登录",
+      "email": "电子邮件",
+      "password": "密码",
+      "forgot_password": "忘记密码了吗？",
+      "sign_in": "登入",
+      "cancel": "返回商店",
+      "guest_title": "继续作为客人",
+      "guest_continue": "继续"
+    },
+    "orders": {
+      "title": "订单历史",
+      "order_number": "命令",
+      "date": "日期",
+      "payment_status": "支付状态",
+      "fulfillment_status": "履行状态",
+      "total": "全部的",
+      "none": "您还没有下任何订单。"
+    },
+    "order": {
+      "title": "订单{{ name }}",
+      "date": "放在 {{ date }}",
+      "cancelled": "订单已于 {{ date }} 取消",
+      "cancelled_reason": "原因：{{ reason }}",
+      "billing_address": "帐单地址",
+      "payment_status": "支付状态",
+      "shipping_address": "收件地址",
+      "fulfillment_status": "履行状态",
+      "discount": "折扣",
+      "shipping": "船运",
+      "tax": "税",
+      "product": "产品",
+      "sku": "单品",
+      "price": "价格",
+      "quantity": "数量",
+      "total": "全部的",
+      "fulfilled_at": "已完成{{ date }}",
+      "subtotal": "小计",
+      "track_shipment": "跟踪货件"
+    },
+    "recover_password": {
+      "title": "重置您的密码",
+      "email": "电子邮件",
+      "submit": "提交",
+      "cancel": "取消",
+      "subtext": "我们将向您发送一封电子邮件以重置您的密码。",
+      "success": "我们已向您发送了一封电子邮件，其中包含更新密码的链接。"
+    },
+    "reset_password": {
+      "title": "重置账户密码",
+      "subtext": "输入 {{ email }} 的新密码",
+      "password": "密码",
+      "password_confirm": "确认密码",
+      "submit": "重设密码"
+    },
+    "register": {
+      "title": "创建账户",
+      "first_name": "名",
+      "last_name": "姓",
+      "email": "电子邮件",
+      "password": "密码",
+      "submit": "创建",
+      "cancel": "返回商店"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "如果使用移动设备，请使用向左/向右箭头导航幻灯片或向左/向右滑动",
+      "next_slide": "下一张幻灯片",
+      "previous_slide": "上一张幻灯片",
+      "play": "播放幻灯片",
+      "pause": "暂停幻灯片",
+      "load_slide": "加载幻灯片 {{ slide_number }}",
+      "active_slide": "幻灯片 {{ slide_number }}，当前"
+    },
+    "onboarding": {
+      "product_vendor": "产品供应商",
+      "product_title": "示例产品标题",
+      "collection_title": "示例集合标题",
+      "blog_title": "你的帖子标题",
+      "blog_excerpt": "您的商店尚未发布任何博客文章。博客可用于谈论您想与客户分享的新产品发布、技巧或其他新闻。您可以查看 Shopify 的电子商务博客，为您自己的商店和博客获取灵感和建议。",
+      "no_content": "此部分当前不包含任何内容。使用侧边栏向此部分添加内容。"
+    },
+    "map": {
+      "address_error": "查找该地址时出错",
+      "address_no_results": "该地址没有结果",
+      "address_query_limit_html": "您已超出 Google API 使用限制。考虑升级到<a href=\"https://developers.google.com/maps/premium/usage-limits\">高级计划</a>。",
+      "auth_error_html": "验证您的 Google 地图帐户时出现问题。"
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "大车"
+    },
+    "customer": {
+      "account": "帐户",
+      "log_out": "登出",
+      "log_in": "登录",
+      "create_account": "创建账户"
+    },
+    "footer": {
+      "social_platform": "{{ platform }} 上的 {{ name }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "保存{{ saved_amount }}",
+      "collection_return": "返回{{ collection }}",
+      "sale_price": "销售价格",
+      "regular_price": "正常价格",
+      "include_taxes": "含税。",
+      "shipping_policy_html": "结账时计算<a href=\"{{ link }}\">运费。</a>",
+      "unit_price": "单价"
+    },
+    "product": {
+      "sold_out": "售罄",
+      "sold_out_html": "售罄",
+      "unavailable": "不可用",
+      "quantity": "数量",
+      "add_to_cart": "添加到购物车",
+      "replace": "代替",
+      "full_details": "全部细节",
+      "view_more": "查看更多",
+      "view_in_space": "在您的空间中查看",
+      "view_in_space_label": "在您的空间中查看，在增强现实窗口中加载项目",
+      "slide_label": "幻灯片 {{ slide_number }}，共 {{ slide_max }}。",
+      "gallery_thumbnail_alt": "将图像加载到图库查看器中，{{ imageAlt }}",
+      "video_thumbnail_alt": "在图库查看器中加载和播放视频，{{ imageAlt }}",
+      "model_thumbnail_alt": "将 3D 模型加载到图库查看器中，{{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "下一步（右箭头键）",
+      "prev": "上一个（左箭头键）",
+      "close": "关闭 (Esc)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "这是 {{ shop }} 的 {{ value }} 礼品卡！",
+      "subtext": "这是您的礼品卡！",
+      "disabled": "残障人士",
+      "expired": "于 {{ expiry }} 到期",
+      "active": "于 {{ expiry }} 到期",
+      "redeem": "在结账时使用此代码兑换您的礼品卡",
+      "shop_link": "开始购物",
+      "print": "打印",
+      "add_to_apple_wallet": "添加到苹果钱包"
+    }
+  }
+}
