@@ -1,0 +1,64 @@
+{% comment %}
+  Renders a media element for the product gallery.
+  Media types include: image, video, external_video and model.
+  Accepts:
+  - media: {Object} Media Liquid object (required)
+  - enable_image_zoom: {Boolean} Image zoom setting (required for media type image)
+  - stacked: {Boolean} Layout type set as stacked (required)
+  - featured: {Boolean} Media is set as featured (required)
+
+  Usage:
+  {%- for media in product.media -%}
+    {% include 'media', media: media, enable_image_zoom: true, featured: true, stacked: true %}
+  {%- endfor -%}
+{% endcomment %}
+
+{% capture media_id %}{{ id }}-{{ media.id }}{% endcapture %}
+{% capture img_id_class %}product-single__media-{{ media_id }}{% endcapture %}
+{% capture wrapper_id %}ProductMediaWrapper-{{ media_id }}{% endcapture %}
+{% capture image_size %}{{ height }}x{{ height }}{% endcapture %}
+
+<div id="{{ wrapper_id }}" class="product-single__media-wrapper{% if featured %} featured-media{% endif %}"
+{% if media.media_type == 'video' or media.media_type == 'external_video' %} data-product-media-type-video data-enable-video-looping="{{ video_looping }}"{% endif %}
+{% if media.media_type == 'model' %} data-product-media-type-model{% endif %}
+{% if media.media_type == 'external_video' %} data-video-id="{{ media.external_id }}"{% endif %}
+data-product-single-media-wrapper
+data-media-id="{{ media_id }}"
+tabindex="-1">
+  {% case media.media_type %}
+  {% when 'image' %}
+    <div class="product--wrapper product-single__media media-wrapper"
+    style="padding-top:{{ 1 | divided_by: media.aspect_ratio | times: 100}}%;"
+    {% if enable_image_zoom %}data-zoom="{{ media | img_url: 'master', scale: 2 }}"{% endif %}>
+      <img class="product--image media lazyload {{ img_id_class }}"
+      {%- render 'lazysizes', img: media, img_type: 'responsive' -%}
+      alt="{{ media.alt }}"
+      data-media-id="{{ media.id }}">
+    </div>
+    {%- if enable_image_zoom -%}
+    <button type="button" class="btn-zoom-{{ id }} btn-zoom">
+      <span class="zoom-icon icon-md"></span>
+    </button>
+    {%- endif -%}
+  {% when 'external_video' %}
+    <div class="product-single__media media-wrapper product-single__media--video" style="padding-top: {{ 1 | divided_by: media.aspect_ratio | times: 100 }}%;">
+      {{ media | external_video_tag }}
+    </div>
+  {% when 'video' %}
+    <div class="product-single__media media-wrapper product-single__media--video" style="padding-top: {{ 1 | divided_by: media.aspect_ratio | times: 100 }}%;">
+      {{ media | video_tag: controls: false, class: 'media-video', image_size: image_size }}
+    </div>
+  {% when 'model' %}
+    <div class="product-single__media" style="padding-top:100%;position: relative;">
+      {{ media | model_viewer_tag: image_size: image_size, reveal: 'interaction', toggleable: false, data-model-id: media.id }}
+    </div>
+  {% else %}
+    <div class="product-single__media media-wrapper" style="padding-top: {{ 1 | divided_by: media.aspect_ratio | times: 100 }}%;">
+      {{ media | media_tag: class: 'media-item', image_size: image_size }}
+    </div>
+  {% endcase %}
+  <noscript>
+    <img class="product-single__media media-wrapper" src="{{ media | img_url: 'master' }}"
+      alt="{{ media.alt | escape }}">
+  </noscript>
+</div>

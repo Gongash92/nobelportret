@@ -1,0 +1,214 @@
+{% if collection.url == '/collections/alle-produkte' %}
+  {% if section.settings.image !=blank or section.settings.title !=blank or section.settings.text !=blank %}
+    <section class="collection-right-image-text">
+      <div class="wrapper">
+        <div class="grid align-items-center flex-row-reverse">
+          <div class="grid__item">
+            <div class="left_img">
+              {% if section.settings.image != blank %}
+                <img src="{{ section.settings.image | img_url:'master' }}" alt="{{ section.settings.image.alt }}">
+              {% else %}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {% endif %}
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="txt">
+              {% if section.settings.title != blank %}
+                <h2 class="h3s">{{ section.settings.title }}</h2>
+              {% endif %}
+              {% if section.settings.text != blank %}
+                {{ section.settings.text }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+{% else %}
+  <section class="others-collection-right-image-text box-color">
+    <div class="wrapper ">
+      <div class="grid">
+        <div class="grid__item medium--twelf-twelfts large--twelf-twelfths">
+          <div class="bg-white">
+            <div class="grid align-items-center flex-row-reverse padding-inside">
+
+              <div class="grid__item">
+                <div class="img_right">
+                  {% if collection.metafields.my_fields.right_image %}
+                    <img src="{{ collection.metafields.my_fields.right_image | img_url: 'large' }}" alt="{{collection.metafields.my_fields.right_image_alt_tag}}">
+                  {% else %}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  {% endif %}
+                </div>
+              </div>
+
+              <div class="grid__item">
+                <div class="left_text pe-5">
+                  {% if collection.metafields.my_fields.left_title_down != blank %}
+                    <h2 class="pe h3s">{{ collection.metafields.my_fields.left_title_down }}</h2>
+                  {% endif %}
+                  {% if collection.metafields.my_fields.left_text_down != blank %}
+                    {{ collection.metafields.my_fields.left_text_down }}
+                  {% endif %}
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endif %}
+
+{% schema %}
+
+{
+  "name": "Image with text right",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Some Title Here"
+    }, {
+      "type": "richtext",
+      "label": "Text",
+      "id": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with text right",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.padding-inside {
+  padding: 3rem;
+}
+
+.box-color {
+  background: #f5f5f5;
+}
+
+.bg-white {
+  background-color: #fff;
+
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.collection-right-image-text h3,
+.others-collection-right-image-text h3 {
+  font-style: italic;
+}
+
+.collection-right-image-text {
+  background: #f5f5f5;
+
+}
+
+.collection-right-image-text {
+  padding-top: 4rem;
+  padding-bottom: 9rem;
+  position: relative;
+}
+
+.collection-right-image-text .txt {
+  padding-right: 3rem;
+}
+
+.collection-right-image-text .wrapper {
+  position: relative;
+  z-index: 9;
+}
+
+.collection-right-image-text img {
+  width: 100%;
+}
+
+.collection-right-image-text:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40%;
+  height: 88%;
+  background: #FFEFB6;
+}
+
+.others-collection-right-image-text h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.others-collection-right-image-text {
+  padding-bottom: 5rem;
+}
+
+
+@media only screen and (max-width: 758px) {
+  .collection-right-image-text:after {
+    display: none;
+  }
+  
+.collection-right-image-text {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+.collection-right-image-text .left_img {
+    position: relative;
+    padding: 3rem 1rem 3rem 0;
+    margin-bottom: 2rem;
+  }
+  
+.collection-right-image-text .left_img:after {
+    content: "";
+    position: absolute;
+    right: -15px;
+    top: 0;
+    width: 85%;
+    height: 100%;
+    background: #e9e1f8;
+    z-index: -1;
+  }
+  
+.collection-right-image-text {
+    background-color: transparent;
+  }
+
+  .collection-right-image-text .txt {
+    padding-right: 0;
+  }
+  
+.padding-inside {
+    padding: 0;
+  }
+  
+.box-color {
+    background: transparent;
+    padding-top: 34px;
+  }
+  
+.pe {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
+{% endstyle %}

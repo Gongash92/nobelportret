@@ -1,0 +1,1373 @@
+{
+  "general": {
+    "404": {
+      "title": "404 Page non trouvée",
+      "subtext_html": "La page que vous cherchiez n'existe pas."
+    },
+    "accessibility": {
+      "refresh_page": "Le choix d'une sélection entraîne une actualisation complète de la page.",
+      "selection_help": "Appuyez sur la touche espace puis sur les touches fléchées pour faire une sélection.",
+      "unit_price_separator": "pour"
+    },
+    "meta": {
+      "tags": "Tagué \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant"
+    },
+    "password_page": {
+      "login_form_heading": "Entrez dans le magasin en utilisant le mot de passe :",
+      "login_form_password_label": "Mot de passe",
+      "login_form_password_placeholder": "Votre mot de passe",
+      "login_form_submit": "Entrer",
+      "signup_form_email_label": "E-mail",
+      "signup_form_success": "Nous vous enverrons un e-mail juste avant l'ouverture !",
+      "admin_link_html": "Êtes-vous le propriétaire du magasin? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>",
+      "password_link": "Entrer avec mot de passe",
+      "powered_by_shopify_html": "Cette boutique sera alimentée par {{ shopify }}",
+      "close": "fermer (esc)"
+    },
+    "dates": {
+      "year": "An",
+      "month": "Mois",
+      "day": "Jour"
+    },
+    "months": {
+      "full": {
+        "january": "janvier",
+        "february": "février",
+        "march": "Mars",
+        "april": "avril",
+        "may": "Peut",
+        "june": "juin",
+        "july": "juillet",
+        "august": "août",
+        "september": "septembre",
+        "october": "octobre",
+        "november": "novembre",
+        "december": "décembre"
+      },
+      "short": {
+        "january": "Jan",
+        "february": "fév",
+        "march": "Mer",
+        "april": "avr",
+        "may": "Peut",
+        "june": "juin",
+        "july": "juil",
+        "august": "août",
+        "september": "SEP",
+        "october": "oct",
+        "november": "nov",
+        "december": "déc"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "Lundi",
+        "tuesday": "mardi",
+        "wednesday": "mercredi",
+        "thursday": "Jeudi",
+        "friday": "vendredi",
+        "saturday": "samedi",
+        "sunday": "dimanche"
+      },
+      "short": {
+        "monday": "Mon",
+        "tuesday": "Le tiens",
+        "wednesday": "mer",
+        "thursday": "Collecter",
+        "friday": "ven",
+        "saturday": "Sam",
+        "sunday": "soleil"
+      }
+    },
+    "social": {
+      "share_on_facebook": "Partager",
+      "share_on_twitter": "Tweeter",
+      "share_on_pinterest": "Épinglez-le",
+      "share_on_email": "E-mail",
+      "share_on_whatsapp": "WhatsApp",
+      "share_on_linkedin": "LinkedIn",
+      "share_on_reddit": "Reddit",
+      "share_on_messenger": "Messager",
+      "alt_text": {
+        "share_on_facebook": "Partager sur Facebook",
+        "share_on_twitter": "Tweeter sur Twitter",
+        "share_on_pinterest": "Épingler sur Pinterest",
+        "share_on_email": "Partager par email",
+        "share_on_whatsapp": "Partager sur Whatsapp",
+        "share_on_linkedin": "Partager sur LinkedIn",
+        "share_on_reddit": "Partager sur Reddit",
+        "share_on_messenger": "Partager sur Messenger"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Inscrivez-vous à notre liste de diffusion",
+      "newsletter_placeholder": "Votre e-mail",
+      "newsletter_confirmation": "Merci pour votre subscription",
+      "submit": "S'abonner"
+    },
+    "search": {
+      "no_results_html": "Votre recherche de \"{{ terms }}\" n'a donné aucun résultat.",
+      "results_for_html": "Votre recherche de \"{{ terms }}\" a révélé ce qui suit :",
+      "title": "Chercher",
+      "placeholder": "Rechercher dans notre magasin",
+      "submit": "Chercher"
+    },
+    "drawers": {
+      "navigation": "Menu",
+      "close_menu": "Fermer le menu",
+      "expand_submenu": "Développer le sous-menu",
+      "collapse_submenu": "Réduire le sous-menu"
+    },
+    "payment": {
+      "method": "Méthodes de payement"
+    },
+    "currency": {
+      "dropdown_label": "Devise"
+    },
+    "language": {
+      "dropdown_label": "Langue"
+    },
+    "localization": {
+      "submit_label": "Mettre à jour les préférences"
+    },
+    "trial_over": {
+      "heading": "Votre essai gratuit a expiré",
+      "text": "Salut, {{ name }}. Il semble que votre essai gratuit de 14 jours de votre plan Entreprise soit déjà terminé. Cela signifie que tous vos modules complémentaires sont désormais désactivés.\n\nMais vous ne voulez probablement pas perdre la conversion et l'augmentation des revenus que vous avez obtenues grâce à vos modules complémentaires, n'est-ce pas ?\n\nChoisissez un plan qui correspond le mieux à vos objectifs et continuez à profiter de taux de conversion plus élevés.",
+      "pick_a_plan": "Choisissez un forfait"
+    },
+    "addons_limit_reached": {
+      "heading": "Ouah ! Doucement, Tigre !",
+      "text": "On dirait que vous avez besoin de plus de modules complémentaires :)\n\nVotre plan actuel [plan_name] active jusqu'à [current_limit] modules complémentaires uniquement. [upgraded_plan] vous permet d'activer les modules complémentaires [upgraded_limit]. Mettez à niveau votre plan pour déverrouiller TOUTES les fonctionnalités Premium.",
+      "upgrade_now": "Mettre à jour maintenant",
+      "note": "*Remarque : Si plus de [current_limit] modules complémentaires sont sélectionnés, seuls les premiers modules complémentaires [current_limit] cochés sont activés. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">Comment désactiver les modules complémentaires excédentaires ?</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "name": "Vérification de l'âge",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5057047-how-to-use-the-age-check-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "background_image": {
+          "label": "Temps d'interval"
+        },
+        "verification_type": {
+          "label": "Type d'animation",
+          "options__1": {
+            "label": "Date de naissance"
+          },
+          "options__2": {
+            "label": "Oui Non"
+          }
+        },
+        "valid_age": {
+          "label": "Âge valide"
+        },
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_svg": {
+          "label": "Logo SVG",
+          "info": "[Comment télécharger un fichier SVG ?](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Largeur du logo"
+        }
+      }
+    },
+    "back_in_stock": {
+      "name": "De retour en stock",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5265388-how-to-enable-the-back-in-stock-add-on-in-debutify-3 -0-shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "icon": {
+          "label": "Icône",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "enable_button_animation": {
+          "label": "Activer l'animation des boutons"
+        }
+      }
+    },
+    "cart_countdown": {
+      "name": "⚡ Compte à rebours du panier",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054061-how-to-enable-the-cart-countdown-timer-in-debutify-3-0-shopify -thème)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "time_minutes": {
+          "label": "Minutes"
+        },
+        "icon": {
+          "label": "Icône",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Minuterie sur les paramètres"
+        },
+        "icon_over": {
+          "label": "Icône",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "cart_favicon": {
+      "name": "⚡ Icône de panier",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "time_minutes": {
+          "label": "Minutes"
+        },
+        "favicon": {
+          "label": "Image de favori"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "⚡ Remise panier",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054067-how-to-use-cart-discount-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "label_icon": {
+          "label": "Icône d'étiquette",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "Icône de bouton",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "Filtres de collecte",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0 -shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "filter_icon": {
+          "label": "Icône de filtre",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "Échantillons de couleurs",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "color_options_list_page": {
+          "label": "Options de variante de page de produit",
+          "info": "Ajouter le nom des options de variante avec des virgules séparées"
+        },
+        "color_options_list_grid": {
+          "label": "Options de variante de grille de produits",
+          "info": "Les échantillons de couleur seront appliqués à toutes les options de variante avec ce nom"
+        },
+        "swatches_count_product_grid": {
+          "label": "Échantillons sur la grille de produits"
+        }
+      }
+    },
+    "cookie_box": {
+      "name": "Boîte à biscuits",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054095-how-to-use-a-cookie-box-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "use_drawer_colors": {
+          "label": "Utiliser les couleurs des tiroirs"
+        },
+        "enable_for_eu_only": {
+          "label": "Activer pour l'UE uniquement"
+        },
+        "button_style": {
+          "label": "Style de bouton",
+          "options__1": {
+            "label": "Défaut"
+          },
+          "options__2": {
+            "label": "Complet"
+          },
+          "options__3": {
+            "label": "Contour"
+          }
+        }
+      }
+    },
+    "custom_currencies": {
+      "name": "Monnaies personnalisées",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5057090-how-to-use-custom-currencies-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "paragraph__3": {
+          "content": "Lorsqu'il est activé, le convertisseur multi-devises natif de Shopify Payment sera désactivé. Notez que Shopify ne nous permet pas de convertir les prix sur la page de paiement."
+        },
+        "show_currency_message": {
+          "label": "Afficher le message de devise"
+        },
+        "show_original_price_on_hover": {
+          "label": "Afficher le prix d'origine au survol"
+        },
+        "currency_format": {
+          "label": "Format",
+          "options__1": {
+            "label": "Sans devise (10,00 $)"
+          },
+          "options__2": {
+            "label": "Avec devise (10,00 $ US)"
+          },
+          "options__3": {
+            "label": "Sans décimales (10 $)"
+          },
+          "options__4": {
+            "label": "Sans décimales avec devise (10 $ USD)"
+          },
+          "options__5": {
+            "label": "Sans signe & avec devise (10 USD)"
+          },
+          "options__6": {
+            "label": "Sans signe & avec décimal (10,00)"
+          }
+        },
+        "supported_currencies": {
+          "label": "Devises prises en charge",
+          "info": "Utilisez le [code de devise] ISO du pays (https://www.xe.com/iso4217.php). Séparez vos codes de devise par un espace."
+        }
+      }
+    },
+    "facebook_messenger": {
+      "name": "Messagerie Facebook",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5057679-how-to-add-a-facebook-messenger-chat-widget-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "code": {
+          "label": "Code",
+          "info": "Comment obtenir le code ? Accédez à votre page Facebook > Paramètres > Messagerie > Ajouter Messenger à votre site Web > Copiez et collez l'extrait de code"
+        },
+        "hide_on_mobile": {
+          "label": "Masquer sur mobile"
+        }
+      }
+    },
+    "delivery_date": {
+      "label": "Sélectionnez la date de livraison préférée",
+      "placeholder": "Sélectionnez la date et l'heure*",
+      "error_message": "Faites une sélection pour continuer"
+    },
+    "gift_wrap": {
+      "name": "Emballage cadeau",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5596124-how-to-enable-the-gift-wrap-add-on-in-the-debutify-shopify -thème)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "product": {
+          "label": "Produit d'emballage cadeau"
+        },
+        "show_price": {
+          "label": "Afficher le prix du coffret cadeau"
+        }
+      }
+    },
+    "inactive_tab_message": {
+      "name": "⚡ Message d'onglet inactif",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5242828-how-to-enable-the-inactive-tab-message-add-on-in-debutify-3 -0-shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "delay": {
+          "label": "Retard"
+        }
+      }
+    },
+    "infinite_scroll": {
+      "name": "Défilement infini",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5161154-how-to-use-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "scroll_options": {
+          "label": "Options de défilement infinies",
+          "options__1": {
+            "label": "Clic sans fin"
+          },
+          "options__2": {
+            "label": "Parchemin sans fin"
+          }
+        },
+        "button_style": {
+          "label": "Style de bouton de chargement",
+          "options__1": {
+            "label": "Défaut"
+          },
+          "options__2": {
+            "label": "Complet"
+          },
+          "options__3": {
+            "label": "Contour"
+          }
+        },
+        "loading_image": {
+          "label": "Chargement de l'image pour un défilement sans fin",
+          "info": "Laisser vide pour afficher l'icône de chargement par défaut"
+        }
+      }
+    },
+    "inventory_quantity": {
+      "name": "⚡ Quantité d'inventaire",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054133-how-to-display-the-inventory-quantity-of-your-product-variant-in-3 -0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "icon": {
+          "label": "Icône",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Paramètres de quantité aléatoire"
+        },
+        "show_random_quantities": {
+          "label": "Afficher des quantités aléatoires",
+          "info": "Décochez pour afficher l'inventaire réel"
+        },
+        "min_random_quantity": {
+          "label": "Ma quantité"
+        },
+        "max_random_quantity": {
+          "label": "Quantité max"
+        },
+        "header__4": {
+          "content": "Paramètres de seuil de stock",
+          "info": "Si le réglage des quantités aléatoires est désactivé"
+        },
+        "quantity_threshold": {
+          "label": "Quantité seuil",
+          "info": "Si la quantité de produits est supérieure au seuil défini, masquez la quantité d'inventaire de produits ou affichez un texte général"
+        }
+      }
+    },
+    "live_view": {
+      "name": "Vue en direct",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054147-how-to-use-live-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "position": {
+          "label": "Position",
+          "options__1": {
+            "label": "Sous le prix du produit"
+          },
+          "options__2": {
+            "label": "Sous le bouton Ajouter au panier"
+          }
+        },
+        "icon": {
+          "label": "Icône",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "min_quantity": {
+          "label": "Min (personnes)"
+        },
+        "max_quantity": {
+          "label": "Max (personnes)"
+        },
+        "max_interval_steps": {
+          "label": "Pas d'intervalle max"
+        },
+        "interval_time": {
+          "label": "Temps d'interval"
+        }
+      }
+    },
+    "menu_bar": {
+      "name": "Barre de menus",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5231134-how-to-enable-a-menu-bar-add-on-in-debutify-3-0 -shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "menu": {
+          "label": "Menu"
+        },
+        "show_on_desktop": {
+          "label": "Max (personnes)"
+        },
+        "show_on_mobile": {
+          "label": "Min (personnes)"
+        }
+      }
+    },
+    "minimum_order": {
+      "amount_reached_text": "Montant minimum de commande atteint. Vous pouvez passer à la caisse.",
+      "amount_unreached_text": "Vous n'avez toujours pas atteint le montant minimum de commande. Ajoutez {left_amount} pour continuer."
+    },
+    "newsletter_popup": {
+      "name": "Pop-up de la newsletter",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054175-how-to-display-a-newsletter-popup-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres de la barre flottante"
+        },
+        "floating_bar_enable": {
+          "label": "Activer"
+        },
+        "floating_bar_hide_on_mobile": {
+          "label": "Masquer sur mobile"
+        },
+        "floating_bar_position": {
+          "label": "Position",
+          "options__1": {
+            "label": "La gauche"
+          },
+          "options__2": {
+            "label": "Droit"
+          }
+        },
+        "floating_bar_icon": {
+          "label": "Icône",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Paramètres contextuels"
+        },
+        "popup_overlay_image": {
+          "label": "Image de superposition"
+        },
+        "popup_width": {
+          "label": "Largeur",
+          "options__1": {
+            "label": "Petit"
+          },
+          "options__2": {
+            "label": "Moyen"
+          },
+          "options__3": {
+            "label": "Grand"
+          }
+        },
+        "popup_set_image_as_background": {
+          "label": "Définir l'image comme arrière-plan"
+        },
+        "popup_image": {
+          "label": "Image"
+        },
+        "popup_image_position": {
+          "label": "Emplacement de l'image",
+          "options__1": {
+            "label": "En haut à gauche"
+          },
+          "options__2": {
+            "label": "Centre supérieur"
+          },
+          "options__3": {
+            "label": "En haut à droite"
+          },
+          "options__4": {
+            "label": "Milieu gauche"
+          },
+          "options__5": {
+            "label": "Centre moyen"
+          },
+          "options__6": {
+            "label": "Milieu droit"
+          },
+          "options__7": {
+            "label": "En bas à gauche"
+          },
+          "options__8": {
+            "label": "En bas au centre"
+          },
+          "options__9": {
+            "label": "En bas à droite"
+          }
+        },
+        "paragraph__3": {
+          "content": "Tous les clients qui s'inscrivent auront un compte créé pour eux dans Shopify. [Afficher les clients](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "popup_icon": {
+          "label": "Icône d'envoi",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "header__4": {
+          "content": "Paramètres de déclenchement"
+        },
+        "popup_enable_time_based_trigger": {
+          "label": "Activer le déclencheur basé sur le temps"
+        },
+        "popup_time_based_trigger_timeout": {
+          "label": "Temps",
+          "info": "Une fenêtre contextuelle s'affichera après X secondes"
+        },
+        "popup_enable_exit_intent_trigger": {
+          "label": "Activer le déclencheur d'intention de sortie"
+        },
+        "popup_enable_scroll_depth_trigger": {
+          "label": "Activer le déclencheur de profondeur de défilement"
+        },
+        "popup_scroll_depth_percentage": {
+          "label": "Profondeur de défilement",
+          "info": "Une fenêtre contextuelle s'affichera lorsque le client fait défiler la page par X pourcentages"
+        },
+        "header__5": {
+          "content": "Paramètres de réussite"
+        },
+        "header__6": {
+          "content": "Balise client"
+        },
+        "customer_tag": {
+          "label": "Étiqueter",
+          "info": "La balise sera ajoutée à ce client et peut être utilisée pour déclencher l'automatisation des e-mails."
+        },
+        "paragraph__4": {
+          "content": "Tous les clients qui s'inscrivent auront un compte créé pour eux dans Shopify. [Afficher les clients](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "header__7": {
+          "content": "Code de réduction",
+          "info": "[Créer un code de réduction](/admin/discounts/new)"
+        },
+        "discount_name": {
+          "label": "Nom"
+        },
+        "discount_amount": {
+          "label": "Montant"
+        },
+        "discount_type": {
+          "label": "Taper",
+          "options__1": {
+            "label": "Pourcentage"
+          },
+          "options__2": {
+            "label": "Montant fixé"
+          }
+        }
+      }
+    },
+    "order_feedback": {
+      "select_title": "Comment avez-vous entendu parler de nous?",
+      "default_options_text": "Cette valeur d'option est vide",
+      "select_options": "Facebook, Twitter, Google, Instagram, Youtube",
+      "error_message": "Veuillez sélectionner une option ci-dessous",
+      "other_option_text": "Autre",
+      "other_option_placeholder": "Par exemple. mon ami Léo",
+      "other_error_message": "Veuillez remplir le champ de texte ci-dessous",
+      "title": "Comment avez-vous entendu parler de nous?",
+      "other_title": "Comment avez-vous entendu parler de nous par les autres ?"
+    },
+    "order_tracking": {
+      "input_placeholder": "Entrez votre numéro de suivi...",
+      "button_text": "Suivre ma commande"
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "Supprimer de la comparaison rapide",
+      "add_to_compare_text": "Ajouter à la comparaison rapide",
+      "title_modal": "Comparaison rapide",
+      "empty_table": "Actuellement, il n'y a pas d'articles dans la liste de comparaison rapide",
+      "images_cell": "Images",
+      "title_cell": "Titre",
+      "price_cell": "Prix",
+      "type_cell": "Taper",
+      "vendor_cell": "Vendeur",
+      "collections_cell": "Collections",
+      "tags_cell": "Mots clés",
+      "short_description_cell": "brève description"
+    },
+    "recently_viewed": {
+      "name": "Récemment consulté",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5057690-how-to-display-recent-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "products_limit": {
+          "label": "Masquer sur mobile"
+        },
+        "header__3": {
+          "content": "Barre flottante"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "Afficher sur le bureau"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "Afficher sur mobile"
+        },
+        "floating_bar_position": {
+          "label": "Position",
+          "options__1": {
+            "label": "La gauche"
+          },
+          "options__2": {
+            "label": "Droit"
+          }
+        },
+        "header__4": {
+          "content": "Section"
+        },
+        "section_products_per_row_desktop": {
+          "label": "Produits par ligne (ordinateur de bureau)"
+        },
+        "section_products_per_row_mobile": {
+          "label": "Produits par ligne (mobile)"
+        },
+        "header__5": {
+          "content": "Carrousel"
+        },
+        "carousel_enable": {
+          "label": "Activer le carrousel"
+        },
+        "carousel_show_arrows": {
+          "label": "Afficher les flèches"
+        },
+        "carousel_show_dots": {
+          "label": "Afficher les points"
+        },
+        "carousel_auto_rotate": {
+          "label": "Voitures tournées"
+        },
+        "carousel_rotation_speed": {
+          "label": "Vitesse de rotation"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "Produits à afficher en ligne"
+        }
+      }
+    },
+    "social_discount": {
+      "name": "Remise sociale",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5057551-how-to-use-a-social-discount-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "icon": {
+          "label": "Icône",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Paramètres contextuels"
+        },
+        "popup_width": {
+          "label": "Taille",
+          "options__1": {
+            "label": "Petit"
+          },
+          "options__2": {
+            "label": "Moyen"
+          },
+          "options__3": {
+            "label": "Grand"
+          }
+        },
+        "header__4": {
+          "content": "Paramètres de réussite"
+        },
+        "header__5": {
+          "content": "Code de réduction",
+          "info": "[Créer un code de réduction](/admin/discounts/new)"
+        },
+        "discount_name": {
+          "label": "Nom"
+        },
+        "discount_amount": {
+          "label": "Montant"
+        },
+        "discount_type": {
+          "label": "Taper",
+          "options__1": {
+            "label": "Pourcentage"
+          },
+          "options__2": {
+            "label": "Montant fixé"
+          }
+        }
+      }
+    },
+    "sold_items": {
+      "name": "Articles vendus",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5447397-how-to-enable-the-sold-items-add-on-in-debutify)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "position": {
+          "label": "Position",
+          "options__1": {
+            "label": "Sous le prix du produit"
+          },
+          "options__2": {
+            "label": "Sous le bouton Ajouter au panier"
+          }
+        },
+        "icon": {
+          "label": "Icône",
+          "info": "[Voir toutes les icônes disponibles](https://material.io/resources/icons)"
+        },
+        "minimum_range": {
+          "label": "Portée minimale"
+        },
+        "maximum_range": {
+          "label": "Portée maximale"
+        },
+        "interval_time": {
+          "label": "Définir l'intervalle de temps (heure)"
+        }
+      }
+    },
+    "sticky_add_to_cart": {
+      "name": "Ajout au panier collant",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054241-how-to-display-a-sticky-add-to-cart-bar-in-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "show_star_rating": {
+          "label": "Portée maximale"
+        },
+        "enable_add_to_cart_animation": {
+          "label": "Portée maximale"
+        },
+        "enable_simplified_display": {
+          "label": "Portée maximale"
+        },
+        "position": {
+          "label": "Position",
+          "options__1": {
+            "label": "Sommet"
+          },
+          "options__2": {
+            "label": "Bas"
+          }
+        }
+      }
+    },
+    "trust_badge": {
+      "name": "Badge de confiance",
+      "settings": {
+        "header__1": {
+          "content": "Centre d'aide"
+        },
+        "paragraph__1": {
+          "content": "[Suivez notre tutoriel étape par étape](https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Pour activer/désactiver ce module complémentaire, accédez à Paramètres du thème > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Paramètres"
+        },
+        "show_on_product_page": {
+          "label": "Afficher sur la page du produit"
+        },
+        "show_on_cart_page": {
+          "label": "Afficher sur la page du panier/le tiroir"
+        },
+        "enable_small_text": {
+          "label": "Petit texte"
+        },
+        "position_in_cart_drawer": {
+          "label": "Position dans le tiroir du chariot",
+          "options__1": {
+            "label": "Section séparée"
+          },
+          "options__2": {
+            "label": "Sous le bouton Commander"
+          }
+        },
+        "badge_image": {
+          "label": "Image",
+          "info": "Laisser vide pour les icônes par défaut"
+        },
+        "text_position": {
+          "label": "Emplacement du texte",
+          "options__1": {
+            "label": "Dessus"
+          },
+          "options__2": {
+            "label": "Sous"
+          }
+        },
+        "badge_width": {
+          "label": "Largeur de l'image",
+          "options__1": {
+            "label": "Super petit"
+          },
+          "options__2": {
+            "label": "Petit"
+          },
+          "options__3": {
+            "label": "Moyen"
+          },
+          "options__4": {
+            "label": "Grand"
+          },
+          "options__5": {
+            "label": "Extra large"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "Ajouter à la liste de souhaits",
+      "remove_from_wishlist_text": "Supprimer de la liste de souhaits",
+      "empty_wishlist_text": "Votre liste de souhaits est actuellement vide.",
+      "share_wishlist_text": "Partager la liste de souhaits"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "Mots clés",
+      "read_more": "continuer la lecture",
+      "view_all": "Voir tout",
+      "back_to_blog": "Retour à {{ title }}"
+    },
+    "comments": {
+      "title": "laissez un commentaire",
+      "name": "Nom",
+      "email": "E-mail",
+      "message": "Message",
+      "post": "Poster un commentaire",
+      "moderated": "Veuillez noter que les commentaires doivent être approuvés avant d'être publiés",
+      "success_moderated": "Votre commentaire a été posté avec succès. Nous le publierons dans quelques temps, car notre blog est modéré.",
+      "success": "Votre commentaire a été posté avec succès ! Merci!",
+      "with_count": {
+        "one": "{{ count }} commentaire",
+        "other": "{0 commentaire"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Votre panier",
+      "remove": "Supprimer",
+      "note": "Instructions spéciales pour le vendeur",
+      "subtotal": "Total",
+      "taxes_and_shipping_at_checkout": "Taxes et frais d'expédition calculés à la caisse",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais d&#39;expédition</a> calculés à la caisse",
+      "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de port calculés à la caisse",
+      "taxes_included_and_shipping_policy_html": "Taxe inclu. <a href=\"{{ link }}\">Frais de port</a> calculés à la caisse.",
+      "update": "Mise à jour panier",
+      "checkout": "Vérifier",
+      "empty": "Votre carte est actuellement vide.",
+      "continue_browsing_html": "Continuer la navigation",
+      "close_cart": "Fermer le panier",
+      "savings_html": "Vous enregistrez {{ savings }}",
+      "reduce_quantity": "Réduire la quantité d'articles d'un",
+      "increase_quantity": "Augmenter la quantité d'articles d'un",
+      "cookies_required": "Activer les cookies pour utiliser le panier",
+      "custom_currency_html": "Toutes les commandes sont traitées en {{ shopCurrency }}. Alors que le contenu de votre panier est actuellement affiché dans<span class='selected-currency'></span> , vous passerez à la caisse en utilisant {{ shopCurrency }} au taux de change le plus actuel."
+    },
+    "label": {
+      "quantity": "Quantité",
+      "total": "Total"
+    },
+    "cart_message": {
+      "text": "L'article a été ajouté",
+      "button_label": "Voir le panier"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Catalogue",
+      "all_of_collection": "Tout",
+      "no_matches": "Désolé, il n'y a aucun produit dans cette collection."
+    },
+    "sorting": {
+      "title": "Trier par",
+      "title_tags": "Filtrer par",
+      "all_of_collection": "Tout {{ collection }}"
+    },
+    "grid": {
+      "button_label": "Achetez maintenant"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Nom",
+      "email": "E-mail",
+      "phone": "Numéro de téléphone",
+      "message": "Message",
+      "send": "Envoyer",
+      "post_success": "Merci de nous avoir contacté. Nous vous répondrons dans les plus brefs délais."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Mon compte",
+      "details": "Détails du compte",
+      "view_addresses": "Afficher les adresses",
+      "return": "Revenir aux détails du compte"
+    },
+    "activate_account": {
+      "title": "Activer le compte",
+      "subtext": "Créez votre mot de passe pour activer votre compte.",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "Activer le compte",
+      "cancel": "Refuser l'invitation"
+    },
+    "addresses": {
+      "title": "Vos adresses",
+      "default": "Défaut",
+      "add_new": "Ajouter une nouvelle adresse",
+      "edit_address": "Modifier l'adresse",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "company": "Société",
+      "address1": "Adresse 1",
+      "address2": "Adresse 2",
+      "city": "Ville",
+      "country": "Pays/Région",
+      "province": "Province",
+      "zip": "Code postal/Zip",
+      "phone": "Téléphoner",
+      "set_default": "Définir comme adresse par défaut",
+      "add": "Ajoutez l'adresse",
+      "update": "Mettre à jour l'adresse",
+      "cancel": "Annuler",
+      "edit": "Éditer",
+      "delete": "Supprimer"
+    },
+    "login": {
+      "title": "Connexion",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "forgot_password": "Mot de passe oublié?",
+      "sign_in": "S'identifier",
+      "cancel": "Retour au magasin",
+      "guest_title": "Continuer en tant qu'invité",
+      "guest_continue": "Continuez"
+    },
+    "orders": {
+      "title": "Historique des commandes",
+      "order_number": "Commander",
+      "date": "Date",
+      "payment_status": "Statut de paiement",
+      "fulfillment_status": "Statut d'exécution",
+      "total": "Le total",
+      "none": "Vous n'avez pas encore passé de commandes."
+    },
+    "order": {
+      "title": "Commande {{ name }}",
+      "date": "Placé le {{ date }}",
+      "cancelled": "Commande annulée le {{ date }}",
+      "cancelled_reason": "Raison : {{ reason }}",
+      "billing_address": "adresse de facturation",
+      "payment_status": "Statut de paiement",
+      "shipping_address": "Adresse de livraison",
+      "fulfillment_status": "Statut d'exécution",
+      "discount": "Remise",
+      "shipping": "Expédition",
+      "tax": "Impôt",
+      "product": "Produit",
+      "sku": "UGS",
+      "price": "Prix",
+      "quantity": "Quantité",
+      "total": "Le total",
+      "fulfilled_at": "Rempli {{ date }}",
+      "subtotal": "Total",
+      "track_shipment": "Suivi de livraison"
+    },
+    "recover_password": {
+      "title": "réinitialisez votre mot de passe",
+      "email": "E-mail",
+      "submit": "Soumettre",
+      "cancel": "Annuler",
+      "subtext": "Nous vous enverrons un e-mail pour réinitialiser votre mot de passe.",
+      "success": "Nous vous avons envoyé un e-mail avec un lien pour mettre à jour votre mot de passe."
+    },
+    "reset_password": {
+      "title": "Réinitialiser le mot de passe du compte",
+      "subtext": "Saisissez un nouveau mot de passe pour {{ email }}",
+      "password": "Mot de passe",
+      "password_confirm": "Confirmez le mot de passe",
+      "submit": "réinitialiser le mot de passe"
+    },
+    "register": {
+      "title": "Créer un compte",
+      "first_name": "Prénom",
+      "last_name": "Nom de famille",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "submit": "Créer",
+      "cancel": "Retour au magasin"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "Utilisez les flèches gauche/droite pour naviguer dans le diaporama ou balayez vers la gauche/droite si vous utilisez un appareil mobile",
+      "next_slide": "Diapositive suivante",
+      "previous_slide": "Diapositive précédente",
+      "play": "Lire le diaporama",
+      "pause": "Suspendre le diaporama",
+      "load_slide": "Charger la diapositive {{ slide_number }}",
+      "active_slide": "Diapositive {{ slide_number }}, actuelle"
+    },
+    "onboarding": {
+      "product_vendor": "Vendeur de produits",
+      "product_title": "Exemple de titre de produit",
+      "collection_title": "Exemple de titre de collection",
+      "blog_title": "Titre de votre message",
+      "blog_excerpt": "Votre boutique n'a pas encore publié d'articles de blog. Un blog peut être utilisé pour parler de lancements de nouveaux produits, de conseils ou d'autres nouvelles que vous souhaitez partager avec vos clients. Vous pouvez consulter le blog de commerce électronique de Shopify pour trouver de l'inspiration et des conseils pour votre propre boutique et blog.",
+      "no_content": "Cette section n'inclut actuellement aucun contenu. Ajoutez du contenu à cette section à l'aide de la barre latérale."
+    },
+    "map": {
+      "address_error": "Erreur lors de la recherche de cette adresse",
+      "address_no_results": "Aucun résultat pour cette adresse",
+      "address_query_limit_html": "Vous avez dépassé la limite d&#39;utilisation de l&#39;API Google. Envisagez de passer à un <a href=\"https://developers.google.com/maps/premium/usage-limits\">forfait Premium</a> .",
+      "auth_error_html": "Un problème est survenu lors de l'authentification de votre compte Google Maps."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Chariot"
+    },
+    "customer": {
+      "account": "Compte",
+      "log_out": "Se déconnecter",
+      "log_in": "Connexion",
+      "create_account": "Créer un compte"
+    },
+    "footer": {
+      "social_platform": "{{ name }} sur {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "Enregistrer {{ saved_amount }}",
+      "collection_return": "Retour à {{ collection }}",
+      "sale_price": "Prix de vente",
+      "regular_price": "Prix habituel",
+      "include_taxes": "Taxe inclu.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais de port</a> calculés à la caisse.",
+      "unit_price": "Prix unitaire"
+    },
+    "product": {
+      "sold_out": "Solder",
+      "sold_out_html": "Solder",
+      "unavailable": "Indisponible",
+      "quantity": "Quantité",
+      "add_to_cart": "Ajouter au chariot",
+      "replace": "Remplacer",
+      "full_details": "Tous les détails",
+      "view_more": "Voir plus",
+      "view_in_space": "Visualisez dans votre espace",
+      "view_in_space_label": "Afficher dans votre espace, charge l'élément dans la fenêtre de réalité augmentée",
+      "slide_label": "Diapositive {{ slide_number }} sur {{ slide_max }}.",
+      "gallery_thumbnail_alt": "Charger l'image dans la visionneuse de la galerie, {{ imageAlt }}",
+      "video_thumbnail_alt": "Charger et lire la vidéo dans la visionneuse de la galerie, {{ imageAlt }}",
+      "model_thumbnail_alt": "Charger le modèle 3D dans la visionneuse de la galerie, {{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "Suivant (flèche droite)",
+      "prev": "Précédent (flèche gauche)",
+      "close": "Fermer (Echap)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Voici votre carte cadeau {{ value }} pour {{ shop }} !",
+      "subtext": "Voici votre carte cadeau !",
+      "disabled": "Désactivée",
+      "expired": "Expiré le {{ expiry }}",
+      "active": "Expire le {{ expiry }}",
+      "redeem": "Utilisez ce code à la caisse pour échanger votre carte-cadeau",
+      "shop_link": "Commencer à magasiner",
+      "print": "Imprimer",
+      "add_to_apple_wallet": "Ajouter au portefeuille Apple"
+    }
+  }
+}

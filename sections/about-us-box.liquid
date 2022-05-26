@@ -1,0 +1,121 @@
+<section class="about-us-richtext">
+  <div class="wrapper ">
+    <div class="grid justify-content-center ">
+      <div class="grid__item width-text text-center">
+        <div class="bg-color">
+          <div class="border-line "></div>
+          <div class="text-padding">
+            {% if section.settings.text != blank %}
+              {{ section.settings.text}}
+            {% endif %}
+          </div>
+          <a class="scroll-btn" href="#about-us-video">
+            <span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+{% schema %}
+
+{
+  "name": "Box text about us",
+  "settings": [
+    {
+      "type": "richtext",
+      "label": "Text",
+      "id": "text"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.bg-color {
+  background: #F5F5F5;
+  padding: 68px 124px;
+
+}
+
+.text-padding {
+  padding-top: 16px;
+}
+
+.border-line {
+
+  border-bottom: 4px dotted #F95510;
+  width: 40%;
+  margin: auto;
+
+
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.about-us-richtext {
+  padding: 4rem 0;
+}
+
+.about-us-richtext .width-text {}
+
+.about-us-richtext p {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  text-align: center;
+
+  color: #5E5A60;
+
+  color: #242424;
+}
+
+a.scroll-btn {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 36px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+a.scroll-btn span {
+  border: solid #242424;
+  display: inline-block;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  margin: 0 auto;
+  padding: 6px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 758px) {
+  .bg-color {
+    padding: 50px;
+  }
+
+}
+
+{% endstyle %}

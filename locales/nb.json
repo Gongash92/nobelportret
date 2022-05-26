@@ -1,0 +1,1326 @@
+{
+  "general": {
+    "404": {
+      "title": "404 Side Ikke Funnet",
+      "subtext_html": "Siden du lette etter eksisterer ikke."
+    },
+    "accessibility": {
+      "refresh_page": "Å velge et utvalg resulterer i en helsideoppdatering.",
+      "selection_help": "Trykk mellomromstasten og deretter piltastene for å velge.",
+      "unit_price_separator": "til"
+    },
+    "meta": {
+      "tags": "Merket \"{{ tags }}\"",
+      "page": "Side {{ page }}"
+    },
+    "pagination": {
+      "previous": "Tidligere",
+      "next": "Neste"
+    },
+    "password_page": {
+      "login_form_heading": "Gå inn i butikken med passord:",
+      "login_form_password_label": "Passord",
+      "login_form_password_placeholder": "Ditt passord",
+      "login_form_submit": "Tast inn",
+      "signup_form_email_label": "E-post",
+      "signup_form_success": "Vi sender deg en e-post rett før vi åpner!",
+      "admin_link_html": "Er du butikkeier? <a href=\"/admin\" class=\"text-link\">Logg inn her</a>",
+      "password_link": "Skriv inn med passord",
+      "powered_by_shopify_html": "Denne butikken blir drevet av {{ shopify }}",
+      "close": "lukk (esc)"
+    },
+    "dates": {
+      "year": "År",
+      "month": "Måned",
+      "day": "Dag"
+    },
+    "months": {
+      "full": {
+        "january": "januar",
+        "february": "februar",
+        "march": "mars",
+        "april": "april",
+        "may": "Kan",
+        "june": "juni",
+        "july": "juli",
+        "august": "august",
+        "september": "september",
+        "october": "oktober",
+        "november": "november",
+        "december": "desember"
+      },
+      "short": {
+        "january": "Jan",
+        "february": "feb",
+        "march": "Hav",
+        "april": "apr",
+        "may": "Kan",
+        "june": "jun",
+        "july": "jul",
+        "august": "august",
+        "september": "sep",
+        "october": "okt",
+        "november": "nov",
+        "december": "des"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "mandag",
+        "tuesday": "tirsdag",
+        "wednesday": "onsdag",
+        "thursday": "Torsdag",
+        "friday": "fredag",
+        "saturday": "lørdag",
+        "sunday": "søndag"
+      },
+      "short": {
+        "monday": "Min",
+        "tuesday": "Ditt",
+        "wednesday": "ons",
+        "thursday": "Samle inn",
+        "friday": "fre",
+        "saturday": "Lør",
+        "sunday": "Sol"
+      }
+    },
+    "social": {
+      "share_on_facebook": "Dele",
+      "share_on_twitter": "kvitring",
+      "share_on_pinterest": "Fest den",
+      "share_on_email": "E-post",
+      "share_on_whatsapp": "Hva skjer",
+      "share_on_linkedin": "LinkedIn",
+      "share_on_reddit": "Reddit",
+      "share_on_messenger": "budbringer",
+      "alt_text": {
+        "share_on_facebook": "Del på Facebook",
+        "share_on_twitter": "Tweet på Twitter",
+        "share_on_pinterest": "Fest på Pinterest",
+        "share_on_email": "Del på e-post",
+        "share_on_whatsapp": "Del på Whatsapp",
+        "share_on_linkedin": "Del på LinkedIn",
+        "share_on_reddit": "Del på Reddit",
+        "share_on_messenger": "Del på Messenger"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Meld deg på vår mailingliste",
+      "newsletter_placeholder": "Din epost",
+      "newsletter_confirmation": "Takk for at du abonnerer",
+      "submit": "Abonnere"
+    },
+    "search": {
+      "no_results_html": "Søket etter \"{{ terms }}\" ga ingen resultater.",
+      "results_for_html": "Søket ditt etter «{{ terms }}» viste følgende:",
+      "title": "Søk",
+      "placeholder": "Søk i butikken vår",
+      "submit": "Søk"
+    },
+    "drawers": {
+      "navigation": "Meny",
+      "close_menu": "Lukk menyen",
+      "expand_submenu": "Utvid undermenyen",
+      "collapse_submenu": "Skjul undermenyen"
+    },
+    "payment": {
+      "method": "Betalingsmetoder"
+    },
+    "currency": {
+      "dropdown_label": "Valuta"
+    },
+    "language": {
+      "dropdown_label": "Språk"
+    },
+    "localization": {
+      "submit_label": "Oppdater preferanser"
+    },
+    "trial_over": {
+      "heading": "Din gratis prøveperiode har utløpt",
+      "text": "Hei, {{ name }}. Det ser ut som om din 14-dagers gratis prøveperiode for Enterprise Plan allerede er over. Det betyr at alle tilleggene dine nå er deaktivert.\n\nMen du vil sannsynligvis ikke miste konverterings- og inntektsbumpen du fikk fra tilleggene dine, ikke sant?\n\nVelg en plan som passer best for dine mål og fortsett å nyte høyere konverteringsfrekvenser.",
+      "pick_a_plan": "Velg en plan"
+    },
+    "addons_limit_reached": {
+      "heading": "Wow! Lett der, Tiger!",
+      "text": "Ser ut som du trenger flere tillegg :)\n\nDin nåværende plan [plan_name] aktiverer kun opptil [current_limit] tillegg. [upgraded_plan] lar deg aktivere [upgraded_limit]-tillegg. Oppgrader planen din for å låse opp ALLE Premium-funksjoner.",
+      "upgrade_now": "Oppgrader nå",
+      "note": "*Merk: Hvis flere enn [current_limit]-tillegg er valgt, aktiveres bare de første [current_limit]-tilleggene som er merket. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">Hvordan deaktiverer jeg overflødige tillegg?</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "name": "⚡ Alderssjekk",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg vår trinnvise veiledning](https://help.debutify.com/en/articles/5057047-how-to-use-the-age-check-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "background_image": {
+          "label": "Intervalltid"
+        },
+        "verification_type": {
+          "label": "Animasjonstype",
+          "options__1": {
+            "label": "Bursdag"
+          },
+          "options__2": {
+            "label": "Ja Nei"
+          }
+        },
+        "valid_age": {
+          "label": "Gyldig alder"
+        },
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_svg": {
+          "label": "SVG-logo",
+          "info": "[Hvordan laster jeg opp en SVG-fil?](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Logobredde"
+        }
+      }
+    },
+    "back_in_stock": {
+      "name": "⚡ Tilbake på lager",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5265388-how-to-enable-the-back-in-stock-add-on-in-debutify-3 -0-shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "enable_button_animation": {
+          "label": "Aktiver knappeanimasjon"
+        }
+      }
+    },
+    "cart_countdown": {
+      "name": "⚡ Nedtelling for handlevogn",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5054061-how-to-enable-the-cart-countdown-timer-in-debutify-3-0-shopify -tema)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "time_minutes": {
+          "label": "Minutter"
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Timer over innstillinger"
+        },
+        "icon_over": {
+          "label": "Ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "cart_favicon": {
+      "name": "⚡ Favicon for handlevogn",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "time_minutes": {
+          "label": "Minutter"
+        },
+        "favicon": {
+          "label": "Favorittbilde"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "⚡ Rabatt på handlekurven",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5054067-how-to-use-cart-discount-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "label_icon": {
+          "label": "Etikettikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "Knappikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "⚡ Innsamlingsfiltre",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0 -shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "filter_icon": {
+          "label": "Filterikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "⚡ Fargeprøver",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg vår trinnvise veiledning](https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "color_options_list_page": {
+          "label": "Alternativer for produktsidevarianter",
+          "info": "Legg til variantalternativnavn med kommadelt"
+        },
+        "color_options_list_grid": {
+          "label": "Alternativer for produktrutenett",
+          "info": "Fargeprøver vil bli brukt på alle variantalternativer med dette navnet"
+        },
+        "swatches_count_product_grid": {
+          "label": "Fargeprøver på produktnettet"
+        }
+      }
+    },
+    "cookie_box": {
+      "text_html": "<strong>Liker du informasjonskapsler?</strong> 🍪 Vi bruker informasjonskapsler for å sikre at du får den beste opplevelsen på nettstedet vårt.",
+      "button_label": "Godta informasjonskapsler"
+    },
+    "delivery_date": {
+      "label": "Velg ønsket leveringsdato",
+      "placeholder": "Velg dato og klokkeslett*",
+      "error_message": "Gjør et valg for å fortsette"
+    },
+    "gift_wrap": {
+      "name": "⚡ Gavepapir",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5596124-how-to-enable-the-gift-wrap-add-on-in-the-debutify-shopify -tema)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "product": {
+          "label": "Gavepapirprodukt"
+        },
+        "show_price": {
+          "label": "Vis pris på gaveeske"
+        }
+      }
+    },
+    "inactive_tab_message": {
+      "name": "⚡ Inaktiv fanemelding",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5242828-how-to-enable-the-inactive-tab-message-add-on-in-debutify-3 -0-shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "delay": {
+          "label": "Forsinkelse"
+        }
+      }
+    },
+    "infinite_scroll": {
+      "name": "⚡ Uendelig rulling",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5161154-how-to-use-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "scroll_options": {
+          "label": "Uendelige rullealternativer",
+          "options__1": {
+            "label": "Uendelig klikk"
+          },
+          "options__2": {
+            "label": "Uendelig rulling"
+          }
+        },
+        "button_style": {
+          "label": "Laster knapp stil",
+          "options__1": {
+            "label": "Misligholde"
+          },
+          "options__2": {
+            "label": "Full"
+          },
+          "options__3": {
+            "label": "Disposisjon"
+          }
+        },
+        "loading_image": {
+          "label": "Laster inn bilde for endeløs rulling",
+          "info": "La stå tomt for å vise standard lasteikon"
+        }
+      }
+    },
+    "inventory_quantity": {
+      "name": "⚡ Lagerantall",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg vår trinnvise veiledning](https://help.debutify.com/en/articles/5054133-how-to-display-the-inventory-quantity-of-your-product-variant-in-3 -0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Tilfeldig mengdeinnstillinger"
+        },
+        "show_random_quantities": {
+          "label": "Vis tilfeldige mengder",
+          "info": "Fjern merket for å vise reell beholdning"
+        },
+        "min_random_quantity": {
+          "label": "Min mengde"
+        },
+        "max_random_quantity": {
+          "label": "Maks mengde"
+        },
+        "header__4": {
+          "content": "Innstillinger for lagerterskel",
+          "info": "Hvis innstillingen for tilfeldige mengder er deaktivert"
+        },
+        "quantity_threshold": {
+          "label": "Terskelmengde",
+          "info": "Hvis produktmengden er høyere enn terskelen som er satt, skjuler du produktbeholdningen eller viser en generell tekst"
+        }
+      }
+    },
+    "live_view": {
+      "name": "⚡ Live view",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5054147-how-to-use-live-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "position": {
+          "label": "Posisjon",
+          "options__1": {
+            "label": "Under produktpris"
+          },
+          "options__2": {
+            "label": "Under Legg i handlekurv-knappen"
+          }
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "min_quantity": {
+          "label": "Min (mennesker)"
+        },
+        "max_quantity": {
+          "label": "Maks (personer)"
+        },
+        "max_interval_steps": {
+          "label": "Maks intervalltrinn"
+        },
+        "interval_time": {
+          "label": "Intervalltid"
+        }
+      }
+    },
+    "menu_bar": {
+      "name": "⚡ Menylinje",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5231134-how-to-enable-a-menu-bar-add-on-in-debutify-3-0 -shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "menu": {
+          "label": "Meny"
+        },
+        "show_on_desktop": {
+          "label": "Maks (personer)"
+        },
+        "show_on_mobile": {
+          "label": "Min (mennesker)"
+        }
+      }
+    },
+    "minimum_order": {
+      "amount_reached_text": "Minimum bestillingsbeløp nådd. Du kan gå videre til kassen.",
+      "amount_unreached_text": "Du har fortsatt ikke nådd minimumsbestillingsbeløpet. Legg til {left_amount} for å fortsette."
+    },
+    "newsletter_popup": {
+      "name": "⚡ Nyhetsbrev pop-up",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg vår trinnvise veiledning](https://help.debutify.com/en/articles/5054175-how-to-display-a-newsletter-popup-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger for flytende stang"
+        },
+        "floating_bar_enable": {
+          "label": "Aktiver"
+        },
+        "floating_bar_hide_on_mobile": {
+          "label": "Skjul på mobil"
+        },
+        "floating_bar_position": {
+          "label": "Posisjon",
+          "options__1": {
+            "label": "Venstre"
+          },
+          "options__2": {
+            "label": "Ikke sant"
+          }
+        },
+        "floating_bar_icon": {
+          "label": "Ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Popup-innstillinger"
+        },
+        "popup_overlay_image": {
+          "label": "Overleggsbilde"
+        },
+        "popup_width": {
+          "label": "Bredde",
+          "options__1": {
+            "label": "Liten"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Stor"
+          }
+        },
+        "popup_set_image_as_background": {
+          "label": "Sett bilde som bakgrunn"
+        },
+        "popup_image": {
+          "label": "Bilde"
+        },
+        "popup_image_position": {
+          "label": "Bildeposisjon",
+          "options__1": {
+            "label": "Øverst til venstre"
+          },
+          "options__2": {
+            "label": "Øverst i midten"
+          },
+          "options__3": {
+            "label": "Øverst til høyre"
+          },
+          "options__4": {
+            "label": "Midt til venstre"
+          },
+          "options__5": {
+            "label": "Midt i midten"
+          },
+          "options__6": {
+            "label": "Midt til høyre"
+          },
+          "options__7": {
+            "label": "Nede til venstre"
+          },
+          "options__8": {
+            "label": "Nederst i midten"
+          },
+          "options__9": {
+            "label": "Nede til høyre"
+          }
+        },
+        "paragraph__3": {
+          "content": "Alle kunder som registrerer seg vil ha en konto opprettet for dem i Shopify. [Se kunder](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "popup_icon": {
+          "label": "Send-ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "header__4": {
+          "content": "Utløserinnstillinger"
+        },
+        "popup_enable_time_based_trigger": {
+          "label": "Aktiver tidsbasert trigger"
+        },
+        "popup_time_based_trigger_timeout": {
+          "label": "Tid",
+          "info": "Popup vil vises etter X sekunder"
+        },
+        "popup_enable_exit_intent_trigger": {
+          "label": "Aktiver utløser for avslutningsintensjon"
+        },
+        "popup_enable_scroll_depth_trigger": {
+          "label": "Aktiver rulledybdeutløser"
+        },
+        "popup_scroll_depth_percentage": {
+          "label": "Rulledybde",
+          "info": "Popup vil vise når kunden ruller siden med X prosenter"
+        },
+        "header__5": {
+          "content": "Suksessinnstillinger"
+        },
+        "header__6": {
+          "content": "Kundemerke"
+        },
+        "customer_tag": {
+          "label": "stikkord",
+          "info": "Tagget vil bli lagt til denne kunden og kan brukes til å utløse e-postautomatisering."
+        },
+        "paragraph__4": {
+          "content": "Alle kunder som registrerer seg vil ha en konto opprettet for dem i Shopify. [Se kunder](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "header__7": {
+          "content": "Rabattkode",
+          "info": "[Opprett en rabattkode](/admin/rabatter/ny)"
+        },
+        "discount_name": {
+          "label": "Navn"
+        },
+        "discount_amount": {
+          "label": "Beløp"
+        },
+        "discount_type": {
+          "label": "Type",
+          "options__1": {
+            "label": "Prosentdel"
+          },
+          "options__2": {
+            "label": "Fast beløp"
+          }
+        }
+      }
+    },
+    "order_feedback": {
+      "select_title": "Hvordan hørte du om oss?",
+      "default_options_text": "Denne alternativverdien er tom",
+      "select_options": "Facebook, Twitter, Google, Instagram, Youtube",
+      "error_message": "Vennligst velg et alternativ nedenfor",
+      "other_option_text": "Annen",
+      "other_option_placeholder": "F.eks. Min venn Leo",
+      "other_error_message": "Fyll ut tekstfeltet nedenfor",
+      "title": "Hvordan hørte du om oss?",
+      "other_title": "Hvordan hørte du om oss fra andre?"
+    },
+    "order_tracking": {
+      "input_placeholder": "Skriv inn sporingsnummeret ditt...",
+      "button_text": "Spor min bestilling"
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "Fjern fra Quick Compare",
+      "add_to_compare_text": "Legg til Quick Compare",
+      "title_modal": "Rask sammenligning",
+      "empty_table": "For øyeblikket er det ingen elementer i hurtigsammenligningslisten",
+      "images_cell": "Bilder",
+      "title_cell": "Tittel",
+      "price_cell": "Pris",
+      "type_cell": "Type",
+      "vendor_cell": "Leverandør",
+      "collections_cell": "Samlinger",
+      "tags_cell": "Tagger",
+      "short_description_cell": "Kort beskrivelse"
+    },
+    "recently_viewed": {
+      "name": "⚡ Nylig sett",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5057690-how-to-display-recently-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "products_limit": {
+          "label": "Skjul på mobil"
+        },
+        "header__3": {
+          "content": "Flytende stang"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "Vis på skrivebordet"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "Vis på mobil"
+        },
+        "floating_bar_position": {
+          "label": "Posisjon",
+          "options__1": {
+            "label": "Venstre"
+          },
+          "options__2": {
+            "label": "Ikke sant"
+          }
+        },
+        "header__4": {
+          "content": "Seksjon"
+        },
+        "section_products_per_row_desktop": {
+          "label": "Produkter per rad (skrivebord)"
+        },
+        "section_products_per_row_mobile": {
+          "label": "Produkter per rad (mobil)"
+        },
+        "header__5": {
+          "content": "Karusell"
+        },
+        "carousel_enable": {
+          "label": "Aktiver karusell"
+        },
+        "carousel_show_arrows": {
+          "label": "Vis piler"
+        },
+        "carousel_show_dots": {
+          "label": "Vis prikker"
+        },
+        "carousel_auto_rotate": {
+          "label": "Roterte biler"
+        },
+        "carousel_rotation_speed": {
+          "label": "Rotasjonsfart"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "Produkter som skal vises på rad"
+        }
+      }
+    },
+    "shop_protect": {
+      "name": "⚡ Beskytt butikk",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5054230-how-to-use-shop-protect-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "disable_image_copy": {
+          "label": "Deaktiver kopiering av bilder"
+        },
+        "disable_image_drag_and_drop": {
+          "label": "Deaktiver dra og slipp bilder"
+        },
+        "disable_product_text_copy": {
+          "label": "Deaktiver produkttekstkopiering"
+        },
+        "disable_article_text_copy": {
+          "label": "Deaktiver artikkeltekstkopiering"
+        },
+        "disable_best_selling": {
+          "label": "Deaktiver bestselgende samlinger",
+          "info": "Sørg for at samlingene dine ikke er sortert etter bestselgende. [Rediger samlingssortering](/admin/samlinger)"
+        }
+      }
+    },
+    "smart_search": {
+      "name": "⚡ Smart søk",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg vår trinnvise veiledning](https://help.debutify.com/en/articles/5054239-how-to-use-smart-search-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Resultatinnstillinger"
+        },
+        "show_price": {
+          "label": "Vis pris"
+        },
+        "show_vendor": {
+          "label": "Vis leverandøren"
+        },
+        "result_limit": {
+          "label": "Resultatgrense"
+        }
+      }
+    },
+    "social_discount": {
+      "name": "⚡ Sosial rabatt",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5057551-how-to-use-a-social-discount-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Popup-innstillinger"
+        },
+        "popup_width": {
+          "label": "Størrelse",
+          "options__1": {
+            "label": "Liten"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Stor"
+          }
+        },
+        "header__4": {
+          "content": "Suksessinnstillinger"
+        },
+        "header__5": {
+          "content": "Rabattkode",
+          "info": "[Opprett en rabattkode](/admin/rabatter/ny)"
+        },
+        "discount_name": {
+          "label": "Navn"
+        },
+        "discount_amount": {
+          "label": "Beløp"
+        },
+        "discount_type": {
+          "label": "Type",
+          "options__1": {
+            "label": "Prosentdel"
+          },
+          "options__2": {
+            "label": "Fast beløp"
+          }
+        }
+      }
+    },
+    "sold_items": {
+      "name": "⚡ Solgte varer",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg vår trinnvise veiledning](https://help.debutify.com/en/articles/5447397-how-to-enable-the-sold-items-add-on-in-debutify)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "position": {
+          "label": "Posisjon",
+          "options__1": {
+            "label": "Under produktpris"
+          },
+          "options__2": {
+            "label": "Under Legg i handlekurv-knappen"
+          }
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Se alle tilgjengelige ikoner](https://material.io/resources/icons)"
+        },
+        "minimum_range": {
+          "label": "Minimum rekkevidde"
+        },
+        "maximum_range": {
+          "label": "Maksimal rekkevidde"
+        },
+        "interval_time": {
+          "label": "Still inn intervalltid (time)"
+        }
+      }
+    },
+    "sticky_add_to_cart": {
+      "name": "⚡ Klistret tillegg i handlekurv",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg trinn-for-trinn-veiledningen vår](https://help.debutify.com/en/articles/5054241-how-to-display-a-sticky-add-to-cart-bar-in-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "show_star_rating": {
+          "label": "Maksimal rekkevidde"
+        },
+        "enable_add_to_cart_animation": {
+          "label": "Maksimal rekkevidde"
+        },
+        "enable_simplified_display": {
+          "label": "Maksimal rekkevidde"
+        },
+        "position": {
+          "label": "Posisjon",
+          "options__1": {
+            "label": "Topp"
+          },
+          "options__2": {
+            "label": "Bunn"
+          }
+        }
+      }
+    },
+    "trust_badge": {
+      "name": "⚡ Tillitsmerke",
+      "settings": {
+        "header__1": {
+          "content": "Hjelpesenter"
+        },
+        "paragraph__1": {
+          "content": "[Følg vår trinnvise veiledning](https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "For å aktivere/deaktivere dette tillegget, gå til Temainnstillinger > Debutify-tillegg."
+        },
+        "header__2": {
+          "content": "Innstillinger"
+        },
+        "show_on_product_page": {
+          "label": "Vises på produktsiden"
+        },
+        "show_on_cart_page": {
+          "label": "Vises på handlekurvside/skuff"
+        },
+        "enable_small_text": {
+          "label": "Liten tekst"
+        },
+        "position_in_cart_drawer": {
+          "label": "Plasser i vognskuff",
+          "options__1": {
+            "label": "Egen seksjon"
+          },
+          "options__2": {
+            "label": "Under Checkout-knappen"
+          }
+        },
+        "badge_image": {
+          "label": "Bilde",
+          "info": "La det stå tomt for standardikoner"
+        },
+        "text_position": {
+          "label": "Tekstposisjon",
+          "options__1": {
+            "label": "Ovenfor"
+          },
+          "options__2": {
+            "label": "Under"
+          }
+        },
+        "badge_width": {
+          "label": "Bildebredde",
+          "options__1": {
+            "label": "Ekstra liten"
+          },
+          "options__2": {
+            "label": "Liten"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Stor"
+          },
+          "options__5": {
+            "label": "Ekstra stor"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "Legg til ønskeliste",
+      "remove_from_wishlist_text": "Fjern fra ønskeliste",
+      "empty_wishlist_text": "Ønskelisten din er tom.",
+      "share_wishlist_text": "Del ønskeliste"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "Tagger",
+      "read_more": "Fortsett å lese",
+      "view_all": "Se alt",
+      "back_to_blog": "Tilbake til {{ title }}"
+    },
+    "comments": {
+      "title": "Legg igjen en kommentar",
+      "name": "Navn",
+      "email": "E-post",
+      "message": "Beskjed",
+      "post": "Post Kommentar",
+      "moderated": "Merk at kommentarer må godkjennes før de publiseres",
+      "success_moderated": "Kommentaren din ble lagt ut. Vi vil publisere den om en liten stund, ettersom bloggen vår er moderert.",
+      "success": "Kommentaren din ble lagt ut! Takk skal du ha!",
+      "with_count": {
+        "one": "{{ count }} kommentar",
+        "other": "{{ count }} kommentarer"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Handlevognen din",
+      "remove": "Fjerne",
+      "note": "Spesielle instruksjoner for selger",
+      "subtotal": "Delsum",
+      "taxes_and_shipping_at_checkout": "Avgifter og frakt beregnes i kassen",
+      "taxes_and_shipping_policy_at_checkout_html": "Avgifter og <a href=\"{{ link }}\">frakt</a> beregnes i kassen",
+      "taxes_included_but_shipping_at_checkout": "Inkludert moms og frakt beregnes i kassen",
+      "taxes_included_and_shipping_policy_html": "Avgift inkludert. <a href=\"{{ link }}\">Frakt</a> beregnes i kassen.",
+      "update": "Oppdater handlekurven",
+      "checkout": "Sjekk ut",
+      "empty": "Handlevognen din er tom.",
+      "continue_browsing_html": "Fortsett å surfe",
+      "close_cart": "Lukk handlekurven",
+      "savings_html": "Du sparer {{ savings }}",
+      "reduce_quantity": "Reduser varemengden med én",
+      "increase_quantity": "Øk vareantallet med én",
+      "cookies_required": "Aktiver informasjonskapsler for å bruke handlekurven",
+      "custom_currency_html": "Alle bestillinger behandles i {{ shopCurrency }}. Mens innholdet i handlekurven din for øyeblikket vises i<span class='selected-currency'></span> , betaler du med {{ shopCurrency }} til den nyeste valutakursen."
+    },
+    "label": {
+      "quantity": "Antall",
+      "total": "Totalt"
+    },
+    "cart_message": {
+      "text": "Varen er lagt til",
+      "button_label": "Se handlekurv"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Katalog",
+      "all_of_collection": "Alle",
+      "no_matches": "Beklager, det er ingen produkter i denne samlingen."
+    },
+    "sorting": {
+      "title": "Sorter etter",
+      "title_tags": "Filtrer etter",
+      "all_of_collection": "Alle {{ collection }}"
+    },
+    "grid": {
+      "button_label": "Handle nå"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Navn",
+      "email": "E-post",
+      "phone": "Telefonnummer",
+      "message": "Beskjed",
+      "send": "Sende",
+      "post_success": "Takk for at du kontaktet oss. Vi kommer tilbake til deg så snart som mulig."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Min konto",
+      "details": "kontodetaljer",
+      "view_addresses": "Se adresser",
+      "return": "Gå tilbake til kontodetaljer"
+    },
+    "activate_account": {
+      "title": "Aktiver konto",
+      "subtext": "Opprett passordet ditt for å aktivere kontoen din.",
+      "password": "Passord",
+      "password_confirm": "bekreft passord",
+      "submit": "Aktiver konto",
+      "cancel": "Avslå invitasjon"
+    },
+    "addresses": {
+      "title": "Dine adresser",
+      "default": "Misligholde",
+      "add_new": "Legg til en ny adresse",
+      "edit_address": "Rediger adresse",
+      "first_name": "Fornavn",
+      "last_name": "Etternavn",
+      "company": "Selskap",
+      "address1": "Adresse 1",
+      "address2": "Adresse 2",
+      "city": "By",
+      "country": "Land/region",
+      "province": "Provins",
+      "zip": "Postnummer",
+      "phone": "Telefon",
+      "set_default": "Angi som standardadresse",
+      "add": "Legg til adresse",
+      "update": "Oppdater adresse",
+      "cancel": "Avbryt",
+      "edit": "Redigere",
+      "delete": "Slett"
+    },
+    "login": {
+      "title": "Logg Inn",
+      "email": "E-post",
+      "password": "Passord",
+      "forgot_password": "Glemt passordet?",
+      "sign_in": "Logg inn",
+      "cancel": "Gå tilbake til butikken",
+      "guest_title": "Fortsett som gjest",
+      "guest_continue": "Fortsette"
+    },
+    "orders": {
+      "title": "Ordrehistorikk",
+      "order_number": "Rekkefølge",
+      "date": "Dato",
+      "payment_status": "Betalingsstatus",
+      "fulfillment_status": "Oppfyllelsesstatus",
+      "total": "Total",
+      "none": "Du har ikke lagt inn noen bestillinger ennå."
+    },
+    "order": {
+      "title": "Bestill {{ name }}",
+      "date": "Plassert på {{ date }}",
+      "cancelled": "Bestillingen kansellert {{ date }}",
+      "cancelled_reason": "Årsak: {{ reason }}",
+      "billing_address": "fakturaadresse",
+      "payment_status": "Betalingsstatus",
+      "shipping_address": "Sendingsadresse",
+      "fulfillment_status": "Oppfyllelsesstatus",
+      "discount": "Rabatt",
+      "shipping": "Shipping",
+      "tax": "Avgift",
+      "product": "Produkt",
+      "sku": "SKU",
+      "price": "Pris",
+      "quantity": "Mengde",
+      "total": "Total",
+      "fulfilled_at": "Oppfylt {{ date }}",
+      "subtotal": "Delsum",
+      "track_shipment": "Spor forsendelse"
+    },
+    "recover_password": {
+      "title": "Tilbakestill passordet ditt",
+      "email": "E-post",
+      "submit": "Sende inn",
+      "cancel": "Avbryt",
+      "subtext": "Vi sender deg en e-post for å tilbakestille passordet ditt.",
+      "success": "Vi har sendt deg en e-post med en lenke for å oppdatere passordet ditt."
+    },
+    "reset_password": {
+      "title": "Tilbakestill kontopassordet",
+      "subtext": "Skriv inn et nytt passord for {{ email }}",
+      "password": "Passord",
+      "password_confirm": "bekreft passord",
+      "submit": "Tilbakestille passord"
+    },
+    "register": {
+      "title": "Opprett konto",
+      "first_name": "Fornavn",
+      "last_name": "Etternavn",
+      "email": "E-post",
+      "password": "Passord",
+      "submit": "Skape",
+      "cancel": "Gå tilbake til butikken"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "Bruk venstre/høyre-pilene for å navigere i lysbildefremvisningen eller sveip til venstre/høyre hvis du bruker en mobilenhet",
+      "next_slide": "Neste lysbilde",
+      "previous_slide": "Forrige lysbilde",
+      "play": "Spill av lysbildefremvisning",
+      "pause": "Sett lysbildefremvisningen på pause",
+      "load_slide": "Last inn lysbildet {{ slide_number }}",
+      "active_slide": "Lysbilde {{ slide_number }}, gjeldende"
+    },
+    "onboarding": {
+      "product_vendor": "Produktleverandør",
+      "product_title": "Eksempel på produkttittel",
+      "collection_title": "Eksempel på samlingstittel",
+      "blog_title": "Innleggets tittel",
+      "blog_excerpt": "Butikken din har ikke publisert noen blogginnlegg ennå. En blogg kan brukes til å snakke om nye produktlanseringer, tips eller andre nyheter du ønsker å dele med kundene dine. Du kan sjekke ut Shopifys e-handelsblogg for inspirasjon og råd til din egen butikk og blogg.",
+      "no_content": "Denne delen inneholder for øyeblikket ikke noe innhold. Legg til innhold i denne delen ved å bruke sidefeltet."
+    },
+    "map": {
+      "address_error": "Feil ved å finne den adressen",
+      "address_no_results": "Ingen resultater for den adressen",
+      "address_query_limit_html": "Du har overskredet Google API-bruksgrensen. Vurder å oppgradere til en <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a> .",
+      "auth_error_html": "Det oppsto et problem med å autentisere Google Maps-kontoen din."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Handlevogn"
+    },
+    "customer": {
+      "account": "Regnskap",
+      "log_out": "Logg ut",
+      "log_in": "Logg Inn",
+      "create_account": "Opprett konto"
+    },
+    "footer": {
+      "social_platform": "{{ name }} på {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "Lagre {{ saved_amount }}",
+      "collection_return": "Tilbake til {{ collection }}",
+      "sale_price": "Salgs pris",
+      "regular_price": "Vanlig pris",
+      "include_taxes": "Avgift inkludert.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beregnes i kassen.",
+      "unit_price": "Enhetspris"
+    },
+    "product": {
+      "sold_out": "Utsolgt",
+      "sold_out_html": "Utsolgt",
+      "unavailable": "Utilgjengelig",
+      "quantity": "Mengde",
+      "add_to_cart": "Legg i handlekurv",
+      "replace": "Erstatte",
+      "full_details": "Fullstendige detaljer",
+      "view_more": "Se mer",
+      "view_in_space": "Se i rommet ditt",
+      "view_in_space_label": "Se i rommet ditt, laster inn element i utvidet virkelighet-vindu",
+      "slide_label": "Lysbilde {{ slide_number }} av {{ slide_max }}.",
+      "gallery_thumbnail_alt": "Last inn bildet i Gallery Viewer, {{ imageAlt }}",
+      "video_thumbnail_alt": "Last inn og spill av video i Galleri-visning, {{ imageAlt }}",
+      "model_thumbnail_alt": "Last inn 3D-modellen i Gallery Viewer, {{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "Neste (høyre piltast)",
+      "prev": "Forrige (venstre piltast)",
+      "close": "Lukk (Esc)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Her er {{ value }}-gavekortet ditt for {{ shop }}!",
+      "subtext": "Her er gavekortet ditt!",
+      "disabled": "Funksjonshemmet",
+      "expired": "Utløp {{ expiry }}",
+      "active": "Utløper {{ expiry }}",
+      "redeem": "Bruk denne koden i kassen for å løse inn gavekortet ditt",
+      "shop_link": "Begynn å handle",
+      "print": "Skrive ut",
+      "add_to_apple_wallet": "Legg til Apple Wallet"
+    }
+  }
+}

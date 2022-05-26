@@ -1,0 +1,276 @@
+<section class="collection-banner">
+	<div class="collection-all-bnr">
+		<div class="grid grid-spacer align-items-center for_all_products">
+
+			<div class="grid__item medium--six-twelfts large--seven-twelfths">
+				<div class="txt ">
+					<div class="flex direction">
+						{% if product.metafields.my_fields.header_video_left != blank %}
+						<h2 class="text-size text-banner">{{ product.metafields.my_fields.header_video_left }}</h2>
+						{% else %}
+						<h2 class="text-size text-banner">{{ section.settings.title }}</h2>
+						{% endif %}
+						{% if product.metafields.my_fields.text_video_left != blank %}
+						{{ product.metafields.my_fields.text_video_left }}
+						{% else %}
+						{{ section.settings.text }}
+						{% endif %}
+					</div>
+				</div>
+			</div>
+			<div class="grid__item medium--six-twelfts large--five-twelfths">
+				<div class="right_img">
+					<div class="right_img">
+
+						<div class="video_box">
+							{% if product.metafields.my_fields.video_link != blank %}
+							<div class="width-video">
+								<iframe src="{{ product.metafields.my_fields.video_link }}">
+								</iframe>
+							</div>
+
+
+							{% else %}
+
+							<div class="play_icon">Play</div>
+
+							<video id="collection_video" poster="{{ section.settings.right_image | img_url:'master' }}"
+								alt="{{ section.settings.right_image.alt }}">
+								<source src="{{ section.settings.video_link }}" type="video/mp4">
+								Your browser does not support the video tag.
+							</video>
+							{% endif %}
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+
+{% schema %}
+{
+"name": "Product video",
+"settings": [
+{
+"type": "url",
+"id": "video_link",
+"label": {
+"en": "Video link"
+}
+},
+
+{
+"type": "image_picker",
+"id": "right_image",
+"label": "Right Image"
+},
+{
+"type": "text",
+"id": "title",
+"label": "Heading",
+"default": "Some Title Here"
+},
+{
+"type": "richtext",
+"label": "Text",
+"id": "text"
+}
+],
+"presets": [
+{
+"name": "Product video",
+"category": "Advanced Layout"
+}
+]
+}
+{% endschema %}
+
+<script>
+	var vid = document.getElementById("collection_video");
+	$('.play_icon').on('click', function () {
+		$(this).hide();
+		vid.play();
+		vid.setAttribute("controls", "controls");
+	});
+	vid.addEventListener('click', function () {
+		if (vid.paused == false) {
+			vid.load();
+			vid.removeAttribute("controls");
+			$('.play_icon').show();
+		} else {
+		}
+	});
+</script>
+
+{% style %}
+
+.text-banner {
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 33px;
+text-transform: capitalize;
+
+color: #242424;
+
+}
+.align-items-center {
+align-items: center;
+}
+
+
+.collection-all-bnr {
+padding: 8rem 0;
+position: relative;
+background-color: #fff;
+}
+.collection-all-bnr:after {
+content: "";
+position: absolute;
+left: 0;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+margin: 0 auto;
+width: 70%;
+height: 82%;
+background: #F5F5F5;
+}
+.for_all_products {
+position: relative;
+z-index: 1;
+align-items: center;
+}
+.collection-all-bnr h3 {
+font-style: italic;
+}
+
+.collection-wrapper {
+padding: 4rem 0;
+text-align: center;
+}
+.collection-all-bnr img {
+width: 100%;
+}
+
+.collection-right-image-text {
+padding-top: 4rem;
+padding-bottom: 9rem;
+position: relative;
+}
+.collection-right-image-text .txt {
+text-align: center;
+padding-right: 3rem;
+}
+.collection-right-image-text .container {
+position: relative;
+z-index: 9;
+}
+.collection-right-image-text img {
+width: 100%;
+}
+.collection-right-image-text:after {
+content: "";
+position: absolute;
+right: 0;
+top: 0;
+width: 40%;
+height: 68%;
+background: #e9e1f8;
+}
+
+.direction {
+flex-direction: column;
+left: 34%;
+position: relative;
+max-width: 60%;
+}
+
+.right_img .video_box video {
+object-fit: fill;
+width: 100%;
+}
+
+.video_box .play_icon {
+position: absolute;
+left: 60%;
+right: 0;
+top: 50%;
+transform: translateY(-50%);
+margin: 0 auto;
+z-index: 99;
+cursor: pointer;
+width: 89px;
+height: 89px;
+line-height: 89px;
+text-align: center;
+border: 2px solid #fafafa;
+border-radius: 50%;
+font-size: 0;
+}
+.video_box .play_icon:after {
+content: "";
+border-top: 14px solid transparent;
+border-bottom: 14px solid transparent;
+border-left: 20px solid #fff;
+}
+
+@media only screen and (max-width: 758px) {
+.direction {
+
+left: 0;
+padding-left:16px;
+max-width: 100%;
+
+}
+
+.right_img .video_box video {
+width: 100%;
+}
+
+.video_box .play_icon {
+left: 0;
+top: 71%;
+}
+
+.collection-all-bnr {
+background: #F5F5F5;
+
+}
+.collection-right-image-text .txt {
+
+padding-right: 0;
+text-align: left;
+}
+
+.right_img .video_box video {
+max-width: 100%;
+}
+
+.collection-all-bnr {
+padding: 4rem 0;
+
+}
+
+.video_box {
+margin-right: 8px;
+margin-left: 8px;
+}
+
+.text-size {
+
+font-weight: 600;
+font-size: 22px;
+line-height: 30px;
+font-style: italic;
+}
+}
+
+{% endstyle %}

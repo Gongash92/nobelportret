@@ -1,0 +1,895 @@
+{%- assign nav_type = section.settings.navigation_type -%}
+
+<div class="header-container autohide fadeIn" data-section-type="header-section" id="header">
+
+  <!-- Header -->
+  <header class="site-header navbar" role="banner">
+    <div class="block autohide-two">
+      <div class="wrapper logo">
+        <div>
+          <div class="flex justify-center">
+            <a href="/">
+              <img class="logo-padding" src={{ 'logo.png' | asset_url }} alt="" srcset="">
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="border ">
+        <div class="wrapper header-wrapper   flex align-center">
+
+          <div class="flex  align-center ">
+
+            <!-- left icons -->
+            <div class="flex large--hide large--flex-fill large--flex-automedium--flex-auto small--flex-auto ">
+              <ul class="inner-nav-containers  ">
+                <li class="site-nav__item site-nav--open">
+                  <a href="" class="site-nav__link site-nav__link--icon js-drawer-open-button-left color" aria-controls="NavDrawer" aria-label="{{ 'general.drawers.navigation' | t }}" title="{{ 'general.drawers.navigation' | t }}">
+                    <span class="{{ settings.icon }}" aria-hidden="true">menu</span>
+                  </a>
+                </li>
+
+                {%- render 'dbtfy-wish-list', type: 'menu' -%}
+
+              </ul>
+            </div>
+
+            <!-- Logo -->
+
+          </div>
+          <div class="flex  align-center ">
+
+            <!-- Navigation menu -->
+            <div class="flex large--eight-twelfths large--flex-fill medium--hide small--hide nav-containers nav-container-menu">
+              <ul class="inner-nav-containers  flex gap">
+                {%- render "dbtfy-mega-menu" -%}
+
+                {%- for link in linklists[section.settings.main_menu_link_list].links -%}
+                  {%- if link.links != blank -%}
+                    {%- assign parent_index = forloop.index -%}
+
+                    <li class="dropdown site-nav__item{% if link.active %} site-nav--active{% endif %}">
+                      <a id="MenuParentToggle-{{ parent_index }}" href="{{ link.url }} color" class="dropdown-toggle site-nav__link color" aria-controls="MenuParent-{{ parent_index }}" aria-haspopup="true" aria-expanded="false" {% unless request.page_type=='index' %} {% if link.active %} aria-current="page" {% endif %} {% endunless %}>
+                        {{ link.title | escape }}
+                        <span class="{{ settings.icon }}" aria-hidden="true">keyboard_arrow_down</span>
+                      </a>
+
+                      <ul aria-labelledby="MenuParentToggle-{{ parent_index }}" class="dropdown-menu dropdown-list-parent" id="MenuParent-{{ parent_index }}">
+                        {%- for childlink in link.links -%}
+                          {%- if childlink.links != blank -%}
+                            {%- assign child_index = forloop.index -%}
+
+                            <!-- 2 level dropdown -->
+                            <li class="dropdown-item dropdown dropdown-item-has-grandchild">
+                              <a id="MenuChildrenToggle-{{ parent_index }}-{{ child_index }}" href="{{ childlink.url }} " class="dropdown-link dropdown-toggle site-nav__dropdown-link {% if childlink.active %}dropdown-link-active{% endif %}" aria-controls="MenuChildren-{{ parent_index }}-{{ child_index }}" aria-haspopup="true" aria-expanded="false" {% unless request.page_type=='index' %} {% if childlink.active %} aria-current="page" {% endif %} {% endunless %}>
+                                {{ childlink.title | escape }}
+                              </a>
+
+                              <ul aria-labelledby="MenuChildrenToggle-{{ parent_index }}-{{ child_index }}" class="dropdown-menu dropdown-menu-grandchild" id="MenuChildren-{{ parent_index }}-{{ child_index }}">
+                                {%- for grandchildlink in childlink.links -%}
+                                  <li class="dropdown-item">
+                                    <a href="{{ grandchildlink.url }}" class=" dropdown-link{% if grandchildlink.active %} dropdown-link-active{% endif %}" {% unless request.page_type=='index' %} {% if grandchildlink.active %} aria-current="page" {% endif %} {% endunless %}>
+                                      {{ grandchildlink.title | escape }}
+                                    </a>
+                                  </li>
+                                {%- endfor -%}
+                              </ul>
+                            </li>
+                          {%- else -%}
+                            <!-- 1 level dropdown -->
+                            <li class="dropdown-item">
+                              <a href="{{ childlink.url }}" class=" dropdown-link{% if childlink.active %} dropdown-link-active{% endif %}" {% if childlink.active %} aria-current="page" {% endif %}>
+                                {{ childlink.title | escape }}
+                              </a>
+                            </li>
+                          {%- endif -%}
+                        {%- endfor -%}
+                      </ul>
+                    </li>
+                  {%- else -%}
+                    <!-- only 1 link, no dropdown -->
+                    <li class="site-nav__item {% if link.active %} site-nav--active{% endif %}">
+                      <a href="{{ link.url }}" class="color site-nav__link color hover" {% unless request.page_type=='index' %} {% if link.active %} aria-current="page" {% endif %} {% endunless %}>
+                        {{ link.title | escape }}
+                      </a>
+                    </li>
+                  {%- endif -%}
+                {%- endfor -%}
+              </ul>
+            </div>
+          </div>
+
+          <!-- right icons -->
+          <div class="grid__item large--flex-auto large--flex-fill medium--flex-fill small--flex-fill whitespace-nowrap text-right nav-containers nav-container-right-icons">
+            <ul class="inner-nav-containers flex icons-justify-end__mobile">
+              {%- if settings.search_enabled -%}
+                <li class="site-nav__item ">
+                  <a href="/search" class="color site-nav__link site-nav__link--icon js-drawer-open-button-top color" aria-controls="SearchDrawer" aria-label="{{ 'general.search.title' | t }}" title="{{ 'general.search.title' | t }}">
+                    <span aria-hidden="true" class="icon-size">
+                      <svg fill="none" height="13" viewbox="0 0 13 13" width="13" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.8">
+                          <path d="M5.72493 0C2.56829 0 0 2.56829 0 5.72493C0 8.88174 2.56829 11.4499 5.72493 11.4499C8.88174 11.4499 11.4499 8.88174 11.4499 5.72493C11.4499 2.56829 8.88174 0 5.72493 0ZM5.72493 10.393C3.151 10.393 1.05691 8.29888 1.05691 5.72495C1.05691 3.15103 3.151 1.05691 5.72493 1.05691C8.29885 1.05691 10.3929 3.151 10.3929 5.72493C10.3929 8.29885 8.29885 10.393 5.72493 10.393Z" fill="currentColor"/>
+                          <path d="M12.845 12.0979L9.81517 9.06811C9.60872 8.86166 9.27438 8.86166 9.06792 9.06811C8.86147 9.27438 8.86147 9.60908 9.06792 9.81535L12.0977 12.8452C12.201 12.9484 12.3361 13 12.4714 13C12.6065 13 12.7417 12.9484 12.845 12.8452C13.0514 12.6389 13.0514 12.3042 12.845 12.0979Z" fill="currentColor"/>
+                        </g>
+                      </svg>
+                    </span>
+                  </a>
+                </li>
+              {%- endif -%}
+              {%- if shop.customer_accounts_enabled -%}
+                <li class="site-nav__item">
+                  <div class="dropdown">
+                    <button type="button" id="HeaderAccountToggle" class="dropdown-toggle localization-toggle site-nav__link site-nav__link--icon account-link color" title="{%- if customer -%}{{ 'customer.account.title' | t }}{%- else -%}{{ 'layout.customer.log_in' | t }}{%- endif -%}" aria-label="{%- if customer -%}{{ 'customer.account.title' | t }}{%- else -%}{{ 'layout.customer.log_in' | t }}{%- endif -%}" aria-controls="HeaderAccountMenu" aria-haspopup="true" aria-expanded="false">
+                      {%- if customer -%}
+                        <span class="customer-name text-small small--hide icon-middle">{{ customer.first_name | capitalize
+											}}</span>
+                      {%- endif -%}
+                      <span aria-hidden="true" class="icon-size">
+                        <svg fill="none" height="14" viewbox="0 0 21 14" width="21" xmlns="http://www.w3.org/2000/svg">
+                          <g opacity="0.8">
+                            <path d="M6.097 6.84208C4.2294 6.84208 2.70996 5.30749 2.70996 3.4211C2.70996 1.53472 4.2294 0 6.097 0C7.9646 0 9.48404 1.53472 9.48404 3.4211C9.48404 5.30749 7.9646 6.84208 6.097 6.84208ZM6.097 1.02632C4.78966 1.02632 3.72606 2.10049 3.72606 3.4211C3.72606 4.74158 4.78966 5.81576 6.097 5.81576C7.40433 5.81576 8.46794 4.74158 8.46794 3.4211C8.46794 2.10049 7.40433 1.02632 6.097 1.02632Z" fill="currentColor"/>
+                            <path d="M11.6851 14H0.508049C0.227605 14 0 13.7701 0 13.4868V11.0921C0 9.30014 1.44353 7.84209 3.21761 7.84209H8.97558C10.7497 7.84209 12.1932 9.30014 12.1932 11.0921V13.4868C12.1932 13.7701 11.9656 14 11.6851 14ZM1.0161 12.9737H11.1771V11.0921C11.1771 9.86604 10.1894 8.86841 8.97558 8.86841H3.21761C2.00379 8.86841 1.0161 9.86604 1.0161 11.0921V12.9737Z" fill="currentColor"/>
+                            <path d="M20.4918 7.01323H13.3791C13.0987 7.01323 12.8711 6.78333 12.8711 6.50007C12.8711 6.2168 13.0987 5.98691 13.3791 5.98691H20.4918C20.7723 5.98691 20.9999 6.2168 20.9999 6.50007C20.9999 6.78333 20.7723 7.01323 20.4918 7.01323Z" fill="currentColor"/>
+                            <path d="M17.7823 9.75002C17.6522 9.75002 17.5222 9.70004 17.4233 9.59956C17.2248 9.39898 17.2248 9.074 17.4233 8.87354L19.7739 6.49931L17.4233 4.12507C17.2248 3.92462 17.2248 3.59963 17.4233 3.39918C17.6217 3.19873 17.9435 3.19873 18.142 3.39918L20.8516 6.13599C21.0501 6.33644 21.0501 6.66155 20.8516 6.862L18.142 9.59881C18.0424 9.70004 17.9123 9.75002 17.7823 9.75002Z" fill="currentColor"/>
+                          </g>
+                        </svg>
+                      </span>
+                    </button>
+
+                    <ul aria-labelledby="HeaderAccountToggle" class="dropdown-menu dropdown-parent" id="HeaderAccountMenu">
+                      {%- if customer -%}
+                        <li class="dropdown-item">
+                          <a href="{{ routes.account_url }}" class=" color dropdown-link{% if request.path == routes.account_url %} dropdown-link-active{% endif %}" {% if request.path==routes.account_url %} aria-current="page" {% endif %}>
+                            <span class="{{ settings.icon }} icon-width">account_circle</span>
+                            {{ 'customer.account.title' | t }}
+                          </a>
+                        </li>
+
+                        <li class="dropdown-item">
+                          <a href="color {{ routes.account_logout_url }}" class="dropdown-link{% if request.path == routes.account_logout_url %} dropdown-link-active{% endif %}" {% if request.path==routes.account_logout_url %} aria-current="page" {% endif %}>
+                            <span class="{{ settings.icon }} icon-width">exit_to_app</span>
+                            {{ 'layout.customer.log_out' | t }}
+                          </a>
+                        </li>
+                      {%- else -%}
+                        <li class="dropdown-item">
+                          <a href="color {{ routes.account_login_url }}" class="dropdown-link{% if request.path == routes.account_login_url %} dropdown-link-active{% endif %}" {% if request.path==routes.account_login_url %} aria-current="page" {% endif %}>
+                            <span class="{{ settings.icon }} icon-width">exit_to_app</span>
+                            {{ 'layout.customer.log_in' | t }}
+                          </a>
+                        </li>
+
+                        <li class="dropdown-item">
+                          <a href="color{{ routes.account_register_url }}" class="dropdown-link{% if request.path == routes.account_register_url %} dropdown-link-active{% endif %}" {% if request.path==routes.account_register_url %} aria-current="page" {% endif %}>
+                            <span class="{{ settings.icon }} icon-width">person_add</span>
+                            {{ 'layout.customer.create_account' | t }}
+                          </a>
+                        </li>
+                      {%- endif -%}
+                    </ul>
+                  </div>
+                </li>
+              {%- endif -%}
+
+              {%- render 'dbtfy-wish-list', type: 'menu', class: 'medium--hide small--hide' -%}
+
+
+              {%- if settings.show_locale_selector or settings.show_currency_selector -%}
+                {%- if settings.localization_position == 'header' or settings.localization_position ==
+							'header_and_footer'
+							-%}
+                  <li class="site-nav__item">
+                    {%- render "localization-form", position: "header", toggle_class: "site-nav__link
+								site-nav__link--icon"
+								-%}
+                  </li>
+                {%- endif -%}
+              {%- endif -%}
+
+              <li class="site-nav__item">
+                <a href="/cart" class="site-nav__link site-nav__link--icon cart-link js-drawer-open-button-right color" aria-controls="CartDrawer" aria-label="{{ 'layout.cart.title' | t }}" title="{{ 'layout.cart.title' | t }}">
+                  <span aria-hidden="true" class=" icon size">
+                    <svg class="" fill="none" height="14" viewbox="0 0 14 14" width="14" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12.7867 13.4152L11.9348 3.92795C11.9115 3.66886 11.6944 3.4704 11.4343 3.4704H9.67748V2.67806C9.67748 1.20138 8.47616 0 6.99955 0C5.523 0 4.32183 1.20138 4.32183 2.67806V3.4704H2.56381C2.30372 3.4704 2.08657 3.66886 2.06332 3.92795L1.20806 13.4525C1.19547 13.5931 1.2425 13.7324 1.33771 13.8365C1.43292 13.9406 1.56752 13.9999 1.70855 13.9999H12.2896C12.29 13.9999 12.2905 13.9999 12.2909 13.9999C12.5685 13.9999 12.7934 13.7749 12.7934 13.4974C12.7934 13.4695 12.7911 13.442 12.7867 13.4152ZM5.32683 2.67806C5.32683 1.75554 6.07723 1.005 6.99962 1.005C7.92207 1.005 8.67254 1.75554 8.67254 2.67806V3.4704H5.32683V2.67806ZM2.25822 12.995L3.02323 4.4754H4.32183V5.37401C4.32183 5.65152 4.54674 5.87651 4.82433 5.87651C5.10191 5.87651 5.32683 5.65152 5.32683 5.37401V4.4754H8.67254V5.37401C8.67254 5.65152 8.89746 5.87651 9.17504 5.87651C9.45262 5.87651 9.67754 5.65152 9.67754 5.37401V4.4754H10.9749L11.7399 12.995H2.25822Z" fill="currentColor"/>
+                    </svg>
+                  </span>
+                  {%- if settings.cart_count -%}
+
+                    <span class="cart-link__bubble rubberBand  cart-link__bubble--visible">
+                      {%- if
+										cart.item_count <= 99 -%}
+                        {{ cart.item_count }}
+                      {%- else -%}
+                        99+
+                      {%- endif -%}
+                    </span>
+
+
+                  {%- endif -%}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</header>
+{% schema %}
+
+{
+  "name": "t:sections.header.name",
+  "class": "header-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.header.settings.header__1.content"
+    }, {
+      "type": "link_list",
+      "id": "main_menu_link_list",
+      "label": "t:sections.header.settings.main_menu_link_list.label",
+      "default": "main-menu"
+    }, {
+      "type": "select",
+      "id": "navigation_type",
+      "label": "t:sections.header.settings.navigation_type.label",
+      "default": "center",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.header.settings.navigation_type.options__1.label"
+        }, {
+          "value": "right",
+          "label": "t:sections.header.settings.navigation_type.options__2.label"
+        }, {
+          "value": "center",
+          "label": "t:sections.header.settings.navigation_type.options__3.label"
+        }, {
+          "value": "center-logo",
+          "label": "t:sections.header.settings.navigation_type.options__4.label"
+        }, {
+          "value": "hidden",
+          "label": "t:sections.header.settings.navigation_type.options__5.label"
+        }
+      ]
+    }, {
+      "type": "header",
+      "content": "t:sections.header.settings.header__2.content"
+    }, {
+      "type": "checkbox",
+      "id": "logo_link",
+      "label": "t:sections.header.settings.logo_link.label",
+      "default": true
+    }, {
+      "type": "image_picker",
+      "id": "default_logo",
+      "label": "t:sections.header.settings.default_logo.label"
+    }, {
+      "type": "image_picker",
+      "id": "inverted_logo",
+      "label": "t:sections.header.settings.inverted_logo.label"
+    }, {
+      "type": "image_picker",
+      "id": "mobile_logo",
+      "label": "t:sections.header.settings.mobile_logo.label"
+    }, {
+      "type": "header",
+      "content": "t:sections.header.settings.header__3.content",
+      "info": "t:sections.header.settings.header__3.info"
+    }, {
+      "type": "text",
+      "id": "default_logo_svg",
+      "label": "t:sections.header.settings.default_logo_svg.label",
+      "placeholder": "logo.svg"
+    }, {
+      "type": "text",
+      "id": "inverted_logo_svg",
+      "label": "t:sections.header.settings.inverted_logo_svg.label",
+      "placeholder": "logo-inverted.svg"
+    }, {
+      "type": "text",
+      "id": "mobile_logo_svg",
+      "label": "t:sections.header.settings.mobile_logo_svg.label",
+      "placeholder": "logo-mobile.svg"
+    }, {
+      "type": "header",
+      "content": "t:sections.header.settings.header__4.content",
+      "info": "t:sections.header.settings.header__4.info"
+    }, {
+      "type": "range",
+      "id": "logo_width",
+      "label": "t:sections.header.settings.logo_width.label",
+      "min": 30,
+      "max": 200,
+      "step": 2,
+      "unit": "px",
+      "default": 200
+    }, {
+      "type": "range",
+      "id": "logo_mobile_width",
+      "label": "t:sections.header.settings.logo_mobile_width.label",
+      "min": 30,
+      "max": 150,
+      "step": 2,
+      "unit": "px",
+      "default": 100
+    }
+  ],
+  "blocks": [
+    {
+      "type": "mega",
+      "name": "t:sections.header.blocks.mega.name",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "header",
+          "content": "t:sections.header.blocks.mega.settings.header__1.content"
+        }, {
+          "type": "paragraph",
+          "content": "t:sections.header.blocks.mega.settings.paragraph__1.content"
+        }, {
+          "type": "paragraph",
+          "content": "t:sections.header.blocks.mega.settings.paragraph__2.content"
+        }, {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.header.blocks.mega.settings.title.label",
+          "info": "t:sections.header.blocks.mega.settings.title.info"
+        }, {
+          "type": "header",
+          "content": "t:sections.header.blocks.mega.settings.header__2.content"
+        }, {
+          "type": "text",
+          "id": "dbtfy_mega_menu_nav_link",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_nav_link.label",
+          "default": "Mega menu"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_nav_link_url",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_nav_link_url.label"
+        }, {
+          "type": "range",
+          "id": "dbtfy_mega_menu_position",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_position.label",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "default": 1,
+          "info": "t:sections.header.blocks.mega.settings.mega_menu_position.info"
+        }, {
+          "type": "header",
+          "content": "t:sections.header.blocks.mega.settings.header__3.content"
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_header",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_header.label",
+          "default": true
+        }, {
+          "type": "link_list",
+          "id": "dbtfy_mega_menu_multi",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi.label"
+        }, {
+          "type": "header",
+          "content": "t:sections.header.blocks.mega.settings.header__4.content"
+        }, {
+          "type": "text",
+          "id": "dbtfy_mega_menu_carousel_title",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_carousel_title.label",
+          "default": "Specials"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_carousel_title_link",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_carousel_title_link.label"
+        }, {
+          "id": "dbtfy_mega_menu_collection",
+          "type": "collection",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_collection.label"
+        }, {
+          "type": "select",
+          "id": "dbtfy_mega_menu_product_slider_count",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_product_slider_count.label",
+          "default": "2",
+          "options": [
+            {
+              "value": "1",
+              "label": "t:sections.header.blocks.mega.settings.mega_menu_product_slider_count.options__1.label"
+            }, {
+              "value": "2",
+              "label": "t:sections.header.blocks.mega.settings.mega_menu_product_slider_count.options__2.label"
+            }
+          ]
+        }, {
+          "type": "range",
+          "id": "dbtfy_mega_menu_product_slider_total_count",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_product_slider_total_count.label",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "default": 2
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_product_slider_arrows",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_product_slider_arrows.label",
+          "default": true
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_product_slider_dots",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_product_slider_dots.label",
+          "default": true
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_product_slider_autoplay",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_product_slider_autoplay.label",
+          "default": false
+        }, {
+          "type": "range",
+          "id": "dbtfy_mega_menu_product_slider_autoplayspeed",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_product_slider_autoplayspeed.label",
+          "min": 3,
+          "max": 10,
+          "step": 1,
+          "unit": "s",
+          "default": 5
+        }, {
+          "type": "header",
+          "content": "t:sections.header.blocks.mega.settings.header__5.content"
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_multi_image_slider_arrows",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_slider_arrows.label",
+          "default": true
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_multi_image_slider_dots",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_slider_dots.label",
+          "default": true
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_multi_image_slider_autoplay",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_slider_autoplay.label",
+          "default": false
+        }, {
+          "type": "range",
+          "id": "dbtfy_mega_menu_multi_image_slider_autoplayspeed",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_slider_autoplayspeed.label",
+          "min": 3,
+          "max": 10,
+          "step": 1,
+          "unit": "s",
+          "default": 5
+        }, {
+          "type": "image_picker",
+          "id": "dbtfy_mega_menu_multi_image_1",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_1.label"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_multi_image_link_1",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_link_1.label"
+        }, {
+          "type": "image_picker",
+          "id": "dbtfy_mega_menu_multi_image_2",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_2.label"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_multi_image_link_2",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_link_2.label"
+        }, {
+          "type": "image_picker",
+          "id": "dbtfy_mega_menu_multi_image_3",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_3.label"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_multi_image_link_3",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_link_3.label"
+        }, {
+          "type": "image_picker",
+          "id": "dbtfy_mega_menu_multi_image_4",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_4.label"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_multi_image_link_4",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_link_4.label"
+        }, {
+          "type": "image_picker",
+          "id": "dbtfy_mega_menu_multi_image_5",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_5.label"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_multi_image_link_5",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_link_5.label"
+        }, {
+          "type": "image_picker",
+          "id": "dbtfy_mega_menu_multi_image_6",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_6.label"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_multi_image_link_6",
+          "label": "t:sections.header.blocks.mega.settings.mega_menu_multi_image_link_6.label"
+        }
+      ]
+    }, {
+      "type": "product",
+      "name": "t:sections.header.blocks.product.name",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.header.blocks.product.settings.title.label",
+          "info": "t:sections.header.blocks.product.settings.title.info"
+        }, {
+          "type": "text",
+          "id": "dbtfy_mega_menu_nav_link",
+          "label": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_nav_link.label",
+          "default": "Mega menu"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_nav_link_url",
+          "label": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_nav_link_url.label"
+        }, {
+          "type": "range",
+          "id": "dbtfy_mega_menu_position",
+          "label": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_position.label",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "default": 1,
+          "info": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_position.info"
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_header",
+          "label": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_header.label",
+          "default": true
+        }, {
+          "type": "collection",
+          "id": "dbtfy_mega_menu_product",
+          "label": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_product.label"
+        }, {
+          "type": "select",
+          "id": "dbtfy_mega_menu_product_grid",
+          "label": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_product_grid.label",
+          "default": "5",
+          "options": [
+            {
+              "value": "4",
+              "label": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_product_grid.options__1.label"
+            }, {
+              "value": "5",
+              "label": "t:sections.header.blocks.product.settings.dbtfy_mega_menu_product_grid.options__2.label"
+            }
+          ]
+        }
+      ]
+    }, {
+      "type": "collection",
+      "name": "t:sections.header.blocks.collection.name",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.header.blocks.collection.settings.title.label",
+          "info": "t:sections.header.blocks.collection.settings.title.info"
+        }, {
+          "type": "text",
+          "id": "dbtfy_mega_menu_nav_link",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_nav_link.label",
+          "default": "Mega menu"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_nav_link_url",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_nav_link_url.label"
+        }, {
+          "type": "range",
+          "id": "dbtfy_mega_menu_position",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_position.label",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "default": 1,
+          "info": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_position.info"
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_header",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_header.label",
+          "default": true
+        }, {
+          "type": "text",
+          "id": "dbtfy_mega_menu_title",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_title.label",
+          "default": "Collections"
+        }, {
+          "type": "collection",
+          "id": "dbtfy_mega_menu_collection_1",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_collection_1.label"
+        }, {
+          "type": "collection",
+          "id": "dbtfy_mega_menu_collection_2",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_collection_2.label"
+        }, {
+          "type": "collection",
+          "id": "dbtfy_mega_menu_collection_3",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_collection_3.label"
+        }, {
+          "type": "collection",
+          "id": "dbtfy_mega_menu_collection_4",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_collection_4.label"
+        }, {
+          "type": "collection",
+          "id": "dbtfy_mega_menu_collection_5",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_collection_5.label"
+        }, {
+          "type": "collection",
+          "id": "dbtfy_mega_menu_collection_6",
+          "label": "t:sections.header.blocks.collection.settings.dbtfy_mega_menu_collection_6.label"
+        }
+      ]
+    }, {
+      "type": "blog",
+      "name": "t:sections.header.blocks.blog.name",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.header.blocks.blog.settings.title.label",
+          "info": "t:sections.header.blocks.blog.settings.title.info"
+        }, {
+          "type": "text",
+          "id": "dbtfy_mega_menu_nav_link",
+          "label": "t:sections.header.blocks.blog.settings.dbtfy_mega_menu_nav_link.label",
+          "default": "Mega menu"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_nav_link_url",
+          "label": "t:sections.header.blocks.blog.settings.dbtfy_mega_menu_nav_link_url.label"
+        }, {
+          "type": "range",
+          "id": "dbtfy_mega_menu_position",
+          "label": "t:sections.header.blocks.blog.settings.dbtfy_mega_menu_position.label",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "default": 1,
+          "info": "t:sections.header.blocks.blog.settings.dbtfy_mega_menu_position.info"
+        }, {
+          "type": "checkbox",
+          "id": "dbtfy_mega_menu_header",
+          "label": "t:sections.header.blocks.blog.settings.dbtfy_mega_menu_header.label",
+          "default": true
+        }, {
+          "type": "blog",
+          "id": "dbtfy_mega_menu_blog",
+          "label": "t:sections.header.blocks.blog.settings.dbtfy_mega_menu_blog.label"
+        }
+      ]
+    }, {
+      "type": "html",
+      "name": "t:sections.header.blocks.html.name",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "t:sections.header.blocks.html.settings.title.label",
+          "info": "t:sections.header.blocks.html.settings.title.info"
+        }, {
+          "type": "text",
+          "id": "dbtfy_mega_menu_nav_link",
+          "label": "t:sections.header.blocks.html.settings.dbtfy_mega_menu_nav_link.label",
+          "default": "Mega menu"
+        }, {
+          "type": "url",
+          "id": "dbtfy_mega_menu_nav_link_url",
+          "label": "t:sections.header.blocks.html.settings.dbtfy_mega_menu_nav_link_url.label"
+        }, {
+          "type": "range",
+          "id": "dbtfy_mega_menu_position",
+          "label": "t:sections.header.blocks.html.settings.dbtfy_mega_menu_position.label",
+          "min": 1,
+          "max": 10,
+          "step": 1,
+          "default": 1,
+          "info": "t:sections.header.blocks.html.settings.dbtfy_mega_menu_position.info"
+        }, {
+          "type": "html",
+          "id": "dbtfy_mega_menu_html",
+          "label": "t:sections.header.blocks.html.settings.dbtfy_mega_menu_html.label"
+        }
+      ]
+    }
+  ]
+}
+
+{% endschema %}
+{% style %}
+
+.header-container {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+}
+
+.header-container .gap {
+  gap: 1rem;
+}
+
+.header-container .hover {
+  display: inline-block;
+}
+
+.header-container .hover::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  background: #FFEFB6;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.header-container .hover:hover::after {
+  width: 100%;
+}
+
+.active {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+
+.active-2 {
+  background-color: transparent;
+}
+
+.header-container .color {
+  color: #242424;
+}
+
+.color-two {
+  color: #212529;
+}
+
+
+.icons-justify-end__mobile {
+  justify-content: flex-end;
+
+}
+
+.border-1 {
+  background-color: white;
+}
+
+.header-container .border {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+}
+
+.header-container .pt-4 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.header-container .logo {
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .header-container .logo {
+    background: #FFCC18;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+
+  .header-container .border {
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+.icon-size {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+.scrolled-down {
+  transform: translateY(-220%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+  transform: translateY(-220%);
+  transition: all 0.3s ease-in-out;
+}
+
+.scrolled-upp {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.announcement-message-item {
+  text-transform: uppercase;
+  color: #F95510;
+}
+
+{% endstyle %}
+
+{% javascript %}
+
+const header = document.querySelector('.autohide');
+const color = document.querySelector('.color')
+
+window.onscroll = function () {
+
+  let top = window.scrollY;
+  console.log(top)
+  if (top >= 10) {
+    color.classList.add('color-two')
+    header.classList.remove('active-2')
+    header.classList.remove('scrolled-upp')
+  } else {
+    color.classList.remove('color-two')
+    header.classList.add('active-2')
+    header.classList.add('scrolled-upp')
+  }
+}
+
+var bounce = $('.color');
+bounce.addClass('duration');
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= 80) {
+    bounce.removeClass('color');
+    bounce.addClass('color-two');
+  } else {
+    if (bounce.hasClass('color-two')) {
+      bounce.removeClass('color-two');
+      bounce.addClass('color');
+    }
+  }
+});;
+
+var bounce = $('.autohide-two');
+bounce.addClass('duration');
+$(window).scroll(function () {
+  if ($(window).scrollTop() >= 80) {
+    bounce.removeClass('active-2');
+    bounce.addClass('active');
+  } else {
+    if (bounce.hasClass('active')) {
+      bounce.removeClass('active');
+      bounce.addClass('active-2');
+    }
+  }
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  el_autohide = document.querySelector('.autohide');
+
+  if (el_autohide) {
+    var last_scroll_top = 0;
+    window.addEventListener('scroll', function () {
+      let scroll_top = window.scrollY;
+
+      if (scroll_top < last_scroll_top) {
+        el_autohide.classList.remove('scrolled-down');
+        el_autohide.classList.add('scrolled-up');
+        el_autohide.classList.add('active');
+      } else {
+        el_autohide.classList.remove('scrolled-up');
+        el_autohide.classList.add('scrolled-down');
+        el_autohide.classList.remove('active');
+      }
+      last_scroll_top = scroll_top;
+    });
+  }
+});
+
+{% endjavascript %}

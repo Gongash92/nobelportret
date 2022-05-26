@@ -1,0 +1,148 @@
+<section class="indx-banner-sec comn-bg" style="background-image:url({{ 'index-dein-haustier-als-kunstwerk.jpg' | asset_url }});">
+
+  {% if section.settings.title != blank %}
+    <div class="banner-title">
+      <div class="grid">
+        <div class="grid-small grid__item text-top-mobile">
+          <h1 class="text-center text-mobile-banner">
+            {{ section.settings.title }}
+          </h1>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+  <a class="scroll-btn" href="#index-collection-sec">
+    <span></span>
+  </a>
+
+</section>
+
+{% schema %}
+
+{
+  "name": "Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Du als Kunstwerk"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+{% style %}
+
+.indx-banner-sec {
+  position: relative;
+  text-align: center;
+  height: calc(100vh - 80px);
+  max-height: 900px;
+  background-position: 100% 20%;
+  background-color: #FFCC18;
+}
+
+.indx-banner-sec .image img {
+  width: 100%;
+}
+
+.text-top {
+  top: 40%;
+}
+
+.indx-banner-sec .banner-title h1 {
+  text-transform: inherit;
+  color: #594718 !important;
+  margin: 0;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  letter-spacing: 0.02em;
+  padding-top: 230px;
+}
+
+.comn-bg {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a.scroll-btn {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -25px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+a.scroll-btn span {
+  border: solid #242424;
+  display: inline-block;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  margin: 0 auto;
+  padding: 6px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  text-align: center;
+}
+
+@media only screen and (max-width: 758px) {
+  .indx-banner-sec {
+    background-position: center bottom;
+    background-size: 150%;
+    height: calc(80vh - 150px);
+  }
+
+.indx-banner-sec .banner-title {
+    top: 3%;
+  }
+
+.indx-banner-sec .banner-title h3 {
+    font-size: 30px;
+  }
+
+.text-mobile-banner {
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 28px !important;
+    text-align: center;
+    letter-spacing: 0.02em !important;
+    padding-top: 200px !important;
+  }
+}
+
+@media only screen and (max-height: 667px) {
+  .indx-banner-sec {
+    background-position: center bottom;
+    background-size: 130%;
+    height: calc(80vh - 60px);
+  }
+
+.indx-banner-sec .banner-title {
+    top: 43%;
+  }
+}
+
+{% endstyle %}

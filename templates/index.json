@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "164690183146900bb0": {
+      "type": "index-hero",
+      "settings": {
+        "title": "Du als Kunstwerk."
+      }
+    },
+    "16469042551cf35d91": {
+      "type": "index-features",
+      "settings": {
+        "title": "Du als Kunstwerk"
+      }
+    },
+    "1647864707b12436e6": {
+      "type": "index-new-products",
+      "disabled": true,
+      "settings": {
+        "title": "Dein Haustier als Kunstwerk"
+      }
+    },
+    "1646908797112e739e": {
+      "type": "index-before-after",
+      "settings": {
+        "title": "Dein Haustier als Kunstwerk"
+      }
+    },
+    "164794243623e530ed": {
+      "type": "index-all-products",
+      "settings": {
+        "title": "Dein Haustier als Kunstwerk"
+      }
+    },
+    "1647949156631286ea": {
+      "type": "index-video",
+      "settings": {
+        "title": "Video Review"
+      }
+    },
+    "16479549504a765e4e": {
+      "type": "index-quiz",
+      "disabled": true,
+      "settings": {
+        "title": "Dein Haustier als Kunstwerk"
+      }
+    },
+    "164802273474f59138": {
+      "type": "index-collection",
+      "settings": {
+        "title": "Dein Haustier als Kunstwerk"
+      }
+    },
+    "1647957759fb0d8a02": {
+      "type": "index-img-text",
+      "settings": {
+        "title": "Dein Haustier als Kunstwerk"
+      }
+    },
+    "16480302240017a637": {
+      "type": "index-team",
+      "settings": {
+        "title": "Triff unser Team"
+      }
+    }
+  },
+  "order": [
+    "164690183146900bb0",
+    "16469042551cf35d91",
+    "1647864707b12436e6",
+    "1646908797112e739e",
+    "164794243623e530ed",
+    "1647949156631286ea",
+    "16479549504a765e4e",
+    "164802273474f59138",
+    "1647957759fb0d8a02",
+    "16480302240017a637"
+  ]
+}

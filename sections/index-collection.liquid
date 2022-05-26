@@ -1,0 +1,220 @@
+<section class="box ">
+  <a class="scroll-btn scroll-btn-top" href="#index-collection-sec">
+    <span></span>
+  </a>
+  <div class="wrapper">
+    <div class="grid ">
+      <div class="grid-small grid__item text-padding">
+        <h2 class="text-center size-text mobile-heading">Beliebte Kategorien</h2>
+      </div>
+    </div>
+    <div class="grid grid-spacer slick slick-product-grid slick-initialized slick-slider margine">
+      <div class="slick-carousle-collection">
+        {% for collection in collections limit:8 %}
+          <div class="card card-collection ">
+            <a href="/collections/{{ collection.handle }}">
+
+              <div class="image">
+                <img src="{{ collection.featured_image | img_url: 'master' }}" class="product-image" alt="">
+              </div>
+              <p class="colection-title">{{ collection.title | truncate: 18 }}</p>
+              <p class="collection-count">({{collection.products_count }}
+                Items)</p>
+              <div class="content border-line">
+
+                <div class="pb-button-collection ">
+                  <a class="text-center" href="/collections/{{ collection.handle }}">Zur Collection</a>
+                </div>
+              </div>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <img class="down-line-right" src="{{ 'right-icon.svg' | asset_url }}" alt="Original Image">
+  </div>
+</section>
+{% schema %}
+
+{
+  "name": "Card collection",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Dein Haustier als Kunstwerk"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Card collection",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+/*margin between cards */
+
+.colection-title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 113% */
+  text-align: center;
+  color: #594718;
+}
+
+.collection-count {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  color: #A08640;
+}
+
+.border-line {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 4px dotted #FFD84E;
+}
+
+.down-line-right {
+  position: absolute;
+  right: 24%;
+  z-index: 2;
+}
+
+.card-collection {
+  background-color: #FFCC18 !important;
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.pb-button-collection {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.card-collection a {
+  text-decoration: none;
+}
+
+.card-collection .image {
+  height: 248px;
+  padding: 16px 16px 24px;
+  overflow: hidden;
+}
+
+.card-collection .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+.card-collection .title {
+  text-align: center;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #5E5A60;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+
+.card-collection .content {
+  justify-content: center;
+  display: grid;
+  margin-top: auto;
+  min-width: 100%;
+}
+
+.card-collection .content .price {
+  text-align: center;
+  padding-bottom: 32px;
+}
+
+.card-collection .price-size {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #2B1E30;
+}
+
+.card-collection .content .price .new-price {
+  font-weight: bold;
+}
+
+.card-collection .content .price .original-price {
+  margin-left: 5px;
+  font-size: 14px;
+  font-style: italic;
+  opacity: .5;
+  text-decoration: line-through;
+}
+
+/* Hover state = underline the title */
+
+@media only screen and (max-width: 758px) {
+  .down-line-right {
+    display: none;
+  }
+}
+
+{% endstyle %}
+
+{% javascript %}
+
+$('.slick-carousle-collection').slick({
+  centerPadding: '40px',
+  infinite: true,
+  slidesToShow: 4, // Shows a three slides at a time
+  slidesToScroll: 3, // When you click an arrow, it scrolls 1 slide at a time
+  arrows: false, // Adds arrows to sides of slider
+  dots: true, // Adds the dots on the bottom
+  autoplay: true,
+  responsive: [
+    {
+      breakpoint: 768, // Mobile breakpoint screen
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+{% endjavascript %}

@@ -1,0 +1,1546 @@
+{
+  "general": {
+    "404": {
+      "title": "404 Sidan hittades inte",
+      "subtext_html": "Sidan du letade efter finns inte."
+    },
+    "accessibility": {
+      "refresh_page": "Att välja ett urval resulterar i en helsidasuppdatering.",
+      "selection_help": "Tryck på mellanslagstangenten och sedan på piltangenterna för att göra ett val.",
+      "unit_price_separator": "för"
+    },
+    "meta": {
+      "tags": "Taggad \"{{ tags }}\"",
+      "page": "Sida {{ page }}"
+    },
+    "pagination": {
+      "previous": "Tidigare",
+      "next": "Nästa"
+    },
+    "password_page": {
+      "login_form_heading": "Gå in i butik med lösenord:",
+      "login_form_password_label": "Lösenord",
+      "login_form_password_placeholder": "Ditt lösenord",
+      "login_form_submit": "Stiga på",
+      "signup_form_email_label": "E-post",
+      "signup_form_success": "Vi skickar ett mail till dig precis innan vi öppnar!",
+      "admin_link_html": "Är du butiksägaren? <a href=\"/admin\" class=\"text-link\">Logga in här</a>",
+      "password_link": "Ange med lösenord",
+      "powered_by_shopify_html": "Den här butiken kommer att drivas av {{ shopify }}",
+      "close": "stäng (esc)"
+    },
+    "dates": {
+      "year": "År",
+      "month": "Månad",
+      "day": "Dag"
+    },
+    "months": {
+      "full": {
+        "january": "januari",
+        "february": "februari",
+        "march": "Mars",
+        "april": "april",
+        "may": "Maj",
+        "june": "juni",
+        "july": "juli",
+        "august": "augusti",
+        "september": "september",
+        "october": "oktober",
+        "november": "november",
+        "december": "december"
+      },
+      "short": {
+        "january": "Jan",
+        "february": "feb",
+        "march": "Hav",
+        "april": "apr",
+        "may": "Maj",
+        "june": "jun",
+        "july": "jul",
+        "august": "aug",
+        "september": "sep",
+        "october": "okt",
+        "november": "nov",
+        "december": "dec"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "måndag",
+        "tuesday": "tisdag",
+        "wednesday": "onsdag",
+        "thursday": "torsdag",
+        "friday": "fredag",
+        "saturday": "lördag",
+        "sunday": "söndag"
+      },
+      "short": {
+        "monday": "Min",
+        "tuesday": "Din",
+        "wednesday": "ons",
+        "thursday": "Samla",
+        "friday": "fre",
+        "saturday": "lö",
+        "sunday": "Sol"
+      }
+    },
+    "social": {
+      "share_on_facebook": "Dela med sig",
+      "share_on_twitter": "Tweet",
+      "share_on_pinterest": "Fäst den",
+      "share_on_email": "E-post",
+      "share_on_whatsapp": "WhatsApp",
+      "share_on_linkedin": "LinkedIn",
+      "share_on_reddit": "Reddit",
+      "share_on_messenger": "budbärare",
+      "alt_text": {
+        "share_on_facebook": "Dela på Facebook",
+        "share_on_twitter": "Tweet på Twitter",
+        "share_on_pinterest": "Fäst på Pinterest",
+        "share_on_email": "Dela via e-post",
+        "share_on_whatsapp": "Dela på Whatsapp",
+        "share_on_linkedin": "Dela på LinkedIn",
+        "share_on_reddit": "Dela på Reddit",
+        "share_on_messenger": "Dela på Messenger"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Anmäl dig till vår e-postlista",
+      "newsletter_placeholder": "Din email",
+      "newsletter_confirmation": "Tack för att du prenumererar",
+      "submit": "Prenumerera"
+    },
+    "search": {
+      "no_results_html": "Din sökning efter \"{{ terms }}\" gav inga resultat.",
+      "results_for_html": "Din sökning efter \"{{ terms }}\" visade följande:",
+      "title": "Sök",
+      "placeholder": "Sök i vår butik",
+      "submit": "Sök"
+    },
+    "drawers": {
+      "navigation": "Meny",
+      "close_menu": "Stäng menyn",
+      "expand_submenu": "Expandera undermenyn",
+      "collapse_submenu": "Komprimera undermenyn"
+    },
+    "payment": {
+      "method": "Betalningsmetoder"
+    },
+    "currency": {
+      "dropdown_label": "Valuta"
+    },
+    "language": {
+      "dropdown_label": "Språk"
+    },
+    "localization": {
+      "submit_label": "Uppdatera inställningar"
+    },
+    "trial_over": {
+      "heading": "Din testperiod är nu över",
+      "text": "Hej, {{ name }}. Det verkar som att din 14-dagars gratis provperiod på Enterprise Plan redan har avslutats. Det betyder att alla dina tillägg nu är inaktiverade.\n\nMen du vill antagligen inte förlora konverteringen och intäktshöjningen du fick från dina tillägg, eller hur?\n\nVälj en plan som bäst passar dina mål och fortsätt att njuta av högre konverteringsfrekvens.",
+      "pick_a_plan": "Välj en plan"
+    },
+    "addons_limit_reached": {
+      "heading": "Oj! Lätt där, Tiger!",
+      "text": "Verkar som att du behöver fler tillägg :)\n\nDin nuvarande plan [plan_name] aktiveras endast upp till [current_limit] tillägg. [upgraded_plan] låter dig aktivera [upgraded_limit] tillägg. Uppgradera din plan för att låsa upp ALLA premiumfunktioner.",
+      "upgrade_now": "Uppgradera nu",
+      "note": "*Obs: Om fler än [current_limit]-tillägg väljs, aktiveras endast de första [current_limit]-tilläggen som är markerade. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">Hur inaktiverar jag överflödiga tillägg?</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "name": "⚡ Ålderskontroll",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5057047-how-to-use-the-age-check-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "background_image": {
+          "label": "Intervall tid"
+        },
+        "verification_type": {
+          "label": "Animationstyp",
+          "options__1": {
+            "label": "Födelsedatum"
+          },
+          "options__2": {
+            "label": "Ja Nej"
+          }
+        },
+        "valid_age": {
+          "label": "Giltig ålder"
+        },
+        "logo_image": {
+          "label": "Logotyp"
+        },
+        "logo_svg": {
+          "label": "SVG-logotyp",
+          "info": "[Hur laddar man upp en SVG-fil?](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Logotypens bredd"
+        }
+      }
+    },
+    "back_in_stock": {
+      "name": "⚡ Åter i lager",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5265388-how-to-enable-the-back-in-stock-add-on-in-debutify-3 -0-shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "enable_button_animation": {
+          "label": "Aktivera knappanimering"
+        }
+      }
+    },
+    "cart_countdown": {
+      "name": "⚡ Nedräkning för kundvagn",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054061-how-to-enable-the-cart-countdown-timer-in-debutify-3-0-shopify -tema)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "time_minutes": {
+          "label": "Minuter"
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Timer över inställningar"
+        },
+        "icon_over": {
+          "label": "Ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "cart_favicon": {
+      "name": "⚡ Favicon för kundvagn",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "time_minutes": {
+          "label": "Minuter"
+        },
+        "favicon": {
+          "label": "Favoritbild"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "⚡ Vagnrabatt",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054067-how-to-use-cart-discount-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "label_icon": {
+          "label": "Etikettikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "Knappikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "⚡ Insamlingsfilter",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0 -shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "filter_icon": {
+          "label": "Filterikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "⚡ Färgprover",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "color_options_list_page": {
+          "label": "Alternativ för produktsida",
+          "info": "Lägg till variantalternativnamn med kommaseparerad"
+        },
+        "color_options_list_grid": {
+          "label": "Alternativ för produktraster",
+          "info": "Färgrutor kommer att tillämpas på alla variantalternativ med detta namn"
+        },
+        "swatches_count_product_grid": {
+          "label": "Prover på produktrutnät"
+        }
+      }
+    },
+    "cookie_box": {
+      "name": "⚡ Kaklåda",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054095-how-to-use-a-cookie-box-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "use_drawer_colors": {
+          "label": "Använd lådfärger"
+        },
+        "enable_for_eu_only": {
+          "label": "Aktivera endast för EU"
+        },
+        "button_style": {
+          "label": "Knapp stil",
+          "options__1": {
+            "label": "Standard"
+          },
+          "options__2": {
+            "label": "Full"
+          },
+          "options__3": {
+            "label": "Översikt"
+          }
+        }
+      }
+    },
+    "custom_currencies": {
+      "name": "⚡ Anpassade valutor",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5057090-how-to-use-custom-currencies-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "paragraph__3": {
+          "content": "När den är aktiverad kommer den inbyggda Shopify Payment-multivalutakonverteraren att inaktiveras. Observera att Shopify inte tillåter oss att konvertera priserna på kassasidan."
+        },
+        "show_currency_message": {
+          "label": "Visa valutameddelande"
+        },
+        "show_original_price_on_hover": {
+          "label": "Visa originalpris vid svävning"
+        },
+        "currency_format": {
+          "label": "Formatera",
+          "options__1": {
+            "label": "Utan valuta ($10,00)"
+          },
+          "options__2": {
+            "label": "Med valuta ($10,00 USD)"
+          },
+          "options__3": {
+            "label": "Utan decimaler ($10)"
+          },
+          "options__4": {
+            "label": "Utan decimaler med valuta ($10 USD)"
+          },
+          "options__5": {
+            "label": "Utan tecken och med valuta (10 USD)"
+          },
+          "options__6": {
+            "label": "Utan tecken & med decimal (10.00)"
+          }
+        },
+        "supported_currencies": {
+          "label": "Valuta som stöds",
+          "info": "Använd landets ISO [valutakod](https://www.xe.com/iso4217.php). Separera dina valutakoder med ett mellanslag."
+        }
+      }
+    },
+    "facebook_messenger": {
+      "name": "⚡ Facebook-messenger",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5057679-how-to-add-a-facebook-messenger-chat-widget-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "code": {
+          "label": "Koda",
+          "info": "Hur får man koden? Gå till din Facebook-sida > Inställningar > Meddelanden > Lägg till Messenger på din webbplats > Kopiera och klistra in kodavsnittet"
+        },
+        "hide_on_mobile": {
+          "label": "Göm på mobilen"
+        }
+      }
+    },
+    "delivery_date": {
+      "label": "Välj önskat leveransdatum",
+      "placeholder": "Välj datum och tid*",
+      "error_message": "Gör ett val för att fortsätta"
+    },
+    "gift_wrap": {
+      "name": "⚡ Presentpapper",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5596124-how-to-enable-the-gift-wrap-add-on-in-the-debutify-shopify -tema)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "product": {
+          "label": "Presentpappersprodukt"
+        },
+        "show_price": {
+          "label": "Visa pris på presentförpackning"
+        }
+      }
+    },
+    "inactive_tab_message": {
+      "name": "⚡ Inaktiv flikmeddelande",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5242828-how-to-enable-the-inactive-tab-message-add-on-in-debutify-3 -0-shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "delay": {
+          "label": "Dröjsmål"
+        }
+      }
+    },
+    "infinite_scroll": {
+      "name": "⚡ Oändlig rullning",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5161154-how-to-use-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "scroll_options": {
+          "label": "Oändliga rullningsalternativ",
+          "options__1": {
+            "label": "Oändligt klick"
+          },
+          "options__2": {
+            "label": "Oändlig rullning"
+          }
+        },
+        "button_style": {
+          "label": "Laddar knappstil",
+          "options__1": {
+            "label": "Standard"
+          },
+          "options__2": {
+            "label": "Full"
+          },
+          "options__3": {
+            "label": "Översikt"
+          }
+        },
+        "loading_image": {
+          "label": "Laddar bild för oändlig rullning",
+          "info": "Lämna tomt för att visa standardladdningsikonen"
+        }
+      }
+    },
+    "inventory_quantity": {
+      "name": "⚡ Lagerkvantitet",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054133-how-to-display-the-inventory-quantity-of-your-product-variant-in-3 -0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Slumpmässiga kvantitetsinställningar"
+        },
+        "show_random_quantities": {
+          "label": "Visa slumpmässiga mängder",
+          "info": "Avmarkera för att visa verkligt lager"
+        },
+        "min_random_quantity": {
+          "label": "Min kvantitet"
+        },
+        "max_random_quantity": {
+          "label": "Max kvantitet"
+        },
+        "header__4": {
+          "content": "Inställningar för lagertröskel",
+          "info": "Om inställningen för slumpmässiga kvantiteter är inaktiverad"
+        },
+        "quantity_threshold": {
+          "label": "Tröskelkvantitet",
+          "info": "Om produktkvantiteten är högre än det inställda tröskelvärdet, dölj sedan produktlagerkvantiteten eller visa en allmän text"
+        }
+      }
+    },
+    "live_view": {
+      "name": "⚡ Livevisning",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054147-how-to-use-live-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "position": {
+          "label": "Placera",
+          "options__1": {
+            "label": "Under produktpris"
+          },
+          "options__2": {
+            "label": "Under knappen Lägg till i kundvagn"
+          }
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "min_quantity": {
+          "label": "Min (människor)"
+        },
+        "max_quantity": {
+          "label": "Max (personer)"
+        },
+        "max_interval_steps": {
+          "label": "Max intervallsteg"
+        },
+        "interval_time": {
+          "label": "Intervall tid"
+        }
+      }
+    },
+    "menu_bar": {
+      "name": "⚡ Menyfält",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5231134-how-to-enable-a-menu-bar-add-on-in-debutify-3-0 -shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "menu": {
+          "label": "Meny"
+        },
+        "show_on_desktop": {
+          "label": "Max (personer)"
+        },
+        "show_on_mobile": {
+          "label": "Min (människor)"
+        }
+      }
+    },
+    "minimum_order": {
+      "amount_reached_text": "Minsta orderbelopp har uppnåtts. Du kan gå vidare till kassan.",
+      "amount_unreached_text": "Du har fortfarande inte uppnått det lägsta beställningsbeloppet. Lägg till {left_amount} för att fortsätta."
+    },
+    "newsletter_popup": {
+      "name": "⚡ Nyhetsbrev popup",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054175-how-to-display-a-newsletter-popup-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "Flytande stapelinställningar"
+        },
+        "floating_bar_enable": {
+          "label": "Aktivera"
+        },
+        "floating_bar_hide_on_mobile": {
+          "label": "Göm på mobilen"
+        },
+        "floating_bar_position": {
+          "label": "Placera",
+          "options__1": {
+            "label": "Vänster"
+          },
+          "options__2": {
+            "label": "Höger"
+          }
+        },
+        "floating_bar_icon": {
+          "label": "Ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Popup-inställningar"
+        },
+        "popup_overlay_image": {
+          "label": "Överlagringsbild"
+        },
+        "popup_width": {
+          "label": "Bredd",
+          "options__1": {
+            "label": "Små"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Stor"
+          }
+        },
+        "popup_set_image_as_background": {
+          "label": "Ställ in bild som bakgrund"
+        },
+        "popup_image": {
+          "label": "Bild"
+        },
+        "popup_image_position": {
+          "label": "Bildposition",
+          "options__1": {
+            "label": "Övre vänstra"
+          },
+          "options__2": {
+            "label": "Topp mitten"
+          },
+          "options__3": {
+            "label": "Överst till höger"
+          },
+          "options__4": {
+            "label": "Mitten till vänster"
+          },
+          "options__5": {
+            "label": "Mitt mitten"
+          },
+          "options__6": {
+            "label": "Mitten höger"
+          },
+          "options__7": {
+            "label": "Nedre vänstra"
+          },
+          "options__8": {
+            "label": "Nedre mitten"
+          },
+          "options__9": {
+            "label": "Nere till höger"
+          }
+        },
+        "paragraph__3": {
+          "content": "Alla kunder som registrerar sig kommer att ha ett konto skapat för dem i Shopify. [Visa kunder](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "popup_icon": {
+          "label": "Skicka ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "header__4": {
+          "content": "Triggerinställningar"
+        },
+        "popup_enable_time_based_trigger": {
+          "label": "Aktivera tidsbaserad utlösare"
+        },
+        "popup_time_based_trigger_timeout": {
+          "label": "Tid",
+          "info": "Popup kommer att visas efter X sekunder"
+        },
+        "popup_enable_exit_intent_trigger": {
+          "label": "Aktivera exit-avsiktsutlösare"
+        },
+        "popup_enable_scroll_depth_trigger": {
+          "label": "Aktivera utlösare för rullningsdjup"
+        },
+        "popup_scroll_depth_percentage": {
+          "label": "Rulla djup",
+          "info": "Popup kommer att visa när kunden rullar sidan med X procent"
+        },
+        "header__5": {
+          "content": "Framgångsinställningar"
+        },
+        "header__6": {
+          "content": "Kundtagg"
+        },
+        "customer_tag": {
+          "label": "Märka",
+          "info": "Taggen kommer att läggas till för denna kund och kan användas för att utlösa e-postautomatisering."
+        },
+        "paragraph__4": {
+          "content": "Alla kunder som registrerar sig kommer att ha ett konto skapat för dem i Shopify. [Visa kunder](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "header__7": {
+          "content": "Rabattkod",
+          "info": "[Skapa en rabattkod](/admin/discounts/new)"
+        },
+        "discount_name": {
+          "label": "namn"
+        },
+        "discount_amount": {
+          "label": "Belopp"
+        },
+        "discount_type": {
+          "label": "Typ",
+          "options__1": {
+            "label": "Procentsats"
+          },
+          "options__2": {
+            "label": "Bestämd mängd"
+          }
+        }
+      }
+    },
+    "order_feedback": {
+      "name": "⚡ Beställningsfeedback",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5242840-how-to-enable-the-order-feedback-add-on-in-debutify-3-0 -shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "required_to_checkout": {
+          "label": "Krävs till kassan"
+        }
+      }
+    },
+    "page_transition": {
+      "name": "⚡ Sidövergång",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5057511-how-to-use-page-transition-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "logo_image": {
+          "label": "Logotyp"
+        },
+        "logo_svg": {
+          "label": "SVG-logotyp",
+          "info": "[Hur laddar man upp en SVG-fil?](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Logotypens bredd"
+        }
+      }
+    },
+    "product_image_crop": {
+      "name": "⚡ Beskärning av produktbild",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5057531-how-to-use-product-image-crop-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "image_ratio": {
+          "label": "Bildförhållande"
+        },
+        "image_position": {
+          "label": "Bildposition",
+          "options__1": {
+            "label": "Övre vänstra"
+          },
+          "options__2": {
+            "label": "Topp mitten"
+          },
+          "options__3": {
+            "label": "Överst till höger"
+          },
+          "options__4": {
+            "label": "Mitten till vänster"
+          },
+          "options__5": {
+            "label": "Mitt mitten"
+          },
+          "options__6": {
+            "label": "Mitten höger"
+          },
+          "options__7": {
+            "label": "Nedre vänstra"
+          },
+          "options__8": {
+            "label": "Nedre mitten"
+          },
+          "options__9": {
+            "label": "Nere till höger"
+          }
+        }
+      }
+    },
+    "quick_view": {
+      "name": "⚡ Snabbvy",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054198-how-to-use-quick-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "hide_on_mobile": {
+          "label": "Göm på mobilen"
+        },
+        "show_quantity_picker": {
+          "label": "Visa kvantitetsväljare"
+        },
+        "image_position": {
+          "label": "Ikonplacering",
+          "options__1": {
+            "label": "Vänster"
+          },
+          "options__2": {
+            "label": "Höger"
+          }
+        }
+      }
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "Ta bort från Quick compare",
+      "add_to_compare_text": "Lägg till snabbjämförelse",
+      "title_modal": "Snabbjämförelse",
+      "empty_table": "För närvarande finns det inga objekt i snabbjämförelselistan",
+      "images_cell": "Bilder",
+      "title_cell": "Titel",
+      "price_cell": "Pris",
+      "type_cell": "Typ",
+      "vendor_cell": "Säljare",
+      "collections_cell": "Samlingar",
+      "tags_cell": "Taggar",
+      "short_description_cell": "kort beskrivning"
+    },
+    "recently_viewed": {
+      "name": "⚡ Ses nyligen",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5057690-how-to-display-recently-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "products_limit": {
+          "label": "Göm på mobilen"
+        },
+        "header__3": {
+          "content": "Flytande stång"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "Visa på skrivbordet"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "Visa på mobilen"
+        },
+        "floating_bar_position": {
+          "label": "Placera",
+          "options__1": {
+            "label": "Vänster"
+          },
+          "options__2": {
+            "label": "Höger"
+          }
+        },
+        "header__4": {
+          "content": "Sektion"
+        },
+        "section_products_per_row_desktop": {
+          "label": "Produkter per rad (dator)"
+        },
+        "section_products_per_row_mobile": {
+          "label": "Produkter per rad (mobil)"
+        },
+        "header__5": {
+          "content": "Karusell"
+        },
+        "carousel_enable": {
+          "label": "Aktivera karusell"
+        },
+        "carousel_show_arrows": {
+          "label": "Visa pilar"
+        },
+        "carousel_show_dots": {
+          "label": "Visa prickar"
+        },
+        "carousel_auto_rotate": {
+          "label": "Roterade bilar"
+        },
+        "carousel_rotation_speed": {
+          "label": "Rotationshastighet"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "Produkter att visa i rad"
+        }
+      }
+    },
+    "shop_protect": {
+      "name": "⚡ Butiksskydd",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054230-how-to-use-shop-protect-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "disable_image_copy": {
+          "label": "Inaktivera kopiering av bilder"
+        },
+        "disable_image_drag_and_drop": {
+          "label": "Inaktivera dra och släpp bilder"
+        },
+        "disable_product_text_copy": {
+          "label": "Inaktivera produkttextkopiering"
+        },
+        "disable_article_text_copy": {
+          "label": "Inaktivera artikeltextkopiering"
+        },
+        "disable_best_selling": {
+          "label": "Inaktivera bästsäljande samlingar",
+          "info": "Se till att dina samlingar inte sorteras efter bästsäljande. [Redigera samlingssortering](/admin/kollektioner)"
+        }
+      }
+    },
+    "smart_search": {
+      "name": "⚡ Smart sökning",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054239-how-to-use-smart-search-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "Resultatinställningar"
+        },
+        "show_price": {
+          "label": "Visa pris"
+        },
+        "show_vendor": {
+          "label": "Visa säljaren"
+        },
+        "result_limit": {
+          "label": "Resultatgräns"
+        }
+      }
+    },
+    "social_discount": {
+      "name": "⚡ Socialrabatt",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5057551-how-to-use-a-social-discount-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Popup-inställningar"
+        },
+        "popup_width": {
+          "label": "Storlek",
+          "options__1": {
+            "label": "Små"
+          },
+          "options__2": {
+            "label": "Medium"
+          },
+          "options__3": {
+            "label": "Stor"
+          }
+        },
+        "header__4": {
+          "content": "Framgångsinställningar"
+        },
+        "header__5": {
+          "content": "Rabattkod",
+          "info": "[Skapa en rabattkod](/admin/discounts/new)"
+        },
+        "discount_name": {
+          "label": "namn"
+        },
+        "discount_amount": {
+          "label": "Belopp"
+        },
+        "discount_type": {
+          "label": "Typ",
+          "options__1": {
+            "label": "Procentsats"
+          },
+          "options__2": {
+            "label": "Bestämd mängd"
+          }
+        }
+      }
+    },
+    "sold_items": {
+      "name": "⚡ Sålda varor",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5447397-how-to-enable-the-sold-items-add-on-in-debutify)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "position": {
+          "label": "Placera",
+          "options__1": {
+            "label": "Under produktpris"
+          },
+          "options__2": {
+            "label": "Under knappen Lägg till i kundvagn"
+          }
+        },
+        "icon": {
+          "label": "Ikon",
+          "info": "[Visa alla tillgängliga ikoner](https://material.io/resources/icons)"
+        },
+        "minimum_range": {
+          "label": "Minsta räckvidd"
+        },
+        "maximum_range": {
+          "label": "Maximal räckvidd"
+        },
+        "interval_time": {
+          "label": "Ställ in intervalltid (timme)"
+        }
+      }
+    },
+    "sticky_add_to_cart": {
+      "name": "⚡ Sticky add-to-cart",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054241-how-to-display-a-sticky-add-to-cart-bar-in-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "show_star_rating": {
+          "label": "Maximal räckvidd"
+        },
+        "enable_add_to_cart_animation": {
+          "label": "Maximal räckvidd"
+        },
+        "enable_simplified_display": {
+          "label": "Maximal räckvidd"
+        },
+        "position": {
+          "label": "Placera",
+          "options__1": {
+            "label": "Topp"
+          },
+          "options__2": {
+            "label": "Botten"
+          }
+        }
+      }
+    },
+    "trust_badge": {
+      "name": "⚡ Förtroendemärke",
+      "settings": {
+        "header__1": {
+          "content": "Hjälpcenter"
+        },
+        "paragraph__1": {
+          "content": "[Följ vår steg-för-steg handledning](https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "För att aktivera/inaktivera detta tillägg, gå till Temainställningar > Debutify-tillägg."
+        },
+        "header__2": {
+          "content": "inställningar"
+        },
+        "show_on_product_page": {
+          "label": "Visas på produktsidan"
+        },
+        "show_on_cart_page": {
+          "label": "Visas på varukorgssida/låda"
+        },
+        "enable_small_text": {
+          "label": "Liten text"
+        },
+        "position_in_cart_drawer": {
+          "label": "Position i kundvagnslådan",
+          "options__1": {
+            "label": "Separat avsnitt"
+          },
+          "options__2": {
+            "label": "Under knappen till kassan"
+          }
+        },
+        "badge_image": {
+          "label": "Bild",
+          "info": "Lämna tomt för standardikoner"
+        },
+        "text_position": {
+          "label": "Textposition",
+          "options__1": {
+            "label": "Ovan"
+          },
+          "options__2": {
+            "label": "Under"
+          }
+        },
+        "badge_width": {
+          "label": "Bildens bredd",
+          "options__1": {
+            "label": "Extra liten"
+          },
+          "options__2": {
+            "label": "Små"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Stor"
+          },
+          "options__5": {
+            "label": "Extra stor"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "Lägg till i önskelista",
+      "remove_from_wishlist_text": "Ta bort från önskelistan",
+      "empty_wishlist_text": "Din önskelista är för närvarande tom.",
+      "share_wishlist_text": "Dela önskelista"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "Taggar",
+      "read_more": "Fortsätt läsa",
+      "view_all": "Visa alla",
+      "back_to_blog": "Tillbaka till {{ title }}"
+    },
+    "comments": {
+      "title": "Lämna en kommentar",
+      "name": "namn",
+      "email": "E-post",
+      "message": "Meddelande",
+      "post": "Publicera kommentar",
+      "moderated": "Observera att kommentarer måste godkännas innan de publiceras",
+      "success_moderated": "Din kommentar postades framgångsrikt. Vi kommer att publicera den om en liten stund, eftersom vår blogg är modererad.",
+      "success": "Din kommentar postades framgångsrikt! Tack!",
+      "with_count": {
+        "one": "{{ count }} kommentar",
+        "other": "{{ count }} kommentarer"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Din vagn",
+      "remove": "Avlägsna",
+      "note": "Särskilda instruktioner för säljaren",
+      "subtotal": "Delsumma",
+      "taxes_and_shipping_at_checkout": "Skatter och frakt beräknas i kassan",
+      "taxes_and_shipping_policy_at_checkout_html": "Skatter och <a href=\"{{ link }}\">frakt</a> beräknas i kassan",
+      "taxes_included_but_shipping_at_checkout": "Inklusive moms och frakt beräknas i kassan",
+      "taxes_included_and_shipping_policy_html": "Skatt ingår. <a href=\"{{ link }}\">Frakt</a> beräknas i kassan.",
+      "update": "Uppdatera kundvagn",
+      "checkout": "Kolla upp",
+      "empty": "Din varukorg är för närvarande tom.",
+      "continue_browsing_html": "Fortsätt surfa",
+      "close_cart": "Stäng varukorg",
+      "savings_html": "Du sparar {{ savings }}",
+      "reduce_quantity": "Minska artikelkvantiteten med en",
+      "increase_quantity": "Öka artikelkvantiteten med en",
+      "cookies_required": "Aktivera cookies för att använda kundvagnen",
+      "custom_currency_html": "Alla beställningar behandlas i {{ shopCurrency }}. Medan innehållet i din kundvagn för närvarande visas i<span class='selected-currency'></span> , betalar du med {{ shopCurrency }} till den senaste växelkursen."
+    },
+    "label": {
+      "quantity": "Kvantitet",
+      "total": "Totalt"
+    },
+    "cart_message": {
+      "text": "Objekt har lagts till",
+      "button_label": "Visa kundvagn"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Katalog",
+      "all_of_collection": "Allt",
+      "no_matches": "Tyvärr, det finns inga produkter i den här kollektionen."
+    },
+    "sorting": {
+      "title": "Sortera efter",
+      "title_tags": "Filtrera efter",
+      "all_of_collection": "Alla {{ collection }}"
+    },
+    "grid": {
+      "button_label": "Shoppa nu"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "namn",
+      "email": "E-post",
+      "phone": "Telefonnummer",
+      "message": "Meddelande",
+      "send": "Skicka",
+      "post_success": "Tack för att du kontaktade oss. Vi återkommer till dig så snart som möjligt."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Mitt konto",
+      "details": "Kontouppgifter",
+      "view_addresses": "Visa adresser",
+      "return": "Återgå till kontouppgifter"
+    },
+    "activate_account": {
+      "title": "Aktivera konto",
+      "subtext": "Skapa ditt lösenord för att aktivera ditt konto.",
+      "password": "Lösenord",
+      "password_confirm": "Bekräfta lösenord",
+      "submit": "Aktivera konto",
+      "cancel": "Avvisa inbjudan"
+    },
+    "addresses": {
+      "title": "Dina adresser",
+      "default": "Standard",
+      "add_new": "Lägg till en ny adress",
+      "edit_address": "Redigera adress",
+      "first_name": "Förnamn",
+      "last_name": "Efternamn",
+      "company": "Företag",
+      "address1": "Adress 1",
+      "address2": "Adress 2",
+      "city": "Stad",
+      "country": "Land/Region",
+      "province": "Provins",
+      "zip": "Postnummer",
+      "phone": "Telefon",
+      "set_default": "Ställ in som standardadress",
+      "add": "Lägg till adress",
+      "update": "Uppdatera adress",
+      "cancel": "Annullera",
+      "edit": "Redigera",
+      "delete": "Radera"
+    },
+    "login": {
+      "title": "Logga in",
+      "email": "E-post",
+      "password": "Lösenord",
+      "forgot_password": "Glömt ditt lösenord?",
+      "sign_in": "Logga in",
+      "cancel": "Återgå till butiken",
+      "guest_title": "Fortsätt som gäst",
+      "guest_continue": "Fortsätta"
+    },
+    "orders": {
+      "title": "Beställningshistorik",
+      "order_number": "Beställa",
+      "date": "Datum",
+      "payment_status": "Betalningsstatus",
+      "fulfillment_status": "Uppfyllningsstatus",
+      "total": "Total",
+      "none": "Du har inte lagt några beställningar än."
+    },
+    "order": {
+      "title": "Beställ {{ name }}",
+      "date": "Placerad på {{ date }}",
+      "cancelled": "Beställning annullerad den {{ date }}",
+      "cancelled_reason": "Orsak: {{ reason }}",
+      "billing_address": "Fakturaadress",
+      "payment_status": "Betalningsstatus",
+      "shipping_address": "leveransadress",
+      "fulfillment_status": "Uppfyllningsstatus",
+      "discount": "Rabatt",
+      "shipping": "Frakt",
+      "tax": "Beskatta",
+      "product": "Produkt",
+      "sku": "SKU",
+      "price": "Pris",
+      "quantity": "Kvantitet",
+      "total": "Total",
+      "fulfilled_at": "Uppfyllt {{ date }}",
+      "subtotal": "Delsumma",
+      "track_shipment": "Spåra leverans"
+    },
+    "recover_password": {
+      "title": "Återställ ditt lösenord",
+      "email": "E-post",
+      "submit": "Skicka in",
+      "cancel": "Annullera",
+      "subtext": "Vi skickar ett e-postmeddelande för att återställa ditt lösenord.",
+      "success": "Vi har skickat ett e-postmeddelande med en länk för att uppdatera ditt lösenord."
+    },
+    "reset_password": {
+      "title": "Återställ kontolösenord",
+      "subtext": "Ange ett nytt lösenord för {{ email }}",
+      "password": "Lösenord",
+      "password_confirm": "Bekräfta lösenord",
+      "submit": "Återställ lösenord"
+    },
+    "register": {
+      "title": "Skapa konto",
+      "first_name": "Förnamn",
+      "last_name": "Efternamn",
+      "email": "E-post",
+      "password": "Lösenord",
+      "submit": "Skapa",
+      "cancel": "Återgå till butiken"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "Använd vänster/högerpilarna för att navigera i bildspelet eller svep åt vänster/höger om du använder en mobil enhet",
+      "next_slide": "Nästa bild",
+      "previous_slide": "Föregående bild",
+      "play": "Spela bildspel",
+      "pause": "Pausa bildspelet",
+      "load_slide": "Ladda bild {{ slide_number }}",
+      "active_slide": "Bild {{ slide_number }}, aktuell"
+    },
+    "onboarding": {
+      "product_vendor": "Produktförsäljare",
+      "product_title": "Exempel på produkttitel",
+      "collection_title": "Exempel samlingstitel",
+      "blog_title": "Ditt inläggs titel",
+      "blog_excerpt": "Din butik har inte publicerat några blogginlägg ännu. En blogg kan användas för att prata om nya produktlanseringar, tips eller andra nyheter som du vill dela med dina kunder. Du kan kolla in Shopifys e-handelsblogg för inspiration och råd för din egen butik och blogg.",
+      "no_content": "Det här avsnittet innehåller för närvarande inget innehåll. Lägg till innehåll i det här avsnittet med hjälp av sidofältet."
+    },
+    "map": {
+      "address_error": "Det gick inte att leta upp den adressen",
+      "address_no_results": "Inga resultat för den adressen",
+      "address_query_limit_html": "Du har överskridit användningsgränsen för Google API. Överväg att uppgradera till en <a href=\"https://developers.google.com/maps/premium/usage-limits\">premiumplan</a> .",
+      "auth_error_html": "Det uppstod ett problem med att autentisera ditt Google Maps-konto."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Vagn"
+    },
+    "customer": {
+      "account": "konto",
+      "log_out": "Logga ut",
+      "log_in": "Logga in",
+      "create_account": "Skapa konto"
+    },
+    "footer": {
+      "social_platform": "{{ name }} på {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "Spara {{ saved_amount }}",
+      "collection_return": "Tillbaka till {{ collection }}",
+      "sale_price": "Försäljningspris",
+      "regular_price": "Vanligt pris",
+      "include_taxes": "Skatt ingår.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frakt</a> beräknas i kassan.",
+      "unit_price": "Enhetspris"
+    },
+    "product": {
+      "sold_out": "Utsåld",
+      "sold_out_html": "Utsåld",
+      "unavailable": "Inte tillgänglig",
+      "quantity": "Kvantitet",
+      "add_to_cart": "Lägg till i kundvagn",
+      "replace": "Byta ut",
+      "full_details": "Alla detaljer",
+      "view_more": "Visa mer",
+      "view_in_space": "Visa i ditt utrymme",
+      "view_in_space_label": "Visa i ditt utrymme, laddar objekt i augmented reality-fönstret",
+      "slide_label": "Bild {{ slide_number }} av {{ slide_max }}.",
+      "gallery_thumbnail_alt": "Ladda bilden i Galleri Viewer, {{ imageAlt }}",
+      "video_thumbnail_alt": "Ladda och spela upp video i Galleri Viewer, {{ imageAlt }}",
+      "model_thumbnail_alt": "Ladda 3D-modellen i Gallery Viewer, {{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "Nästa (högerpil)",
+      "prev": "Föregående (vänsterpil)",
+      "close": "Stäng (Esc)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Här är ditt presentkort på {{ value }} för {{ shop }}!",
+      "subtext": "Här är ditt presentkort!",
+      "disabled": "Inaktiverad",
+      "expired": "Gick ut den {{ expiry }}",
+      "active": "Går ut den {{ expiry }}",
+      "redeem": "Använd denna kod i kassan för att lösa in ditt presentkort",
+      "shop_link": "Börja shoppa",
+      "print": "Skriva ut",
+      "add_to_apple_wallet": "Lägg till i Apple Wallet"
+    }
+  }
+}

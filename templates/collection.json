@@ -1,0 +1,70 @@
+{
+  "sections": {
+    "1648467262d6e96889": {
+      "type": "collection-banner",
+      "settings": {
+        "left_image": "shopify:\/\/shop_images\/Black_White_Pencil_-_SAMPLE_1.jpg",
+        "right_image": "shopify:\/\/shop_images\/Comic_and_Real_1.png",
+        "title": "Wähle dein Kunstwerk",
+        "text": "<p>Nutze die Filter weiter unten, um dein passendes Produkt in deinem Stil zu finden. Sieh dir unbedingt unsere Beispiele auf den Produktseiten an.<\/p><p>Lade dananch einfach dein Foto hoch und wir verwandeln dich in ein Kunstwerk!<\/p>"
+      }
+    },
+    "collection-image": {
+      "type": "collection-image",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "breadcrumbs": {
+      "type": "breadcrumbs",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "collection-template",
+      "settings": {
+        "collection_tags_enable": true,
+        "collection_tags_count": true,
+        "collection_multiple_tags_filtering_enable": true,
+        "collection_sort_enable": true,
+        "tag_selector": "button",
+        "collection_layout": "grid",
+        "rows": "4",
+        "desktop_grid": "4",
+        "mobile_grid": "2"
+      }
+    },
+    "1648471471b49a17a9": {
+      "type": "collection-left-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Colored_Pencil_3_-_SAMPLE_compressed.jpg",
+        "title": "Verwandel dein Foto in ein Kunstwerk",
+        "text": "<p>Bei Nobelporträt haben sich Künstlerinnen und Künstler aus aller Welt mit einem Ziel zusammengetan: Dein Foto wird in ein Kunstwerk verwandelt! <\/p><p>Fotos in Kunstwerke zu verwandeln macht uns wahnsinning viel Spaß - deshalb haben wir beschlossen, dass wir das den ganzen Tag tun werden.<\/p><p><strong>Schick uns also heute dein Foto und wir verwandeln es in ein echtes Kunstwerk!<\/strong><\/p>"
+      }
+    },
+    "16484715214d62dcd2": {
+      "type": "collection-right-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Sin_CIty_-_SHOP_compressed.jpg",
+        "title": "Fotos in Kunstwerke verwandeln",
+        "text": "<p>So funktioniert es: Du wählst deinen passenden Stil, lädst dein Foto hoch und wir erstellen eine Vorschau.<\/p><p>Nachdem du deine Vorschau erhalten und bestätigt hast, geht dein Kunstwerk in Produktion.<\/p><p>So einfach!Danach erhältst du automatisch eine Sendungsverfolgungsnummer. <\/p>"
+      }
+    },
+    "1648474098b504205b": {
+      "type": "collection-new-products",
+      "settings": {
+        "title": "Dein Haustier als Kunstwerk"
+      }
+    }
+  },
+  "order": [
+    "1648467262d6e96889",
+    "collection-image",
+    "breadcrumbs",
+    "main",
+    "1648471471b49a17a9",
+    "16484715214d62dcd2",
+    "1648474098b504205b"
+  ]
+}

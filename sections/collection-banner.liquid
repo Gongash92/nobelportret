@@ -1,0 +1,327 @@
+<section class="collection-banner">
+
+  {% if collection.url == '/collections/alle-produkte' %}
+    <div class="collection-all-bnr">
+      <div class="grid grid-spacer align-items-center for_all_products">
+        <div class="grid__item medium--six-twelfts large--four-twelfths">
+          <div class="left_img">
+            {% if section.settings.left_image != blank %}
+              <img src="{{ section.settings.left_image | img_url:'master' }}" alt="{{ section.settings.left_image.alt }}">
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </div>
+        </div>
+        <div class="grid__item medium--six-twelfts large--four-twelfths">
+          <div class="txt text-center">
+            {% if section.settings.title != blank %}
+              <h2 class="h3">{{ section.settings.title }}</h2>
+            {% endif %}
+            {% if section.settings.text != blank %}
+              {{ section.settings.text }}
+            {% endif %}
+          </div>
+
+        </div>
+        <div class="grid__item medium--six-twelfts large--four-twelfths">
+          <div class="right_img">
+            {% if section.settings.right_image != blank %}
+              <img src="{{ section.settings.right_image | img_url:'master' }}" alt="{{ section.settings.right_image.alt }}">
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  {% else %}
+    <div class="others_collection">
+      <div class="wrapper">
+        <div class="grid grid-spacer align-items-center">
+          <div class="grid__item">
+            <div class="flex align-items-center mobile-center-images">
+              <div class=""><img src="{{ collection.image | img_url: 'large' }}" alt="{{collection.image.alt}}">
+              </div>
+
+            </div>
+          </div>
+          <div class="grid__item">
+            <div class="txt ps-5">
+              <p class="subtitle">{{collection.metafields.my_fields.subtitle}}</p>
+              <h2 class="text-uppercase h3s">{{ collection.title }}</h2>
+              <p>{{ collection.description }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+</section>
+
+
+{% schema %}
+
+{
+  "name": "Banner collection",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "left_image",
+      "label": "Left Image"
+    }, {
+      "type": "image_picker",
+      "id": "right_image",
+      "label": "Right Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Some Title Here"
+    }, {
+      "type": "richtext",
+      "label": "Text",
+      "id": "text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner collection",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.btn-scroll-color {
+  background-color: #F5F5F5 !important;
+  bottom: -36px !important;
+}
+
+.h3 {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 46px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #242424
+}
+
+.h3s {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 33px;
+
+  color: #2B1E30;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+#shopify-section-collection-banner,
+#shopify-section-collection-template,
+#shopify-section-collection-left-image-text,
+#shopify-section-collection-right-image-text {
+  background: #f5f5f5;
+}
+
+.collection-all-bnr {
+  padding: 6rem 0;
+  position: relative;
+  background-color: #F5F5F5;
+}
+
+.collection-all-bnr:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 90%;
+  height: 82%;
+  background: #fff;
+}
+
+.for_all_products {
+  position: relative;
+  z-index: 1;
+  align-items: center;
+}
+
+.collection-all-bnr h3 {
+  font-style: italic;
+}
+
+.collection-all-bnr p {
+  font-size: 18px;
+  letter-spacing: -0.01em;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.collection-wrapper {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.collection-all-bnr img {
+  width: 100%;
+}
+
+.collection-left-image-text {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.collection-right-image-text {
+  padding-top: 4rem;
+  padding-bottom: 9rem;
+  position: relative;
+}
+
+.collection-right-image-text .txt {
+  padding-right: 3rem;
+}
+
+.collection-right-image-text .container {
+  position: relative;
+  z-index: 9;
+}
+
+.collection-right-image-text img {
+  width: 100%;
+}
+
+.collection-right-image-text:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40%;
+  height: 88%;
+  background: #e9e1f8;
+}
+
+.others_collection {
+  background-color: #fff;
+  padding: 2rem 0 !important;
+  border-top: none !important;
+}
+
+.others_collection .left_img {
+  height: 320px;
+  overflow: hidden;
+  margin-right: -50px;
+  position: relative;
+}
+
+.others_collection .right_img {
+  height: 384px;
+  overflow: hidden;
+}
+
+.others_collection h3 {
+  letter-spacing: 0.1em;
+}
+
+.right_img img {
+  object-fit: contain;
+}
+
+.left_img img {
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 758px) {
+  .ps-5 {
+    text-align: left;
+  }
+
+  .collection-all-bnr {
+    padding: 1rem;
+    background-color: transparent;
+
+  }
+  
+.collection-all-bnr .right_img {
+    display: none !important;
+  }
+
+  .collection-all-bnr .left_img img {
+    height: 50vw !important;
+  }
+  
+.collection-all-bnr .txt {
+    padding: 0;
+  }
+
+  .collection-all-bnr h3 {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .collection-all-bnr p {
+    font-family: Karla;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.01em;
+  }
+
+  .others_collection {
+    padding: 1rem 0 !important;
+  }
+  
+.others_collection .left_img {
+    height: 35vw !important;
+  }
+  
+.others_collection .right_img-1 {
+    height: 45vw !important;
+  }
+
+  .mobile-center-images {
+    justify-content: center;
+  }
+  
+.others_collection h3 {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+  }
+  
+.others_collection p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+  }
+}
+
+.subtitle {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  text-transform: capitalize;
+  margin-bottom: 8px !important;
+  color: #FFCC18;
+}
+
+{% endstyle %}

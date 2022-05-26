@@ -1,0 +1,82 @@
+<section class="how-it-works-richtext">
+  <div class="wrapper">
+    <div class="grid justify-content-center">
+      <div class="grid__item width-text text-center">
+        <div class="border-line "></div>
+        <div class="text-padding">
+          {% if section.settings.text_center != blank %}
+            {{ section.settings.text_center }}
+          {% endif %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+
+{
+  "name": "Text how it works",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "text_center",
+      "label": "Text"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.text-padding {
+  padding-top: 24px;
+}
+
+.border-line {
+  border-bottom: 4px dotted #F95510;
+  width: 40%;
+  margin: auto;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.how-it-works-richtext {
+  padding: 4rem 0;
+}
+
+.how-it-works-richtext .width-text {
+  max-width: 53%;
+}
+
+.how-it-works-richtext p {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+  text-align: center;
+  color: #242424;
+}
+
+@media only screen and (max-width: 758px) {
+  .how-it-works-richtext {
+    padding: 2.5rem 0;
+  }
+
+.how-it-works-richtext p {
+    font-size: 16px;
+    margin: 0;
+    line-height: 32px;
+  }
+
+.how-it-works-richtext .width-text {
+    max-width: 100%;
+  }
+}
+
+{% endstyle %}

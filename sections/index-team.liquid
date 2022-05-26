@@ -1,0 +1,387 @@
+<section class="box bg-color-two-tone">
+  <div class="wrapper border-bottom-dotted">
+    <div class="grid">
+      <div class="grid-small grid__item text-padding">
+        {% if page.url == "/pages/uber-nobelportrat" %}
+          <h2 class="text-center size-text mobile-heading">
+            Triff unser Team</h2>
+        {% else %}
+          <h2 class="text-center size-text mobile-heading">Das sind wir</h2>
+        {% endif %}
+      </div>
+    </div>
+    <div class="grid grid-spacer">
+
+      <div class="grid__item medium--six-twelfts small--six-twelfths large--three-twelfths flex flex-fill  mb">
+        <div class="card card-color">
+
+          <div class="image">
+            <img src="{{ 'david.jpg' | asset_url }}" class="product-image team-img" alt="">
+          </div>
+          <div class="content">
+
+            <div class=" items-center flex justify-center">
+              <p class="text-center team-job">Support
+              </p>
+            </div>
+            <p class="title-team">David</p>
+            <p class="text-team">Hilft dir bei allen Fragen weiter und bleibt immer freundlich. (-:</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item medium--six-twelfts small--six-twelfths large--three-twelfths flex flex-fill  mb">
+        <div class="card card-color">
+
+          <div class="image">
+            <img src="{{ 'marius.jpg' | asset_url }}" class="product-image team-img" alt="">
+          </div>
+          <div class="content">
+
+            <div class=" items-center flex justify-center">
+              <p class="text-center team-job">founder
+              </p>
+            </div>
+            <p class="title-team">Marius</p>
+            <p class="text-team">Gründer von Nobelpfoten & Nobelportrait (vorsicht, ein wenig verrückt.)</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item medium--six-twelfts small--six-twelfths large--three-twelfths flex flex-fill  mb">
+        <div class="card card-color">
+
+          <div class="image">
+            <img src="{{ 'alvin.jpg' | asset_url }}" class="product-image team-img" alt="">
+          </div>
+          <div class="content">
+
+            <div class=" items-center flex justify-center">
+              <p class="text-center team-job">Gründer
+              </p>
+            </div>
+            <p class="title-team">Alvin</p>
+            <p class="text-team">Leitet das Nobelportrait Design-Team, & passionierter Künstler.</p>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item medium--six-twelfts small--six-twelfths large--three-twelfths flex flex-fill  mb">
+        <div class="card card-color">
+
+          <div class="image">
+            <img src="{{ 'sheryll.jpg' | asset_url }}" class="product-image team-img" alt="">
+          </div>
+          <div class="content">
+
+            <div class=" items-center flex justify-center">
+              <p class="text-center team-job">Fulfillment
+              </p>
+            </div>
+            <p class="title-team">Sheryll</p>
+            <p class="text-team">Sorgt dafür, das die Qualität stimmt und dein Portrait auch ankommt.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% if page.url == "/pages/uber-nobelportrat"%}
+      <div></div>
+    {% else %}
+      <a class="scroll-btn-border" href="#index-collection-sec">
+        <span></span>
+      </a>
+
+      <div class="flex center-button mobile-button-padding-top">
+        <div class="button-team">
+          <a class="text-center" href="/pages/uber-nobelportrat">Mehr über uns
+          </a>
+        </div>
+      </div>
+
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+
+{
+  "name": "Team",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Triff unser Team"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Team",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.team-img {
+  border: 1px solid #000000;
+}
+
+.border-bottom-dotted {
+  border-bottom: 4px dotted #F5F5F5;
+
+}
+
+.bg-color-all-product {
+  background-color: #F5F5F5;
+
+}
+
+.new-products-title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #242424
+}
+/*margin between cards */
+
+.down-line-one {
+  position: absolute;
+  transform: translate(320px, -25px);
+}
+
+.text-padding {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.scroll-btn-top {
+  top: -25px !important;
+}
+
+.card {
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.margine: {
+  margin-left: 10px;
+  margin-right: -10px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card .image {
+  height: 248px;
+  padding: 16px 16px 24px;
+  overflow: hidden;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+.card .title {
+  text-align: center;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #5E5A60;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+
+.card .content {
+  justify-content: center;
+  display: grid;
+  margin-top: auto;
+  min-width: 100%;
+}
+
+.card .content .price {
+  text-align: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.card .price-size {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  text-align: center;
+  color: #2B1E30;
+}
+
+.card .content .price .new-price {
+  font-weight: bold;
+}
+
+.card .content .price .original-price {
+  margin-left: 5px;
+  font-size: 14px;
+  font-style: italic;
+  opacity: .5;
+  text-decoration: line-through;
+}
+
+/* Hover state = underline the title */
+.card:hover .title {
+  text-decoration: underline;
+}
+
+a.scroll-btn-border {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 36px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+}
+
+a.scroll-btn-border span {
+  border: solid #242424;
+  display: inline-block;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  margin: 0 auto;
+  padding: 6px;
+  transform: rotate(45deg) translate(-50%, -50%);
+  -webkit-transform: rotate(45deg) translate(-50%, -50%);
+  text-align: center;
+}
+
+.card:focus-within .title {
+  text-decoration: underline;
+}
+
+.card .pb-button {
+  margin-bottom: 28px;
+  align-items: center;
+  padding: 15px 35px;
+  background-color: #FFCC18;
+}
+
+.card .pb-button a {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+@media only screen and (max-width: 758px) {
+  .down-line-one {
+    display: none;
+  }
+
+  .text-padding {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+
+.card-color {
+  background-color: #FFEFB6;
+}
+
+.bg-color-two-tone {
+  background-image: linear-gradient(180deg, #F5F5F5 50%, #ffffff 50%);
+}
+
+.title-team {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #242424
+}
+
+.text-team {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #4A4A4A;
+}
+
+.button-team {
+  padding: 18px 28px;
+  background-color: #F5F5F5;
+  text-transform: uppercase;
+}
+
+.team-job {
+  background: #FFCC18;
+  display: inline-flex;
+  line-height: 1;
+  align-items: center;
+  padding: 6px 10px;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .button-team {
+    padding: 18px 10px;
+    flex: 0 0 100%;
+    text-align: center;
+  }
+
+.mobile-heading {
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+.mobile-button-padding-top {
+    padding-top: 32px !important;
+  }
+}
+
+{% endstyle %}

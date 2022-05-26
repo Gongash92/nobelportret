@@ -1,0 +1,10 @@
+{% if widget_type == 'product_badge' %}
+    <div style="clear:both"></div>
+    <div class="">
+        <div class="dbtfy-review_widget dbtfy-review_badge-widget">
+            <div class="dbtfy-review dbtfy-review_badge" data-product-id='{{ product.id }}'>
+                {{ product.metafields.dbtfy_review.review_badge }}
+            </div>
+        </div>
+    </div>
+{% endif %}

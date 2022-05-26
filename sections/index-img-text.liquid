@@ -1,0 +1,132 @@
+<section class="box bg-img-text">
+  <div class="wrapper">
+    <div class="grid">
+      <div class="grid__item last-mobile mobile-padding">
+        <img src="{{ 'img-text.png' | asset_url }}" alt="{{ }}">
+        <img class="text-svg" src="{{ 'svg-down-two.svg' | asset_url }}" alt="Original Image">
+
+      </div>
+      <div class="grid__item gap-img first-mobile">
+        <div>
+          <h2 class="size-text mobile-heading">Einzigartige Kunst</h2>
+          <p>Bei Nobelporträt kannst du dein Portrait nach Fotovorlage auf Leinwand, Poster und viele weitere Produkte
+            						malen lassen. Jede Kreation ist ein Unikat!
+          </p>
+          <div class="flex text-content">
+
+            <div class="button-text-img">
+              <a class="text-center" href="/collections/alle-produkte">Portrait von mir zeichnen lassen</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% schema %}
+
+{
+  "name": "Text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Dein Haustier als Kunstwerk"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.text-svg {
+  position: absolute;
+  transform: translateY(389px);
+  z-index: 2;
+  left: 37%;
+}
+
+.bg-img-text {
+  background-color: #F5F5F5;
+  border-bottom: 3px dotted #D9D9D9;
+  padding-top: 88px;
+}
+
+.bg-img-text .gap-img {
+  padding-left: 76px;
+  margin: auto;
+}
+
+.bg-img-text .gap-img h2 {
+  padding-bottom: 44px;
+
+}
+
+.bg-img-text .gap-img p {
+  padding-bottom: 30px;
+
+}
+
+.button-text-img {
+  padding: 16px 24px;
+  background-color: #F95510;
+}
+
+
+.button-text-img a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .bg-img-text .gap-img {
+    padding-left: 16px;
+    margin: auto;
+    text-align: center;
+  }
+
+.bg-img-text {
+    padding-top: 44px;
+
+  }
+
+  .text-svg {
+    display: none;
+  }
+
+.text-content {
+    justify-content: center;
+  }
+
+.mobile-padding {
+    padding-top: 38px;
+  }
+
+  .bg-img-text .gap-img h2 {
+    padding-bottom: 18px;
+  }
+}
+
+{% endstyle %}

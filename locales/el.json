@@ -1,0 +1,1375 @@
+{
+  "general": {
+    "404": {
+      "title": "404 Η σελίδα δεν βρέθηκε",
+      "subtext_html": "Η σελίδα που ψάχνατε δεν υπάρχει."
+    },
+    "accessibility": {
+      "refresh_page": "Η επιλογή μιας επιλογής έχει ως αποτέλεσμα μια πλήρη ανανέωση σελίδας.",
+      "selection_help": "Πατήστε το πλήκτρο διαστήματος και στη συνέχεια τα πλήκτρα βέλους για να κάνετε μια επιλογή.",
+      "unit_price_separator": "Για"
+    },
+    "meta": {
+      "tags": "Με ετικέτα \"{{ tags }}\"",
+      "page": "Σελίδα {{ page }}"
+    },
+    "pagination": {
+      "previous": "Προηγούμενος",
+      "next": "Επόμενο"
+    },
+    "password_page": {
+      "login_form_heading": "Μπείτε στο κατάστημα χρησιμοποιώντας τον κωδικό πρόσβασης:",
+      "login_form_password_label": "Κωδικός πρόσβασης",
+      "login_form_password_placeholder": "Ο κωδικός σας",
+      "login_form_submit": "Εισαγω",
+      "signup_form_email_label": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+      "signup_form_success": "Θα σας στείλουμε ένα email αμέσως πριν ανοίξουμε!",
+      "admin_link_html": "Είστε ο ιδιοκτήτης του καταστήματος; <a href=\"/admin\" class=\"text-link\">Συνδεθείτε εδώ</a>",
+      "password_link": "Εισαγάγετε χρησιμοποιώντας κωδικό πρόσβασης",
+      "powered_by_shopify_html": "Αυτό το κατάστημα θα τροφοδοτείται από {{ shopify }}",
+      "close": "κλείσιμο (esc)"
+    },
+    "dates": {
+      "year": "Ετος",
+      "month": "Μήνας",
+      "day": "Ημέρα"
+    },
+    "months": {
+      "full": {
+        "january": "Ιανουάριος",
+        "february": "Φεβρουάριος",
+        "march": "Μάρτιος",
+        "april": "Απρίλιος",
+        "may": "Ενδέχεται",
+        "june": "Ιούνιος",
+        "july": "Ιούλιος",
+        "august": "Αύγουστος",
+        "september": "Σεπτέμβριος",
+        "october": "Οκτώβριος",
+        "november": "Νοέμβριος",
+        "december": "Δεκέμβριος"
+      },
+      "short": {
+        "january": "Ιαν",
+        "february": "Φεβ",
+        "march": "Θάλασσα",
+        "april": "Απρ",
+        "may": "Ενδέχεται",
+        "june": "Ιούν",
+        "july": "Ιουλ",
+        "august": "Αύγ",
+        "september": "Σεπτ",
+        "october": "Οκτ",
+        "november": "Νοε",
+        "december": "Δεκ"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "Δευτέρα",
+        "tuesday": "Τρίτη",
+        "wednesday": "Τετάρτη",
+        "thursday": "Πέμπτη",
+        "friday": "Παρασκευή",
+        "saturday": "Σάββατο",
+        "sunday": "Κυριακή"
+      },
+      "short": {
+        "monday": "Μου",
+        "tuesday": "Δικος σου",
+        "wednesday": "Νυμφεύω",
+        "thursday": "Συλλέγω",
+        "friday": "Παρ",
+        "saturday": "Σάβ",
+        "sunday": "Ήλιος"
+      }
+    },
+    "social": {
+      "share_on_facebook": "Μερίδιο",
+      "share_on_twitter": "Τιτίβισμα",
+      "share_on_pinterest": "Καρφιτσώστε το",
+      "share_on_email": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+      "share_on_whatsapp": "WhatsApp",
+      "share_on_linkedin": "LinkedIn",
+      "share_on_reddit": "Reddit",
+      "share_on_messenger": "Αγγελιαφόρος",
+      "alt_text": {
+        "share_on_facebook": "Κοινοποίηση στο Facebook",
+        "share_on_twitter": "Tweet στο Twitter",
+        "share_on_pinterest": "Καρφίτσωμα στο Pinterest",
+        "share_on_email": "Κοινή χρήση μέσω email",
+        "share_on_whatsapp": "Κοινοποίηση στο Whatsapp",
+        "share_on_linkedin": "Μοιραστείτε το στο LinkedIn",
+        "share_on_reddit": "Μοιραστείτε το στο Reddit",
+        "share_on_messenger": "Κοινή χρήση στο Messenger",
+        "share_on_messnger": "Κοινή χρήση στο Messenger"
+      },
+      "share_on_messnger": "Αγγελιαφόρος"
+    },
+    "newsletter_form": {
+      "newsletter_email": "Εγγραφείτε στη λίστα αλληλογραφίας μας",
+      "newsletter_placeholder": "Η διεύθυνση του ηλεκτρονικού σου ταχυδρομείου",
+      "newsletter_confirmation": "Ευχαριστούμε για την εγγραφή σας",
+      "submit": "Εγγραφείτε"
+    },
+    "search": {
+      "no_results_html": "Η αναζήτησή σας για \"{{ terms }}\" δεν έφερε αποτελέσματα.",
+      "results_for_html": "Η αναζήτησή σας για το \"{{ terms }}\" αποκάλυψε τα εξής:",
+      "title": "Αναζήτηση",
+      "placeholder": "Αναζητήστε το κατάστημά μας",
+      "submit": "Αναζήτηση"
+    },
+    "drawers": {
+      "navigation": "Μενού",
+      "close_menu": "Κλείσιμο μενού",
+      "expand_submenu": "Αναπτύξτε το υπομενού",
+      "collapse_submenu": "Σύμπτυξη υπομενού"
+    },
+    "payment": {
+      "method": "Μέθοδοι πληρωμής"
+    },
+    "currency": {
+      "dropdown_label": "Νόμισμα"
+    },
+    "language": {
+      "dropdown_label": "Γλώσσα"
+    },
+    "localization": {
+      "submit_label": "Ενημέρωση προτιμήσεων"
+    },
+    "trial_over": {
+      "heading": "Η δωρεάν δοκιμή σας έχει λήξει",
+      "text": "Γεια, {{ name }}. Φαίνεται ότι η δωρεάν δοκιμή 14 ημερών του Enterprise Plan έχει ήδη λήξει. Αυτό σημαίνει ότι όλα τα πρόσθετά σας είναι πλέον απενεργοποιημένα.\n\nΑλλά μάλλον δεν θέλετε να χάσετε την αύξηση των μετατροπών και των εσόδων που λάβατε από τα πρόσθετά σας, σωστά;\n\nΕπιλέξτε ένα πρόγραμμα που ταιριάζει καλύτερα στους στόχους σας και συνεχίστε να απολαμβάνετε υψηλότερα ποσοστά μετατροπών.",
+      "pick_a_plan": "Διάλεξε ένα σχέδιο"
+    },
+    "addons_limit_reached": {
+      "heading": "Ουάου! Εύκολα εκεί, Τίγρη!",
+      "text": "Φαίνεται ότι χρειάζεστε περισσότερα πρόσθετα :)\n\nΤο τρέχον πρόγραμμά σας [plan_name] ενεργοποιείται μόνο για πρόσθετα έως [current_limit]. Το [upgraded_plan] σάς επιτρέπει να ενεργοποιήσετε πρόσθετα [upgraded_limit]. Αναβαθμίστε το σχέδιό σας για να ξεκλειδώσετε ΟΛΕΣ τις λειτουργίες Premium.",
+      "upgrade_now": "Αναβάθμισε τώρα",
+      "note": "*Σημείωση: Εάν έχουν επιλεγεί περισσότερα από [current_limit] πρόσθετα, ενεργοποιούνται μόνο τα πρώτα πρόσθετα [current_limit] που έχουν επιλεγεί. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">Πώς μπορώ να απενεργοποιήσω τα επιπλέον πρόσθετα;</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "name": "⚡ Έλεγχος ηλικίας",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5057047-how-to-use-the-age-check-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "background_image": {
+          "label": "Χρόνος μεσοδιαστήματος"
+        },
+        "verification_type": {
+          "label": "Τύπος κινουμένων σχεδίων",
+          "options__1": {
+            "label": "Ημερομηνία γέννησης"
+          },
+          "options__2": {
+            "label": "Ναι όχι"
+          }
+        },
+        "valid_age": {
+          "label": "Έγκυρη ηλικία"
+        },
+        "logo_image": {
+          "label": "Λογότυπο"
+        },
+        "logo_svg": {
+          "label": "Λογότυπο SVG",
+          "info": "[Πώς να ανεβάσετε ένα αρχείο SVG;](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Πλάτος λογότυπου"
+        }
+      }
+    },
+    "back_in_stock": {
+      "name": "⚡ Επιστροφή σε απόθεμα",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5265388-how-to-enable-the-back-in-stock-add-on-in-debutify-3 -0-shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "icon": {
+          "label": "Εικόνισμα",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        },
+        "enable_button_animation": {
+          "label": "Ενεργοποίηση κίνησης κουμπιών"
+        }
+      }
+    },
+    "cart_countdown": {
+      "name": "⚡ Αντίστροφη μέτρηση καλαθιού",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5054061-how-to-enable-the-cart-countdown-timer-in-debutify-3-0-shopify -θέμα)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "time_minutes": {
+          "label": "Λεπτά"
+        },
+        "icon": {
+          "label": "Εικόνισμα",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Ρυθμίσεις με χρονοδιακόπτη"
+        },
+        "icon_over": {
+          "label": "Εικόνισμα",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "cart_favicon": {
+      "name": "⚡ Favicon καλαθιού",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "time_minutes": {
+          "label": "Λεπτά"
+        },
+        "favicon": {
+          "label": "Εικόνα Favicon"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "⚡ Έκπτωση στο καλάθι",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5054067-how-to-use-cart-discount-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "label_icon": {
+          "label": "Εικονίδιο ετικέτας",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "εικονίδιο κουμπιού",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "⚡ Φίλτρα συλλογής",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0 -shopify-θέμα)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "filter_icon": {
+          "label": "Εικονίδιο φίλτρου",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "⚡ Έγχρωμα δείγματα",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "color_options_list_page": {
+          "label": "Επιλογές παραλλαγής σελίδας προϊόντος",
+          "info": "Προσθήκη ονόματος επιλογών παραλλαγής με διαχωρισμό με κόμματα"
+        },
+        "color_options_list_grid": {
+          "label": "Επιλογές παραλλαγής πλέγματος προϊόντων",
+          "info": "Τα χρωματικά δείγματα θα εφαρμοστούν σε όλες τις επιλογές παραλλαγών με αυτό το όνομα"
+        },
+        "swatches_count_product_grid": {
+          "label": "Δείγματα στο πλέγμα προϊόντων"
+        }
+      }
+    },
+    "cookie_box": {
+      "name": "⚡ Κουτί για μπισκότα",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5054095-how-to-use-a-cookie-box-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "use_drawer_colors": {
+          "label": "Χρησιμοποιήστε χρώματα συρταριών"
+        },
+        "enable_for_eu_only": {
+          "label": "Ενεργοποίηση μόνο για την ΕΕ"
+        },
+        "button_style": {
+          "label": "Στυλ κουμπιών",
+          "options__1": {
+            "label": "Προκαθορισμένο"
+          },
+          "options__2": {
+            "label": "Γεμάτος"
+          },
+          "options__3": {
+            "label": "Περίγραμμα"
+          }
+        }
+      }
+    },
+    "custom_currencies": {
+      "name": "⚡ Προσαρμοσμένα νομίσματα",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5057090-how-to-use-custom-currencies-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "paragraph__3": {
+          "content": "Ενώ είναι ενεργοποιημένος, ο εγγενής μετατροπέας πολλαπλών νομισμάτων Shopify Payment θα απενεργοποιηθεί. Σημειώστε ότι το Shopify δεν μας επιτρέπει να μετατρέψουμε τις τιμές στη σελίδα του Ταμείου."
+        },
+        "show_currency_message": {
+          "label": "Εμφάνιση μηνύματος νομίσματος"
+        },
+        "show_original_price_on_hover": {
+          "label": "Εμφάνιση αρχικής τιμής κατά την αιώρηση"
+        },
+        "currency_format": {
+          "label": "Μορφή",
+          "options__1": {
+            "label": "Χωρίς νόμισμα (10,00 $)"
+          },
+          "options__2": {
+            "label": "Με νόμισμα ($10,00 USD)"
+          },
+          "options__3": {
+            "label": "Χωρίς δεκαδικά ($10)"
+          },
+          "options__4": {
+            "label": "Χωρίς δεκαδικά ψηφία με νόμισμα ($10 USD)"
+          },
+          "options__5": {
+            "label": "Χωρίς σήμα και με νόμισμα (10 USD)"
+          },
+          "options__6": {
+            "label": "Χωρίς πρόσημο & με δεκαδικό (10.00)"
+          }
+        },
+        "supported_currencies": {
+          "label": "Υποστηριζόμενα νομίσματα",
+          "info": "Χρησιμοποιήστε το ISO της χώρας [κωδικός νομίσματος](https://www.xe.com/iso4217.php). Διαχωρίστε τους κωδικούς νομισμάτων σας με ένα κενό."
+        }
+      }
+    },
+    "facebook_messenger": {
+      "name": "⚡ Facebook messenger",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5057679-how-to-add-a-facebook-messenger-chat-widget-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "code": {
+          "label": "Κώδικας",
+          "info": "Πώς να λάβετε κωδικό; Μεταβείτε στη σελίδα σας στο Facebook > Ρυθμίσεις > Μηνύματα > Προσθήκη Messenger στον ιστότοπό σας > Αντιγραφή και επικόλληση του αποσπάσματος κώδικα"
+        },
+        "hide_on_mobile": {
+          "label": "Απόκρυψη στο κινητό"
+        }
+      }
+    },
+    "delivery_date": {
+      "label": "Επιλέξτε την προτιμώμενη ημερομηνία παράδοσης",
+      "placeholder": "Επιλέξτε ημερομηνία και ώρα*",
+      "error_message": "Κάντε μια επιλογή για να συνεχίσετε"
+    },
+    "gift_wrap": {
+      "name": "⚡ Συσκευασία δώρου",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5596124-how-to-enable-the-gift-wrap-add-on-in-the-debutify-shopify -θέμα)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "product": {
+          "label": "Προϊόν συσκευασίας δώρου"
+        },
+        "show_price": {
+          "label": "Εμφάνιση τιμής κουτιού δώρου"
+        }
+      }
+    },
+    "inactive_tab_message": {
+      "name": "⚡ Μήνυμα ανενεργής καρτέλας",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5242828-how-to-enable-the-inactive-tab-message-add-on-in-debutify-3 -0-shopify-theme)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "delay": {
+          "label": "Καθυστέρηση"
+        }
+      }
+    },
+    "infinite_scroll": {
+      "name": "⚡ Άπειρη κύλιση",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5161154-how-to-use-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "scroll_options": {
+          "label": "Άπειρες επιλογές κύλισης",
+          "options__1": {
+            "label": "Ατελείωτο κλικ"
+          },
+          "options__2": {
+            "label": "Ατελείωτη κύλιση"
+          }
+        },
+        "button_style": {
+          "label": "Στυλ κουμπιού φόρτωσης",
+          "options__1": {
+            "label": "Προκαθορισμένο"
+          },
+          "options__2": {
+            "label": "Γεμάτος"
+          },
+          "options__3": {
+            "label": "Περίγραμμα"
+          }
+        },
+        "loading_image": {
+          "label": "Φόρτωση εικόνας για ατελείωτη κύλιση",
+          "info": "Αφήστε κενό για να εμφανιστεί το προεπιλεγμένο εικονίδιο φόρτωσης"
+        }
+      }
+    },
+    "inventory_quantity": {
+      "name": "⚡ Ποσότητα αποθέματος",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5054133-how-to-display-the-inventory-quantity-of-your-product-variant-in-3 -0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "icon": {
+          "label": "Εικόνισμα",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Ρυθμίσεις τυχαίας ποσότητας"
+        },
+        "show_random_quantities": {
+          "label": "Εμφάνιση τυχαίων ποσοτήτων",
+          "info": "Καταργήστε την επιλογή για να εμφανιστεί το πραγματικό απόθεμα"
+        },
+        "min_random_quantity": {
+          "label": "Η ποσότητα μου"
+        },
+        "max_random_quantity": {
+          "label": "Μέγιστη ποσότητα"
+        },
+        "header__4": {
+          "content": "Ρυθμίσεις κατωφλίου μετοχών",
+          "info": "Εάν η ρύθμιση τυχαίων ποσοτήτων είναι απενεργοποιημένη"
+        },
+        "quantity_threshold": {
+          "label": "Ποσότητα κατωφλίου",
+          "info": "Εάν η ποσότητα προϊόντος είναι υψηλότερη από το όριο που έχει οριστεί, τότε αποκρύψτε την ποσότητα αποθέματος προϊόντος ή εμφανίστε ένα γενικό κείμενο"
+        }
+      }
+    },
+    "live_view": {
+      "name": "⚡ Ζωντανή προβολή",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5054147-how-to-use-live-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "position": {
+          "label": "Θέση",
+          "options__1": {
+            "label": "Κάτω από την τιμή του προϊόντος"
+          },
+          "options__2": {
+            "label": "Κάτω από το κουμπί προσθήκης στο καλάθι"
+          }
+        },
+        "icon": {
+          "label": "Εικόνισμα",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        },
+        "min_quantity": {
+          "label": "Ελάχ. (άτομα)"
+        },
+        "max_quantity": {
+          "label": "Max (άτομα)"
+        },
+        "max_interval_steps": {
+          "label": "Μέγιστα βήματα διαστήματος"
+        },
+        "interval_time": {
+          "label": "Χρόνος μεσοδιαστήματος"
+        }
+      }
+    },
+    "menu_bar": {
+      "name": "⚡ Γραμμή μενού",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5231134-how-to-enable-a-menu-bar-add-on-in-debutify-3-0 -shopify-θέμα)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "menu": {
+          "label": "Μενού"
+        },
+        "show_on_desktop": {
+          "label": "Max (άτομα)"
+        },
+        "show_on_mobile": {
+          "label": "Ελάχ. (άτομα)"
+        }
+      }
+    },
+    "minimum_order": {
+      "amount_reached_text": "Συμπληρώθηκε το ελάχιστο ποσό παραγγελίας. Μπορείτε να προχωρήσετε στο ταμείο.",
+      "amount_unreached_text": "Ακόμα δεν έχετε συμπληρώσει το ελάχιστο ποσό παραγγελίας. Προσθέστε {left_amount} για να συνεχίσετε."
+    },
+    "newsletter_popup": {
+      "floating_bar_text": "Κερδίστε έκπτωση 20%!",
+      "popup_title": "Εγγραφείτε στο Newsletter μας!",
+      "popup_text": "Αποκτήστε έκπτωση 10% στην πρώτη σας αγορά με την εγγραφή σας στο ενημερωτικό μας δελτίο.",
+      "popup_close_text": "Όχι, ευχαριστώ, δεν μου αρέσουν οι εκπτώσεις.",
+      "popup_title_success": "Σας ευχαριστώ!",
+      "popup_text_success": "Αντιγράψτε τον κωδικό έκπτωσης παρακάτω και επικολλήστε τον στο ταμείο για να λάβετε την έκπτωση σας!",
+      "popup_reward_button": "Εφαρμογή κωδικού έκπτωσης"
+    },
+    "order_feedback": {
+      "name": "⚡ Παραγγελία σχολίων",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5242840-how-to-enable-the-order-feedback-add-on-in-debutify-3-0 -shopify-θέμα)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "required_to_checkout": {
+          "label": "Απαιτείται για ταμείο"
+        }
+      }
+    },
+    "page_transition": {
+      "name": "⚡ Μετάβαση σελίδας",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5057511-how-to-use-page-transition-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "logo_image": {
+          "label": "Λογότυπο"
+        },
+        "logo_svg": {
+          "label": "Λογότυπο SVG",
+          "info": "[Πώς να ανεβάσετε ένα αρχείο SVG;](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Πλάτος λογότυπου"
+        }
+      }
+    },
+    "product_image_crop": {
+      "name": "⚡ Περικοπή εικόνας προϊόντος",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5057531-how-to-use-product-image-crop-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "image_ratio": {
+          "label": "Αναλογία εικόνας"
+        },
+        "image_position": {
+          "label": "Θέση εικόνας",
+          "options__1": {
+            "label": "Πάνω αριστερά"
+          },
+          "options__2": {
+            "label": "Κορυφαίο κέντρο"
+          },
+          "options__3": {
+            "label": "Πάνω δεξιά"
+          },
+          "options__4": {
+            "label": "Μέση αριστερά"
+          },
+          "options__5": {
+            "label": "Μεσαίο κέντρο"
+          },
+          "options__6": {
+            "label": "Μέση δεξιά"
+          },
+          "options__7": {
+            "label": "Κάτω αριστερά"
+          },
+          "options__8": {
+            "label": "Κάτω κέντρο"
+          },
+          "options__9": {
+            "label": "Κάτω δεξιά"
+          }
+        }
+      }
+    },
+    "quick_view": {
+      "name": "⚡ Γρήγορη προβολή",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5054198-how-to-use-quick-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "hide_on_mobile": {
+          "label": "Απόκρυψη στο κινητό"
+        },
+        "show_quantity_picker": {
+          "label": "Εμφάνιση επιλογέα ποσότητας"
+        },
+        "image_position": {
+          "label": "Τοποθέτηση εικονιδίων",
+          "options__1": {
+            "label": "Αριστερά"
+          },
+          "options__2": {
+            "label": "σωστά"
+          }
+        }
+      }
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "Αφαίρεση από Γρήγορη σύγκριση",
+      "add_to_compare_text": "Προσθήκη στη Γρήγορη σύγκριση",
+      "title_modal": "Γρήγορη σύγκριση",
+      "empty_table": "Αυτήν τη στιγμή δεν υπάρχουν στοιχεία στη λίστα γρήγορης σύγκρισης",
+      "images_cell": "εικόνες",
+      "title_cell": "Τίτλος",
+      "price_cell": "Τιμή",
+      "type_cell": "Τύπος",
+      "vendor_cell": "Προμηθευτής",
+      "collections_cell": "Συλλογές",
+      "tags_cell": "Ετικέτες",
+      "short_description_cell": "Σύντομη περιγραφή"
+    },
+    "recently_viewed": {
+      "name": "⚡ Προβλήθηκε πρόσφατα",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5057690-how-to-display-recently-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "products_limit": {
+          "label": "Απόκρυψη στο κινητό"
+        },
+        "header__3": {
+          "content": "Πλωτή μπάρα"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "Εμφάνιση στην επιφάνεια εργασίας"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "Εμφάνιση στο κινητό"
+        },
+        "floating_bar_position": {
+          "label": "Θέση",
+          "options__1": {
+            "label": "Αριστερά"
+          },
+          "options__2": {
+            "label": "σωστά"
+          }
+        },
+        "header__4": {
+          "content": "Ενότητα"
+        },
+        "section_products_per_row_desktop": {
+          "label": "Προϊόντα ανά σειρά (επιτραπέζιος υπολογιστής)"
+        },
+        "section_products_per_row_mobile": {
+          "label": "Προϊόντα ανά σειρά (κινητά)"
+        },
+        "header__5": {
+          "content": "Στροβιλοδρόμιο"
+        },
+        "carousel_enable": {
+          "label": "Ενεργοποίηση καρουζέλ"
+        },
+        "carousel_show_arrows": {
+          "label": "Εμφάνιση βελών"
+        },
+        "carousel_show_dots": {
+          "label": "Εμφάνιση κουκκίδων"
+        },
+        "carousel_auto_rotate": {
+          "label": "Περιστρεφόμενα αυτοκίνητα"
+        },
+        "carousel_rotation_speed": {
+          "label": "Ταχύτητα περιστροφής"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "Προϊόντα προς εμφάνιση στη σειρά"
+        }
+      }
+    },
+    "smart_search": {
+      "name": "⚡ Έξυπνη αναζήτηση",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5054239-how-to-use-smart-search-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις αποτελεσμάτων"
+        },
+        "show_price": {
+          "label": "Εμφάνιση τιμής"
+        },
+        "show_vendor": {
+          "label": "Εμφάνιση πωλητή"
+        },
+        "result_limit": {
+          "label": "Όριο αποτελεσμάτων"
+        }
+      }
+    },
+    "social_discount": {
+      "name": "⚡ Κοινωνική έκπτωση",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5057551-how-to-use-a-social-discount-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "icon": {
+          "label": "Εικόνισμα",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Ρυθμίσεις αναδυόμενων παραθύρων"
+        },
+        "popup_width": {
+          "label": "Μέγεθος",
+          "options__1": {
+            "label": "Μικρό"
+          },
+          "options__2": {
+            "label": "Μεσαίο"
+          },
+          "options__3": {
+            "label": "Μεγάλο"
+          }
+        },
+        "header__4": {
+          "content": "Ρυθμίσεις επιτυχίας"
+        },
+        "header__5": {
+          "content": "Κωδικός έκπτωσης",
+          "info": "[Δημιουργία εκπτωτικού κωδικού](/admin/discounts/new)"
+        },
+        "discount_name": {
+          "label": "Ονομα"
+        },
+        "discount_amount": {
+          "label": "Ποσό"
+        },
+        "discount_type": {
+          "label": "Τύπος",
+          "options__1": {
+            "label": "Ποσοστό"
+          },
+          "options__2": {
+            "label": "Προκαθορισμένο ποσό"
+          }
+        }
+      }
+    },
+    "sold_items": {
+      "name": "⚡ Πωλημένα είδη",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5447397-how-to-enable-the-sold-items-add-on-in-debutify)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "position": {
+          "label": "Θέση",
+          "options__1": {
+            "label": "Κάτω από την τιμή του προϊόντος"
+          },
+          "options__2": {
+            "label": "Κάτω από το κουμπί προσθήκης στο καλάθι"
+          }
+        },
+        "icon": {
+          "label": "Εικόνισμα",
+          "info": "[Προβολή όλων των διαθέσιμων εικονιδίων](https://material.io/resources/icons)"
+        },
+        "minimum_range": {
+          "label": "Ελάχιστο εύρος"
+        },
+        "maximum_range": {
+          "label": "Μέγιστο εύρος"
+        },
+        "interval_time": {
+          "label": "Ορισμός χρόνου διαστήματος (ώρα)"
+        }
+      }
+    },
+    "sticky_add_to_cart": {
+      "name": "⚡ Κολλώδες πρόσθετο στο καλάθι",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε το βήμα προς βήμα οδηγό μας](https://help.debutify.com/en/articles/5054241-how-to-display-a-sticky-add-to-cart-bar-in-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "show_star_rating": {
+          "label": "Μέγιστο εύρος"
+        },
+        "enable_add_to_cart_animation": {
+          "label": "Μέγιστο εύρος"
+        },
+        "enable_simplified_display": {
+          "label": "Μέγιστο εύρος"
+        },
+        "position": {
+          "label": "Θέση",
+          "options__1": {
+            "label": "Μπλουζα"
+          },
+          "options__2": {
+            "label": "Κάτω μέρος"
+          }
+        }
+      }
+    },
+    "trust_badge": {
+      "name": "⚡ Σήμα εμπιστοσύνης",
+      "settings": {
+        "header__1": {
+          "content": "Κέντρο βοηθείας"
+        },
+        "paragraph__1": {
+          "content": "[Ακολουθήστε τον αναλυτικό οδηγό μας](https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Για να ενεργοποιήσετε/απενεργοποιήσετε αυτό το πρόσθετο, μεταβείτε στις Ρυθμίσεις θέματος > Debutify Add-ons."
+        },
+        "header__2": {
+          "content": "Ρυθμίσεις"
+        },
+        "show_on_product_page": {
+          "label": "Εμφάνιση στη σελίδα του προϊόντος"
+        },
+        "show_on_cart_page": {
+          "label": "Εμφάνιση στη σελίδα/συρτάρι του καλαθιού"
+        },
+        "enable_small_text": {
+          "label": "Μικρό κείμενο"
+        },
+        "position_in_cart_drawer": {
+          "label": "Θέση στο συρτάρι του καλαθιού",
+          "options__1": {
+            "label": "Ξεχωριστό τμήμα"
+          },
+          "options__2": {
+            "label": "Κάτω από το κουμπί Ολοκλήρωση αγοράς"
+          }
+        },
+        "badge_image": {
+          "label": "Εικόνα",
+          "info": "Αφήστε κενό για τα προεπιλεγμένα εικονίδια"
+        },
+        "text_position": {
+          "label": "Θέση κειμένου",
+          "options__1": {
+            "label": "Πάνω από"
+          },
+          "options__2": {
+            "label": "Υπό"
+          }
+        },
+        "badge_width": {
+          "label": "Πλάτος εικόνας",
+          "options__1": {
+            "label": "Πολύ μικρό"
+          },
+          "options__2": {
+            "label": "Μικρό"
+          },
+          "options__3": {
+            "label": "Μεσαίο"
+          },
+          "options__4": {
+            "label": "Μεγάλο"
+          },
+          "options__5": {
+            "label": "Πολύ μεγάλο"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "Πρόσθεσε στην λίστα επιθυμιών",
+      "remove_from_wishlist_text": "Αφαίρεση από τη λίστα επιθυμιών",
+      "empty_wishlist_text": "Η λίστα επιθυμιών σας είναι αυτή τη στιγμή κενή.",
+      "share_wishlist_text": "Κοινή χρήση λίστας επιθυμιών"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "Ετικέτες",
+      "read_more": "Συνέχισε να διαβάζεις",
+      "view_all": "Προβολή όλων",
+      "back_to_blog": "Επιστροφή στο {{ title }}"
+    },
+    "comments": {
+      "title": "Αφήστε ένα σχόλιο",
+      "name": "Ονομα",
+      "email": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+      "message": "Μήνυμα",
+      "post": "Αναρτήστε Σχόλιο",
+      "moderated": "Σημειώστε ότι τα σχόλια πρέπει να εγκριθούν πριν από τη δημοσίευσή τους",
+      "success_moderated": "Το σχόλιό σας δημοσιεύτηκε με επιτυχία. Θα το δημοσιεύσουμε σε λίγο, καθώς το blog μας εποπτεύεται.",
+      "success": "Το σχόλιό σας δημοσιεύτηκε με επιτυχία! Σας ευχαριστώ!",
+      "with_count": {
+        "one": "{{ count }} σχόλιο",
+        "other": "{{ count }} σχόλια"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Το καλάθι σας",
+      "remove": "Αφαιρώ",
+      "note": "Ειδικές οδηγίες για τον πωλητή",
+      "subtotal": "ΜΕΡΙΚΟ ΣΥΝΟΛΟ",
+      "taxes_and_shipping_at_checkout": "Οι φόροι και τα έξοδα αποστολής υπολογίζονται στο ταμείο",
+      "taxes_and_shipping_policy_at_checkout_html": "Οι φόροι και τα <a href=\"{{ link }}\">έξοδα αποστολής</a> υπολογίζονται στο ταμείο",
+      "taxes_included_but_shipping_at_checkout": "Ο φόρος περιλαμβάνεται και η αποστολή υπολογίζεται στο ταμείο",
+      "taxes_included_and_shipping_policy_html": "Συμπεριλαμβανομένου του φόρου. <a href=\"{{ link }}\">Η αποστολή</a> υπολογίζεται στο ταμείο.",
+      "update": "Ενημέρωση καλαθιού",
+      "checkout": "Ολοκλήρωση παραγγελίας",
+      "empty": "Το καλάθι σας είναι άδειο.",
+      "continue_browsing_html": "Συνεχίστε την περιήγηση",
+      "close_cart": "Κλείσιμο Καλαθιού",
+      "savings_html": "Αποθηκεύετε {{ savings }}",
+      "reduce_quantity": "Μειώστε την ποσότητα του προϊόντος κατά ένα",
+      "increase_quantity": "Αυξήστε την ποσότητα του προϊόντος κατά ένα",
+      "cookies_required": "Ενεργοποιήστε τα cookies για να χρησιμοποιήσετε το καλάθι αγορών",
+      "custom_currency_html": "Όλες οι παραγγελίες υποβάλλονται σε επεξεργασία στο {{ shopCurrency }}. Ενώ το περιεχόμενο του καλαθιού σας εμφανίζεται αυτήν τη στιγμή στο<span class='selected-currency'></span> , θα κάνετε ολοκλήρωση αγοράς χρησιμοποιώντας το {{ shopCurrency }} με την πιο τρέχουσα συναλλαγματική ισοτιμία."
+    },
+    "label": {
+      "quantity": "Ποσότητα",
+      "total": "Σύνολο"
+    },
+    "cart_message": {
+      "text": "Το στοιχείο έχει προστεθεί",
+      "button_label": "Προβολή καλαθιού"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Κατάλογος",
+      "all_of_collection": "Ολα",
+      "no_matches": "Λυπούμαστε, δεν υπάρχουν προϊόντα σε αυτήν τη συλλογή."
+    },
+    "sorting": {
+      "title": "Ταξινόμηση κατά",
+      "title_tags": "Φιλτράρισμα κατά",
+      "all_of_collection": "Όλα {{ collection }}"
+    },
+    "grid": {
+      "button_label": "Ψώνισε τώρα"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Ονομα",
+      "email": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+      "phone": "Τηλεφωνικό νούμερο",
+      "message": "Μήνυμα",
+      "send": "Στείλετε",
+      "post_success": "Ευχαριστούμε που επικοινωνήσατε μαζί μας. Θα επικοινωνήσουμε μαζί σας το συντομότερο δυνατό."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Ο λογαριασμός μου",
+      "details": "λεπτομέρειες λογαριασμού",
+      "view_addresses": "Προβολή διευθύνσεων",
+      "return": "Επιστροφή στα Στοιχεία λογαριασμού"
+    },
+    "activate_account": {
+      "title": "Ενεργοποίηση λογαριασμού",
+      "subtext": "Δημιουργήστε τον κωδικό πρόσβασής σας για να ενεργοποιήσετε τον λογαριασμό σας.",
+      "password": "Κωδικός πρόσβασης",
+      "password_confirm": "Επιβεβαίωση Κωδικού",
+      "submit": "Ενεργοποίηση λογαριασμού",
+      "cancel": "Απόρριψη πρόσκλησης"
+    },
+    "addresses": {
+      "title": "Οι διευθύνσεις σας",
+      "default": "Προκαθορισμένο",
+      "add_new": "Προσθήκη νέας διεύθυνσης",
+      "edit_address": "Επεξεργασία διεύθυνσης",
+      "first_name": "Ονομα",
+      "last_name": "Επίθετο",
+      "company": "Εταιρία",
+      "address1": "Διεύθυνση 1",
+      "address2": "Διεύθυνση 2",
+      "city": "Πόλη",
+      "country": "Χώρα/Περιοχή",
+      "province": "Επαρχία",
+      "zip": "Ταχυδρομικός/Τ.Κ",
+      "phone": "Τηλέφωνο",
+      "set_default": "Ορισμός ως προεπιλεγμένη διεύθυνση",
+      "add": "Προσθήκη διεύθυνσης",
+      "update": "Ενημέρωση διεύθυνσης",
+      "cancel": "Ματαίωση",
+      "edit": "Επεξεργασία",
+      "delete": "Διαγράφω"
+    },
+    "login": {
+      "title": "Σύνδεση",
+      "email": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+      "password": "Κωδικός πρόσβασης",
+      "forgot_password": "Ξεχάσατε τον κωδικό σας;",
+      "sign_in": "Συνδεθείτε",
+      "cancel": "Επιστροφή στο Κατάστημα",
+      "guest_title": "Συνεχίστε ως επισκέπτης",
+      "guest_continue": "Να συνεχίσει"
+    },
+    "orders": {
+      "title": "Ιστορικό παραγγελιών",
+      "order_number": "Σειρά",
+      "date": "Ημερομηνία",
+      "payment_status": "Κατάσταση πληρωμής",
+      "fulfillment_status": "Κατάσταση εκπλήρωσης",
+      "total": "Σύνολο",
+      "none": "Δεν έχετε κάνει ακόμη παραγγελίες."
+    },
+    "order": {
+      "title": "Παραγγελία {{ name }}",
+      "date": "Τοποθετήθηκε στις {{ date }}",
+      "cancelled": "Η παραγγελία ακυρώθηκε στις {{ date }}",
+      "cancelled_reason": "Αιτία: {{ reason }}",
+      "billing_address": "διεύθυνση χρέωσης",
+      "payment_status": "Κατάσταση πληρωμής",
+      "shipping_address": "Διεύθυνση αποστολής",
+      "fulfillment_status": "Κατάσταση εκπλήρωσης",
+      "discount": "Εκπτωση",
+      "shipping": "Αποστολή",
+      "tax": "Φόρος",
+      "product": "Προϊόν",
+      "sku": "SKU",
+      "price": "Τιμή",
+      "quantity": "Ποσότητα",
+      "total": "Σύνολο",
+      "fulfilled_at": "Ολοκληρώθηκε {{ date }}",
+      "subtotal": "ΜΕΡΙΚΟ ΣΥΝΟΛΟ",
+      "track_shipment": "Παρακολούθηση αποστολής"
+    },
+    "recover_password": {
+      "title": "Επαναφορά του κωδικού πρόσβασής σας",
+      "email": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+      "submit": "υποβάλλουν",
+      "cancel": "Ματαίωση",
+      "subtext": "Θα σας στείλουμε ένα email για να επαναφέρετε τον κωδικό πρόσβασής σας.",
+      "success": "Σας έχουμε στείλει ένα email με έναν σύνδεσμο για να ενημερώσετε τον κωδικό πρόσβασής σας."
+    },
+    "reset_password": {
+      "title": "Επαναφορά κωδικού πρόσβασης λογαριασμού",
+      "subtext": "Εισαγάγετε έναν νέο κωδικό πρόσβασης για {{ email }}",
+      "password": "Κωδικός πρόσβασης",
+      "password_confirm": "Επιβεβαίωση Κωδικού",
+      "submit": "Επαναφέρετε τον κωδικό πρόσβασης"
+    },
+    "register": {
+      "title": "Δημιουργήστε λογαριασμό",
+      "first_name": "Ονομα",
+      "last_name": "Επίθετο",
+      "email": "ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ",
+      "password": "Κωδικός πρόσβασης",
+      "submit": "Δημιουργώ",
+      "cancel": "Επιστροφή στο Κατάστημα"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "Χρησιμοποιήστε τα βέλη αριστερά/δεξιά για πλοήγηση στην παρουσίαση ή σύρετε προς τα αριστερά/δεξιά εάν χρησιμοποιείτε φορητή συσκευή",
+      "next_slide": "Επόμενη διαφάνεια",
+      "previous_slide": "Προηγούμενη διαφάνεια",
+      "play": "Αναπαραγωγή παρουσίασης",
+      "pause": "Παύση παρουσίασης",
+      "load_slide": "Φόρτωση διαφάνειας {{ slide_number }}",
+      "active_slide": "Διαφάνεια {{ slide_number }}, τρέχουσα"
+    },
+    "onboarding": {
+      "product_vendor": "Πωλητής προϊόντος",
+      "product_title": "Παράδειγμα τίτλου προϊόντος",
+      "collection_title": "Παράδειγμα τίτλου συλλογής",
+      "blog_title": "Ο τίτλος της ανάρτησής σας",
+      "blog_excerpt": "Το κατάστημά σας δεν έχει δημοσιεύσει ακόμη αναρτήσεις ιστολογίου. Ένα ιστολόγιο μπορεί να χρησιμοποιηθεί για να μιλήσει για λανσαρίσματα νέων προϊόντων, συμβουλές ή άλλα νέα που θέλετε να μοιραστείτε με τους πελάτες σας. Μπορείτε να ελέγξετε το ιστολόγιο ηλεκτρονικού εμπορίου του Shopify για έμπνευση και συμβουλές για το δικό σας κατάστημα και blog.",
+      "no_content": "Αυτή η ενότητα δεν περιλαμβάνει προς το παρόν περιεχόμενο. Προσθέστε περιεχόμενο σε αυτήν την ενότητα χρησιμοποιώντας την πλαϊνή γραμμή."
+    },
+    "map": {
+      "address_error": "Σφάλμα αναζήτησης αυτής της διεύθυνσης",
+      "address_no_results": "Δεν υπάρχουν αποτελέσματα για αυτήν τη διεύθυνση",
+      "address_query_limit_html": "Έχετε υπερβεί το όριο χρήσης του Google API. Εξετάστε το ενδεχόμενο αναβάθμισης σε πρόγραμμα <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium</a> .",
+      "auth_error_html": "Παρουσιάστηκε πρόβλημα κατά τον έλεγχο ταυτότητας του λογαριασμού σας στους Χάρτες Google."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Καροτσάκι"
+    },
+    "customer": {
+      "account": "λογαριασμός",
+      "log_out": "Αποσύνδεση",
+      "log_in": "Σύνδεση",
+      "create_account": "Δημιουργήστε λογαριασμό"
+    },
+    "footer": {
+      "social_platform": "{{ name }} σε {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "Αποθήκευση {{ saved_amount }}",
+      "collection_return": "Επιστροφή στο {{ collection }}",
+      "sale_price": "Τιμή πώλησης",
+      "regular_price": "Κανονική τιμή",
+      "include_taxes": "Συμπεριλαμβανομένου του φόρου.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Η αποστολή</a> υπολογίζεται στο ταμείο.",
+      "unit_price": "Τιμή μονάδας"
+    },
+    "product": {
+      "sold_out": "Εξαντλημένα",
+      "sold_out_html": "Εξαντλημένα",
+      "unavailable": "Μη διαθέσιμο",
+      "quantity": "Ποσότητα",
+      "add_to_cart": "Προσθήκη στο καλάθι",
+      "replace": "Αντικαθιστώ",
+      "full_details": "Πλήρη στοιχεία",
+      "view_more": "Δείτε περισσότερα",
+      "view_in_space": "Προβολή στον χώρο σας",
+      "view_in_space_label": "Προβολή στο χώρο σας, φορτώνει το στοιχείο σε παράθυρο επαυξημένης πραγματικότητας",
+      "slide_label": "Διαφάνεια {{ slide_number }} από {{ slide_max }}.",
+      "gallery_thumbnail_alt": "Φόρτωση εικόνας στο πρόγραμμα προβολής Gallery, {{ imageAlt }}",
+      "video_thumbnail_alt": "Φόρτωση και αναπαραγωγή βίντεο στο πρόγραμμα προβολής Gallery, {{ imageAlt }}",
+      "model_thumbnail_alt": "Φόρτωση τρισδιάστατου μοντέλου στο πρόγραμμα προβολής Gallery, {{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "Επόμενο (πλήκτρο δεξιού βέλους)",
+      "prev": "Προηγούμενο (πλήκτρο αριστερού βέλους)",
+      "close": "Κλείσιμο (Esc)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Αυτή είναι η δωροκάρτα σας {{ value }} για {{ shop }}!",
+      "subtext": "Εδώ είναι η δωροκάρτα σας!",
+      "disabled": "άτομα με ειδικές ανάγκες",
+      "expired": "Έληξε στις {{ expiry }}",
+      "active": "Λήγει στις {{ expiry }}",
+      "redeem": "Χρησιμοποιήστε αυτόν τον κωδικό στο ταμείο για να εξαργυρώσετε τη δωροκάρτα σας",
+      "shop_link": "Ξεκινήστε να ψωνίζετε",
+      "print": "Τυπώνω",
+      "add_to_apple_wallet": "Προσθήκη στο Apple Wallet"
+    }
+  }
+}

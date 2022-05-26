@@ -1,0 +1,133 @@
+<section class="box bg-image">
+	<div class="wrapper">
+		<div class="grid">
+			<div class="grid-small grid__item text-padding">
+				<h2 class="text-center size-text mobile-heading">Mach das Portrait-</br>Persönlichkeits-Quiz</h2>
+			</div>
+		</div>
+		<div class="flex text-content-center">
+			<div class="margin-auto text-position">
+				<img src="{{ 'quiz.png' | asset_url  }}" alt="{{ }}">
+				<a data-marquiz-id="popup:marquiz_60e310aed24be100262d8a2e"
+					onclick="Marquiz.showModal('60e310aed24be100262d8a2e')" class="button"> starte Das Quiz</a>
+
+
+			</div>
+		</div>
+		<div>
+			<p class="text-center divider font-italic">Welches Design Passt zu dir? Finde es mit wenigen Fragen heraus!</p>
+		</div>
+
+	</div>
+	<a href="#index-collection-sec" class="scroll-btn"><span></span></a>
+
+</section>
+{% javascript %}
+
+(function (w, d, s, o) {
+  var j = d.createElement(s);
+  j.async = true;
+  j.src = '//script.marquiz.io/v2.js';
+  j.onload = function () {
+    if (document.readyState !== 'loading')
+      Marquiz.init(o);
+     else
+      document.addEventListener("DOMContentLoaded", function () {
+        Marquiz.init(o);
+      });
+
+  };
+  d.head.insertBefore(j, d.head.firstElementChild);
+})(window, document, 'script', {
+  host: '//quiz.marquiz.io',
+  region: 'us',
+  id: '60e310aed24be100262d8a2e',
+  autoOpen: false,
+  autoOpenFreq: 'once',
+  openOnExit: false,
+  disableOnMobile: false
+});
+
+{% endjavascript %}
+{% schema %}
+
+{
+  "name": "Quiz",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Dein Haustier als Kunstwerk"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Quiz",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.bg-image {
+  background: url('{{ 'bg-quiz.png' | asset_url }}');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.text-content-center {
+  justify-content: center;
+  margin: auto;
+
+}
+
+.font-italic {
+  font-style: italic;
+
+}
+
+.text-position {
+  position: relative;
+
+}
+
+.divider {
+  padding-top: 32px;
+  padding-bottom: 56px;
+}
+
+
+.text-position .button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  background-color: #F95510;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 758px) {
+  .divider {
+    padding-top: 18px;
+    padding-bottom: 28px;
+  }
+}
+
+{% endstyle %}

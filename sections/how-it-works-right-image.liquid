@@ -1,0 +1,89 @@
+<section class="how-it-works-right-image">
+  <div class="wrapper">
+    <div class="grid align-items-center">
+      <div class="grid__item large--seven-twelfths mobile-second">
+        <div class="left_content left_content-right-text">
+          <h2 class="h6 right-text-color">{{ section.settings.subtitle }}</h2>
+          <p class="right-text-color-p">{{ section.settings.title }}</p>
+          <ul class="styling-ul">
+            {{section.settings.text }}
+          </ul>
+        </div>
+      </div>
+      <div class="grid__item large--five-twelfths mobile-first">
+        <div class="img_right">
+          <img src="{{ section.settings.image | img_url:'master' }}" alt="{{ section.settings.image.alt }}">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+
+{
+  "name": "Image & text left",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Some Title Here"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Some Title Here"
+    }, {
+      "type": "html",
+      "label": "Text ",
+      "id": "text"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.right-text-color {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height */
+  text-transform: capitalize;
+  color: #F95510;
+}
+
+.right-text-color-p {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.08em;
+  color: #2B1E30
+}
+
+.how-it-works-right-image .styling-ul {
+  padding-left: 20px;
+  color: #5e5a60;
+}
+
+.how-it-works-right-image li {
+  margin: 0 0 10px;
+}
+
+@media only screen and (max-width: 758px) {
+  .left_content-right-text {
+    padding-top: 18px;
+  }
+}
+
+{% endstyle %}

@@ -1,0 +1,57 @@
+<section class="how-it-works-heading">
+  <div class="wrapper">
+    <div class="grid">
+      <div class="grid__item text-center">
+        {% if section.settings.title != blank %}
+
+          <h1 class="mobile-heading">{{ section.settings.title }}</h1>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+
+{
+  "name": "Heading how it works",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "So Funktioniert Es"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.how-it-works-heading {
+  padding: 2rem 0;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.mobile-heading {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #242424;
+}
+
+@media only screen and (max-width: 758px) {
+  .mobile-heading {
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+}
+
+{% endstyle %}

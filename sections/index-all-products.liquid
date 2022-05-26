@@ -1,0 +1,137 @@
+{% liquid
+
+assign button_label = 'collections.grid.button_label' | t
+
+%}
+<section class="box bg-color-all-product" id="all-products">
+  <div class="wrapper">
+    <div class="grid">
+      <div class="grid-small grid__item text-padding">
+        <h2 class="text-center size-text mobile-heading">Ein Portrait nach Foto zeichnen lassen - werde zum Meisterstück
+        </h2>
+      </div>
+    </div>
+    <div class="grid grid-spacer slick  slick-fallback ">
+      {% for product in collections.portrait-zeichnung-als-geschenk.products limit:8 %}
+        <div class="grid__item medium--six-twelfts small--six-twelfths large--three-twelfths flex flex-fill  mb">
+          <div class="card ">
+            <a href="/products/{{ product.handle }}">
+
+              <div class="image">
+                <img src="{{ product.featured_image | img_url: 'master' }}" class="product-image" alt="">
+              </div>
+              <p class="title">{{ product.title | truncate: 24 }}</p>
+
+              <div class="content">
+                <div class="price">
+                  <p class="text-center h6 price-size">Ab
+                    {{ product.price | money }}</p>
+                </div>
+                <div class="pb-button">
+                  <a class="text-center" href="/products/{{ product.handle }}">{{button_label}}</a>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      {% endfor %}
+
+
+    </div>
+    <div class="flex center-button">
+      <div class="button-all">
+        <a class="text-center" href="/collections/alle-produkte">alle anzeigen</a>
+      </div>
+    </div>
+  </div>
+  <a class="scroll-btn" href="#index-collection-sec">
+    <span></span>
+  </a>
+
+</section>
+{% schema %}
+
+{
+  "name": "All Product",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Dein Haustier als Kunstwerk"
+    }
+  ],
+  "presets": [
+    {
+      "name": "All Product",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.stars {
+  padding-bottom: 16px;
+}
+
+.bg-color-all-product {
+  background-color: #F5F5F5;
+}
+
+
+.center-button {
+  justify-content: center;
+  margin: auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.button-all {
+  padding: 20px 48px;
+  border: 1px solid #242424;
+  box-sizing: border-box;
+  background-color: #FFF6CA;
+  text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .card-all .button-color {
+    padding: 10px 12px !important;
+  }
+
+.card .pb-button a {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    letter-spacing: 0em !important;
+  }
+
+  .pb-button {
+    margin-bottom: 10px !important;
+    padding: 10px 12px !important;
+  }
+
+  .card-all .image {
+    padding: 8px !important;
+  }
+
+  .card-all .title {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+
+  .card .content .price {
+    padding-bottom: 18px !important;
+  }
+}
+
+{% endstyle %}

@@ -1,0 +1,394 @@
+<section class="how-it-works-blocks">
+  <div class="wrapper">
+    <div class="grid row">
+      <div class="grid__item large--five-twelfths">
+        <div class="img_left">
+          {% if section.settings.image_left != blank %}
+            <img src="{{ section.settings.image_left | img_url:'master' }}" alt="{{ settings.image_left.alt }}">
+          {% else %}
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          {% endif %}
+
+        </div>
+      </div>
+      <div class="grid__item large--seven-twelfths">
+        <div class="wrapper">
+          <img class="down-line-right" src="{{ 'how-it-works-one.png' | asset_url }}" alt="Original Image">
+
+        </div>
+        <div class="right_content ">
+          <div class="block_count">1</div>
+          {% if section.settings.title-one != blank %}
+            <h2 class="h4">
+              {{ section.settings.title-one }}</h2>
+          {% endif %}
+          <ul class="padding-left-ul styling-ul">
+            {{section.settings.text-one }}
+          </ul>
+        </div>
+        <img class="center-line" src="{{ 'how-it-works-center-icon.svg' | asset_url }}" alt="Original Image">
+
+      </div>
+      <div class="padding-top grid">
+        <div class="grid__item large--seven-twelfths mobile-second">
+          <div class="left_content">
+            <div class="block_count">2</div>
+
+            {% if section.settings.title-two != blank %}
+              <h2 class="h4">
+                {{ section.settings.title-two }}</h2>
+            {% endif %}
+            <ul class="padding-left-ul styling-ul">
+              {{section.settings.text-two }}
+
+            </ul>
+
+          </div>
+        </div>
+        <div class="grid__item large--five-twelfths mobile-first">
+          <div class="img_right mobile-image-padding">
+            {% if section.settings.image_right != blank %}
+              <img src="{{ section.settings.image_right | img_url:'master' }}" alt="{{ section.settings.image_right.alt }}">
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="padding-top grid">
+        <div class="grid__item large--five-twelfths">
+          <div class="img_left mobile-image-padding">
+            {% if section.settings.image_left_two != blank %}
+              <img src="{{ section.settings.image_left_two | img_url:'master' }}" alt="{{ section.settings.image_left_two.alt }}">
+            {% else %}
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            {% endif %}
+
+          </div>
+        </div>
+        <div class="grid__item large--seven-twelfths">
+          <div class="right_content padding-left-mobile">
+            <div class="block_count block_count-3">3</div>
+            {% if section.settings.title-three != blank %}
+              <h2 class="h4">
+                {{ section.settings.title-three }}</h2>
+            {% endif %}
+            <ul class="padding-left-ul styling-ul">
+              {{section.settings.text-three }}
+            </ul>
+          </div>
+          <img class="bottom-line" src="{{ 'bottom-line.svg' | asset_url }}" alt="Original Image">
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+
+{
+  "name": "Image & text blocks",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_left",
+      "label": "Image left"
+    }, {
+      "type": "image_picker",
+      "id": "image_right",
+      "label": "Image Right"
+    }, {
+      "type": "image_picker",
+      "id": "image_left_two",
+      "label": "Image left two"
+    }, {
+      "type": "text",
+      "id": "title-one",
+      "label": "Heading one",
+      "default": "Some Title Here"
+    }, {
+      "type": "text",
+      "id": "title-two",
+      "label": "Heading two",
+      "default": "Some Title Here"
+    }, {
+      "type": "text",
+      "id": "title-three",
+      "label": "Heading three",
+      "default": "Some Title Here"
+    }, {
+      "type": "html",
+      "label": "Text one",
+      "id": "text-one"
+    }, {
+      "type": "html",
+      "label": "Text two",
+      "id": "text-two"
+    }, {
+      "type": "html",
+      "label": "Text three",
+      "id": "text-three"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+ul {
+  margin: 0 !important;
+}
+
+.padding-top {
+  padding-top: 120px;
+}
+
+.how-it-works-blocks {
+  padding-top: 20px;
+}
+
+.how-it-works-blocks .row {
+  margin-bottom: 6rem;
+  align-items: center;
+}
+
+.how-it-works-blocks .right_content {
+  padding-left: 5rem;
+  position: relative;
+}
+
+.how-it-works-blocks .left_content {
+  padding-right: 5rem;
+  position: relative;
+}
+
+.how-it-works-blocks h4, {
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.how-it-works-blocks .styling-ul {
+  padding-left: 20px;
+  color: #5e5a60;
+}
+
+.styling-ul {
+  list-style: none;
+}
+
+.styling-ul li::before {
+  content: "\2022";
+  color: #C4C4C4;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.styling-ul li {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5E5A60;
+}
+
+.block_count {
+  border: 1px solid #242424;
+  width: 46px;
+  height: 46px;
+  line-height: 42px;
+  background: #FFCC18;
+  text-align: center;
+  border-radius: 50%;
+  color: #242424;
+  font-family: 'Kaushan Script';
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.block_count:before {
+  content: "";
+  background: #e3e0e6;
+  width: 53px;
+  height: 1px;
+  position: absolute;
+  left: 10px;
+  top: 23px;
+}
+
+.how-it-works-blocks .left_content .block_count:before {
+  left: -70px;
+}
+
+.how-it-works-right-image {
+  padding-bottom: 5rem;
+}
+
+.how-it-works-right-image .left_content {
+  padding-right: 5rem;
+}
+
+.how-it-works-right-image h6 {
+  color: #a46efc !important;
+  font-style: italic;
+}
+
+.how-it-works-center-image {
+  padding: 5rem 0;
+  background: #f5f5f5;
+}
+
+.how-it-works-center-image h4 {
+  font-size: 28px;
+}
+
+.how-it-works-center-image p {
+  line-height: 28px;
+}
+
+.how-it-works-center-image .img_center img {
+  border: 12px solid #fff;
+}
+
+.how-it-works-blocks .row:nth-child(even) {
+  -ms-flex-direction: row-reverse !important;
+  flex-direction: row-reverse !important;
+}
+
+.how-it-works-blocks li {
+  margin: 0 0 10px;
+}
+
+.h4 {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.08em;
+  color: #242424;
+}
+
+.down-line-right {
+  position: absolute;
+  right: 30%;
+  z-index: 2;
+  transform: translateY(-34px);
+}
+
+.center-line {
+  position: absolute;
+  transform: translate(48px, 40px);
+
+}
+
+.bottom-line {
+  position: absolute;
+  transform: translateY(40px);
+}
+
+@media only screen and (max-width: 758px) {
+  .down-line-right {
+    display: none;
+  }
+
+.center-line {
+    display: none;
+  }
+
+  .bottom-line {
+    display: none;
+  }
+
+  .how-it-works-blocks .img_left,
+  .how-it-works-blocks .img_right {
+    margin-bottom: 30px;
+  }
+
+.how-it-works-blocks .img_left img,
+  .how-it-works-blocks .img_right img,
+  .how-it-works-right-image .img_right img {
+    width: 100%;
+  }
+
+.how-it-works-blocks .left_content {
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+  }
+
+.how-it-works-blocks .right_content {
+    padding-left: 0;
+  }
+
+.block_count:before {
+    left: -62px;
+  }
+
+.block_count-3:before {
+    content: "";
+    background: #e3e0e6;
+    width: 53px;
+    height: 1px;
+    position: absolute;
+    left: -48px;
+  }
+
+.how-it-works-blocks .row {
+    margin-bottom: 2rem;
+  }
+
+.how-it-works-center-image {
+    padding: 3rem 0 2rem;
+  }
+
+.how-it-works-right-image {
+    padding-bottom: 3rem;
+  }
+
+.how-it-works-right-image .left_content {
+    padding-right: 0;
+  }
+
+.how-it-works-center-image .img_center.text-center {
+    margin: 10px 0 30px;
+  }
+
+  .how-it-works-blocks .padding-left-mobile {
+    padding-left: 16px;
+  }
+
+  .how-it-works-blocks .mobile-image-padding {
+    padding-left: 16px;
+  }
+
+.how-it-works-blocks .left_content .block_count:before {
+    left: -48px;
+  }
+
+  .how-it-works-blocks h4 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.08em;
+  }
+
+.mobile-first {
+    order: 1;
+  }
+
+.mobile-second {
+    order: 2;
+  }
+}
+
+{% endstyle %}

@@ -1,0 +1,1347 @@
+{
+  "general": {
+    "404": {
+      "title": "404 페이지를 찾을 수 없음",
+      "subtext_html": "찾고 있던 페이지가 존재하지 않습니다."
+    },
+    "accessibility": {
+      "refresh_page": "선택 항목을 선택하면 전체 페이지가 새로 고쳐집니다.",
+      "selection_help": "스페이스 키를 누른 다음 화살표 키를 눌러 선택합니다.",
+      "unit_price_separator": "~을위한"
+    },
+    "meta": {
+      "tags": "태그 \"{{ tags }}\"",
+      "page": "페이지 {{ page }}"
+    },
+    "pagination": {
+      "previous": "이전의",
+      "next": "다음"
+    },
+    "password_page": {
+      "login_form_heading": "비밀번호를 사용하여 매장 입력:",
+      "login_form_password_label": "비밀번호",
+      "login_form_password_placeholder": "너의 비밀번호",
+      "login_form_submit": "입력하다",
+      "signup_form_email_label": "이메일",
+      "signup_form_success": "오픈 직전에 이메일을 보내드립니다!",
+      "admin_link_html": "가게 주인이세요? <a href=\"/admin\" class=\"text-link\">여기에서 로그인</a>",
+      "password_link": "비밀번호를 사용하여 입력",
+      "powered_by_shopify_html": "이 상점은 {{ shopify }}에서 제공합니다.",
+      "close": "닫기(ESC)"
+    },
+    "dates": {
+      "year": "년도",
+      "month": "월",
+      "day": "낮"
+    },
+    "months": {
+      "full": {
+        "january": "1 월",
+        "february": "2 월",
+        "march": "3 월",
+        "april": "4 월",
+        "may": "할 수있다",
+        "june": "6 월",
+        "july": "칠월",
+        "august": "팔월",
+        "september": "구월",
+        "october": "십월",
+        "november": "십일월",
+        "december": "12 월"
+      },
+      "short": {
+        "january": "1월",
+        "february": "2월",
+        "march": "바다",
+        "april": "4월",
+        "may": "할 수있다",
+        "june": "준",
+        "july": "7월",
+        "august": "8월",
+        "september": "9월",
+        "october": "10월",
+        "november": "11월",
+        "december": "12월"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "월요일",
+        "tuesday": "화요일",
+        "wednesday": "수요일",
+        "thursday": "목요일",
+        "friday": "금요일",
+        "saturday": "토요일",
+        "sunday": "일요일"
+      },
+      "short": {
+        "monday": "나의",
+        "tuesday": "당신 것",
+        "wednesday": "수",
+        "thursday": "모으다",
+        "friday": "금",
+        "saturday": "수능",
+        "sunday": "태양"
+      }
+    },
+    "social": {
+      "share_on_facebook": "공유하다",
+      "share_on_twitter": "트위터",
+      "share_on_pinterest": "그것을 핀",
+      "share_on_email": "이메일",
+      "share_on_whatsapp": "왓츠앱",
+      "share_on_linkedin": "링크드인",
+      "share_on_reddit": "레딧",
+      "share_on_messenger": "전령",
+      "alt_text": {
+        "share_on_facebook": "페이스북에서 공유",
+        "share_on_twitter": "트위터에서 트윗하기",
+        "share_on_pinterest": "Pinterest에 있는 핀",
+        "share_on_email": "이메일로 공유",
+        "share_on_whatsapp": "Whatsapp에서 공유",
+        "share_on_linkedin": "LinkedIn에서 공유",
+        "share_on_reddit": "레딧에서 공유",
+        "share_on_messenger": "메신저에서 공유"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "메일링 리스트에 가입하세요",
+      "newsletter_placeholder": "귀하의 이메일",
+      "newsletter_confirmation": "구독해 주셔서 감사합니다.",
+      "submit": "구독하다"
+    },
+    "search": {
+      "no_results_html": "\"{{ terms }}\"에 대한 검색 결과가 없습니다.",
+      "results_for_html": "\"{{ terms }}\"을(를) 검색한 결과 다음이 나타났습니다.",
+      "title": "찾다",
+      "placeholder": "우리 가게 검색",
+      "submit": "찾다"
+    },
+    "drawers": {
+      "navigation": "메뉴",
+      "close_menu": "메뉴 닫기",
+      "expand_submenu": "하위 메뉴 확장",
+      "collapse_submenu": "하위 메뉴 축소"
+    },
+    "payment": {
+      "method": "지불 방법"
+    },
+    "currency": {
+      "dropdown_label": "통화"
+    },
+    "language": {
+      "dropdown_label": "언어"
+    },
+    "localization": {
+      "submit_label": "기본 설정 업데이트"
+    },
+    "trial_over": {
+      "heading": "무료 평가판이 만료되었습니다.",
+      "text": "안녕하세요, {{ name }}. 14일 엔터프라이즈 플랜 무료 평가판이 이미 종료된 것 같습니다. 즉, 이제 모든 추가 기능이 비활성화됩니다.\n\n그러나 애드온에서 얻은 전환 및 수익 증가를 잃고 싶지는 않을 것입니다. 그렇죠?\n\n목표에 가장 잘 맞는 플랜을 선택하고 계속해서 더 높은 전환율을 즐기십시오.",
+      "pick_a_plan": "요금제 선택"
+    },
+    "addons_limit_reached": {
+      "heading": "와! 잘 있어, 타이거!",
+      "text": "추가 기능이 더 필요한 것 같습니다 :)\n\n현재 계획 [plan_name]은(는) 최대 [current_limit]개의 추가 기능만 활성화합니다. [upgraded_plan]을(를) 사용하면 [upgraded_limit] 추가 기능을 활성화할 수 있습니다. 모든 프리미엄 기능을 잠금 해제하려면 플랜을 업그레이드하세요.",
+      "upgrade_now": "지금 업그레이드",
+      "note": "*참고: [current_limit] 이상의 추가 기능을 선택하면 첫 번째 [current_limit]에 체크된 추가 기능만 활성화됩니다. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">초과 추가 기능을 비활성화하려면 어떻게 합니까?</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "title": "연령 확인",
+      "description": "계속하려면 나이를 확인하세요.",
+      "error_message": "이 웹사이트를 보기에는 너무 어립니다.",
+      "yes_label": "네",
+      "no_label": "아니",
+      "button_label": "입력하다"
+    },
+    "agree_to_terms": {
+      "label": "이용약관에 동의합니다.",
+      "warning_text": "체크아웃하려면 판매 약관에 동의해야 합니다.",
+      "order_title": "이용약관에 동의합니다.",
+      "yes_label": "네"
+    },
+    "back_in_stock": {
+      "name": "⚡ 재입고",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5265388-how-to-enable-the-back-in-stock-add-on-in-debutify-3 -0-shopify-테마)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "icon": {
+          "label": "상",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        },
+        "enable_button_animation": {
+          "label": "버튼 애니메이션 활성화"
+        }
+      }
+    },
+    "cart_countdown": {
+      "prefix_text": "장바구니는 다음을 위해 저장됩니다.",
+      "suffix_text": "",
+      "time_over_message": "상품이 품절되기 전에 주문하세요!",
+      "minutes_label": "중",
+      "seconds_label": "에스"
+    },
+    "cart_favicon": {
+      "name": "⚡ 장바구니 파비콘",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "time_minutes": {
+          "label": "분"
+        },
+        "favicon": {
+          "label": "파비콘 이미지"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "⚡ 장바구니 할인",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5054067-how-to-use-cart-discount-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "label_icon": {
+          "label": "레이블 아이콘",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "버튼 아이콘",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "⚡ 컬렉션 필터",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0 -shopify 테마)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "filter_icon": {
+          "label": "필터 아이콘",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "⚡ 색상 견본",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서 따르기](https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "color_options_list_page": {
+          "label": "제품 페이지 변형 옵션",
+          "info": "쉼표로 구분된 변형 옵션 이름 추가"
+        },
+        "color_options_list_grid": {
+          "label": "제품 그리드 변형 옵션",
+          "info": "색상 견본은 이 이름을 가진 모든 변형 옵션에 적용됩니다."
+        },
+        "swatches_count_product_grid": {
+          "label": "제품 그리드의 견본"
+        }
+      }
+    },
+    "cookie_box": {
+      "name": "⚡ 쿠키 상자",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서 따르기](https://help.debutify.com/en/articles/5054095-how-to-use-a-cookie-box-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "use_drawer_colors": {
+          "label": "서랍 색상 사용"
+        },
+        "enable_for_eu_only": {
+          "label": "EU에서만 활성화"
+        },
+        "button_style": {
+          "label": "버튼 스타일",
+          "options__1": {
+            "label": "기본"
+          },
+          "options__2": {
+            "label": "가득한"
+          },
+          "options__3": {
+            "label": "개요"
+          }
+        }
+      }
+    },
+    "custom_currencies": {
+      "name": "⚡ 맞춤 통화",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5057090-how-to-use-custom-currencies-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "paragraph__3": {
+          "content": "활성화된 동안 기본 Shopify Payment 다중 통화 변환기는 비활성화됩니다. Shopify는 체크아웃 페이지에서 가격을 변환하는 것을 허용하지 않습니다."
+        },
+        "show_currency_message": {
+          "label": "통화 메시지 표시"
+        },
+        "show_original_price_on_hover": {
+          "label": "마우스 오버 시 원래 가격 표시"
+        },
+        "currency_format": {
+          "label": "체재",
+          "options__1": {
+            "label": "통화 없음($10.00)"
+          },
+          "options__2": {
+            "label": "통화 포함($10.00 USD)"
+          },
+          "options__3": {
+            "label": "소수점 제외($10)"
+          },
+          "options__4": {
+            "label": "통화가 포함된 소수점 제외($10 USD)"
+          },
+          "options__5": {
+            "label": "부호 없음 및 통화 있음(10 USD)"
+          },
+          "options__6": {
+            "label": "부호 없음 및 소수점 포함(10.00)"
+          }
+        },
+        "supported_currencies": {
+          "label": "지원되는 통화",
+          "info": "국가의 ISO [통화 코드](https://www.xe.com/iso4217.php)를 사용하십시오. 통화 코드는 공백으로 구분하십시오."
+        }
+      }
+    },
+    "facebook_messenger": {
+      "name": "⚡ 페이스북 메신저",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5057679-how-to-add-a-facebook-messenger-chat-widget-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "code": {
+          "label": "암호",
+          "info": "코드를 얻는 방법? Facebook 페이지 > 설정 > 메시지 > 웹사이트에 메신저 추가 > 코드 조각 복사 및 붙여넣기로 이동합니다."
+        },
+        "hide_on_mobile": {
+          "label": "모바일에서 숨기기"
+        }
+      }
+    },
+    "delivery_date": {
+      "label": "희망 배송일 선택",
+      "placeholder": "날짜 및 시간 선택*",
+      "error_message": "계속하려면 선택하세요."
+    },
+    "gift_wrap": {
+      "name": "⚡ 선물 포장",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5596124-how-to-enable-the-gift-wrap-add-on-in-the-debutify-shopify -주제)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "product": {
+          "label": "선물 포장 제품"
+        },
+        "show_price": {
+          "label": "선물 상자 가격 표시"
+        }
+      }
+    },
+    "inactive_tab_message": {
+      "name": "⚡ 비활성 탭 메시지",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5242828-how-to-enable-the-inactive-tab-message-add-on-in-debutify-3 -0-shopify-테마)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "delay": {
+          "label": "지연"
+        }
+      }
+    },
+    "infinite_scroll": {
+      "name": "⚡ 무한 스크롤",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5161154-how-to-use-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "scroll_options": {
+          "label": "무한 스크롤 옵션",
+          "options__1": {
+            "label": "끝없는 클릭"
+          },
+          "options__2": {
+            "label": "끝없는 스크롤"
+          }
+        },
+        "button_style": {
+          "label": "로딩 버튼 스타일",
+          "options__1": {
+            "label": "기본"
+          },
+          "options__2": {
+            "label": "가득한"
+          },
+          "options__3": {
+            "label": "개요"
+          }
+        },
+        "loading_image": {
+          "label": "무한 스크롤을 위한 이미지 로드 중",
+          "info": "기본 로딩 아이콘을 표시하려면 비워 둡니다."
+        }
+      }
+    },
+    "inventory_quantity": {
+      "name": "⚡ 재고 수량",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5054133-how-to-display-the-inventory-quantity-of-your-product-variant-in-3 -0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "icon": {
+          "label": "상",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "랜덤 수량 설정"
+        },
+        "show_random_quantities": {
+          "label": "임의 수량 표시",
+          "info": "실제 인벤토리를 표시하려면 선택을 취소하십시오."
+        },
+        "min_random_quantity": {
+          "label": "내 수량"
+        },
+        "max_random_quantity": {
+          "label": "최대 수량"
+        },
+        "header__4": {
+          "content": "재고 임계값 설정",
+          "info": "임의 수량 설정이 비활성화된 경우"
+        },
+        "quantity_threshold": {
+          "label": "임계 수량",
+          "info": "제품 수량이 설정된 임계값보다 높으면 제품 재고 수량을 숨기거나 일반 텍스트를 표시합니다."
+        }
+      }
+    },
+    "live_view": {
+      "name": "⚡ 라이브 뷰",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5054147-how-to-use-live-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "position": {
+          "label": "위치",
+          "options__1": {
+            "label": "제품 가격 이하"
+          },
+          "options__2": {
+            "label": "장바구니에 담기 버튼 아래"
+          }
+        },
+        "icon": {
+          "label": "상",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        },
+        "min_quantity": {
+          "label": "분(사람)"
+        },
+        "max_quantity": {
+          "label": "최대(사람)"
+        },
+        "max_interval_steps": {
+          "label": "최대 간격 단계"
+        },
+        "interval_time": {
+          "label": "간격 시간"
+        }
+      }
+    },
+    "menu_bar": {
+      "name": "⚡ 메뉴바",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5231134-how-to-enable-a-menu-bar-add-on-in-debutify-3-0 -shopify 테마)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "menu": {
+          "label": "메뉴"
+        },
+        "show_on_desktop": {
+          "label": "최대(사람)"
+        },
+        "show_on_mobile": {
+          "label": "분(사람)"
+        }
+      }
+    },
+    "minimum_order": {
+      "amount_reached_text": "최소 주문 금액에 도달했습니다. 결제를 진행할 수 있습니다.",
+      "amount_unreached_text": "아직 최소 주문 금액에 도달하지 않았습니다. 계속하려면 {left_amount}을(를) 추가하세요."
+    },
+    "newsletter_popup": {
+      "name": "⚡ 뉴스레터 팝업",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5054175-how-to-display-a-newsletter-popup-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "플로팅 바 설정"
+        },
+        "floating_bar_enable": {
+          "label": "활성화"
+        },
+        "floating_bar_hide_on_mobile": {
+          "label": "모바일에서 숨기기"
+        },
+        "floating_bar_position": {
+          "label": "위치",
+          "options__1": {
+            "label": "왼쪽"
+          },
+          "options__2": {
+            "label": "오른쪽"
+          }
+        },
+        "floating_bar_icon": {
+          "label": "상",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "팝업 설정"
+        },
+        "popup_overlay_image": {
+          "label": "오버레이 이미지"
+        },
+        "popup_width": {
+          "label": "너비",
+          "options__1": {
+            "label": "작은"
+          },
+          "options__2": {
+            "label": "중간"
+          },
+          "options__3": {
+            "label": "크기가 큰"
+          }
+        },
+        "popup_set_image_as_background": {
+          "label": "이미지를 배경으로 설정"
+        },
+        "popup_image": {
+          "label": "영상"
+        },
+        "popup_image_position": {
+          "label": "이미지 위치",
+          "options__1": {
+            "label": "왼쪽 상단"
+          },
+          "options__2": {
+            "label": "상단 중앙"
+          },
+          "options__3": {
+            "label": "맨 위 오른쪽"
+          },
+          "options__4": {
+            "label": "가운데 왼쪽"
+          },
+          "options__5": {
+            "label": "중간 중앙"
+          },
+          "options__6": {
+            "label": "가운데 오른쪽"
+          },
+          "options__7": {
+            "label": "왼쪽 하단"
+          },
+          "options__8": {
+            "label": "하단 중앙"
+          },
+          "options__9": {
+            "label": "오른쪽 하단"
+          }
+        },
+        "paragraph__3": {
+          "content": "등록하는 모든 고객은 Shopify에서 생성된 계정을 갖게 됩니다. [고객 보기](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "popup_icon": {
+          "label": "보내기 아이콘",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        },
+        "header__4": {
+          "content": "트리거 설정"
+        },
+        "popup_enable_time_based_trigger": {
+          "label": "시간 기반 트리거 활성화"
+        },
+        "popup_time_based_trigger_timeout": {
+          "label": "시간",
+          "info": "X초 후에 팝업이 표시됩니다."
+        },
+        "popup_enable_exit_intent_trigger": {
+          "label": "이탈 의도 트리거 사용"
+        },
+        "popup_enable_scroll_depth_trigger": {
+          "label": "스크롤 깊이 트리거 활성화"
+        },
+        "popup_scroll_depth_percentage": {
+          "label": "스크롤 깊이",
+          "info": "고객이 X퍼센트로 페이지를 스크롤할 때 팝업이 표시됩니다."
+        },
+        "header__5": {
+          "content": "성공 설정"
+        },
+        "header__6": {
+          "content": "고객 태그"
+        },
+        "customer_tag": {
+          "label": "꼬리표",
+          "info": "태그가 이 고객에게 추가되고 이메일 자동화를 트리거하는 데 사용할 수 있습니다."
+        },
+        "paragraph__4": {
+          "content": "등록하는 모든 고객은 Shopify에서 생성된 계정을 갖게 됩니다. [고객 보기](/admin/customers?query=&accepts_marketing=1)"
+        },
+        "header__7": {
+          "content": "할인 코드",
+          "info": "[할인코드 생성](/admin/discounts/new)"
+        },
+        "discount_name": {
+          "label": "이름"
+        },
+        "discount_amount": {
+          "label": "양"
+        },
+        "discount_type": {
+          "label": "유형",
+          "options__1": {
+            "label": "백분율"
+          },
+          "options__2": {
+            "label": "정액"
+          }
+        }
+      }
+    },
+    "order_feedback": {
+      "select_title": "우리에 대해 어떻게 들었습니까?",
+      "default_options_text": "이 옵션 값은 비어 있습니다",
+      "select_options": "페이스북, 트위터, 구글, 인스타그램, 유튜브",
+      "error_message": "아래에서 옵션을 선택하세요.",
+      "other_option_text": "다른",
+      "other_option_placeholder": "예를 들어 내 친구 레오",
+      "other_error_message": "아래의 텍스트 필드를 채워주세요",
+      "title": "우리에 대해 어떻게 들었습니까?",
+      "other_title": "다른 사람에게서 우리에 대해 어떻게 들었습니까?"
+    },
+    "order_tracking": {
+      "input_placeholder": "추적 번호를 입력하세요...",
+      "button_text": "내 주문을 추적"
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "빠른 비교에서 제거",
+      "add_to_compare_text": "빠른 비교에 추가",
+      "title_modal": "빠른 비교",
+      "empty_table": "현재 빠른 비교 목록에 항목이 없습니다",
+      "images_cell": "이미지",
+      "title_cell": "제목",
+      "price_cell": "가격",
+      "type_cell": "유형",
+      "vendor_cell": "공급 업체",
+      "collections_cell": "컬렉션",
+      "tags_cell": "태그",
+      "short_description_cell": "간단한 설명"
+    },
+    "recently_viewed": {
+      "name": "⚡ 최근 본",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5057690-how-to-display-recently-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "products_limit": {
+          "label": "모바일에서 숨기기"
+        },
+        "header__3": {
+          "content": "플로팅 바"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "바탕 화면에 표시"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "모바일에 표시"
+        },
+        "floating_bar_position": {
+          "label": "위치",
+          "options__1": {
+            "label": "왼쪽"
+          },
+          "options__2": {
+            "label": "오른쪽"
+          }
+        },
+        "header__4": {
+          "content": "부분"
+        },
+        "section_products_per_row_desktop": {
+          "label": "행당 제품(데스크톱)"
+        },
+        "section_products_per_row_mobile": {
+          "label": "행당 제품(모바일)"
+        },
+        "header__5": {
+          "content": "회전 목마"
+        },
+        "carousel_enable": {
+          "label": "캐러셀 활성화"
+        },
+        "carousel_show_arrows": {
+          "label": "화살표 표시"
+        },
+        "carousel_show_dots": {
+          "label": "점 표시"
+        },
+        "carousel_auto_rotate": {
+          "label": "회전된 자동차"
+        },
+        "carousel_rotation_speed": {
+          "label": "회전 속도"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "연속으로 표시할 제품"
+        }
+      }
+    },
+    "smart_search": {
+      "name": "⚡ 스마트 검색",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5054239-how-to-use-smart-search-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "결과 설정"
+        },
+        "show_price": {
+          "label": "가격 표시"
+        },
+        "show_vendor": {
+          "label": "공급업체 표시"
+        },
+        "result_limit": {
+          "label": "결과 제한"
+        }
+      }
+    },
+    "social_discount": {
+      "name": "⚡ 소셜 할인",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5057551-how-to-use-a-social-discount-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "icon": {
+          "label": "상",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "팝업 설정"
+        },
+        "popup_width": {
+          "label": "크기",
+          "options__1": {
+            "label": "작은"
+          },
+          "options__2": {
+            "label": "중간"
+          },
+          "options__3": {
+            "label": "크기가 큰"
+          }
+        },
+        "header__4": {
+          "content": "성공 설정"
+        },
+        "header__5": {
+          "content": "할인 코드",
+          "info": "[할인코드 생성](/admin/discounts/new)"
+        },
+        "discount_name": {
+          "label": "이름"
+        },
+        "discount_amount": {
+          "label": "양"
+        },
+        "discount_type": {
+          "label": "유형",
+          "options__1": {
+            "label": "백분율"
+          },
+          "options__2": {
+            "label": "정액"
+          }
+        }
+      }
+    },
+    "sold_items": {
+      "name": "⚡ 판매 품목",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5447397-how-to-enable-the-sold-items-add-on-in-debutify)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "position": {
+          "label": "위치",
+          "options__1": {
+            "label": "제품 가격 이하"
+          },
+          "options__2": {
+            "label": "장바구니에 담기 버튼 아래"
+          }
+        },
+        "icon": {
+          "label": "상",
+          "info": "[사용 가능한 모든 아이콘 보기](https://material.io/resources/icons)"
+        },
+        "minimum_range": {
+          "label": "최소 범위"
+        },
+        "maximum_range": {
+          "label": "최대 범위"
+        },
+        "interval_time": {
+          "label": "간격 시간 설정(시)"
+        }
+      }
+    },
+    "sticky_add_to_cart": {
+      "name": "⚡ 스티커 장바구니에 담기",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서를 따르십시오](https://help.debutify.com/en/articles/5054241-how-to-display-a-sticky-add-to-cart-bar-in-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "show_star_rating": {
+          "label": "최대 범위"
+        },
+        "enable_add_to_cart_animation": {
+          "label": "최대 범위"
+        },
+        "enable_simplified_display": {
+          "label": "최대 범위"
+        },
+        "position": {
+          "label": "위치",
+          "options__1": {
+            "label": "맨 위"
+          },
+          "options__2": {
+            "label": "맨 아래"
+          }
+        }
+      }
+    },
+    "trust_badge": {
+      "name": "⚡ 신뢰 배지",
+      "settings": {
+        "header__1": {
+          "content": "지원 센터"
+        },
+        "paragraph__1": {
+          "content": "[단계별 자습서 따르기](https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "이 부가 기능을 활성화/비활성화하려면 테마 설정 > Debutify 부가 기능으로 이동하십시오."
+        },
+        "header__2": {
+          "content": "설정"
+        },
+        "show_on_product_page": {
+          "label": "제품 페이지에 표시"
+        },
+        "show_on_cart_page": {
+          "label": "장바구니 페이지/서랍에 표시"
+        },
+        "enable_small_text": {
+          "label": "작은 텍스트"
+        },
+        "position_in_cart_drawer": {
+          "label": "카트 서랍의 위치",
+          "options__1": {
+            "label": "별도 섹션"
+          },
+          "options__2": {
+            "label": "결제 버튼 아래"
+          }
+        },
+        "badge_image": {
+          "label": "영상",
+          "info": "기본 아이콘의 경우 비워 둡니다."
+        },
+        "text_position": {
+          "label": "텍스트 위치",
+          "options__1": {
+            "label": "위에"
+          },
+          "options__2": {
+            "label": "아래에"
+          }
+        },
+        "badge_width": {
+          "label": "이미지 너비",
+          "options__1": {
+            "label": "엄청 작은"
+          },
+          "options__2": {
+            "label": "작은"
+          },
+          "options__3": {
+            "label": "중간"
+          },
+          "options__4": {
+            "label": "크기가 큰"
+          },
+          "options__5": {
+            "label": "특대"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "위시리스트에 추가",
+      "remove_from_wishlist_text": "위시리스트에서 제거",
+      "empty_wishlist_text": "현재 위시리스트가 비어 있습니다.",
+      "share_wishlist_text": "위시리스트 공유"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "태그",
+      "read_more": "계속 읽기",
+      "view_all": "모두보기",
+      "back_to_blog": "{{ title }}으로 돌아가기"
+    },
+    "comments": {
+      "title": "코멘트를 남겨주세요",
+      "name": "이름",
+      "email": "이메일",
+      "message": "메세지",
+      "post": "댓글 달기",
+      "moderated": "주석은 게시되기 전에 승인을 받아야 합니다.",
+      "success_moderated": "귀하의 댓글이 성공적으로 게시되었습니다. 블로그가 검토 중이므로 잠시 후 게시할 예정입니다.",
+      "success": "귀하의 댓글이 성공적으로 게시되었습니다! 감사합니다!",
+      "with_count": {
+        "one": "{{ count }} 댓글",
+        "other": "댓글 {{ count }}개"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "장바구니",
+      "remove": "제거하다",
+      "note": "판매자를 위한 특별 지침",
+      "subtotal": "소계",
+      "taxes_and_shipping_at_checkout": "결제 시 계산된 세금 및 배송료",
+      "taxes_and_shipping_policy_at_checkout_html": "<a href=\"{{ link }}\">결제 시</a> 계산된 세금 및 배송료",
+      "taxes_included_but_shipping_at_checkout": "세금 포함 및 결제 시 배송비 계산",
+      "taxes_included_and_shipping_policy_html": "세금 포함. <a href=\"{{ link }}\">배송료</a> 는 결제 시 계산됩니다.",
+      "update": "장바구니 업데이트",
+      "checkout": "체크아웃",
+      "empty": "장바구니는 현재 비어 있습니다.",
+      "continue_browsing_html": "계속 탐색",
+      "close_cart": "장바구니 닫기",
+      "savings_html": "{{ savings }}을(를) 저장 중입니다.",
+      "reduce_quantity": "아이템 수량 1개 줄이기",
+      "increase_quantity": "아이템 수량 1증가",
+      "cookies_required": "장바구니를 사용하려면 쿠키 활성화",
+      "custom_currency_html": "모든 주문은 {{ shopCurrency }}에서 처리됩니다. 장바구니의 내용이 현재 표시되는 동안<span class='selected-currency'></span> , 가장 최신 환율로 {{ shopCurrency }}을(를) 사용하여 결제합니다."
+    },
+    "label": {
+      "quantity": "수량",
+      "total": "총계"
+    },
+    "cart_message": {
+      "text": "아이템이 추가되었습니다",
+      "button_label": "장바구니보기"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "목록",
+      "all_of_collection": "모두",
+      "no_matches": "죄송합니다. 이 컬렉션에 제품이 없습니다."
+    },
+    "sorting": {
+      "title": "정렬 기준",
+      "title_tags": "필터링 기준",
+      "all_of_collection": "모든 {{ collection }}"
+    },
+    "grid": {
+      "button_label": "지금 쇼핑하기"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "이름",
+      "email": "이메일",
+      "phone": "전화 번호",
+      "message": "메세지",
+      "send": "보내다",
+      "post_success": "연락 해주셔서 감사합니다. 최대한 빨리 연락드리겠습니다."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "내 계정",
+      "details": "계정 세부정보",
+      "view_addresses": "주소 보기",
+      "return": "계정 세부 정보로 돌아가기"
+    },
+    "activate_account": {
+      "title": "계정 활성화",
+      "subtext": "계정을 활성화하려면 비밀번호를 만드세요.",
+      "password": "비밀번호",
+      "password_confirm": "비밀번호 확인",
+      "submit": "계정 활성화",
+      "cancel": "초대 거부"
+    },
+    "addresses": {
+      "title": "귀하의 주소",
+      "default": "기본",
+      "add_new": "새로운 주소를 추가한다",
+      "edit_address": "주소 수정",
+      "first_name": "이름",
+      "last_name": "성",
+      "company": "회사",
+      "address1": "주소 1",
+      "address2": "주소 2",
+      "city": "도시",
+      "country": "국가/지역",
+      "province": "주",
+      "zip": "우편번호",
+      "phone": "핸드폰",
+      "set_default": "기본 주소로 설정",
+      "add": "주소 추가",
+      "update": "주소 업데이트",
+      "cancel": "취소",
+      "edit": "편집하다",
+      "delete": "삭제"
+    },
+    "login": {
+      "title": "로그인",
+      "email": "이메일",
+      "password": "비밀번호",
+      "forgot_password": "비밀번호를 잊어 버렸습니까?",
+      "sign_in": "로그인",
+      "cancel": "스토어로 돌아가기",
+      "guest_title": "게스트로 계속",
+      "guest_continue": "계속하다"
+    },
+    "orders": {
+      "title": "주문 내역",
+      "order_number": "주문하다",
+      "date": "날짜",
+      "payment_status": "지불 상태",
+      "fulfillment_status": "이행 상태",
+      "total": "총",
+      "none": "아직 주문을 하지 않았습니다."
+    },
+    "order": {
+      "title": "{{ name }} 주문",
+      "date": "{{ date }}에 배치됨",
+      "cancelled": "{{ date }}에 주문 취소됨",
+      "cancelled_reason": "이유: {{ reason }}",
+      "billing_address": "청구 지 주소",
+      "payment_status": "지불 상태",
+      "shipping_address": "배송 주소",
+      "fulfillment_status": "이행 상태",
+      "discount": "할인",
+      "shipping": "배송",
+      "tax": "세",
+      "product": "제품",
+      "sku": "SKU",
+      "price": "가격",
+      "quantity": "수량",
+      "total": "총",
+      "fulfilled_at": "이행 {{ date }}",
+      "subtotal": "소계",
+      "track_shipment": "배송 추적"
+    },
+    "recover_password": {
+      "title": "비밀번호를 재설정",
+      "email": "이메일",
+      "submit": "제출하다",
+      "cancel": "취소",
+      "subtext": "비밀번호 재설정 이메일을 보내드립니다.",
+      "success": "비밀번호 업데이트 링크가 포함된 이메일을 보내드렸습니다."
+    },
+    "reset_password": {
+      "title": "계정 비밀번호 재설정",
+      "subtext": "{{ email }}의 새 비밀번호를 입력하세요.",
+      "password": "비밀번호",
+      "password_confirm": "비밀번호 확인",
+      "submit": "암호를 재설정"
+    },
+    "register": {
+      "title": "계정 만들기",
+      "first_name": "이름",
+      "last_name": "성",
+      "email": "이메일",
+      "password": "비밀번호",
+      "submit": "만들다",
+      "cancel": "스토어로 돌아가기"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "왼쪽/오른쪽 화살표를 사용하여 슬라이드쇼를 탐색하거나 모바일 장치를 사용하는 경우 왼쪽/오른쪽으로 스와이프합니다.",
+      "next_slide": "다음 슬라이드",
+      "previous_slide": "이전 슬라이드",
+      "play": "슬라이드쇼 재생",
+      "pause": "슬라이드쇼 일시중지",
+      "load_slide": "슬라이드 로드 {{ slide_number }}",
+      "active_slide": "슬라이드 {{ slide_number }}, 현재"
+    },
+    "onboarding": {
+      "product_vendor": "제품 공급업체",
+      "product_title": "제품 제목 예시",
+      "collection_title": "컬렉션 제목 예시",
+      "blog_title": "게시물 제목",
+      "blog_excerpt": "귀하의 상점은 아직 블로그 게시물을 게시하지 않았습니다. 블로그는 신제품 출시, 팁 또는 고객과 공유하고 싶은 기타 뉴스에 대해 이야기하는 데 사용할 수 있습니다. Shopify의 전자 상거래 블로그에서 자신의 상점과 블로그에 대한 영감과 조언을 확인할 수 있습니다.",
+      "no_content": "이 섹션에는 현재 어떤 콘텐츠도 포함되어 있지 않습니다. 사이드바를 사용하여 이 섹션에 콘텐츠를 추가합니다."
+    },
+    "map": {
+      "address_error": "해당 주소를 조회하는 동안 오류가 발생했습니다.",
+      "address_no_results": "해당 주소에 대한 검색결과가 없습니다.",
+      "address_query_limit_html": "Google API 사용 한도를 초과했습니다. <a href=\"https://developers.google.com/maps/premium/usage-limits\">프리미엄 플랜으로</a> 업그레이드하는 것을 고려하십시오.",
+      "auth_error_html": "Google 지도 계정을 인증하는 중에 문제가 발생했습니다."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "카트"
+    },
+    "customer": {
+      "account": "계정",
+      "log_out": "로그 아웃",
+      "log_in": "로그인",
+      "create_account": "계정 만들기"
+    },
+    "footer": {
+      "social_platform": "{{ name }} {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "{{ saved_amount }} 저장",
+      "collection_return": "{{ collection }}으로 돌아가기",
+      "sale_price": "판매 가격",
+      "regular_price": "정가",
+      "include_taxes": "세금 포함.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">배송료</a> 는 결제 시 계산됩니다.",
+      "unit_price": "단가"
+    },
+    "product": {
+      "sold_out": "매진",
+      "sold_out_html": "매진",
+      "unavailable": "없는",
+      "quantity": "수량",
+      "add_to_cart": "장바구니에 추가",
+      "replace": "바꾸다",
+      "full_details": "전체 세부정보",
+      "view_more": "더보기",
+      "view_in_space": "내 공간에서 보기",
+      "view_in_space_label": "내 공간에서 보기, 증강 현실 창에서 항목 로드",
+      "slide_label": "슬라이드 {{ slide_number }}/{{ slide_max }}.",
+      "gallery_thumbnail_alt": "갤러리 뷰어, {{ imageAlt }}에 이미지 로드",
+      "video_thumbnail_alt": "갤러리 뷰어에서 동영상 로드 및 재생, {{ imageAlt }}",
+      "model_thumbnail_alt": "갤러리 뷰어에 3D 모델 로드, {{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "다음(오른쪽 화살표 키)",
+      "prev": "이전(왼쪽 화살표 키)",
+      "close": "닫기(Esc)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "다음은 {{ shop }}용 {{ value }} 기프트 카드입니다!",
+      "subtext": "여기 당신의 기프트 카드가 있습니다!",
+      "disabled": "장애가있는",
+      "expired": "{{ expiry }}에 만료됨",
+      "active": "{{ expiry }}에 만료",
+      "redeem": "결제 시 이 코드를 사용하여 기프트 카드를 사용하세요.",
+      "shop_link": "쇼핑 시작",
+      "print": "인쇄",
+      "add_to_apple_wallet": "Apple 지갑에 추가"
+    }
+  }
+}

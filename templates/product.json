@@ -1,0 +1,332 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-template",
+      "settings": {
+        "delivery_icon": "shopify:\/\/shop_images\/Vector.png",
+        "delivery_text": "<p><strong>Das Nobelportrait Versprechen<\/strong>: Du erhältst eine Vorschau vor dem Druck und wir überarbeiten dein Porträt<strong> so lange, bis du zufrieden bist!<\/strong><\/p>",
+        "show_product_vendor": false,
+        "show_product_type": false,
+        "show_product_sku": false,
+        "show_product_tags": false,
+        "show_sharing_icons": false,
+        "show_product_collections": false,
+        "product_title_large": false,
+        "enable_fading_effect": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "media_layout": "thumbnails",
+        "image_size": "medium",
+        "quantity_enabled": false,
+        "product_selector": "select",
+        "show_product_description": true,
+        "enable_split_description": false,
+        "description_full": false,
+        "dbtfy_product_description_position": "separate_section",
+        "description_style": "section-border",
+        "text_alignment": "text-center",
+        "text_alignment_mobile": "small--text-center"
+      }
+    },
+    "1648127193204a0446": {
+      "type": "apps",
+      "blocks": {
+        "d522ccab-ef74-4eca-be84-bb7ed97052ba": {
+          "type": "shopify:\/\/apps\/zepto-product-personalizer\/blocks\/product_personalizer_page\/7411210d-7b32-4c09-9455-e129e3be4729",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "d522ccab-ef74-4eca-be84-bb7ed97052ba"
+      ],
+      "settings": {
+      }
+    },
+    "1648199726adf8cdad": {
+      "type": "index-video",
+      "settings": {
+        "title": "Video Review"
+      }
+    },
+    "upsell-bundles": {
+      "type": "dbtfy-upsell-bundles",
+      "disabled": true,
+      "blocks": {
+        "0856a632-bb08-4ce3-9518-56de4422274a": {
+          "type": "bundle",
+          "settings": {
+            "title": "",
+            "dbtfy_upsell_bundles_product_trigger_1": "",
+            "dbtfy_upsell_bundles_product_offer_1_1": "",
+            "dbtfy_upsell_bundles_product_offer_2_1": "",
+            "dbtfy_upsell_bundles_discount_code_1": "",
+            "dbtfy_upsell_bundles_discount_amount_1": "",
+            "dbtfy_upsell_bundles_discount_type_1": "%",
+            "dbtfy_upsell_bundles_product_trigger_2": "",
+            "dbtfy_upsell_bundles_product_offer_1_2": "",
+            "dbtfy_upsell_bundles_product_offer_2_2": "",
+            "dbtfy_upsell_bundles_discount_code_2": "",
+            "dbtfy_upsell_bundles_discount_amount_2": "",
+            "dbtfy_upsell_bundles_discount_type_2": "%",
+            "dbtfy_upsell_bundles_product_trigger_3": "",
+            "dbtfy_upsell_bundles_product_offer_1_3": "",
+            "dbtfy_upsell_bundles_product_offer_2_3": "",
+            "dbtfy_upsell_bundles_discount_code_3": "",
+            "dbtfy_upsell_bundles_discount_amount_3": "",
+            "dbtfy_upsell_bundles_discount_type_3": "%",
+            "dbtfy_upsell_bundles_product_trigger_4": "",
+            "dbtfy_upsell_bundles_product_offer_1_4": "",
+            "dbtfy_upsell_bundles_product_offer_2_4": "",
+            "dbtfy_upsell_bundles_discount_code_4": "",
+            "dbtfy_upsell_bundles_discount_amount_4": "",
+            "dbtfy_upsell_bundles_discount_type_4": "%",
+            "dbtfy_upsell_bundles_product_trigger_5": "",
+            "dbtfy_upsell_bundles_product_offer_1_5": "",
+            "dbtfy_upsell_bundles_product_offer_2_5": "",
+            "dbtfy_upsell_bundles_discount_code_5": "",
+            "dbtfy_upsell_bundles_discount_amount_5": "",
+            "dbtfy_upsell_bundles_discount_type_5": "%",
+            "dbtfy_upsell_bundles_product_trigger_6": "",
+            "dbtfy_upsell_bundles_product_offer_1_6": "",
+            "dbtfy_upsell_bundles_product_offer_2_6": "",
+            "dbtfy_upsell_bundles_discount_code_6": "",
+            "dbtfy_upsell_bundles_discount_amount_6": "",
+            "dbtfy_upsell_bundles_discount_type_6": "%",
+            "dbtfy_upsell_bundles_product_trigger_7": "",
+            "dbtfy_upsell_bundles_product_offer_1_7": "",
+            "dbtfy_upsell_bundles_product_offer_2_7": "",
+            "dbtfy_upsell_bundles_discount_code_7": "",
+            "dbtfy_upsell_bundles_discount_amount_7": "",
+            "dbtfy_upsell_bundles_discount_type_7": "%",
+            "dbtfy_upsell_bundles_product_trigger_8": "",
+            "dbtfy_upsell_bundles_product_offer_1_8": "",
+            "dbtfy_upsell_bundles_product_offer_2_8": "",
+            "dbtfy_upsell_bundles_discount_code_8": "",
+            "dbtfy_upsell_bundles_discount_amount_8": "",
+            "dbtfy_upsell_bundles_discount_type_8": "%",
+            "dbtfy_upsell_bundles_product_trigger_9": "",
+            "dbtfy_upsell_bundles_product_offer_1_9": "",
+            "dbtfy_upsell_bundles_product_offer_2_9": "",
+            "dbtfy_upsell_bundles_discount_code_9": "",
+            "dbtfy_upsell_bundles_discount_amount_9": "",
+            "dbtfy_upsell_bundles_discount_type_9": "%",
+            "dbtfy_upsell_bundles_product_trigger_10": "",
+            "dbtfy_upsell_bundles_product_offer_1_10": "",
+            "dbtfy_upsell_bundles_product_offer_2_10": "",
+            "dbtfy_upsell_bundles_discount_code_10": "",
+            "dbtfy_upsell_bundles_discount_amount_10": "",
+            "dbtfy_upsell_bundles_discount_type_10": "%"
+          }
+        }
+      },
+      "block_order": [
+        "0856a632-bb08-4ce3-9518-56de4422274a"
+      ],
+      "settings": {
+        "dbtfy_upsell_bundles_title": "Frequently bought together",
+        "dbtfy_upsell_bundles_subtitle": "",
+        "dbtfy_upsell_bundles_total": "Total price:",
+        "dbtfy_upsell_bundles_cart": "Add selected items",
+        "dbtfy_upsell_bundles_icons": "library_add_check",
+        "dbtfy_upsell_bundles_current": "This item:",
+        "section_style": "section-border",
+        "dbtfy_upsell_bundles_reviews": false,
+        "show_automatic_bundles": true,
+        "dbtfy_upsell_bundles_limit": "2",
+        "dbtfy_upsell_bundles_position": "product",
+        "dbtfy_upsell_bundles_discount_code": "",
+        "dbtfy_upsell_bundles_discount_amount": "",
+        "dbtfy_upsell_bundles_discount_type": "%"
+      }
+    },
+    "pricing-table": {
+      "type": "dbtfy-pricing-table",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Pricing table",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "dbtfy_button_position": "middle"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "title": "Ähnliche Produkte",
+        "subtitle": "",
+        "section_style": "section-border",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    },
+    "review-widget": {
+      "type": "product-review-widget",
+      "settings": {
+      }
+    },
+    "faq-section": {
+      "type": "dbtfy-faq-section",
+      "blocks": {
+        "208b1130-5375-401e-a9d2-f847c9225dfc": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "dbtfy_faq_page_open_1": false,
+            "dbtfy_faq_page_icon_1": "",
+            "question_1": "Bekomme ich eine Vorschau vor dem Druck?",
+            "text_1": "<p>Ja, sobald unsere Künstler\/innen deine Vorschau angefertigt haben, erhältst du eine E-Mail mit einem Link zu deiner Vorschau. <\/p><p>Das dauert ca. 2-3 Tage.<\/p><p>Auf der Seite kannst du Verbesserungen anfordern. Erst wenn du zufrieden bist, stellen wir dein Produkt her.<\/p>",
+            "dbtfy_faq_page_open_2": false,
+            "dbtfy_faq_page_icon_2": "",
+            "question_2": "Wie gut muss das Bild sein, das ich hochlade?",
+            "text_2": "<p>Gute Frage! Ein mit dem Handy geschossenes Bild reicht völlig aus - achte nur darauf, dass du das Bild so aufnimmst, wie später dein Gemälde\/Poster aussehen soll. <\/p><p><strong>Ach, und bitte versende das  Bild vor dem Hochladen nicht per WhatsApp<\/strong> - das reduziert die Auflösung dramatisch und wir müssen vor der Erstellung von deinem Porträt mit dir in Kontakt treten.<\/p>",
+            "dbtfy_faq_page_open_3": false,
+            "dbtfy_faq_page_icon_3": "",
+            "question_3": "Kann ich meine Bestellung noch ändern?",
+            "text_3": "<p>Klar, solange dein Portrait nicht erstellt wurde machen wir alles, was du von uns möchtest (außer illegales Zeug) Falls dein Portrait schon erstellt wurde, können wir ohne Aufpreis nichts mehr ändern. Sonst gehen wir pleite.<\/p>",
+            "dbtfy_faq_page_open_4": false,
+            "dbtfy_faq_page_icon_4": "",
+            "question_4": "Kann ich Sonderwünsche haben?",
+            "text_4": "<p>Wünschen kannst du dir alles was du möchtest - ob du es auch bekommst ist eine andere Frage… Spaß beiseite! Natürlich kannst du deine Sonderwünsche in das Kommentarfeld eintragen und wir tun alles um sie zu erfüllen! Eine Rose im Mund? Kein Problem. Ein Hut auf dem Kopf - machen wir.<\/p>",
+            "dbtfy_faq_page_open_5": false,
+            "dbtfy_faq_page_icon_5": "",
+            "question_5": "",
+            "text_5": "",
+            "dbtfy_faq_page_open_6": false,
+            "dbtfy_faq_page_icon_6": "",
+            "question_6": "",
+            "text_6": "",
+            "dbtfy_faq_page_open_7": false,
+            "dbtfy_faq_page_icon_7": "",
+            "question_7": "",
+            "text_7": "",
+            "dbtfy_faq_page_open_8": false,
+            "dbtfy_faq_page_icon_8": "",
+            "question_8": "",
+            "text_8": "",
+            "dbtfy_faq_page_open_9": false,
+            "dbtfy_faq_page_icon_9": "",
+            "question_9": "",
+            "text_9": "",
+            "dbtfy_faq_page_open_10": false,
+            "dbtfy_faq_page_icon_10": "",
+            "question_10": "",
+            "text_10": "<p>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "208b1130-5375-401e-a9d2-f847c9225dfc"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "FAQ",
+        "subtitle": "",
+        "section_style": "section-border",
+        "dbtfy_faq_searchbox": false,
+        "dbtfy_faq_search_placeholder": "Search questions...",
+        "dbtfy_faq_bannerbox": false,
+        "dbtfy_faq_banner_icon": "live_help",
+        "dbtfy_faq_banner_text": "Didn't find your answer?",
+        "dbtfy_faq_banner_subtitle": "Our customer service will be happy to help you.",
+        "dbtfy_faq_btn": "Get in Touch",
+        "dbtfy_faq_link": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "show_related_products": false,
+        "related_collection": true,
+        "same_vendor": false,
+        "same_type": false,
+        "never_empty": true,
+        "title": "You may also like",
+        "subtitle": "",
+        "section_style": "section-border",
+        "rows": "1",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    },
+    "back-to-collection": {
+      "type": "product-back-to-collection",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "quotes": {
+      "type": "quotes",
+      "disabled": true,
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Testimonials",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "quote_width": "60",
+        "arrows": true,
+        "dots": true,
+        "autoplay": true,
+        "autoplayspeed": 5
+      }
+    },
+    "164812628493040f7a": {
+      "type": "product-banner",
+      "settings": {
+        "video_link": "",
+        "right_image": "shopify:\/\/shop_images\/photo-1586105251261-72a756497a11_1.png",
+        "title": "Some Title Here",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam, quisnostrud exercitation ullm laboris nisiut aliquipexea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<\/p>"
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "blocks": {
+        "loox-product-reviews": {
+          "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-dynamic-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "hide_thumbnails": false,
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "loox-product-reviews"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1648127193204a0446",
+    "1648199726adf8cdad",
+    "upsell-bundles",
+    "pricing-table",
+    "product-recommendations",
+    "review-widget",
+    "faq-section",
+    "related-products",
+    "back-to-collection",
+    "quotes",
+    "164812628493040f7a",
+    "loox-product-reviews-app-section"
+  ]
+}

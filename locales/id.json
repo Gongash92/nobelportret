@@ -1,0 +1,1245 @@
+{
+  "general": {
+    "404": {
+      "title": "404 halaman tidak ditemukan",
+      "subtext_html": "Halaman yang Anda cari tidak ada."
+    },
+    "accessibility": {
+      "refresh_page": "Memilih hasil pilihan dalam penyegaran halaman penuh.",
+      "selection_help": "Tekan tombol spasi lalu tombol panah untuk membuat pilihan.",
+      "unit_price_separator": "untuk"
+    },
+    "meta": {
+      "tags": "Ditandai \"{{ tags }}\"",
+      "page": "Halaman {{ page }}"
+    },
+    "pagination": {
+      "previous": "Sebelumnya",
+      "next": "Berikutnya"
+    },
+    "password_page": {
+      "login_form_heading": "Masuk ke toko menggunakan kata sandi:",
+      "login_form_password_label": "Kata sandi",
+      "login_form_password_placeholder": "Kata sandi Anda",
+      "login_form_submit": "Memasuki",
+      "signup_form_email_label": "Surel",
+      "signup_form_success": "Kami akan mengirimkan email kepada Anda tepat sebelum kami buka!",
+      "admin_link_html": "Apakah Anda pemilik toko? <a href=\"/admin\" class=\"text-link\">Masuk disini</a>",
+      "password_link": "Masuk menggunakan kata sandi",
+      "powered_by_shopify_html": "Toko ini akan didukung oleh {{ shopify }}",
+      "close": "tutup (esc)"
+    },
+    "dates": {
+      "year": "Tahun",
+      "month": "Bulan",
+      "day": "Hari"
+    },
+    "months": {
+      "full": {
+        "january": "Januari",
+        "february": "Februari",
+        "march": "berbaris",
+        "april": "April",
+        "may": "Boleh",
+        "june": "Juni",
+        "july": "Juli",
+        "august": "Agustus",
+        "september": "September",
+        "october": "Oktober",
+        "november": "November",
+        "december": "Desember"
+      },
+      "short": {
+        "january": "Jan",
+        "february": "Februari",
+        "march": "Laut",
+        "april": "April",
+        "may": "Boleh",
+        "june": "Juni",
+        "july": "Juli",
+        "august": "Agustus",
+        "september": "Sep",
+        "october": "Oktober",
+        "november": "November",
+        "december": "Desember"
+      }
+    },
+    "weekdays": {
+      "full": {
+        "monday": "Senin",
+        "tuesday": "Selasa",
+        "wednesday": "Rabu",
+        "thursday": "Kamis",
+        "friday": "Jumat",
+        "saturday": "Sabtu",
+        "sunday": "minggu"
+      },
+      "short": {
+        "monday": "Ku",
+        "tuesday": "Milikmu",
+        "wednesday": "menikahi",
+        "thursday": "Mengumpulkan",
+        "friday": "Jumat",
+        "saturday": "Duduk",
+        "sunday": "matahari"
+      }
+    },
+    "social": {
+      "share_on_facebook": "Membagikan",
+      "share_on_twitter": "Menciak",
+      "share_on_pinterest": "Sematkan",
+      "share_on_email": "Surel",
+      "share_on_whatsapp": "Ada apa",
+      "share_on_linkedin": "LinkedIn",
+      "share_on_reddit": "Reddit",
+      "share_on_messenger": "Kurir",
+      "alt_text": {
+        "share_on_facebook": "Bagikan di Facebook",
+        "share_on_twitter": "Tweet di Twitter",
+        "share_on_pinterest": "Pin di Pinterest",
+        "share_on_email": "Bagikan melalui Email",
+        "share_on_whatsapp": "Bagikan di Whatsapp",
+        "share_on_linkedin": "Bagikan di LinkedIn",
+        "share_on_reddit": "Bagikan di Reddit",
+        "share_on_messenger": "Bagikan di Messenger"
+      }
+    },
+    "newsletter_form": {
+      "newsletter_email": "Mendaftar untuk mailing list kami",
+      "newsletter_placeholder": "Email mu",
+      "newsletter_confirmation": "Terima kasih telah berlangganan",
+      "submit": "Langganan"
+    },
+    "search": {
+      "no_results_html": "Penelusuran Anda untuk \"{{ terms }}\" tidak memberikan hasil apa pun.",
+      "results_for_html": "Penelusuran Anda untuk \"{{ terms }}\" mengungkapkan hal berikut:",
+      "title": "Mencari",
+      "placeholder": "Cari toko kami",
+      "submit": "Mencari"
+    },
+    "drawers": {
+      "navigation": "Tidak bisa",
+      "close_menu": "Tutup menu",
+      "expand_submenu": "Luaskan submenu",
+      "collapse_submenu": "Ciutkan submenu"
+    },
+    "payment": {
+      "method": "Cara Pembayaran"
+    },
+    "currency": {
+      "dropdown_label": "Mata uang"
+    },
+    "language": {
+      "dropdown_label": "Bahasa"
+    },
+    "localization": {
+      "submit_label": "Perbarui preferensi"
+    },
+    "trial_over": {
+      "heading": "Uji Coba Gratis Anda telah kedaluwarsa",
+      "text": "Hai, {{ name }}. Sepertinya uji coba gratis Paket Perusahaan 14 Hari Anda sudah berakhir. Itu berarti semua Add-On Anda sekarang dinonaktifkan.\n\nTetapi Anda mungkin tidak ingin kehilangan konversi dan peningkatan pendapatan yang Anda dapatkan dari Add-On Anda, bukan?\n\nPilih paket yang paling sesuai dengan sasaran Anda dan terus nikmati rasio konversi yang lebih tinggi.",
+      "pick_a_plan": "Pilih rencana"
+    },
+    "addons_limit_reached": {
+      "heading": "Wow! Tenang, Harimau!",
+      "text": "Sepertinya Anda membutuhkan lebih banyak Add-On :)\n\nPaket Anda saat ini [plan_name] hanya mengaktifkan hingga [current_limit] Add-on. [upgraded_plan] memungkinkan Anda untuk mengaktifkan Add-on [upgraded_limit]. Tingkatkan paket Anda untuk membuka SEMUA Fitur Premium.",
+      "upgrade_now": "Tingkatkan sekarang",
+      "note": "*Catatan: Jika lebih dari [current_limit] Add-on dipilih, hanya Add-on [current_limit] pertama yang dicentang yang diaktifkan. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">Bagaimana cara menonaktifkan Add-Ons berlebih?</a>"
+    }
+  },
+  "add-ons": {
+    "age_check": {
+      "name": "Pemeriksaan usia",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5057047-how-to-use-the-age-check-add-on-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "background_image": {
+          "label": "Waktu interval"
+        },
+        "verification_type": {
+          "label": "Jenis animasi",
+          "options__1": {
+            "label": "Tanggal lahir"
+          },
+          "options__2": {
+            "label": "Ya Tidak"
+          }
+        },
+        "valid_age": {
+          "label": "Usia yang berlaku"
+        },
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_svg": {
+          "label": "Logo SVG",
+          "info": "[Bagaimana cara mengunggah file SVG?](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Lebar logo"
+        }
+      }
+    },
+    "back_in_stock": {
+      "form_text": "Beritahu saya ketika produk ini tersedia:",
+      "button_label": "Beritahu saya",
+      "success_message": "Beritahu saya",
+      "body_message": "Harap beri tahu saya saat {{ product_name }} tersedia - {{ product_url }}"
+    },
+    "cart_countdown": {
+      "prefix_text": "Keranjang Anda disimpan untuk selanjutnya",
+      "suffix_text": "",
+      "time_over_message": "Pesan sebelum barang Anda kehabisan stok!",
+      "minutes_label": "M",
+      "seconds_label": "S"
+    },
+    "cart_favicon": {
+      "name": "Favicon keranjang",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5248732-how-to-enable-the-cart-favicon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "time_minutes": {
+          "label": "Menit"
+        },
+        "favicon": {
+          "label": "Gambar favicon"
+        }
+      }
+    },
+    "cart_discount": {
+      "name": "Diskon keranjang",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054067-how-to-use-cart-discount-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "label_icon": {
+          "label": "Ikon label",
+          "info": "[Lihat semua ikon yang tersedia](https://material.io/resources/icons)"
+        },
+        "button_icon": {
+          "label": "Ikon tombol",
+          "info": "[Lihat semua ikon yang tersedia](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "collection_filters": {
+      "name": "Filter koleksi",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5290641-how-to-enable-the-collection-filters-add-on-in-debutify-3-0 -shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "filter_icon": {
+          "label": "Ikon filter",
+          "info": "[Lihat semua ikon yang tersedia](https://material.io/resources/icons)"
+        }
+      }
+    },
+    "color_swatches": {
+      "name": "Swatch warna",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054086-how-to-add-color-swatches-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "color_options_list_page": {
+          "label": "Opsi varian halaman produk",
+          "info": "Tambahkan nama opsi varian dengan dipisahkan koma"
+        },
+        "color_options_list_grid": {
+          "label": "Opsi varian kisi produk",
+          "info": "Contoh warna akan diterapkan ke semua opsi varian dengan nama ini"
+        },
+        "swatches_count_product_grid": {
+          "label": "Swatch di kisi produk"
+        }
+      }
+    },
+    "cookie_box": {
+      "name": "kotak kue",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054095-how-to-use-a-cookie-box-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "use_drawer_colors": {
+          "label": "Gunakan warna laci"
+        },
+        "enable_for_eu_only": {
+          "label": "Aktifkan hanya untuk UE"
+        },
+        "button_style": {
+          "label": "Gaya tombol",
+          "options__1": {
+            "label": "Bawaan"
+          },
+          "options__2": {
+            "label": "Penuh"
+          },
+          "options__3": {
+            "label": "Garis besar"
+          }
+        }
+      }
+    },
+    "custom_currencies": {
+      "name": "Mata uang khusus",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5057090-how-to-use-custom-currencies-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "paragraph__3": {
+          "content": "Saat diaktifkan, konverter multi-mata uang Shopify Payment asli akan dinonaktifkan. Perhatikan bahwa Shopify tidak mengizinkan kami mengonversi harga di halaman Checkout."
+        },
+        "show_currency_message": {
+          "label": "Tampilkan pesan mata uang"
+        },
+        "show_original_price_on_hover": {
+          "label": "Tampilkan harga asli di hover"
+        },
+        "currency_format": {
+          "label": "Format",
+          "options__1": {
+            "label": "Tanpa mata uang ($10,00)"
+          },
+          "options__2": {
+            "label": "Dengan mata uang ($10,00 USD)"
+          },
+          "options__3": {
+            "label": "Tanpa desimal ($10)"
+          },
+          "options__4": {
+            "label": "Tanpa desimal dengan mata uang ($10 USD)"
+          },
+          "options__5": {
+            "label": "Tanpa tanda & dengan mata uang (10 USD)"
+          },
+          "options__6": {
+            "label": "Tanpa tanda & dengan desimal (10.00)"
+          }
+        },
+        "supported_currencies": {
+          "label": "Mata uang yang didukung",
+          "info": "Gunakan [kode mata uang] ISO negara (https://www.xe.com/iso4217.php). Pisahkan kode mata uang Anda dengan spasi."
+        }
+      }
+    },
+    "facebook_messenger": {
+      "name": "utusan Facebook",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5057679-how-to-add-a-facebook-messenger-chat-widget-in-debutify-3-0 )"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "code": {
+          "label": "Kode",
+          "info": "Bagaimana cara mendapatkan kode? Buka halaman Facebook Anda > Pengaturan > Pesan > Tambahkan Messenger ke situs web Anda > Salin & tempel cuplikan kode"
+        },
+        "hide_on_mobile": {
+          "label": "Sembunyikan di ponsel"
+        }
+      }
+    },
+    "delivery_date": {
+      "label": "Pilih tanggal pengiriman yang diinginkan",
+      "placeholder": "Pilih tanggal dan waktu*",
+      "error_message": "Buat pilihan untuk melanjutkan"
+    },
+    "gift_wrap": {
+      "name": "Bungkus kado",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5596124-how-to-enable-the-gift-wrap-add-on-in-the-debutify-shopify -tema)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "product": {
+          "label": "Produk pembungkus kado"
+        },
+        "show_price": {
+          "label": "Tampilkan harga kotak hadiah"
+        }
+      }
+    },
+    "inactive_tab_message": {
+      "name": "Pesan tab tidak aktif",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5242828-how-to-enable-the-inactive-tab-message-add-on-in-debutify-3 -0-shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "delay": {
+          "label": "Menunda"
+        }
+      }
+    },
+    "infinite_scroll": {
+      "name": "Gulir tak terbatas",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5161154-how-to-use-infinite-scroll-addon-in-debutify-3-0-shopify-theme )"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "scroll_options": {
+          "label": "Opsi gulir tak terbatas",
+          "options__1": {
+            "label": "Klik tanpa akhir"
+          },
+          "options__2": {
+            "label": "Gulir tanpa akhir"
+          }
+        },
+        "button_style": {
+          "label": "Memuat gaya tombol",
+          "options__1": {
+            "label": "Bawaan"
+          },
+          "options__2": {
+            "label": "Penuh"
+          },
+          "options__3": {
+            "label": "Garis besar"
+          }
+        },
+        "loading_image": {
+          "label": "Memuat gambar untuk gulir tanpa akhir",
+          "info": "Biarkan kosong untuk menampilkan ikon pemuatan default"
+        }
+      }
+    },
+    "inventory_quantity": {
+      "name": "Jumlah persediaan",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054133-how-to-display-the-inventory-quantity-of-your-product-variant-in-3 -0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "icon": {
+          "label": "ikon",
+          "info": "[Lihat semua ikon yang tersedia](https://material.io/resources/icons)"
+        },
+        "header__3": {
+          "content": "Pengaturan kuantitas acak"
+        },
+        "show_random_quantities": {
+          "label": "Tampilkan jumlah acak",
+          "info": "Hapus centang untuk menampilkan inventaris asli"
+        },
+        "min_random_quantity": {
+          "label": "kuantitas saya"
+        },
+        "max_random_quantity": {
+          "label": "Kuantitas maks"
+        },
+        "header__4": {
+          "content": "Pengaturan ambang batas stok",
+          "info": "Jika pengaturan jumlah acak dinonaktifkan"
+        },
+        "quantity_threshold": {
+          "label": "Kuantitas ambang batas",
+          "info": "Jika kuantitas produk lebih tinggi dari ambang batas yang ditetapkan, maka sembunyikan kuantitas inventaris produk atau tampilkan teks umum"
+        }
+      }
+    },
+    "live_view": {
+      "name": "Tampilan langsung",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054147-how-to-use-live-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "position": {
+          "label": "Posisi",
+          "options__1": {
+            "label": "Di bawah harga produk"
+          },
+          "options__2": {
+            "label": "Di bawah tombol tambahkan ke troli"
+          }
+        },
+        "icon": {
+          "label": "ikon",
+          "info": "[Lihat semua ikon yang tersedia](https://material.io/resources/icons)"
+        },
+        "min_quantity": {
+          "label": "Min (orang)"
+        },
+        "max_quantity": {
+          "label": "Maks (orang)"
+        },
+        "max_interval_steps": {
+          "label": "Langkah interval maks"
+        },
+        "interval_time": {
+          "label": "Waktu interval"
+        }
+      }
+    },
+    "menu_bar": {
+      "name": "Bilah menu",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5231134-how-to-enable-a-menu-bar-add-on-in-debutify-3-0 -shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "menu": {
+          "label": "Tidak bisa"
+        },
+        "show_on_desktop": {
+          "label": "Maks (orang)"
+        },
+        "show_on_mobile": {
+          "label": "Min (orang)"
+        }
+      }
+    },
+    "minimum_order": {
+      "amount_reached_text": "Jumlah pesanan minimum tercapai. Anda dapat melanjutkan ke checkout.",
+      "amount_unreached_text": "Anda masih belum mencapai jumlah pesanan minimum. Tambahkan {left_amount} untuk melanjutkan."
+    },
+    "newsletter_popup": {
+      "floating_bar_text": "Dapatkan diskon 20%!",
+      "popup_title": "Berlangganan newsletter kami!",
+      "popup_text": "Dapatkan diskon 10% untuk pembelian pertama Anda dengan berlangganan buletin kami.",
+      "popup_close_text": "Tidak, terima kasih, saya tidak suka diskon.",
+      "popup_title_success": "Terima kasih!",
+      "popup_text_success": "Salin kode diskon di bawah dan tempel saat checkout untuk mendapatkan diskon!",
+      "popup_reward_button": "Terapkan kode diskon"
+    },
+    "order_feedback": {
+      "name": "Umpan balik pesanan",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5242840-how-to-enable-the-order-feedback-add-on-in-debutify-3-0 -shopify-tema)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "required_to_checkout": {
+          "label": "Diperlukan untuk checkout"
+        }
+      }
+    },
+    "page_transition": {
+      "name": "Transisi halaman",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5057511-how-to-use-page-transition-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "logo_image": {
+          "label": "Logo"
+        },
+        "logo_svg": {
+          "label": "Logo SVG",
+          "info": "[Bagaimana cara mengunggah file SVG?](https://help.debutify.com/en/articles/5056796-how-to-upload-an-svg-file-in-your-debutify-shopify-theme)"
+        },
+        "logo_width": {
+          "label": "Lebar logo"
+        }
+      }
+    },
+    "product_image_crop": {
+      "name": "Pangkas gambar produk",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5057531-how-to-use-product-image-crop-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "image_ratio": {
+          "label": "Rasio gambar"
+        },
+        "image_position": {
+          "label": "Posisi gambar",
+          "options__1": {
+            "label": "Kiri atas"
+          },
+          "options__2": {
+            "label": "tengah atas"
+          },
+          "options__3": {
+            "label": "Kanan atas"
+          },
+          "options__4": {
+            "label": "Kiri tengah"
+          },
+          "options__5": {
+            "label": "Tengah tengah"
+          },
+          "options__6": {
+            "label": "Kanan tengah"
+          },
+          "options__7": {
+            "label": "Kiri bawah"
+          },
+          "options__8": {
+            "label": "Tengah bawah"
+          },
+          "options__9": {
+            "label": "Kanan bawah"
+          }
+        }
+      }
+    },
+    "quick_view": {
+      "name": "Tampilan cepat",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054198-how-to-use-quick-view-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "hide_on_mobile": {
+          "label": "Sembunyikan di ponsel"
+        },
+        "show_quantity_picker": {
+          "label": "Tampilkan pemilih kuantitas"
+        },
+        "image_position": {
+          "label": "Penempatan ikon",
+          "options__1": {
+            "label": "Kiri"
+          },
+          "options__2": {
+            "label": "Benar"
+          }
+        }
+      }
+    },
+    "quick_compare": {
+      "remove_from_compare_text": "Hapus dari Perbandingan cepat",
+      "add_to_compare_text": "Tambahkan ke Perbandingan cepat",
+      "title_modal": "Bandingkan Cepat",
+      "empty_table": "Saat ini tidak ada item dalam daftar perbandingan cepat",
+      "images_cell": "Gambar-gambar",
+      "title_cell": "Judul",
+      "price_cell": "Harga",
+      "type_cell": "Jenis",
+      "vendor_cell": "Penjaja",
+      "collections_cell": "Koleksi",
+      "tags_cell": "Tag",
+      "short_description_cell": "Deskripsi Singkat"
+    },
+    "recently_viewed": {
+      "name": "Baru saja dilihat",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5057690-how-to-display-recently-viewed-products-in-debutify-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "products_limit": {
+          "label": "Sembunyikan di ponsel"
+        },
+        "header__3": {
+          "content": "Bar terapung"
+        },
+        "floating_bar_show_on_desktop": {
+          "label": "Tampilkan di desktop"
+        },
+        "floating_bar_show_on_mobile": {
+          "label": "Tampilkan di ponsel"
+        },
+        "floating_bar_position": {
+          "label": "Posisi",
+          "options__1": {
+            "label": "Kiri"
+          },
+          "options__2": {
+            "label": "Benar"
+          }
+        },
+        "header__4": {
+          "content": "Bagian"
+        },
+        "section_products_per_row_desktop": {
+          "label": "Produk per baris (desktop)"
+        },
+        "section_products_per_row_mobile": {
+          "label": "Produk per baris (seluler)"
+        },
+        "header__5": {
+          "content": "Korsel"
+        },
+        "carousel_enable": {
+          "label": "Aktifkan korsel"
+        },
+        "carousel_show_arrows": {
+          "label": "Tampilkan panah"
+        },
+        "carousel_show_dots": {
+          "label": "Tampilkan titik"
+        },
+        "carousel_auto_rotate": {
+          "label": "Mobil yang diputar"
+        },
+        "carousel_rotation_speed": {
+          "label": "Kecepatan rotasi"
+        },
+        "carousel_products_to_show_in_row": {
+          "label": "Produk untuk ditampilkan berturut-turut"
+        }
+      }
+    },
+    "shop_protect": {
+      "name": "Toko melindungi",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054230-how-to-use-shop-protect-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "disable_image_copy": {
+          "label": "Nonaktifkan salinan gambar"
+        },
+        "disable_image_drag_and_drop": {
+          "label": "Nonaktifkan gambar seret & lepas"
+        },
+        "disable_product_text_copy": {
+          "label": "Nonaktifkan salinan teks produk"
+        },
+        "disable_article_text_copy": {
+          "label": "Nonaktifkan salinan teks artikel"
+        },
+        "disable_best_selling": {
+          "label": "Nonaktifkan koleksi terlaris",
+          "info": "Pastikan koleksi Anda tidak diurutkan berdasarkan best seller. [Edit pengurutan koleksi](/admin/koleksi)"
+        }
+      }
+    },
+    "smart_search": {
+      "name": "Pencarian cerdas",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054239-how-to-use-smart-search-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan hasil"
+        },
+        "show_price": {
+          "label": "Tampilkan harga"
+        },
+        "show_vendor": {
+          "label": "Tampilkan vendor"
+        },
+        "result_limit": {
+          "label": "Batas hasil"
+        }
+      }
+    },
+    "social_discount": {
+      "button_label": "Bagikan dan dapatkan diskon 15%!",
+      "popup_title": "Bagikan dan dapatkan diskon 15%!",
+      "popup_text": "Cukup bagikan produk ini di salah satu jejaring sosial berikut dan Anda akan mendapatkan diskon 15%!",
+      "popup_success_title": "Terima kasih sudah berbagi!",
+      "popup_success_text": "Salin kode diskon di bawah dan tempel saat checkout untuk mendapatkan diskon!",
+      "popup_button_label": "Terapkan kode diskon"
+    },
+    "sold_items": {
+      "prefix_text": "Ada",
+      "suffix_strong_text": "barang terjual",
+      "suffix_text": "dalam 20 jam terakhir"
+    },
+    "trust_badge": {
+      "name": "Lencana kepercayaan",
+      "settings": {
+        "header__1": {
+          "content": "Pusat Bantuan"
+        },
+        "paragraph__1": {
+          "content": "[Ikuti tutorial langkah demi langkah kami](https://help.debutify.com/en/articles/5054277-how-to-display-a-trust-badge-in-3-0)"
+        },
+        "paragraph__2": {
+          "content": "Untuk mengaktifkan/menonaktifkan pengaya ini, buka Pengaturan tema > Debutkan Pengaya."
+        },
+        "header__2": {
+          "content": "Pengaturan"
+        },
+        "show_on_product_page": {
+          "label": "Tampilkan di halaman produk"
+        },
+        "show_on_cart_page": {
+          "label": "Tampilkan di halaman keranjang/laci"
+        },
+        "enable_small_text": {
+          "label": "teks kecil"
+        },
+        "position_in_cart_drawer": {
+          "label": "Posisi di Laci Keranjang",
+          "options__1": {
+            "label": "Bagian terpisah"
+          },
+          "options__2": {
+            "label": "Di bawah tombol Checkout"
+          }
+        },
+        "badge_image": {
+          "label": "Gambar",
+          "info": "Biarkan kosong untuk ikon default"
+        },
+        "text_position": {
+          "label": "Posisi teks",
+          "options__1": {
+            "label": "Di atas"
+          },
+          "options__2": {
+            "label": "Dibawah"
+          }
+        },
+        "badge_width": {
+          "label": "Lebar gambar",
+          "options__1": {
+            "label": "Ekstra kecil"
+          },
+          "options__2": {
+            "label": "Kecil"
+          },
+          "options__3": {
+            "label": "Medium"
+          },
+          "options__4": {
+            "label": "Besar"
+          },
+          "options__5": {
+            "label": "Ekstra besar"
+          }
+        }
+      }
+    },
+    "wishlist": {
+      "add_to_wishlist_text": "Tambahkan ke Daftar Keinginan b Indonesia",
+      "remove_from_wishlist_text": "Hapus dari daftar Keinginan",
+      "empty_wishlist_text": "Daftar keinginan Anda saat ini kosong.",
+      "share_wishlist_text": "Bagikan daftar Keinginan"
+    }
+  },
+  "blogs": {
+    "article": {
+      "tags": "Tag",
+      "read_more": "Lanjut membaca",
+      "view_all": "Lihat semua",
+      "back_to_blog": "Kembali ke {{ title }}"
+    },
+    "comments": {
+      "title": "Tinggalkan komentar",
+      "name": "Nama",
+      "email": "Surel",
+      "message": "Pesan",
+      "post": "Kirim Komentar",
+      "moderated": "Harap dicatat, komentar harus disetujui sebelum dipublikasikan",
+      "success_moderated": "Komentar Anda berhasil diposting. Kami akan mempublikasikannya dalam beberapa saat, karena blog kami dimoderasi.",
+      "success": "Komentar Anda berhasil diposting! Terima kasih!",
+      "with_count": {
+        "one": "{{ count }} komentar",
+        "other": "{{ count }} komentar"
+      }
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "Keranjang Anda",
+      "remove": "Menghapus",
+      "note": "Instruksi khusus untuk penjual",
+      "subtotal": "Subtotal",
+      "taxes_and_shipping_at_checkout": "Pajak dan pengiriman dihitung saat checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Pajak dan <a href=\"{{ link }}\">pengiriman</a> dihitung saat checkout",
+      "taxes_included_but_shipping_at_checkout": "Sudah termasuk pajak dan pengiriman dihitung saat checkout",
+      "taxes_included_and_shipping_policy_html": "Termasuk pajak. <a href=\"{{ link }}\">Pengiriman</a> dihitung saat checkout.",
+      "update": "Perbarui Keranjang",
+      "checkout": "Periksa",
+      "empty": "Keranjang Anda saat ini kosong.",
+      "continue_browsing_html": "Lanjutkan menjelajah",
+      "close_cart": "Tutup Keranjang",
+      "savings_html": "Anda sedang menghemat {{ savings }}",
+      "reduce_quantity": "Kurangi jumlah item satu per satu",
+      "increase_quantity": "Tingkatkan kuantitas item satu per satu",
+      "cookies_required": "Aktifkan cookie untuk menggunakan keranjang belanja",
+      "custom_currency_html": "Semua pesanan diproses di {{ shopCurrency }}. Sementara konten keranjang Anda saat ini ditampilkan di<span class='selected-currency'></span> , Anda akan checkout menggunakan {{ shopCurrency }} dengan nilai tukar terkini."
+    },
+    "label": {
+      "quantity": "Kuantitas",
+      "total": "Total"
+    },
+    "cart_message": {
+      "text": "Item telah ditambahkan",
+      "button_label": "Lihat Keranjang"
+    }
+  },
+  "collections": {
+    "general": {
+      "catalog_title": "Katalog",
+      "all_of_collection": "Semua",
+      "no_matches": "Maaf, tidak ada produk dalam koleksi ini."
+    },
+    "sorting": {
+      "title": "Sortir dengan",
+      "title_tags": "Saring menurut",
+      "all_of_collection": "Semua {{ collection }}"
+    },
+    "grid": {
+      "button_label": "Berbelanja sekarang"
+    }
+  },
+  "contact": {
+    "form": {
+      "name": "Nama",
+      "email": "Surel",
+      "phone": "Nomor telepon",
+      "message": "Pesan",
+      "send": "Mengirim",
+      "post_success": "Terima kasih telah menghubungi kami. Kami akan menghubungi Anda sesegera mungkin."
+    }
+  },
+  "customer": {
+    "account": {
+      "title": "Akun saya",
+      "details": "Detail akun",
+      "view_addresses": "Lihat Alamat",
+      "return": "Kembali ke Detail Akun"
+    },
+    "activate_account": {
+      "title": "Akun aktif",
+      "subtext": "Buat kata sandi Anda untuk mengaktifkan akun Anda.",
+      "password": "Kata sandi",
+      "password_confirm": "setujui password",
+      "submit": "Akun aktif",
+      "cancel": "Tolak Undangan"
+    },
+    "addresses": {
+      "title": "Alamat Anda",
+      "default": "Bawaan",
+      "add_new": "Tambahkan alamat baru",
+      "edit_address": "Edit alamat",
+      "first_name": "Nama depan",
+      "last_name": "Nama keluarga",
+      "company": "Perusahaan",
+      "address1": "Alamat 1",
+      "address2": "Alamat 2",
+      "city": "Kota",
+      "country": "Negara/Wilayah",
+      "province": "Propinsi",
+      "zip": "Kode Pos/Zip",
+      "phone": "Telepon",
+      "set_default": "Tetapkan sebagai alamat default",
+      "add": "Tambahkan alamat",
+      "update": "Perbarui Alamat",
+      "cancel": "Membatalkan",
+      "edit": "Sunting",
+      "delete": "Menghapus"
+    },
+    "login": {
+      "title": "Gabung",
+      "email": "Surel",
+      "password": "Kata sandi",
+      "forgot_password": "lupa kata sandi Anda?",
+      "sign_in": "Masuk",
+      "cancel": "Kembali ke Toko",
+      "guest_title": "Lanjutkan sebagai tamu",
+      "guest_continue": "Melanjutkan"
+    },
+    "orders": {
+      "title": "Riwayat Pemesanan",
+      "order_number": "Memesan",
+      "date": "Tanggal",
+      "payment_status": "Status pembayaran",
+      "fulfillment_status": "Status Pemenuhan",
+      "total": "Total",
+      "none": "Anda belum melakukan pemesanan."
+    },
+    "order": {
+      "title": "Pesan {{ name }}",
+      "date": "Ditempatkan pada {{ date }}",
+      "cancelled": "Pesanan Dibatalkan pada {{ date }}",
+      "cancelled_reason": "Alasan: {{ reason }}",
+      "billing_address": "alamat tagihan",
+      "payment_status": "Status pembayaran",
+      "shipping_address": "Alamat pengiriman",
+      "fulfillment_status": "Status Pemenuhan",
+      "discount": "Diskon",
+      "shipping": "Pengiriman",
+      "tax": "Pajak",
+      "product": "Produk",
+      "sku": "SKU",
+      "price": "Harga",
+      "quantity": "Kuantitas",
+      "total": "Total",
+      "fulfilled_at": "Terpenuhi {{ date }}",
+      "subtotal": "Subtotal",
+      "track_shipment": "Lacak pengiriman"
+    },
+    "recover_password": {
+      "title": "Mereset password Anda",
+      "email": "Surel",
+      "submit": "Kirim",
+      "cancel": "Membatalkan",
+      "subtext": "Kami akan mengirimkan email untuk mengatur ulang kata sandi Anda.",
+      "success": "Kami telah mengirimi Anda email dengan tautan untuk memperbarui kata sandi Anda."
+    },
+    "reset_password": {
+      "title": "Setel ulang kata sandi akun",
+      "subtext": "Masukkan sandi baru untuk {{ email }}",
+      "password": "Kata sandi",
+      "password_confirm": "setujui password",
+      "submit": "Setel Ulang Kata Sandi"
+    },
+    "register": {
+      "title": "Buat Akun",
+      "first_name": "Nama depan",
+      "last_name": "Nama keluarga",
+      "email": "Surel",
+      "password": "Kata sandi",
+      "submit": "Membuat",
+      "cancel": "Kembali ke Toko"
+    }
+  },
+  "home_page": {
+    "slideshow": {
+      "navigation_instructions": "Gunakan panah kiri/kanan untuk menavigasi tayangan slide atau geser ke kiri/kanan jika menggunakan perangkat seluler",
+      "next_slide": "Slide selanjut nya",
+      "previous_slide": "Slide sebelumnya",
+      "play": "Putar tayangan slide",
+      "pause": "Jeda tayangan slide",
+      "load_slide": "Muat slide {{ slide_number }}",
+      "active_slide": "Geser {{ slide_number }}, saat ini"
+    },
+    "onboarding": {
+      "product_vendor": "Penjual produk",
+      "product_title": "Contoh Judul Produk",
+      "collection_title": "Contoh Judul Koleksi",
+      "blog_title": "Judul postingan Anda",
+      "blog_excerpt": "Toko Anda belum menerbitkan posting blog apa pun. Sebuah blog dapat digunakan untuk berbicara tentang peluncuran produk baru, tips, atau berita lain yang ingin Anda bagikan dengan pelanggan Anda. Anda dapat melihat blog e-niaga Shopify untuk inspirasi dan saran untuk toko dan blog Anda sendiri.",
+      "no_content": "Bagian ini saat ini tidak menyertakan konten apa pun. Tambahkan konten ke bagian ini menggunakan bilah sisi."
+    },
+    "map": {
+      "address_error": "Kesalahan mencari alamat itu",
+      "address_no_results": "Tidak ada hasil untuk alamat itu",
+      "address_query_limit_html": "Anda telah melampaui batas penggunaan Google API. Pertimbangkan untuk meningkatkan ke Paket <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium</a> .",
+      "auth_error_html": "Terjadi masalah saat mengautentikasi akun Google Maps Anda."
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "Keranjang"
+    },
+    "customer": {
+      "account": "Akun",
+      "log_out": "Keluar",
+      "log_in": "Gabung",
+      "create_account": "Buat Akun"
+    },
+    "footer": {
+      "social_platform": "{{ name }} pada {{ platform }}"
+    }
+  },
+  "products": {
+    "general": {
+      "save_html": "Simpan {{ saved_amount }}",
+      "collection_return": "Kembali ke {{ collection }}",
+      "sale_price": "Harga penjualan",
+      "regular_price": "Harga normal",
+      "include_taxes": "Termasuk pajak.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Pengiriman</a> dihitung saat checkout.",
+      "unit_price": "Patokan harga"
+    },
+    "product": {
+      "sold_out": "Habis terjual",
+      "sold_out_html": "Habis terjual",
+      "unavailable": "Tidak tersedia",
+      "quantity": "Kuantitas",
+      "add_to_cart": "Masukkan ke keranjang",
+      "replace": "Mengganti",
+      "full_details": "Detail lengkap",
+      "view_more": "Lihat lebih banyak",
+      "view_in_space": "Lihat di ruang Anda",
+      "view_in_space_label": "Lihat di ruang Anda, muat item di jendela augmented reality",
+      "slide_label": "Geser {{ slide_number }} dari {{ slide_max }}.",
+      "gallery_thumbnail_alt": "Muat gambar ke penampil Galeri, {{ imageAlt }}",
+      "video_thumbnail_alt": "Muat dan putar video di penampil Galeri, {{ imageAlt }}",
+      "model_thumbnail_alt": "Muat model 3D ke penampil Galeri, {{ imageAlt }}"
+    },
+    "zoom": {
+      "next": "Berikutnya (Tombol panah kanan)",
+      "prev": "Sebelumnya (Tombol panah kiri)",
+      "close": "Tutup (Esc)"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Ini kartu hadiah {{ value }} Anda untuk {{ shop }}!",
+      "subtext": "Ini kartu hadiah Anda!",
+      "disabled": "Dengan disabilitas",
+      "expired": "Berakhir pada {{ expiry }}",
+      "active": "Berakhir pada {{ expiry }}",
+      "redeem": "Gunakan kode ini saat checkout untuk menukarkan kartu hadiah Anda",
+      "shop_link": "Mulai berbelanja",
+      "print": "Mencetak",
+      "add_to_apple_wallet": "Tambahkan ke Dompet Apple"
+    }
+  }
+}

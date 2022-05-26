@@ -1,0 +1,384 @@
+<section class="box">
+
+  <div class="wrapper">
+    <div class="grid items-center">
+      <div class="grid__item last-mobile ">
+        <div class="center-element">
+          <h2 class="text-size mobile-heading mobile-padding-features">
+            <span class="gray">N</span>obelporträt ver<span class="yellow">w</span>andelt dich in ein echtes
+            <span class="red">K</span>unstwerk
+          </h2>
+          <div class="flex gap-between align-center">
+            <div class="text-center content-center">
+              <p class="numberCircle h4">8976</p>
+              <p class="">Zufriedene Kunden
+              </p>
+              <img class="down-line" src="{{ 'down-line.svg' | asset_url }}" alt="Ein Pfeil">
+            </div>
+            <div>
+              <p class="numberCircle h4">100%</p>
+              <p class="">Positives Feedback</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid__item first-mobile">
+        <div class="container-before-after">
+          <figure class="cd-image-container" id="cdd">
+            <img class="mobile-height" src="{{ 'before-after-2.jpg' | asset_url }}" alt="Pärchen nachdem sie ein Portrait malen lassen">
+            <span class="cd-image-label" data-type="original">Nachher</span>
+
+            <div class="cd-resize-img">
+              <!-- the resizable image on top -->
+              <img src="{{ 'before-after-1.jpg' | asset_url }}" alt="Vorlage um ein Portrait malen zu lassen">
+              <span class="cd-image-label cd-image-label-left" data-type="modified">Vorher</span>
+            </div>
+
+            <span class="cd-handle"></span>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- cd-image-container -->
+{% schema %}
+
+{
+  "name": "Before After",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Dein Haustier als Kunstwerk"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Before After",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.text-size {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  /* or 124% */
+
+  letter-spacing: 0.01em;
+
+}
+
+.gray {
+  color: #C1C1C1;
+}
+
+.yellow {
+  color: #FFCC18;
+}
+
+.yellow-light {
+  color: #FFE27D
+}
+
+.red {
+  color: #F95510;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-between {
+
+  gap: 5rem;
+}
+
+.gap-between .content-center {
+  justify-content: center;
+}
+
+.down-line {
+  position: absolute;
+  transform: translateX(-147px);
+}
+
+.numberCircle {
+  text-align: center;
+  padding-top: 14px;
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 84px;
+  letter-spacing: -0.02em;
+  color: #FFCC18
+}
+
+.numberCircle p {
+  margin-bottom: 0;
+}
+
+.center-element {
+  margin: auto;
+}
+
+.container-before-after {
+  height: 600px;
+  width: 600px;
+  padding: 42px;
+  background-color: #F5F5F5;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .text-size {
+    font-size: 20px;
+    text-align: left !important;
+  }
+
+  .text-padding {
+    text-align: center;
+    letter-spacing: 0.01em;
+  }
+
+  .down-line {
+    display: none;
+  }
+
+  .gap-between {
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .container-before-after {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: #F5F5F5;
+  }
+
+  .first-mobile {
+    order: 1;
+  }
+
+  .last-mobile {
+    order: 2;
+  }
+
+}
+
+.cd-image-container {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+.cd-image-container img {
+  display: block;
+}
+
+.cd-image-label-left {
+  left: 10px !important;
+}
+
+.cd-image-label {
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #A58D4D;
+  padding: 0.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  opacity: 0;
+  -webkit-transform: translateY(20px);
+  -moz-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  -o-transform: translateY(20px);
+  transform: translateY(20px);
+  -webkit-transition: -webkit-transform 0.3s 0.7s, opacity 0.3s 0.7s;
+  -moz-transition: -moz-transform 0.3s 0.7s, opacity 0.3s 0.7s;
+  transition: transform 0.3s 0.7s, opacity 0.3s 0.7s;
+}
+
+.is-hidden {
+  visibility: hidden;
+}
+
+.is-visible .cd-image-label {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.cd-resize-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  /* Force Hardware Acceleration in WebKit */
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.cd-resize-img::before {
+  content: "";
+  height: 100%;
+  z-index: 1050;
+  right: 0;
+  position: absolute;
+  width: 2px;
+  background-color: #C3AF76;
+}
+
+.cd-resize-img img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  height: 100%;
+  width: auto;
+  max-width: none;
+  border-radius: 0;
+}
+
+.cd-resize-img .cd-image-label {
+  right: auto;
+  left: 0;
+}
+
+.is-visible .cd-resize-img {
+  width: 50%;
+  /* bounce in animation of the modified image */
+  -webkit-animation: cd-bounce-in 0.7s;
+  -moz-animation: cd-bounce-in 0.7s;
+  animation: cd-bounce-in 0.7s;
+}
+
+.is-visible img {
+  border-radius: 0;
+}
+
+@-webkit-keyframes cd-bounce-in {
+  0% {
+    width: 0;
+  }
+
+60% {
+    width: 55%;
+  }
+100% {
+    width: 50%;
+  }
+}
+
+@-moz-keyframes cd-bounce-in {
+  0% {
+    width: 0;
+  }
+
+60% {
+    width: 55%;
+  }
+
+100% {
+    width: 50%;
+  }
+}
+
+@keyframes cd-bounce-in {
+  0% {
+    width: 0;
+  }
+
+60% {
+    width: 55%;
+  }
+
+100% {
+    width: 50%;
+  }
+}
+
+.cd-handle {
+  position: absolute;
+  height: 44px;
+  width: 44px;
+  /* center the element */
+  left: 50%;
+  top: 70%;
+  margin-left: -22px;
+  margin-top: -22px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2) url('{{ 'icons.svg' | asset_url }}') no-repeat center center;
+  cursor: move;
+  -webkit-transform: translate3d(0, 0, 0) scale(0);
+  -moz-transform: translate3d(0, 0, 0) scale(0);
+  -ms-transform: translate3d(0, 0, 0) scale(0);
+  -o-transform: translate3d(0, 0, 0) scale(0);
+  transform: translate3d(0, 0, 0) scale(0);
+}
+
+.cd-handle.draggable-one {
+  /* change background color when element is active */
+  background-color: #c4b078;
+}
+
+.is-visible .cd-handle {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  -moz-transform: translate3d(0, 0, 0) scale(1);
+  -ms-transform: translate3d(0, 0, 0) scale(1);
+  -o-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+  -webkit-transition: -webkit-transform 0.3s 0.7s, opacity 0s 0.7s;
+  -moz-transition: -moz-transform 0.3s 0.7s, opacity 0s 0.7s;
+  transition: transform 0.3s 0.7s, opacity 0s 0.7s;
+}
+
+@media only screen and (max-width: 758px) {
+  .h4 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+  }
+
+.mobile-padding-features {
+    padding-top: 32px;
+  }
+
+.gap-between {
+    justify-content: start;
+  }
+
+.numberCircle {
+    text-align: left !important;
+  }
+}
+
+{% endstyle %}

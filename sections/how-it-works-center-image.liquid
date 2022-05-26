@@ -1,0 +1,80 @@
+<section class="how-it-works-center-image">
+  <div class="wrapper">
+    <div class="grid">
+      <div class="grid__item">
+        <div class="left_content">
+          <h2 class="text-last-section-heading">{{ section.settings.title }}</h2>
+          <div class="text-last-section">
+            {{section.settings.text }}
+
+          </div>
+
+        </div>
+      </div>
+      <div class="grid__item">
+        <div class="img_center text-center">
+          <img src="{{ section.settings.image | img_url:'master' }}" alt="{{ section.settings.image.alt }}">
+        </div>
+      </div>
+      <div class="grid__item">
+        <div class="right_content">
+          <div class="text-last-section">
+            {{section.settings.text_right }}
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+
+{
+  "name": "Center image and text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Some Title Here"
+    }, {
+      "type": "richtext",
+      "label": "Text Left",
+      "id": "text"
+    }, {
+      "type": "richtext",
+      "label": "Text Right",
+      "id": "text_right"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.text-last-section-heading {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #2B1E30;
+
+  padding-bottom: 12px;
+}
+
+.text-last-section {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #5E5A60;
+}
+
+{% endstyle %}

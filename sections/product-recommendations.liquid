@@ -1,0 +1,383 @@
+{%- if section.settings.show_product_recommendations -%}
+{%- assign limit = section.settings.desktop_grid | times: section.settings.rows -%}
+
+{%- if recommendations.performed -%}
+{%- if recommendations.products_count > 0 -%}
+<div class="product-recommendations bg-color-recomm">
+	<div class="box">
+		<div class="wrapper">
+			{%- unless section.settings.title == blank and section.settings.subtitle == blank -%}
+			<div class="section-header">
+				{%- unless section.settings.title == blank -%}
+				<h2 class="section-header__title">{{ section.settings.title | escape }}</h2>
+				{%- endunless -%}
+
+				{%- unless section.settings.subtitle == blank -%}
+				<p class="section-header__subtitle">{{ section.settings.subtitle | escape }}</p>
+				{%- endunless -%}
+			</div>
+			{%- endunless -%}
+			<div class="grid grid-spacer slick  slick-fallback">
+				{%- for product in recommendations.products limit:4 -%}
+
+				<div class="grid__item medium--six-twelfts small--six-twelfths large--three-twelfths flex flex-fill mb">
+					<div class="card ">
+						<a href="/products/{{ product.handle }}">
+
+							<div class="image">
+								<img src="{{ product.featured_image |  img_url: 'master' }}" class="product-image" alt="">
+							</div>
+							<a href="#looxReviews" class="text-center stars">
+								<div class="loox-rating" data-id="{{ product.id }}"
+									data-rating="{{ product.metafields.loox.avg_rating }}"
+									data-raters="{{ product.metafields.loox.num_reviews }}"></div>
+							</a>
+							<p class="title">{{ product.title }}</p>
+
+							<div class="content">
+								<div class="price">
+									<p class="text-center h6 price-size">Ab {{ product.price | money }}</p>
+								</div>
+								<div class="pb-button">
+									<a href="/products/{{ product.handle }}" class="text-center">jetzt loslegen</a>
+								</div>
+							</div>
+						</a>
+
+					</div>
+				</div>
+				{% endfor %}
+
+
+			</div>
+		</div>
+	</div>
+</div>
+{%- endif -%}
+{%- else -%}
+<div id="productRecommendationsSection" class="{{ section.settings.section_style }}" data-product-id="{{ product.id }}"
+	data-section-id="{{ section.id }}" data-section-type="product-recommendations"
+	data-section-url="{{ routes.product_recommendations_url }}" data-limit="{{ limit }}"
+	data-arrows="{{ section.settings.arrows }}" data-dots="{{ section.settings.dots }}"
+	data-autoplay="{{ section.settings.autoplay }}"
+	data-autoplayspeed="{{ section.settings.autoplayspeed | times: 1000 }}"
+	data-slidetoshow="{{ section.settings.desktop_grid }}">
+</div>
+{%- endif -%}
+{%- endif -%}
+
+{% schema %}
+{
+"name": "t:sections.product_recommendations.name",
+"class": "product-recommendations-section",
+"settings": [
+{
+"type": "checkbox",
+"id": "show_product_recommendations",
+"label": "t:sections.product_recommendations.settings.show_product_recommendations.label",
+"info": "t:sections.product_recommendations.settings.show_product_recommendations.info",
+"default": true
+},
+{
+"type": "text",
+"id": "title",
+"label": "t:sections.product_recommendations.settings.title.label",
+"default": "Recommended for you"
+},
+{
+"type": "text",
+"id": "subtitle",
+"label": "t:sections.product_recommendations.settings.subtitle.label"
+},
+{
+"type": "select",
+"id": "section_style",
+"label": "t:sections.product_recommendations.settings.section_style.label",
+"default": "section-border",
+"options": [
+{
+"value": "section-blank",
+"label": "t:sections.product_recommendations.settings.section_style.option__1.label"
+},
+{
+"value": "section-default",
+"label": "t:sections.product_recommendations.settings.section_style.option__2.label"
+},
+{
+"value": "section-border",
+"label": "t:sections.product_recommendations.settings.section_style.option__3.label"
+}
+]
+},
+{
+"type": "select",
+"id": "rows",
+"label": "t:sections.product_recommendations.settings.rows.label",
+"default": "2",
+"options": [
+{
+"value": "1",
+"label": "t:sections.product_recommendations.settings.rows.option__1.label"
+},
+{
+"value": "2",
+"label": "t:sections.product_recommendations.settings.rows.option__2.label"
+},
+{
+"value": "3",
+"label": "t:sections.product_recommendations.settings.rows.option__3.label"
+},
+{
+"value": "4",
+"label": "t:sections.product_recommendations.settings.rows.option__4.label"
+},
+{
+"value": "5",
+"label": "t:sections.product_recommendations.settings.rows.option__5.label"
+}
+]
+},
+{
+"type": "select",
+"id": "desktop_grid",
+"label": "t:sections.product_recommendations.settings.desktop_grid.label",
+"default": "4",
+"options": [
+{
+"value": "2",
+"label": "t:sections.product_recommendations.settings.desktop_grid.option__1.label"
+},
+{
+"value": "3",
+"label": "t:sections.product_recommendations.settings.desktop_grid.option__2.label"
+},
+{
+"value": "4",
+"label": "t:sections.product_recommendations.settings.desktop_grid.option__3.label"
+}
+]
+},
+{
+"type": "select",
+"id": "mobile_grid",
+"label": "t:sections.product_recommendations.settings.mobile_grid.label",
+"default": "2",
+"options":[
+{
+"value": "1",
+"label": "t:sections.product_recommendations.settings.mobile_grid.option__1.label"
+},
+{
+"value":"2",
+"label": "t:sections.product_recommendations.settings.mobile_grid.option__2.label"
+}
+]
+},
+{
+"type": "header",
+"content": "t:sections.product_recommendations.settings.header__1.content"
+},
+{
+"type": "checkbox",
+"id": "slider_related_products",
+"label": "t:sections.product_recommendations.settings.slider_related_products.label",
+"default": true
+},
+{
+"type": "checkbox",
+"id": "arrows",
+"label": "t:sections.product_recommendations.settings.arrows.label",
+"default": true
+},
+{
+"type": "checkbox",
+"id": "dots",
+"label": "t:sections.product_recommendations.settings.dots.label",
+"default": true
+},
+{
+"type": "checkbox",
+"id": "autoplay",
+"label": "t:sections.product_recommendations.settings.autoplay.label",
+"default": false
+},
+{
+"type": "range",
+"id": "autoplayspeed",
+"label": "t:sections.product_recommendations.settings.autoplayspeed.label",
+"min": 3,
+"max": 10,
+"step": 1,
+"unit": "s",
+"default": 5
+}
+]
+}
+{% endschema %}
+{% style %}
+.stars {
+padding-bottom: 16px;
+}
+.bg-color-recomm {
+background-color: #f5f5f5;
+
+}
+.card {
+background-color:#ffffff;
+position: relative;
+border-radius: 0px;
+overflow: hidden;
+text-decoration: none;
+cursor: pointer;
+display:flex;
+
+}
+
+.margine: {
+margin-left: 10px;
+margin-right: -10px;
+}
+
+.card a {
+text-decoration: none;
+}
+
+.card .image {
+height: 248px;
+padding: 16px 16px 24px;
+overflow: hidden;
+}
+
+.card .image img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 0px;
+object-fit: cover;
+
+}
+
+.card .title {
+text-align: center;
+font-family: Karla;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #5E5A60;
+padding-left: 28px;
+padding-right: 28px;
+
+}
+
+
+.card .content {
+justify-content: center;
+display: grid;
+margin-top: auto;
+min-width: 100%;
+}
+
+.card .content .price {
+	text-align: center;
+	padding-bottom: 16px;
+	padding-top: 16px;
+	}
+	
+	.card .price-size {
+	font-family: 'Kaushan Script';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 23px;
+	text-align: center;
+
+color: #2B1E30;
+
+}
+.card .content .price .new-price {
+font-weight: bold;
+}
+
+.card .content .price .original-price {
+margin-left: 5px;
+font-size: 14px;
+font-style: italic;
+opacity: .5;
+text-decoration: line-through;
+}
+
+/* Hover state = underline the title */
+
+
+
+.card:hover .title {
+text-decoration: underline;
+}
+
+
+.card:focus-within .title {
+text-decoration: underline;
+}
+
+.card .pb-button {
+margin-bottom: 28px;
+align-items: center;
+padding: 15px 35px 15px;
+background-color: #FFCC18;
+}
+.card .pb-button a {
+
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+color: #242424;
+
+}
+@media only screen and (max-width: 600px) {
+.card-all .button-color {
+
+}
+.card-all .button-color a {
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0em;
+}
+
+
+
+.card-all .image {
+padding: 8px;
+
+}
+
+.pb-button {
+margin-bottom: 8px;
+padding: 10px 12px 10px !important;
+
+}
+
+
+}
+.section-header__title {
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+/* or 120% */
+
+text-align: center;
+letter-spacing: 0.01em;
+}
+{% endstyle %}

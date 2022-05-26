@@ -1,0 +1,30 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+      }
+    },
+    "16508743887a679f26": {
+      "type": "apps",
+      "blocks": {
+        "61315d5e-39c6-44e6-9e04-ac3e6d57b1bc": {
+          "type": "shopify:\/\/apps\/debutify-reviews\/blocks\/debutify-reviews_all-reviews\/df08bded-40dd-47c1-88ee-4648245a6441",
+          "settings": {
+            "class_wrapper": "wrapper",
+            "collection_identifier": ""
+          }
+        }
+      },
+      "block_order": [
+        "61315d5e-39c6-44e6-9e04-ac3e6d57b1bc"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16508743887a679f26"
+  ]
+}

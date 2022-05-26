@@ -1,0 +1,260 @@
+{% liquid
+
+assign button_label = 'collections.grid.button_label' | t
+
+%}
+
+<section class="box bg-color">
+  <a class="scroll-btn scroll-btn-top" href="#index-collection-sec">
+    <span></span>
+  </a>
+  <div class="wrapper">
+    <div class="grid">
+      <div class="grid-small grid__item text-padding">
+        <h2 class="text-center size-text new-products-title mobile-heading">Neue Produkte</h2>
+      </div>
+    </div>
+    <div class="grid grid-spacer slick slick-product-grid slick-initialized slick-slider margine">
+      <div class="slick-carousel">
+        {% for product in collections.alle-produkte.products limit:8 %}
+          <div class="card ">
+            <a href="/products/{{ product.handle }}">
+
+              <div class="image">
+                <img src="{{ product.featured_image | img_url: 'master' }}" class="product-image" alt="">
+              </div>
+              <p class="title">{{ product.title }}</p>
+
+              <div class="content">
+                <div class="price">
+                  <p class="text-center h6 price-size">Ab
+                    {{ product.price | money }}</p>
+                </div>
+                <div class="pb-button">
+                  <a class="text-center" href="/products/{{ product.handle }}">{{button_label}}</a>
+                </div>
+              </div>
+
+            </a>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <img class="down-line-one" src="{{ 'svg-down-one.svg' | asset_url }}" alt="Original Image">
+  </div>
+</section>
+{% schema %}
+
+{
+  "name": "New product",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    }, {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Dein Haustier als Kunstwerk"
+    }
+  ],
+  "presets": [
+    {
+      "name": "New product",
+      "category": "Advanced Layout"
+    }
+  ]
+}
+
+{% endschema %}
+
+{% style %}
+
+.bg-color {
+  background-color: #FFEFB6
+}
+
+.new-products-title {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+
+  /* identical to box height, or 120% */
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #242424
+}
+/*margin between cards */
+
+.down-line-one {
+  position: absolute;
+  transform: translate(320px, -25px);
+}
+
+.text-padding {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.scroll-btn-top {
+  top: -25px !important;
+}
+
+.card {
+  background-color: #ffffff;
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+}
+
+.margine: {
+  margin-left: 10px;
+  margin-right: -10px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card .image {
+  height: 248px;
+  padding: 16px 16px 24px;
+  overflow: hidden;
+}
+
+.card .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+.card .title {
+  text-align: center;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #5E5A60;
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.card .content {
+  justify-content: center;
+  display: grid;
+  margin-top: auto;
+  min-width: 100%;
+}
+
+.card .content .price {
+  text-align: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.card .price-size {
+  font-family: 'Kaushan Script';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  text-align: center;
+  color: #2B1E30;
+}
+
+.card .content .price .new-price {
+  font-weight: bold;
+}
+
+.card .content .price .original-price {
+  margin-left: 5px;
+  font-size: 14px;
+  font-style: italic;
+  opacity: .5;
+  text-decoration: line-through;
+}
+
+/* Hover state = underline the title */
+
+.card:hover .title {
+  text-decoration: underline;
+}
+
+.card:focus-within .title {
+  text-decoration: underline;
+}
+
+.card .pb-button {
+  margin-bottom: 28px;
+  align-items: center;
+  padding: 15px 35px;
+  background-color: #FFCC18;
+}
+
+.card .pb-button a {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+@media only screen and (max-width: 758px) {
+  .down-line-one {
+    display: none;
+  }
+
+  .text-padding {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .card .pb-button a {
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    letter-spacing: 0em !important;
+  }
+}
+
+{% endstyle %}
+
+{% javascript %}
+
+$('.slick-carousel').slick({
+	centerPadding: '40px',
+	infinite: true,
+	slidesToShow: 4, // Shows a three slides at a time
+	slidesToScroll: 3, // When you click an arrow, it scrolls 1 slide at a time
+	arrows: false, // Adds arrows to sides of slider
+	dots: true ,// Adds the dots on the bottom
+	autoplay: true,
+	responsive: [
+		{
+			breakpoint: 768, // Mobile breakpoint screen
+			settings: {
+				arrows: false,
+				centerMode: true,
+				centerPadding: '40px',
+				slidesToShow: 1
+			}
+		}
+	]
+});
+
+{% endjavascript %}
